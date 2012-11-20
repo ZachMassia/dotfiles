@@ -1,5 +1,11 @@
 [user]
 	name = Zachary Massia
 	email = zmassia@gmail.com
+[github]
+    user = ZachMassia
+[color]
+    ui = true
+[core]
+    editor = vim
 [credential]
 	helper = cache --timeout=3600
