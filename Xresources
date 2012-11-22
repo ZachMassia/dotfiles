@@ -6,6 +6,8 @@ URxvt.perl-ext-common:  default,matcher
 URxvt.urlLauncher:      /usr/bin/chromium
 URxvt.mather.button:    1
 
+!! Font settings
+URxvt.font: xft:Ubuntu Mono:size=11
 
 !! drop in Solarized colorscheme for Xresources
 !!
