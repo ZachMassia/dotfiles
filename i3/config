@@ -30,9 +30,6 @@ exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
 ## Load Xresources
 exec --no-startup-id xrdb -merge ~/.Xresources
 
-## Load solarized dir colors db
-exec --no-startup-id eval `dircolors ~/.builds/dircolors-solarized/dircolors.ansi-dark`
-
 # -------------------------------------
 
 # font for window titles. ISO 10646 = Unicode
