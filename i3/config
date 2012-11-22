@@ -14,9 +14,9 @@ set $mod Mod1
 # Custom settings ---------------------
 
 ## Volume Keybindings
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
-bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioRaiseVolume exec /usr/bin/vol_up
+bindsym XF86AudioLowerVolume exec /usr/bin/vol_down
+bindsym XF86AudioMute exec /usr/bin/mute_toggle
 
 ## X11 Wallpaper
 exec --no-startup-id nitrogen --restore
