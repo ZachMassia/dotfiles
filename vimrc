@@ -63,3 +63,6 @@ map <leader>r :RopeRename<CR>
 " Ack binding
 " The '!' at the end is so it does not open the first file
 nmap <leader>a <Esc>:Ack!
+
+" Arduino syntax
+autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
