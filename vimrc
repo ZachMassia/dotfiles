@@ -6,6 +6,9 @@ filetype plugin indent on
 set nocompatible
 syntax on
 
+" Remap esc
+:imap jj <Esc>
+
 " Mouse compatibility
 set mouse=a
 
@@ -66,3 +69,5 @@ nmap <leader>a <Esc>:Ack!
 
 " Arduino syntax
 autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
+" Processing syntax
+autocmd! BufNewFile,BufRead *.pde setlocal ft=processing
