@@ -65,5 +65,7 @@ autocmd! BufNewFile,BufRead *.pde setlocal ft=processing
 let g:rsenseUseOmniFunc = 1
 
 " Clang_complete
+let g:clang_user_options = '|| exit 0'
+let g:clang_close_preview = 1
 let g:clang_use_library = 1
 let g:clang_library_path = "/usr/lib/llvm"
