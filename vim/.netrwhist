@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/zachary/.config/terminator'
-let g:netrw_dirhist_2='/home/zachary/.i3'
-let g:netrw_dirhist_3='/home/zachary/.minecraft'
-let g:netrw_dirhist_4='/home/zachary/.dotfiles/vim/bundle/linters'
-let g:netrw_dirhist_5='/home/zachary/.wicd'
