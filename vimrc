@@ -17,8 +17,8 @@ set number
 
 " Solarized
 syntax enable
-set background=dark
-colorscheme  solarized
+"set background=dark
+"colorscheme  solarized
 
 
 "NERDTree toggle
@@ -60,6 +60,10 @@ set completeopt=menuone,longest,preview
 autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
 " Processing syntax
 autocmd! BufNewFile,BufRead *.pde setlocal ft=processing
+"Kivy syntax
+autocmd! BufNewFile,BufRead *.kv setlocal ft=kivy
+" SConstruct syntax
+autocmd! BufNewFile,BufRead SConstruct setlocal ft=python
 
 " Rsense autocomplete
 let g:rsenseUseOmniFunc = 1

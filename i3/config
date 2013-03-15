@@ -18,8 +18,8 @@ bindsym XF86AudioRaiseVolume exec /usr/bin/vol_up
 bindsym XF86AudioLowerVolume exec /usr/bin/vol_down
 bindsym XF86AudioMute exec /usr/bin/mute_toggle
 
-## X11 Wallpaper
-exec --no-startup-id nitrogen --restore
+# XFCE4 Power Management
+exec --no-startup-id xfce4-power-manager
 
 ## urxvt daemon
 exec --no-startup-id urxvtd -q -o -f
@@ -28,21 +28,23 @@ exec --no-startup-id urxvtd -q -o -f
 exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
 
 ## Load Xresources
-exec --no-startup-id xrdb -merge ~/.Xresources
+#exec --no-startup-id xrdb -merge ~/.Xresources
 
+for_window [window_role="pop-up"] floating enable
+for_window [title="xfce4-notifyd"] floating enable border none 
 # -------------------------------------
 
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font xft:Ubuntu Light 10
+font xft: DejaVu Sans 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec urxvtc
-#bindsym $mod+Return exec urxvtc -fn "xft:Ubuntu Mono:pixelsize=14,style=regular"
+#bindsym $mod+Return exec urxvtc
+bindsym $mod+Return exec konsole
 
 # kill focused window
 bindsym $mod+Shift+Q kill
@@ -130,6 +132,7 @@ bindsym $mod+Shift+C reload
 bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+E exit
+#bindsym $mod+Shift+E exec xfce4-session-logout
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

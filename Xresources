@@ -17,7 +17,9 @@ URxvt.urlLauncher:      /usr/bin/chromium
 URxvt.mather.button:    1
 
 ! Font settings
-URxvt.font: xft:Ubuntu Mono:size=11
+!URxvt.font: xft:Source Code Pro Regular:size=9
+!URxvt.font: xft:DejaVu Sans Mono:pixelsize=12
+URxvt.font: xft:Source Code Pro:style=Regular:size=11
 ! ------------------------------------------
 
 ! Solarized theme --------------------------
