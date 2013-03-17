@@ -22,7 +22,7 @@ bindsym XF86AudioMute exec /usr/bin/mute_toggle
 exec --no-startup-id xfce4-power-manager
 
 ## urxvt daemon
-exec --no-startup-id urxvtd -q -o -f
+#exec --no-startup-id urxvtd -q -o -f
 
 ## Disable touchpad
 exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
@@ -164,6 +164,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status --config ~/.i3status.conf
-        position top
+        position top 
         tray_output LVDS1
 }

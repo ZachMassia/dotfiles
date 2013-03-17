@@ -46,3 +46,9 @@
 [submodule "vim/bundle/vim-jinja2-syntax"]
 	path = vim/bundle/vim-jinja2-syntax
 	url = git://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "vim/bundle/vim-scala"]
+	path = vim/bundle/vim-scala
+	url = git://github.com/derekwyatt/vim-scala.git
+[submodule "vim/bundle/ctrlp"]
+	path = vim/bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
