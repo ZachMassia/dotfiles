@@ -18,6 +18,9 @@ bindsym XF86AudioRaiseVolume exec /usr/bin/vol_up
 bindsym XF86AudioLowerVolume exec /usr/bin/vol_down
 bindsym XF86AudioMute exec /usr/bin/mute_toggle
 
+# Pulseaudio
+exec --no-startup-id pulseaudio --start
+
 # XFCE4 Power Management
 exec --no-startup-id xfce4-power-manager
 
@@ -32,6 +35,7 @@ exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
 
 for_window [window_role="pop-up"] floating enable
 for_window [title="xfce4-notifyd"] floating enable border none 
+for_window [title="SDL GAME"] floating enable
 # -------------------------------------
 
 # font for window titles. ISO 10646 = Unicode
