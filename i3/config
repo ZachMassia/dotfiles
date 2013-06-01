@@ -25,13 +25,13 @@ exec --no-startup-id pulseaudio --start
 exec --no-startup-id xfce4-power-manager
 
 ## urxvt daemon
-#exec --no-startup-id urxvtd -q -o -f
+exec --no-startup-id urxvtd -q -o -f
 
 ## Disable touchpad
 exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
 
 ## Load Xresources
-#exec --no-startup-id xrdb -merge ~/.Xresources
+exec --no-startup-id xrdb -merge ~/.Xresources
 
 for_window [window_role="pop-up"] floating enable
 for_window [title="xfce4-notifyd"] floating enable border none 
@@ -39,8 +39,7 @@ for_window [title="SDL GAME"] floating enable
 # -------------------------------------
 
 # font for window titles. ISO 10646 = Unicode
-#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font xft: DejaVu Sans 10
+font xft: Droid Sans Mono 10.5
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -48,7 +47,8 @@ floating_modifier $mod
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 #bindsym $mod+Return exec urxvtc
-bindsym $mod+Return exec konsole
+#bindsym $mod+Return exec konsole
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+Q kill

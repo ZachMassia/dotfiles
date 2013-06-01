@@ -14,68 +14,177 @@ URxvt.scrollBar: false
 ! Enable clickable URLs
 URxvt.perl-ext-common:  default,matcher
 URxvt.urlLauncher:      /usr/bin/chromium
-URxvt.mather.button:    1
+URxvt.matcher.button:    1
 
 ! Font settings
-!URxvt.font: xft:Source Code Pro Regular:size=9
-!URxvt.font: xft:DejaVu Sans Mono:pixelsize=12
-URxvt.font: xft:Source Code Pro:style=Regular:size=11
+URxvt.font: xft:Droid Sans Mono:style=Regular:size=10
+URxvt*allow_bold: true
+
+! General settings
 ! ------------------------------------------
 
 ! Solarized theme --------------------------
-#define S_base03        #002b36
-#define S_base02        #073642
-#define S_base01        #586e75
-#define S_base00        #657b83
-#define S_base0         #839496
-#define S_base1         #93a1a1
-#define S_base2         #eee8d5
-#define S_base3         #fdf6e3
-#define S_yellow        #b58900
-#define S_orange        #cb4b16
-#define S_red           #dc322f
-#define S_magenta       #d33682
-#define S_violet        #6c71c4
-#define S_blue          #268bd2
-#define S_cyan          #2aa198
-#define S_green         #859900
+!#define S_base03        !#002b36
+!#define S_base02        !#073642
+!#define S_base01        !#586e75
+!#define S_base00        !#657b83
+!#define S_base0         !#839496
+!#define S_base1         !#93a1a1
+!#define S_base2         !#eee8d5
+!#define S_base3         !#fdf6e3
+!#define S_yellow        !#b58900
+!#define S_orange        !#cb4b16
+!#define S_red           !#dc322f
+!#define S_magenta       !#d33682
+!#define S_violet        !#6c71c4
+!#define S_blue          !#268bd2
+!#define S_cyan          !#2aa198
+!#define S_green         !#859900
 
-*background:            S_base03
-*foreground:            S_base0
-*fading:                40
-*fadeColor:             S_base03
-*cursorColor:           S_base1
-*pointerColorBackground:S_base01
-*pointerColorForeground:S_base1
+!*background:            S_base03
+!*foreground:            S_base0
+!*fading:                40
+!*fadeColor:             S_base03
+!*cursorColor:           S_base1
+!*pointerColorBackground:S_base01
+!*pointerColorForeground:S_base1
 
 !! black dark/light
-*color0:                S_base02
-*color8:                S_base03
+!*color0:                S_base02
+!*color8:                S_base03
 
 !! red dark/light
-*color1:                S_red
-*color9:                S_orange
+!*color1:                S_red
+!*color9:                S_orange
 
 !! green dark/light
-*color2:                S_green
-*color10:               S_base01
+!*color2:                S_green
+!*color10:               S_base01
 
 !! yellow dark/light
-*color3:                S_yellow
-*color11:               S_base00
+!*color3:                S_yellow
+!*color11:               S_base00
 
 !! blue dark/light
-*color4:                S_blue
-*color12:               S_base0
+!*color4:                S_blue
+!*color12:               S_base0
 
 !! magenta dark/light
-*color5:                S_magenta
-*color13:               S_violet
+!*color5:                S_magenta
+!*color13:               S_violet
 
 !! cyan dark/light
-*color6:                S_cyan
-*color14:               S_base1
+!*color6:                S_cyan
+!*color14:               S_base1
 
 !! white dark/light
-*color7:                S_base2
-*color15:               S_base3
+!*color7:                S_base2
+!*color15:               S_base3
+! End solarized ----------------------- 
+
+! Retro Theme -------------------------
+!URxvt*background: #e0dcb4
+!URxvt*foreground: #2b0000
+
+!BLACK
+!URxvt*color0:         #658280
+!URxvt*color8:         #8ca8a6
+
+!!RED
+!URxvt*color1:         #822f5d
+!URxvt*color9:         #a24b76
+
+!!GREEN
+!URxvt*color2:         #184a31
+!URxvt*color10:        #28634d
+
+!!YELLOW
+!URxvt*color3:         #9d4500
+!URxvt*color11:        #9d5823
+
+!!BL!!UE
+!URxvt*color4:         #304465
+!URxvt*color12:        #415c77
+
+!!MAGENTA
+!URxvt*color5:         #330801
+!URxvt*color13:        #532706
+
+!CYAN
+!URxvt*color6:         #175552
+!URxvt*color14:        #3a6868
+
+!WHITE
+!URxvt*color7:         #110005
+!URxvt*color15:        #330801
+! End retro theme ---------------------
+
+! Red hue theme -----------------------
+!urxvt*backgro!und:           #333333
+!urxvt*foregro!und:           #CCCCCC
+!urxvt*c!ursorColor:          #999999
+!urxvt*colorBD:              #FFFFFF
+!urxvt*colorUL:              #CCCCFF
+!BLK
+!urxvt*color0:               #666666
+!urxvt*color8:               #999999
+!RED
+!urxvt*color1:               #CC6666
+!urxvt*color9:               #FF9999
+!GRN
+!urxvt*color2:               #99CC66
+!urxvt*color10:              #99FF99
+!YEL
+!urxvt*color3:               #CC9966
+!urxvt*color11:              #FFFF99
+!BLE
+!urxvt*color4:               #6699CC
+!urxvt*color12:              #99CCFF
+!MAG
+!urxvt*color5:               #CC6699
+!urxvt*color13:              #FF99CC
+!CYN
+!urxvt*color6:               #66CCCC
+!urxvt*color14:              #99FFFF
+!WHT
+!urxvt*color7:               #CCCCCC
+!urxvt*color15:              #FFFFFF
+! End red hue theme -------------------
+
+!= dwm-colors = ! 
+ 
+ *background: #222222
+ *foreground: #eeeeee
+ *cursorColor: #B15C00 
+  
+! black dark/light
+*color0: #222222
+*color8: #444444
+
+! red dark/light
+*color1: #B10000
+*color9: #CC0000
+
+! green dark/light
+*color2: #6CB100
+*color10: #7CCC00
+
+! yellow dark/light
+*color3: #B15C00
+*color11: #CC6A00
+
+! blue dark/light
+*color4: #005577
+*color12: #0075A3
+
+! magenta dark/light
+*color5: #5600B1
+*color13: #6300CC
+
+! cyan dark/light
+*color6: #007177
+*color14: #009199
+
+! white dark/light
+*color7: #bbbbbb
+*color15: #eeeeee  
