@@ -28,15 +28,18 @@
 ;; Who needs a welcome screen
 (setq inhibit-startup-screen t)
 
+;; C-x g for git status
+(global-set-key (kbd "C-x g") 'magit-status)
+
+;; C-x C-b uses ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
 ;; Tabs are evil
 (setq-default indent-tabs-mode nil)
 
 ;; Highlight text past 80 columns
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
-
-;; C-x g for git status
-(global-set-key (kbd "C-x g") 'magit-status)
 
 ;; Indent on newline
 (global-set-key (kbd "RET") 'newline-and-indent)
@@ -66,6 +69,11 @@
 
 ;; Add robe sources to auto-complete
 (push 'ac-source-robe ac-sources)
+
+;; Use ruby-mode for the following files
+(setq auto-mode-alist  (cons '("Gemfile$" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist  (cons '("Gemfile.lock$" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist  (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
 ;;; =====================
 
 ;;; C++ Related Settings
