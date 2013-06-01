@@ -1,0 +1,10 @@
+# Autosave files
+*.*~
+auto-save-list/
+
+*.dat
+
+clang-complete
+
+# Packages
+elpa/
