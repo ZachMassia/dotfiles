@@ -25,7 +25,10 @@ exec --no-startup-id pulseaudio --start
 exec --no-startup-id xfce4-power-manager
 
 ## urxvt daemon
-exec --no-startup-id urxvtd -q -o -f
+##exec --no-startup-id urxvtd -q -o -f
+
+## Emacs
+exec --no-startup-id emacs --daemon
 
 ## Disable touchpad
 exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
@@ -33,8 +36,12 @@ exec --no-startup-id xinput set-prop 10 "Device Enabled" 0
 ## Load Xresources
 exec --no-startup-id xrdb -merge ~/.Xresources
 
+## Caps as CTRL key
+exec --no-startup-id setxkbmap -option ctrl:nocaps
+
+## Float these windows
 for_window [window_role="pop-up"] floating enable
-for_window [title="xfce4-notifyd"] floating enable border none 
+for_window [title="xfce4-notifyd"] floating enable border none
 for_window [title="SDL GAME"] floating enable
 # -------------------------------------
 
