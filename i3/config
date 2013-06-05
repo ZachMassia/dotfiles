@@ -9,7 +9,9 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+# Mod1 - Alt
+# Mod4 - Win
+set $mod Mod4
 
 # Custom settings ---------------------
 
@@ -46,7 +48,7 @@ for_window [title="SDL GAME"] floating enable
 # -------------------------------------
 
 # font for window titles. ISO 10646 = Unicode
-font xft: Droid Sans Mono 10.5
+font xft: Droid Sans Mono 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
