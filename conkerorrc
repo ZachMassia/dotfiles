@@ -1,0 +1,55 @@
+// Auto-completion in the minibuffer
+minibuffer_auto_complete_default = true;
+url_completion_use_history       = true;
+url_completion_use_bookmarks     = true;
+
+// Remove the clock
+remove_hook("mode_line_hook", mode_line_adder(clock_widget));
+
+// Favicons
+require("favicon");
+add_hook("mode_line_hook", mode_line_adder(buffer_icon_widget), true);
+read_buffer_show_icons = true;
+
+// Buffer stuff
+add_hook("mode_line_hook", mode_line_adder(buffer_count_widget), true);
+add_hook("mode_line_hook", mode_line_adder(loading_count_widget), true);
+
+function possibly_valid_url (str) {
+    return /^\s*[^\/\s]*(\/|\s*$)/.test(str)
+        && /[:\/\.]/.test(str);
+}
+
+// Open middle-clicked links in new buffers
+require("clicks-in-new-buffer.js");
+clicks_in_new_buffer_target = OPEN_NEW_BUFFER_BACKGROUND;
+
+// Default webjump
+read_url_handler_list = [read_url_make_default_webjump_handler("google")];
+
+// Page modes
+require("page-modes/gmail.js");
+require("page-modes/google-search-results.js");
+require("page-modes/facebook.js");
+require("page-modes/github.js");
+require("page-modes/stackexchange.js");
+require("page-modes/youtube.js");
+require("page-modes/youtube-player.js");
+require("page-modes/wikipedia.js");
+require("page-modes/reddit.js");
+
+// Custom webjumps
+define_webjump("gmail",    "https://mail.google.com");
+define_webjump("archwiki", "https://wiki.archlinux.org/index.php?search=%s");
+define_webjump("facebook", "http://www.facebook.com");
+define_webjump("reddit",   "http://www.reddit.com");
+define_webjump("godoc",    "http://www.godoc.org/?q=%s");
+define_webjump("github",   "http://github.com/search?q=%s&type=Everything", $alternative = "http://github.com/");
+
+// Help with bad spelling on wikipedia
+require("wikipedia-didyoumean.js");
+
+// Sessions
+require("session.js");
+session_auto_save_auto_load = true;
+
