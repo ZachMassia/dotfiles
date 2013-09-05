@@ -1,0 +1,129 @@
+2013-06-04 23:07:04	-->	Z_Mass (~Z_Mass@bas1-cornwall24-3096455843.dsl.bell.ca) has joined #lisp
+2013-06-04 23:07:04	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: SBCL 1.1.8"
+2013-06-04 23:07:04	--	Topic set by Krystof (~user@81.174.155.115) on Sun, 02 Jun 2013 12:11:13
+2013-06-04 23:07:04	--	Nicks #lisp: [[SLB] _8david` __main__ _schulte_ ``Erik abend acieroid adeht Adeon aerique_ aeth ahungry Amadiro Anarch anaumov_ angavrilov antgreen antifuchs AntiSpamMeta antoszka aoh araujo arbscht arkx arrdem ASau asedeno atamagawarui aw|sovereign axion balle bananagram banjara banjiewen Batalyx beaumonta bege Bike billstclair blackwolf BlastHardcheese bobbysmith007 Borbus brendyn brighid_ brucem callen carbocal` ccl-logbot cdidd chu cibs ckoch786__ ckoch_ clog clop cmatei cmbntr cmm- cods Codynyx_ copec Corvidium cory786 cpt_nemo CrazyEddy cross crypto_ cYmen cyphase d4gg4d daimrod Dalek_Baldwin danlentz dcooper8 deliciousrobots dented42 derrida dfox dim djinni` dlind dlowe dmiles doomlord__ dRbiG DrCode drewc_ DrForr_ drmeister DrPete_ eak easye echo-area ecraven edgar-rft ehaliewicz ehu_ eichelbart eli em embee entitativity epsylon` ered ericmathison ether0_ EvW expez ezakimak Fade fasta fds fe[nl]ix felideon felipe ferada flip214 fmu foom Foxboron freiksenet froggey ft gabot galdor gemelen gensym gf3 ggherdov gko Grizzly guaqua Guest81153 Guest90632 guiambros H4ns Harag harish hiredman hlavaty`` housel hpd hugod ianmcorvidae igorw ineiros_ ivan ivan\ j0ni j_king_ jaimef jasom jayne jdz_ jhj joachifm joast joe9_ johanbev johs joshe JPeterson jsnell_ Jubb justinmcp k0001 Kabaka kanru kbtr kennyd Khisanth killian KingNato kirin` kiuma kliph kobain_ kpreid Krystof kubotsu kushal lemoinem leo2007 loke luis lusory m4dnificent macrobat Mandus mathrick mattrepl maxm McMAGIC--Copy mevenson` mikaelj mile-ton47 minion miql mishoo MoALTz MrGarlic mtd mutley89_ n0vember naeg nalaginrut namtsui naryl Natch_r natechan Neptu nicdev nightfly NimeshNeema Nisstyre nitefli nitro_idiot Nshag nug700 oconnore oGMo otwieracz p_l p_nathan paddymahoney Patzy pchrist peccu1 phadthai photex pjb pkhuong pok Posterdati Praise prip PuercoPop quackv4 Quadrescence quasisane quazimodo rabite Ralt ramus reb` rfgpfeiffer rk[no-nets] robgssp robot-beethoven rotty rpgsimmaster rszeno rtoym rvchangue rvirding ryoshu s0ber sad0ur saeftl samebchase samskulls sawjig sbryant scharan schoppenhauer scode seangrove seantallen sellout- setheus setmeaway sfa Sgeo SHODAN sigjuice sirdancealo2 ski smull_ spacebat specbot SquidTamer sshirokov stassats stokachu stopbit strobegen Subfusc surrounder sykopomp sytse tali713 tankrim Tarential tensorpudding tessier_ theBlackDragon theos tkd tomaw Tribal Trystam ttm tvaalen tychoish tyrick varjag vhost- vhost-_ victor_lowther Vivitron vsync Vutral walter|r Watcher7 weie wizard` wyan Xach_ xan_ xristos xrq` yacks Yamazaki-kun yan__ yeltzooo yrk yroeht Z_Mass zbigniew Zhivago ZombieChicken zorkmoid zRecursive zypeh zz_runningskull |3b|]
+2013-06-04 23:07:04	--	Channel #lisp: 337 nicks (0 ops, 0 halfops, 0 voices, 337 normals)
+2013-06-04 23:07:06	--	Mode #lisp [+Ccn]
+2013-06-04 23:07:06	--	Channel created on Sun, 03 Aug 2003 17:30:32
+2013-06-04 23:07:27	-->	catmtking (~catmtking@108-224-122-111.lightspeed.irvnca.sbcglobal.net) has joined #lisp
+2013-06-04 23:11:33	<--	ericmathison (~ericmathi@12.42.161.162) has quit (Ping timeout: 248 seconds)
+2013-06-04 23:14:16	<--	cory786 (~cory@cpe-98-27-140-191.neo.res.rr.com) has quit (Quit: Leaving)
+2013-06-04 23:21:36	-->	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has joined #lisp
+2013-06-04 23:21:37	<--	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has quit (Changing host)
+2013-06-04 23:21:37	-->	syrinx (~quassel@unaffiliated/syrinx-/x-4255893) has joined #lisp
+2013-06-04 23:24:01	-->	DataLinkDroid (~DataLinkD@110.150.183.238) has joined #lisp
+2013-06-04 23:26:11	-->	ahoops (~ahoops__@121.96.14.223) has joined #lisp
+2013-06-04 23:31:47	<--	nalaginrut (~nalaginru@61.14.130.226) has quit (Ping timeout: 260 seconds)
+2013-06-04 23:31:49	<--	mattrepl (~mattrepl@pool-108-48-74-4.washdc.fios.verizon.net) has quit (Quit: mattrepl)
+2013-06-04 23:33:16	<--	xan_ (~xan@80.174.78.176.dyn.user.ono.com) has quit (Ping timeout: 246 seconds)
+2013-06-04 23:34:23	-->	nalaginrut (~nalaginru@61.14.130.226) has joined #lisp
+2013-06-04 23:36:05	-->	namtsui` (~user@c-76-102-34-148.hsd1.ca.comcast.net) has joined #lisp
+2013-06-04 23:36:21	-->	danlentz_ (~danlentz@c-68-37-70-235.hsd1.nj.comcast.net) has joined #lisp
+2013-06-04 23:38:21	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-04 23:38:33	<--	leo2007 (~leo@119.161.133.157) has quit (Quit: rcirc on GNU Emacs 24.3.50.1)
+2013-06-04 23:38:41	-->	Xach (~xach@pdpc/supporter/professional/xach) has joined #lisp
+2013-06-04 23:38:59	-->	pkhuong_ (~pkhuong@modemcable086.239-37-24.mc.videotron.ca) has joined #lisp
+2013-06-04 23:39:01	-->	ineiros (~itniemin@bayesianconspiracy.org) has joined #lisp
+2013-06-04 23:39:02	<--	Jubb (~Jubb@pool-108-28-62-61.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-06-04 23:39:04	-->	cross_ (cross@spitfire.i.gajendra.net) has joined #lisp
+2013-06-04 23:39:31	<--	seangrove (~user@208.80.69.42) has quit (Ping timeout: 264 seconds)
+2013-06-04 23:39:36	-->	em_ (~em@user-0cev0hr.cable.mindspring.com) has joined #lisp
+2013-06-04 23:39:36	-->	Quadresce_ (~quad@unaffiliated/quadrescence) has joined #lisp
+2013-06-04 23:39:46	-->	DrPete (~DrPete@unaffiliated/drpete) has joined #lisp
+2013-06-04 23:41:39	<--	danlentz (~danlentz@c-68-37-70-235.hsd1.nj.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-04 23:41:40	--	danlentz_ is now known as danlentz
+2013-06-04 23:41:41	<--	Xach_ (~xach@cpe-67-255-229-229.maine.res.rr.com) has quit (Remote host closed the connection)
+2013-06-04 23:41:41	<--	entitativity (~entity@c-50-136-180-20.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:41	<--	cross (cross@spitfire.i.gajendra.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:41	<--	clop (~jared@moat3.centtech.com) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:43	-->	Jubb (~Jubb@pool-108-28-62-61.washdc.fios.verizon.net) has joined #lisp
+2013-06-04 23:41:44	<--	ineiros_ (~itniemin@bayesianconspiracy.org) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:44	<--	naryl (~weechat@46.182.24.168) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:44	<--	pkhuong (~pkhuong@modemcable086.239-37-24.mc.videotron.ca) has quit (Remote host closed the connection)
+2013-06-04 23:41:45	<--	Quadrescence (~quad@unaffiliated/quadrescence) has quit (Read error: No buffer space available)
+2013-06-04 23:41:45	<--	DrPete_ (~DrPete@unaffiliated/drpete) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:46	<--	em (~em@unaffiliated/emma) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:46	<--	joast (~rick@76.178.135.192) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:41:47	<--	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 23:42:50	-->	entitativity (~entity@c-50-136-180-20.hsd1.ca.comcast.net) has joined #lisp
+2013-06-04 23:43:08	<--	natechan (~natechan@c-71-56-124-186.hsd1.ga.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-06-04 23:43:15	-->	ckoch786 (~cory@cpe-98-27-140-191.neo.res.rr.com) has joined #lisp
+2013-06-04 23:43:17	-->	naryl (~weechat@46.182.24.168) has joined #lisp
+2013-06-04 23:43:20	<--	ckoch786 (~cory@cpe-98-27-140-191.neo.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-06-04 23:43:44	-->	ckoch786 (~cory@cpe-98-27-140-191.neo.res.rr.com) has joined #lisp
+2013-06-04 23:43:45	<--	ckoch786 (~cory@cpe-98-27-140-191.neo.res.rr.com) has quit (Client Quit)
+2013-06-04 23:44:07	-->	clop (~jared@moat3.centtech.com) has joined #lisp
+2013-06-04 23:44:47	<--	dcooper8 (~dcooper8@c-98-250-10-50.hsd1.mi.comcast.net) has quit (Quit: dcooper8)
+2013-06-04 23:45:46	-->	dcooper8 (~dcooper8@c-98-250-10-50.hsd1.mi.comcast.net) has joined #lisp
+2013-06-04 23:47:09	<--	rszeno (~rszeno@79.114.20.81) has quit (Quit: Leaving.)
+2013-06-04 23:55:33	-->	eldariof (~CLD@pppoe-203-29-dyn-sr.volgaline.ru) has joined #lisp
+2013-06-04 23:55:38	<--	ckoch786__ (~quassel@cpe-98-27-140-191.neo.res.rr.com) has quit (Read error: Operation timed out)
+2013-06-04 23:55:39	-->	foreignFunction (~niksaak@ip-4761.sunline.net.ua) has joined #lisp
+2013-06-04 23:57:05	<--	carbocal` (~user@216-58-38-58.cpe.distributel.net) has quit (Read error: Connection reset by peer)
+2013-06-04 23:59:24	-->	carbocal` (~user@216-58-38-58.cpe.distributel.net) has joined #lisp
+2013-06-05 00:05:54	<--	Fade (fade@outrider.deepsky.com) has quit (Read error: Operation timed out)
+2013-06-05 00:06:02	-->	Fade (fade@outrider.deepsky.com) has joined #lisp
+2013-06-05 00:06:52	--	Quadresce_ is now known as Quadrescence
+2013-06-05 00:11:40	-->	pavelpenev (~quassel@85.130.70.65) has joined #lisp
+2013-06-05 00:12:31	<--	kliph (~user@unaffiliated/kliph) has quit (Ping timeout: 264 seconds)
+2013-06-05 00:14:12	-->	MrWoohoo (~MrWoohoo@pool-108-38-175-139.lsanca.fios.verizon.net) has joined #lisp
+2013-06-05 00:19:15	<--	dcooper8 (~dcooper8@c-98-250-10-50.hsd1.mi.comcast.net) has quit (Quit: dcooper8)
+2013-06-05 00:22:39	<--	guiambros (~guiambros@z65-50-88-217.ips.direcpath.com) has quit (Ping timeout: 260 seconds)
+2013-06-05 00:23:19	<--	bananagram (~bot@c-76-30-158-226.hsd1.tx.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-05 00:23:22	<--	stassats (~stassats@wikipedia/stassats) has quit (Remote host closed the connection)
+2013-06-05 00:25:30	--	brighid_ is now known as brighid
+2013-06-05 00:25:42	<--	catmtking (~catmtking@108-224-122-111.lightspeed.irvnca.sbcglobal.net) has quit (Quit: Leaving)
+2013-06-05 00:29:23	-->	attila_lendvai (~attila_le@unaffiliated/attila-lendvai/x-3126965) has joined #lisp
+2013-06-05 00:31:03	--	pkhuong_ is now known as pkhuong
+2013-06-05 00:39:21	<--	araujo (~araujo@gentoo/developer/araujo) has quit (Quit: Leaving)
+2013-06-05 00:43:13	-->	joneshf-laptop (~joneshf@086.112-30-64.ftth.swbr.surewest.net) has joined #lisp
+2013-06-05 00:45:29	-->	gavilan2 (~Gavilan2@184.75.213.50) has joined #lisp
+2013-06-05 00:46:24	<--	kennyd (~kennyd@78-0-221-81.adsl.net.t-com.hr) has quit (Ping timeout: 248 seconds)
+2013-06-05 00:48:17	-->	agumonkey (~agu@52.158.70.86.rev.sfr.net) has joined #lisp
+2013-06-05 00:48:38	-->	benny (~user@maidenhead3.tunnelr.com) has joined #lisp
+2013-06-05 00:50:28	-->	teggi (~teggi@123.20.108.24) has joined #lisp
+2013-06-05 00:56:45	-->	kennyd (~kennyd@93-141-65-71.adsl.net.t-com.hr) has joined #lisp
+2013-06-05 01:00:46	<--	Quadrescence (~quad@unaffiliated/quadrescence) has quit (Quit: Leaving)
+2013-06-05 01:03:40	<--	eldariof (~CLD@pppoe-203-29-dyn-sr.volgaline.ru) has quit (Read error: Operation timed out)
+2013-06-05 01:03:59	-->	przl (~przlrkt@p5B298C7A.dip0.t-ipconnect.de) has joined #lisp
+2013-06-05 01:13:06	<--	namtsui` (~user@c-76-102-34-148.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-06-05 01:13:27	-->	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has joined #lisp
+2013-06-05 01:15:11	<--	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-06-05 01:15:33	-->	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has joined #lisp
+2013-06-05 01:15:33	<--	atamagawarui (~user@unaffiliated/dijkstragroupie) has quit (Quit: I need path-dependent types in C++. Or RAII in Scala. DAMMIT.)
+2013-06-05 01:16:15	<--	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-06-05 01:17:08	-->	namtsui (~user@c-76-102-34-148.hsd1.ca.comcast.net) has joined #lisp
+2013-06-05 01:18:59	<--	pavelpenev (~quassel@85.130.70.65) has quit (Remote host closed the connection)
+2013-06-05 01:22:14	drmeister	Does anyone have a reference for performing escape analysis for Common Lisp?  I've got Appel's book "Modern Compiler Implementation in ML" but it doesn't go into nearly enough detail.
+2013-06-05 01:23:12	<--	Tarential (~Tarential@li472-156.members.linode.com) has quit (Quit: Terminated with extreme prejudice - dircproxy 1.0.5)
+2013-06-05 01:24:46	pkhuong	nothing special about CL, except that dynamic-extent declarations can just be trusted by the compiler.
+2013-06-05 01:26:23	pkhuong	ISTR JVMs have reasonable escape analysis passes that catch a lot of common cases without requiring global analyses like kCFA.
+2013-06-05 01:27:49	drmeister	I'm just trying to figure out how to do escape analysis.  What is "ISTR JVMs" and "kCFA"?
+2013-06-05 01:28:00	<--	przl (~przlrkt@p5B298C7A.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2013-06-05 01:28:31	Bike	"I seem to recall Java virtual machines"
+2013-06-05 01:29:02	-->	przl (~przlrkt@p5B298C7A.dip0.t-ipconnect.de) has joined #lisp
+2013-06-05 01:29:02	Bike	and http://matt.might.net/articles/implementation-of-kcfa-and-0cfa/, probably?
+2013-06-05 01:32:53	-->	kimochiwarui (~user@unaffiliated/dijkstragroupie) has joined #lisp
+2013-06-05 01:33:59	drmeister	Thanks, I'll read it and check the references.
+2013-06-05 01:38:50	<--	Grizzly (Grizzly@ABayonne-651-1-286-70.w83-193.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2013-06-05 01:42:00	<--	attila_lendvai (~attila_le@unaffiliated/attila-lendvai/x-3126965) has quit (Ping timeout: 260 seconds)
+2013-06-05 01:43:44	<--	chu (~user@unaffiliated/chu) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-05 01:45:35	-->	ck`` (~ck@dslb-188-107-065-100.pools.arcor-ip.net) has joined #lisp
+2013-06-05 01:48:51	drmeister	pkhuong: I found "Escape Analysis for JavaTM Theory and Practice" Bruno Blanchet ACM Transactions on Programming Languages and Systems (TOPLAS) Vol 25, pg 713-775
+2013-06-05 01:50:17	drmeister	Based on your suggestion that JVMs have reasonable escape analysis passes.  Thank you.
+2013-06-05 01:54:40	-->	mcsontos (mcsontos@nat/redhat/x-foviafqbwiuoumkh) has joined #lisp
+2013-06-05 01:57:57	<--	ehaliewicz (~user@50-0-51-11.dsl.static.sonic.net) has quit (Ping timeout: 248 seconds)
+2013-06-05 01:58:05	-->	hkBst (~marijn@80.120.175.18) has joined #lisp
+2013-06-05 01:58:05	<--	hkBst (~marijn@80.120.175.18) has quit (Changing host)
+2013-06-05 01:58:05	-->	hkBst (~marijn@gentoo/developer/hkbst) has joined #lisp
+2013-06-05 01:58:07	<--	miql (~miql@ip68-98-19-126.ph.ph.cox.net) has quit (Ping timeout: 264 seconds)
+2013-06-05 01:59:32	-->	xan_ (~xan@80.174.78.136.dyn.user.ono.com) has joined #lisp
+2013-06-05 02:01:45	-->	ehu (ehu@ip167-22-212-87.adsl2.static.versatel.nl) has joined #lisp
+2013-06-05 02:06:31	<--	przl (~przlrkt@p5B298C7A.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-06-05 02:09:32	<--	kubotsu (~user@unaffiliated/kyubutsu) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-05 02:11:45	-->	pavelpenev (~quassel@194.141.47.12) has joined #lisp
+2013-06-05 02:12:02	-->	ASau` (~user@p5797ECFA.dip0.t-ipconnect.de) has joined #lisp
+2013-06-05 02:12:06	<--	kennyd (~kennyd@93-141-65-71.adsl.net.t-com.hr) has quit (Quit: bye)
+2013-06-05 02:12:14	<--	ehu (ehu@ip167-22-212-87.adsl2.static.versatel.nl) has quit (Ping timeout: 240 seconds)
+2013-06-05 02:13:15	-->	Myk267 (~myk@unaffiliated/myk267) has joined #lisp
+2013-06-05 11:15:14	--	irc: disconnected from server

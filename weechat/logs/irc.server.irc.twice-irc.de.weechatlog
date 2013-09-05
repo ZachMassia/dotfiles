@@ -1,0 +1,47 @@
+2013-02-16 22:15:07	--	irc: connecting to server irc.twice-irc.de/6667...
+2013-02-16 22:15:13	--	irc: connected to irc.twice-irc.de/6667 (79.140.39.205)
+2013-02-16 22:15:13	--	ircd.twice-irc.de (ircd.twice-irc.de): *** Looking up your hostname...
+2013-02-16 22:15:13	--	ircd.twice-irc.de (ircd.twice-irc.de): *** Checking ident...
+2013-02-16 22:15:13	--	ircd.twice-irc.de (ircd.twice-irc.de): *** Found your hostname
+2013-02-16 22:15:26	--	ircd.twice-irc.de (ircd.twice-irc.de): *** No ident response; username prefixed with ~
+2013-02-16 22:15:26	--	Welcome to the TWiCEiRC IRC Network zach!~zach@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-16 22:15:26	--	Your host is ircd.twice-irc.de, running version Unreal3.2.9
+2013-02-16 22:15:26	--	This server was created Mon Oct 1 2012 at 06:00:44 CEST
+2013-02-16 22:15:26	--	ircd.twice-irc.de Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-16 22:15:26	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=30 CHANLIMIT=#:30 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-16 22:15:26	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=TWiCEiRC CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-16 22:15:26	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-16 22:15:26	--	There are 46 users and 233 invisible on 3 servers
+2013-02-16 22:15:26	--	8 :operator(s) online
+2013-02-16 22:15:26	--	44 :channels formed
+2013-02-16 22:15:26	--	I have 135 clients and 2 servers
+2013-02-16 22:15:26	--	Current Local Users: 135  Max: 163
+2013-02-16 22:15:26	--	Current Global Users: 279  Max: 1063
+2013-02-16 22:15:26	--	- ircd.twice-irc.de Message of the Day -
+2013-02-16 22:15:26	--	- 1/10/2012 6:43
+2013-02-16 22:15:26	--	- --------------------------------------------------
+2013-02-16 22:15:26	--	- - WILLKOMMEN IM TWICE-IRC! -----------------------
+2013-02-16 22:15:26	--	- --------------------------------------------------
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- IRC Ports:                6661-6669
+2013-02-16 22:15:26	--	- IRC SSL Ports:            6601, 6697 und 7000
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- Operators:
+2013-02-16 22:15:26	--	- sECuRE                    (ircd.twice-irc.de)
+2013-02-16 22:15:26	--	- eliXier                   (gti.twice-irc.de)
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- Random server:            irc.twice-irc.de
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- Unsere Regeln:            /rules
+2013-02-16 22:15:26	--	- Du brauchst Hilfe?        #twice-help
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- In diesem IRC-Netz MUSS man sich an die Regeln
+2013-02-16 22:15:26	--	- halten (siehe /rules oder www.twice-irc.de). Wer
+2013-02-16 22:15:26	--	- dies nicht tut, wird via Ban ausgeschlossen.
+2013-02-16 22:15:26	--	-
+2013-02-16 22:15:26	--	- --------------------------------------------------
+2013-02-16 22:15:26	--	- - Letzte Aenderung: 2012-10-01 -------------------
+2013-02-16 22:15:26	--	- --------------------------------------------------
+2013-02-16 22:15:26	--	End of /MOTD command.
+2013-02-16 22:15:26	--	User mode [+iwx] by zach
+2013-02-17 02:48:22	--	irc: disconnected from server

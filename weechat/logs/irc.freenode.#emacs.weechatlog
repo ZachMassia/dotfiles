@@ -1,0 +1,2063 @@
+2013-06-04 13:11:57	-->	Z_Mass (~Z_Mass@bas1-cornwall24-3096455843.dsl.bell.ca) has joined #emacs
+2013-06-04 13:11:57	--	Topic for #emacs is ""I propose to consider the question, “Can Emacs think?”" -- Alan Turing | http://lispinsummerprojects.org/signup | Emacsconf vids http://j.mp/emacs2013videos | Read http://www.emacswiki.org/EmacsChannel | Pastebin: http://paste.lisp.org | No public logging! What happens in #emacs stays in #emacs! | No sexism, racism, xenophobia, misogyny or other general misbehavior"
+2013-06-04 13:11:57	--	Topic set by ijp (~user@host81-155-26-49.range81-155.btcentralplus.com) on Sat, 01 Jun 2013 09:15:14
+2013-06-04 13:11:58	--	Nicks #emacs: [17WABPZPO __main__ __yhvh__ _AnK _flow_ _guitarman_ _schulte_ _tinman_ `micro a00001 aaptel aartist abend aboudreault aburgess adrian__ adriftatsea2 agumonkey ahoops ahungry AimHere aindilis aisbaa ajb-mark-tools ajw0100 alakra AlexanderS alfplayer Amadiro amoe ananthakumaran anaumov andres-v angelixd_ antgreen antono antoszka Anusko anxt Apic arbn arcanis arelius arkx ArneBab aroemers aspiers assem asuka Athas avar axrfnu balle banjiewen barik barika basho bastii Batalyx baudtack beaumonta beneth` benny Bentbot bigjust binjured binski bionicspider bipt birny bitonic blackwolf BlastHardcheese bmac bob2 bobdobbs` Boney boodle Borbus_ boredomist boyscared bps brainproxy bremner brendyn brianloveswords brighid brjannc broquaint cajetanus calimocho callen CampinSam cantsin carbocal` carif carminec carsonc caveat- cbmuser ceti331 chaoflow chaos95 chaptastic charlietanksley chewbranca chm chomwitt ChongLi chrisb chriswk chronno chu cityroasted ckoch_ classix claw clop cluck cmatei cmbntr cofi copiga corecode cortexman cortman CosmicRay cpt_nemo CrazyEddy cross cthuluh cuba33ci cud cyberspace- cybrhuman d4gg4d daemian daenney daimrod dal damiancarrillo danlentz dardevelin dash davef_ davemarq davexunit dbristow demolithion Demosthe1ex dented42 Derander derrida deSilva dfox dgvncsz0f didi dim dizzylizzy dkh dominikh DomKM1 dondy|afk dooglus doomlord_ dothebart dr_diamond Dr_Jazz_ drewc_ drewr drmeister dropdrive dshep dstatyvka dtw dueno dwts Dybber dzho e2xistz easye ecraven edenc edgar-rft elarson elbeardmorez elij emacsnw emacssaint emilh eN_Joy endojelly entropie epsylon` eqyiel erewhon_ ErhardtMundt erkin espiral etehtsea Ethan- ethif` exobit expez ext farn fasta fayek fdv felipe_ FelixJongleur ferdy ffualo_ fgallina fhd fikusz fimblo fledermaus fmu forcer fperrin freealan freefall frobware froggey FrostEyes frusen fsbot fschmitt fsmunoz fsvend` Fuco fuleo futuro galex-713 ganbold gazoombo gciolli genehack gensym gezgin ggherdov ggole gianlucadv gic ginkgo gko GnarlyBob gnomon greenhat Grizzly Guest16822 Guest25865 Guest74151 Guest88080 h0bbit Han hanDerPeder Hapsbanan haroldwu harovali heath hectorh30 HedgeMage hewbrocca hgb hhuuggoo_ hiredman hlprmnky hober Houl hpd hvr Hydan hyperair hypnocat IanKelling icule iderrick iiska_ illovae ingenious insatsu_ insomniaSalt isak isomer ivan-kanis ivan\ ivan`` j0ni jabot_ jaequery jagaj jagguli jaimef james_woods jandrusk jangle jannie_ jaredrhine jashank jayne jcromartie jdhore jdoles jeekl jeffrubic jinie jjore jlf jlf_ jlindsay jmaister jmnoz joe9 Joelbyte johanbev johnsu01 johnw jonasac Jonte jordanm JordiGH Joreji jrbalderrama jrex_ jrm jstnhlj_ jubos julienXX justinabrahms jweiss k-man k0ral_ kahen kanru kasterma kbtr kelebeks kennyd kenyon killown kini kiwnix kloeri kludge` kmicu kmt kodein konr kordex korutsu Koshian__ kossy Krystof ktosiek ktx kulty L42y laglite Laynef ldlework leathekd legumbre leifw Lenzoidd leo2007 leth lfazio libertas lightquake linvald literal liv1d ljhms lloydhuang loke_ lokydor LRH539 lusory lustlife Macphisto macrobat macron madnificent mag] mag]] magnars mahmoudimus maio majoh mami marienz marjan- martinjlowm MasseR Mathieu mathrick mattcen mcdonc mds mechairo` metasyntax mfisher mgaare mgile mh_le MicaiahC mickn microcode mitchty miwosh mjc` mnemonikk mocker molqr Mon_Ouie Monolith| morazow morphling Mosu mpenet mpr312 mr_yall` mrBliss MrWoohoo mstevens mstr mtk muep_ murr4y mw myeffort Myk267 myrkraverk nabilhassein NaCl Nahra nano- Natch natechan ndrst necronian necronian_ Neptu netmod neurodam1ge newcup nicferrier nick16 nickdaly nilg NimeshNeema noptys ntus1017 nu7hatch nullie nunag nyergler_ oconnore offby1 offbyone ohama ok2 othar oufo ozialien paddymahoney ParanoidSP paroneayea peder Pio pjb` plovs pma pmade polilla portante ppppaul prebz prip progo przl PuercoPop puff punketo28 qDot_ QinGW` qlkzy quackv4 quasisane quazimodo quicksilver quiesce quotemstr qwerty_nor rah Ralt raph_ael Rapp raso2 ravster Raynes reactormonk redblue reeses remote retroj rick42 rizumu rksm rlpeacoc` robmyers rods rogerzhou rokstar rotty rryoumaa rudybot ruediger russm ryanc ryker sajith SamB samrat sawjig scgilardi scottj Seb segv- semente seneca sereal-work setheus sexyshape shabble_ shanecelis sheepbat shergill shfengoli shoepie1 sigjuice_ Sigma Silex simao Sixmsj Sketch ski smull_ snet snufux solarus sorabji5252 sorenmacbeth spacebat spaceone srid stablo steckerhalter steez_ StMichel stokachu stowelly subopt superbil SuperNoeMan surrounder sweet_kid sword taierigeorge tali713 talyz tankrim taylanub tazle_ tbarletz tbourdon technomancy teggi teiresias tensorpudding terjesb tessier texel tg tgunr th0ma5 theBlackDragon TheCrittaC theos thomases thorkill timvishe` tirengarfio tiwula tm tokuhirom_ ToothlessGear torbjorn Trademark91 treaki__ tromey turbofail tvaalen twem2 Twey txxt tychoish Ulrar UNIXgod unknown_lamer ustunozgur vds victor_lowther Viiru vila Vivek vmeson Vorpal wagle wanders wapiflapi wchun wdouglas webframp_ weie wgreenhouse wilder wilfredh Will| wizard` wtatsuru wyan xhrl xneme xristos xrq yacc yacks yang yates yezariaely yhvh yibe__ yonkeltron yordan YoungFrog yrk z0d Z_Mass zellio zeltak zendeavor zenlunatic zenwryly zerokarmaleft zeus` zz_zobbo {cms}]
+2013-06-04 13:11:58	--	Channel #emacs: 660 nicks (0 ops, 0 halfops, 0 voices, 660 normals)
+2013-06-04 13:11:58	--	URL for #emacs: http://emacswiki.org/
+2013-06-04 13:11:59	--	Mode #emacs [+np]
+2013-06-04 13:11:59	--	Channel created on Sun, 26 Nov 2006 01:42:33
+2013-06-04 13:14:29	jlf	johnw: hmm? 
+2013-06-04 13:15:30	<--	JordiGH (~jordi@octave/developer/JordiGH) has quit (Ping timeout: 245 seconds)
+2013-06-04 13:15:35	-->	c0rn (~c0rn@64.125.69.200) has joined #emacs
+2013-06-04 13:16:29	-->	JordiGH (~jordi@octave/developer/JordiGH) has joined #emacs
+2013-06-04 13:16:46	--	davemarq is now known as davemq
+2013-06-04 13:17:24	<--	laglite (~chatzilla@72.252.124.67) has quit (Quit: ChatZilla 0.9.90 [Firefox 21.0/20130511120803])
+2013-06-04 13:18:01	-->	rndnick0affe (~user@stgt-5f719ac7.pool.mediaWays.net) has joined #emacs
+2013-06-04 13:18:23	-->	true_techie (~chatzilla@72.252.124.67) has joined #emacs
+2013-06-04 13:18:39	true_techie	does anyone else keep getting a warning when their using nXhtml?
+2013-06-04 13:18:47	true_techie	theyre*
+2013-06-04 13:20:27	-->	jehan (~jehan@kiel4-dmz.gis.de) has joined #emacs
+2013-06-04 13:20:28	-->	Guizmopanpan (~Guizmopan@bas33-2-82-237-177-93.fbx.proxad.net) has joined #emacs
+2013-06-04 13:20:28	<--	c0rn (~c0rn@64.125.69.200) has quit (Client Quit)
+2013-06-04 13:20:48	johnw	jlf: answering earlier comments
+2013-06-04 13:21:25	<--	hectorh30 (~hectorh30@c-5c7571d5.017-108-6c756e10.cust.bredbandsbolaget.se) has quit (Quit: Leaving)
+2013-06-04 13:21:25	-->	cbpage_ (~anonymous@17.114.110.192) has joined #emacs
+2013-06-04 13:21:28	jlf	johnw: i know; i didn't understand what you meant about elisp being available. 
+2013-06-04 13:21:44	johnw	why using some scripting language when you already have a great language?
+2013-06-04 13:21:44	-->	c0rn (~c0rn@64.125.69.200) has joined #emacs
+2013-06-04 13:21:55	-->	harovali1 (~harovali@r186-53-198-40.dialup.adsl.anteldata.net.uy) has joined #emacs
+2013-06-04 13:22:00	<--	greenhat (~greenhat@c-50-134-155-202.hsd1.co.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 13:22:01	johnw	script languages are notoriously dumb
+2013-06-04 13:22:41	-->	Sembei (~Sembei@unaffiliated/sembei) has joined #emacs
+2013-06-04 13:22:42	jlf	how would you do #! scripting with elisp?
+2013-06-04 13:22:47	technomancy	well, in a sense the term "scripting language" begs the question
+2013-06-04 13:22:52	dash	jlf: Furiously.
+2013-06-04 13:22:53	johnw	if I were executing that script from eshell, perhaps
+2013-06-04 13:23:06	-->	greenhat (~greenhat@c-50-134-155-202.hsd1.co.comcast.net) has joined #emacs
+2013-06-04 13:23:30	<--	harovali (~harovali@r186-53-215-115.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:23:50	jlf	johnw: let me restate the question.  how would you run an elisp script from the bash cli?
+2013-06-04 13:24:03	johnw	<johnw> if I were executing that script from eshell, perhaps
+2013-06-04 13:24:11	nicferrier	jlf: like this :;exec emacs -batch -Q -l "$0" -f marmalade-test "$@"
+2013-06-04 13:25:52	jlf	sorry, i must be slower than usual today...
+2013-06-04 13:27:07	nicferrier	that's how I do it anyway
+2013-06-04 13:27:33	nicferrier	I think emacs could have better support for doing things quickly from the command line but it's not that bad.
+2013-06-04 13:27:43	nicferrier	I am very tired today. and quite depressed.
+2013-06-04 13:27:50	chrisb	link to rms being lukewarm about free software?
+2013-06-04 13:28:52	johnw	nicferrier: you didn't know about emacs --script?
+2013-06-04 13:29:05	johnw	just start your file with: #!/usr/bin/emacs --script
+2013-06-04 13:29:23	nicferrier	no, I didn't know about that
+2013-06-04 13:29:25	nicferrier	that's cool.
+2013-06-04 13:29:30	<--	freealan (~freealan@220-135-120-204.HINET-IP.hinet.net) has quit (Quit: leaving)
+2013-06-04 13:29:38	jlf	oh, i didn't either :)
+2013-06-04 13:30:02	johnw	Emacs actually has pretty wicked fast startup time; it's loading modules that can be slow
+2013-06-04 13:30:03	nicferrier	is there specific support for comments with #?
+2013-06-04 13:30:11	johnw	nicferrier: I think only the first line is special
+2013-06-04 13:30:14	-->	dberg (~user@66.162.159.254) has joined #emacs
+2013-06-04 13:30:18	nicferrier	yeah. I thin it's fast enough
+2013-06-04 13:30:18	johnw	but I haven't tried
+2013-06-04 13:30:22	jlf	that's enough
+2013-06-04 13:30:48	-->	danlamanna (~user@pool-96-236-41-55.albyny.fios.verizon.net) has joined #emacs
+2013-06-04 13:30:48	offby1	Hmph.  Is there no API for editing /etc/groups ?!
+2013-06-04 13:31:00	offby1	I don't like the idea of my script editing that file directly ...
+2013-06-04 13:31:28	jlf	is anyone aware of a library to normalize/groom erc logs?
+2013-06-04 13:31:32	johnw	offby1: I can recommend augeas
+2013-06-04 13:31:39	nicferrier	offby1: adduser user group
+2013-06-04 13:31:52	<--	ferdy (~ferdy@funtoo/contrib/ferdy-) has quit (Quit: Leaving.)
+2013-06-04 13:32:00	nicferrier	johnw: I can recommend avoiding augeas
+2013-06-04 13:32:03	nicferrier	:-)
+2013-06-04 13:32:13	offby1	nicferrier: hm, if that works when the user already exists, that'll be ideal.  Thanks.
+2013-06-04 13:32:30	jlf	nicferrier: i can recommend being ambivalent about augeas
+2013-06-04 13:32:31	johnw	didn't say I _should_ be, just that I'm able to ;)
+2013-06-04 13:32:47	offby1	nicferrier: actually usermod looks better.
+2013-06-04 13:33:02	<--	nickdaly (~yaaic@66-87-72-247.pools.spcsdns.net) has quit (Read error: Connection reset by peer)
+2013-06-04 13:33:05	technomancy	I can recommend remaining ignorant about augeas; it's worked well for me all these years.
+2013-06-04 13:33:22	jmnoz	Period! Period.
+2013-06-04 13:33:28	johnw	hire someone to edit /etc/groups by hand whenever needed
+2013-06-04 13:33:37	nicferrier	that's the best way
+2013-06-04 13:33:39	jmnoz	oops
+2013-06-04 13:33:41	technomancy	mechanical turk
+2013-06-04 13:33:48	-->	UrsoBranco (~leslie@187.117.93.51) has joined #emacs
+2013-06-04 13:34:00	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 13:34:02	offby1	nicferrier: yep -- usermod <username> --append --groups <groupname>
+2013-06-04 13:34:09	jlf	we can administer it for you wholesale
+2013-06-04 13:34:09	 *	offby1 breaths the proverbial sigh of relief
+2013-06-04 13:34:41	<--	Guizmopanpan (~Guizmopan@bas33-2-82-237-177-93.fbx.proxad.net) has quit (Quit:  HydraIRC -> http://www.hydrairc.com <- The professional IRC Client :D)
+2013-06-04 13:34:43	-->	digie (~digie@209.119.72.170) has joined #emacs
+2013-06-04 13:35:07	technomancy	jlf: PKD reference?
+2013-06-04 13:35:15	jlf	\o/
+2013-06-04 13:35:18	<--	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has quit (Remote host closed the connection)
+2013-06-04 13:35:19	technomancy	\m/
+2013-06-04 13:36:31	-->	nickdaly (~yaaic@66-87-72-160.pools.spcsdns.net) has joined #emacs
+2013-06-04 13:36:32	offby1	\k/
+2013-06-04 13:36:33	nicferrier	PKD?
+2013-06-04 13:36:37	hypnocat	dick
+2013-06-04 13:36:47	offby1	nicferrier: beats me, too
+2013-06-04 13:36:47	<--	gciolli (~gianni@cpc9-dals16-2-0-cust500.hari.cable.virginmedia.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:36:47	<--	kiwnix (~egarcia@unaffiliated/kiwnix) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:36:47	offby1	oh.
+2013-06-04 13:36:56	nicferrier	phillip k dic
+2013-06-04 13:37:02	offby1	ya
+2013-06-04 13:37:07	aartist	rainbow mode is looking for color.el where I can find that?
+2013-06-04 13:37:08	jlf	technomancy was politely asking if i had made a dick move
+2013-06-04 13:37:23	aartist	,color.el
+2013-06-04 13:37:23	fsbot	try:  ansi-color.el color-eldoc color-eldoc.el rcirc-color.el
+2013-06-04 13:37:24	hypnocat	relax, we're all dickheads here
+2013-06-04 13:37:39	nicferrier	I'm not
+2013-06-04 13:37:45	jlf	aartist: it ships with emacs as of 24.3 at least
+2013-06-04 13:37:49	jlf	(require 'color)
+2013-06-04 13:37:50	hypnocat	you are, but you just don't know it
+2013-06-04 13:38:14	aartist	jlf: I am using 23.2.1 version.
+2013-06-04 13:38:30	jlf	aartist: does M-x locate-library RET color RET find it?
+2013-06-04 13:38:32	-->	rubbish (~user@69.170.149.10) has joined #emacs
+2013-06-04 13:38:50	-->	ccd (~user@c-98-207-86-63.hsd1.ca.comcast.net) has joined #emacs
+2013-06-04 13:38:58	aartist	jlf: no. It does not. 
+2013-06-04 13:39:32	<--	victor_lowther (~victorlow@143.166.116.80) has quit (Quit: Leaving IRC - dircproxy 1.2.0)
+2013-06-04 13:39:32	jlf	may as well upgrade to 24.3 instead of looking for color.el
+2013-06-04 13:40:10	-->	amoe_ (~amoe@host-92-26-174-192.as13285.net) has joined #emacs
+2013-06-04 13:40:22	aartist	jlf: with 24.3 I have problem working with other modules like CEDET  and semantic ..
+2013-06-04 13:40:42	jlf	oh drag
+2013-06-04 13:40:53	-->	kliph (~user@unaffiliated/kliph) has joined #emacs
+2013-06-04 13:41:24	aartist	jlf: Can I find color.el and put in library? Yes.  But I am not able to find color.el on internet.
+2013-06-04 13:41:42	jmnoz	d
+2013-06-04 13:41:43	jlf	aartist: browse the emacs source on savannah
+2013-06-04 13:41:49	jlf	,gitmirror
+2013-06-04 13:41:49	fsbot	jlf: I think gitmirror is an automated git mirror of the emacs bzr repo is available at http://savannah.gnu.org/git/?group=emacs
+2013-06-04 13:42:55	<--	Guest88080 (~fallout@firestorm.cs.duke.edu) has quit (Quit: Reconnecting)
+2013-06-04 13:43:09	<--	amoe (~amoe@host-2-96-236-124.as13285.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 13:43:10	-->	fallout (~fallout@unaffiliated/fallout) has joined #emacs
+2013-06-04 13:43:22	<--	rubbish (~user@69.170.149.10) has left #emacs
+2013-06-04 13:43:28	<--	lightquake (~lightquak@li363-105.members.linode.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 13:43:28	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #emacs
+2013-06-04 13:43:58	aartist	jlf: Thank you: Found link: http://git.savannah.gnu.org/cgit/emacs.git/plain/lisp/color.el?h=emacs-24
+2013-06-04 13:44:07	jlf	np
+2013-06-04 13:44:11	-->	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has joined #emacs
+2013-06-04 13:44:44	jlf	aartist: ooc have you checked if the cedet/semantic problems are still present in the trunk?  they could be fixed already..
+2013-06-04 13:46:04	-->	gciolli (~gianni@cpc9-dals16-2-0-cust500.hari.cable.virginmedia.com) has joined #emacs
+2013-06-04 13:46:52	<--	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has quit (Client Quit)
+2013-06-04 13:48:05	jmnoz	so, using drones for hunting food.
+2013-06-04 13:48:36	-->	ambroff (~ambroff@c-24-5-64-245.hsd1.ca.comcast.net) has joined #emacs
+2013-06-04 13:48:37	-->	bubu^ (~gabriel@2a01:e35:2ef5:3d10:f541:b732:ea7d:4661) has joined #emacs
+2013-06-04 13:48:41	scottj	ghc-mod in emacs appears to only show type signatures when you press C-c C-t. Is there a way to get automatic display of non-Prelude type signatures ala haskell-doc-mode does for prelude signatures?
+2013-06-04 13:49:13	<--	UrsoBranco (~leslie@187.117.93.51) has quit (Quit: leaving)
+2013-06-04 13:49:41	-->	guns (~guns@c-98-228-72-208.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 13:50:00	didi	Zombie drones.
+2013-06-04 13:50:16	<--	mstevens (~mstevens@fsf/member/pdpc.active.mstevens) has quit (Quit: leaving)
+2013-06-04 13:50:17	-->	dysinger (~tim@64.124.196.30) has joined #emacs
+2013-06-04 13:50:32	<--	nickdaly (~yaaic@66-87-72-160.pools.spcsdns.net) has quit (Read error: Connection reset by peer)
+2013-06-04 13:51:34	-->	venkatesh (~user@175.100.155.119) has joined #emacs
+2013-06-04 13:51:36	-->	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has joined #emacs
+2013-06-04 13:51:55	-->	sshirokov (sshirokov@2600:3c02::f03c:91ff:fe93:e02d) has joined #emacs
+2013-06-04 13:52:34	<--	danlamanna (~user@pool-96-236-41-55.albyny.fios.verizon.net) has quit (Remote host closed the connection)
+2013-06-04 13:52:47	jlf	hmm, i'd like the indentation of nested cpp #if's to be nested as well.  anyone know how to do this?
+2013-06-04 13:53:04	<--	anaumov (~an@bane.agnitas.de) has quit (Read error: Connection reset by peer)
+2013-06-04 13:53:22	 *	ski idly wonders whether the `#'s themselves should also be indented
+2013-06-04 13:53:25	-->	yonkeltr` (~user@yonkeltron.new.xen.prgmr.com) has joined #emacs
+2013-06-04 13:53:34	fledermaus	jlf: turns out to be quite a messy problem, iirc, so most things don't even try 
+2013-06-04 13:53:35	dash	jlf: i think there's pills you can take for that now
+2013-06-04 13:53:59	jlf	boo
+2013-06-04 13:54:16	-->	mahmoudi_ (~mahmoudim@173-164-253-217-SFBA.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 13:54:18	jlf	dash: if i'm going to resort to chemical assistance i'll stick with ,,jlf-fix thankyouverymuch
+2013-06-04 13:54:20	fsbot	try:  e1f-twb-jlf-fix ijp-tali713-jlf-fix jlf-fix jlf-fix2 http://tvtropes.org/pmwiki/pmwiki.php/Main/CodeGeassTheAbridgedSeries
+2013-06-04 13:54:27	jlf	>:|
+2013-06-04 13:54:36	-->	nabilhas` (~user@199.47.72.30) has joined #emacs
+2013-06-04 13:54:39	fledermaus	jlf: plus once interspersed with code that itself has indentation levels, it turns out to be a lot less helpful than you initially thinlo
+2013-06-04 13:54:41	fledermaus	think 
+2013-06-04 13:54:48	-->	jeffisabelle (~jeffisabe@88.227.243.49) has joined #emacs
+2013-06-04 13:55:10	ski	,jlf-fix
+2013-06-04 13:55:11	fsbot	Most problems can be solved with a Hendrick's martini
+2013-06-04 13:55:20	<--	aartist (~Ashish@ool-457420fc.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-06-04 13:55:28	jlf	fledermaus: i don't think so, as i could tell at a glance whether some #if/#endif was outermost or not
+2013-06-04 13:55:35	-->	repl (~user@183.83.168.110) has joined #emacs
+2013-06-04 13:55:37	<--	h0bbit (~h0bbit@61.12.96.226) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 13:55:42	-->	nilg` (~user@77.70.2.229) has joined #emacs
+2013-06-04 13:55:50	-->	snufu (~snufu@d00m.org) has joined #emacs
+2013-06-04 13:55:54	<--	mahmoudimus (~mahmoudim@199.241.202.99) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:56:15	-->	dark_element (~textual@123.201.34.29) has joined #emacs
+2013-06-04 13:56:24	-->	scroy (~Roy@pool-173-79-153-134.washdc.fios.verizon.net) has joined #emacs
+2013-06-04 13:56:28	-->	yang_ (yang@irs.si) has joined #emacs
+2013-06-04 13:56:34	-->	tessier_ (~treed@kernel-panic/copilotco) has joined #emacs
+2013-06-04 13:56:35	fledermaus	jlf: I tried it (manually) it was not nearly as helpful as I thought it would be.
+2013-06-04 13:56:49	fledermaus	ymmv.
+2013-06-04 13:56:49	-->	hgb_ (~hgb@cm-84.215.13.213.getinternet.no) has joined #emacs
+2013-06-04 13:56:49	 *	jlf nods
+2013-06-04 13:56:59	-->	satc (~Satvik@nat-128-84-124-0-316.cit.cornell.edu) has joined #emacs
+2013-06-04 13:57:00	<--	classix (salven@silenceisdefeat.com) has quit (Disconnected by services)
+2013-06-04 13:57:04	-->	steez (sed@mack.beezi.es) has joined #emacs
+2013-06-04 13:57:11	-->	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has joined #emacs
+2013-06-04 13:57:20	-->	dtw- (~dtw@pdpc/supporter/active/dtw) has joined #emacs
+2013-06-04 13:57:22	-->	classix (salven@silenceisdefeat.com) has joined #emacs
+2013-06-04 13:57:26	jlf	btw did you ever get a chance to look at that c-beginning-of-defun-docstring bug?
+2013-06-04 13:57:35	-->	insatsu (~rizumu@50.56.76.128) has joined #emacs
+2013-06-04 13:57:48	-->	k-man_ (~jason@unaffiliated/k-man) has joined #emacs
+2013-06-04 13:58:05	-->	quiesce` (~user@2601:5:1200:4b:fc09:48cc:d38a:18f0) has joined #emacs
+2013-06-04 13:58:06	jlf	dash: if i'm going to resort to chemical assistance i'll stick with ,,jlf-fix thankyouverymuch
+2013-06-04 13:58:06	fsbot	Most problems can be solved with a Hendrick's martini
+2013-06-04 13:58:08	-->	mgile_ (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 13:58:08	-->	ldleworker (~ldlework@108.166.107.128) has joined #emacs
+2013-06-04 13:58:09	-->	mahmoudimus (~mahmoudim@199.241.202.99) has joined #emacs
+2013-06-04 13:58:11	jlf	better
+2013-06-04 13:58:14	-->	jinie_ (~jinie@178.157.207.177) has joined #emacs
+2013-06-04 13:58:18	<--	didi (~user@unaffiliated/didi/x-1022147) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:58:21	-->	zerokarm1left (zkl@morpheus.net) has joined #emacs
+2013-06-04 13:58:39	shergill	jlf: what have you got against non hendrick's martinis?
+2013-06-04 13:58:41	<--	satc (~Satvik@nat-128-84-124-0-316.cit.cornell.edu) has quit (Client Quit)
+2013-06-04 13:58:41	<--	mahmoudi_ (~mahmoudim@173-164-253-217-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 13:59:00	-->	rudybot_ (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 13:59:09	<--	cortexman (~Adium@74-93-234-89-Colorado.hfc.comcastbusiness.net) has quit (Quit: Leaving.)
+2013-06-04 13:59:15	-->	Sketch_ (sketch@newshells.gnugeneration.com) has joined #emacs
+2013-06-04 13:59:30	<--	jinie (~jinie@178.157.207.177) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	nabilhassein (~user@199.47.72.30) has quit (Read error: Connection reset by peer)
+2013-06-04 13:59:31	<--	mgile (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	gezgin (~weechat@unaffiliated/gezgin) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	Guest74151 (~traceur@dsl-trebrasgw2-54f95a-216.dhcp.inet.fi) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	Silex (~silex@unitedsoft.ch) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	jdoles (~jdoles@unaffiliated/jdoles) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	Han (~han@unaffiliated/han) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	ggherdov (uid11402@gateway/web/irccloud.com/x-wngpofmpwlxgjtiy) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	redblue (buenasnoch@24-230-226-60.tr.cgocable.ca) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	tessier (~treed@kernel-panic/copilotco) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	xneme (xneme@kapsi.fi) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	nilg (~user@77.70.2.229) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:31	<--	quiesce (~user@unaffiliated/quiesce) has quit (Disconnected by services)
+2013-06-04 13:59:31	<--	hgb (~hgb@cm-84.215.13.213.getinternet.no) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	jagguli (~user@ec2-54-252-52-103.ap-southeast-2.compute.amazonaws.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	Sketch (sketch@newshells.gnugeneration.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	snufux (~snufu@d00m.org) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	microcode (~microcode@unaffiliated/microcolonel) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	Amadiro (jonathri@dalvik.ping.uio.no) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	yonkeltron (~user@unaffiliated/yonkeltron) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	insatsu_ (~rizumu@50.56.76.128) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	yang (yang@freenode/sponsor/fsf.member.yang) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:32	<--	StMichel (mkouhia@gateway/shell/tkk.fi/x-pfgwxnxmtxfiqjdk) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	ldlework (~ldlework@108.166.107.128) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	k-man (~jason@unaffiliated/k-man) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	cityroasted (y5dSKO6zWy@2600:3c02::f03c:91ff:fe70:6b33) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	FrostEyes (~frosteyes@users33.kollegienet.dk) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	L42y (uid10623@gateway/web/irccloud.com/x-hsofufizyenstqma) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	aboudreault (~aboudreau@osgeo/member/aboudreault) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	steez_ (sed@mack.beezi.es) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	Krystof (~user@81.174.155.115) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	robmyers (robmyers@gnu/social/robmyers) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	rudybot (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:33	<--	zerokarmaleft (zkl@morpheus.net) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:34	<--	dtw (~dtw@pdpc/supporter/active/dtw) has quit (Ping timeout: 264 seconds)
+2013-06-04 13:59:34	jlf	nothing, as long as they're gin and not those horrible vodka pretenders
+2013-06-04 13:59:34	--	ldleworker is now known as ldlework
+2013-06-04 13:59:48	bremner	,jlf-nicferrier-fix
+2013-06-04 13:59:49	fsbot	most problems can be fixed by coding exclusively in elisp while drinking a Hendrick's martini
+2013-06-04 13:59:55	-->	cityroasted (7v9QTNi7Oj@2600:3c02::f03c:91ff:fe70:6b33) has joined #emacs
+2013-06-04 13:59:56	--	quiesce` is now known as queisce
+2013-06-04 13:59:56	-->	nickdaly (~yaaic@66-87-25-213.pools.spcsdns.net) has joined #emacs
+2013-06-04 14:00:13	<--	linvald (~linvald@209.251.200.243) has quit (Remote host closed the connection)
+2013-06-04 14:00:18	--	queisce is now known as quiesce
+2013-06-04 14:00:26	<--	aspiers (aspiers@nat/suse/x-zxxpmdpdcsooihuw) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:00:33	<--	quiesce (~user@2601:5:1200:4b:fc09:48cc:d38a:18f0) has quit (Changing host)
+2013-06-04 14:00:33	-->	quiesce (~user@unaffiliated/quiesce) has joined #emacs
+2013-06-04 14:00:43	-->	jdoles (~jdoles@unaffiliated/jdoles) has joined #emacs
+2013-06-04 14:01:00	-->	robmyers_ (robmyers@2600:3c03::f03c:91ff:fe96:299) has joined #emacs
+2013-06-04 14:01:09	-->	Silex (~silex@unitedsoft.ch) has joined #emacs
+2013-06-04 14:01:42	-->	aboudreault (~aboudreau@osgeo/member/aboudreault) has joined #emacs
+2013-06-04 14:01:44	-->	Han (~han@unaffiliated/han) has joined #emacs
+2013-06-04 14:01:44	-->	normanrichards (~normanric@rrcs-24-173-248-98.sw.biz.rr.com) has joined #emacs
+2013-06-04 14:02:02	-->	Amadiro (jonathri@dalvik.ping.uio.no) has joined #emacs
+2013-06-04 14:02:29	-->	traceur (~traceur@dsl-trebrasgw2-54f95a-216.dhcp.inet.fi) has joined #emacs
+2013-06-04 14:02:36	-->	xneme (xneme@kapsi.fi) has joined #emacs
+2013-06-04 14:02:37	-->	StMichel (mkouhia@gateway/shell/tkk.fi/x-wrkpilnlaacdcfqk) has joined #emacs
+2013-06-04 14:02:39	--	hgb_ is now known as hgb
+2013-06-04 14:02:44	-->	microcode (~microcode@bas1-toronto04-1242322006.dsl.bell.ca) has joined #emacs
+2013-06-04 14:02:53	--	traceur is now known as Guest1888
+2013-06-04 14:02:59	<--	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-04 14:03:04	-->	chm` (~user@218.242.168.194) has joined #emacs
+2013-06-04 14:03:11	-->	gezgin (~weechat@unaffiliated/gezgin) has joined #emacs
+2013-06-04 14:03:22	-->	edgimar (~bip@209.140.208.8) has joined #emacs
+2013-06-04 14:03:26	-->	bdmst (~bdmst@198.27.77.11) has joined #emacs
+2013-06-04 14:03:30	-->	ryker_ (~ryker@c-67-176-243-86.hsd1.in.comcast.net) has joined #emacs
+2013-06-04 14:04:32	technomancy	fix-combinators
+2013-06-04 14:04:34	-->	gciolli1 (~gianni@cpc9-dals16-2-0-cust500.hari.cable.virginmedia.com) has joined #emacs
+2013-06-04 14:04:37	<--	Houl (~Parmi@unaffiliated/houl) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:04:46	jlf	higher-order-fixes
+2013-06-04 14:04:55	-->	fmu^ (~^fmu@unaffiliated/fmu) has joined #emacs
+2013-06-04 14:05:06	-->	SuperNoeMan_ (~SuperNoeM@ec2-23-20-202-208.compute-1.amazonaws.com) has joined #emacs
+2013-06-04 14:05:21	-->	jubos_ (~curtis@69.171.231.178) has joined #emacs
+2013-06-04 14:05:25	-->	haroldwu` (~user@118-170-186-137.dynamic.hinet.net) has joined #emacs
+2013-06-04 14:05:26	<--	etehtsea (~kes@93.185.184.116) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 14:05:30	-->	dueno_ (~daiki@du-a.org) has joined #emacs
+2013-06-04 14:05:34	-->	jayne_ (~jayne@freenode/staff/jayne) has joined #emacs
+2013-06-04 14:05:58	<--	haroldwu` (~user@118-170-186-137.dynamic.hinet.net) has quit (Remote host closed the connection)
+2013-06-04 14:06:59	<--	ryker_ (~ryker@c-67-176-243-86.hsd1.in.comcast.net) has quit (Client Quit)
+2013-06-04 14:07:04	macrobat	when I feed my problem through the fix and the same problem comes out the other end, I don't even have a point
+2013-06-04 14:07:13	edgimar	I am trying to preview LaTeX segments in emacs (with org-mode), where I've added a +LATEX_HEADER: \input{preamble.tex} line.  But, the preview doesn't use the preamble, because it doesn't get copied to the /tmp directory (where the preview files are created/compiled).  Is there a way to handle this well (without requiring preamble.tex to be manually copied)?
+2013-06-04 14:07:18	-->	angelixd (~pcmantz@box.mcpantz.org) has joined #emacs
+2013-06-04 14:07:19	-->	russm_ (~russm@203.7.155.137) has joined #emacs
+2013-06-04 14:07:19	edgimar	I would have expected the \input line to be recognized by org-mode, and then the file copied automatically.
+2013-06-04 14:07:27	-->	aisbaa_ (~aisbaa@88-119-11-127.static.zebra.lt) has joined #emacs
+2013-06-04 14:07:36	-->	brighid_ (~krinn@69.46.88.22) has joined #emacs
+2013-06-04 14:07:41	-->	ceti331_ (~walter@host81-159-233-25.range81-159.btcentralplus.com) has joined #emacs
+2013-06-04 14:07:43	-->	zobbop (~ian@li500-123.members.linode.com) has joined #emacs
+2013-06-04 14:07:45	-->	peder_ (4822@rubin.ifi.uio.no) has joined #emacs
+2013-06-04 14:07:46	-->	jaredrhine_ (~quassel@mongoose.wordzoo.com) has joined #emacs
+2013-06-04 14:07:53	<--	gciolli (~gianni@cpc9-dals16-2-0-cust500.hari.cable.virginmedia.com) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:07:54	<--	SuperNoeMan (~SuperNoeM@ec2-23-20-202-208.compute-1.amazonaws.com) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:07:54	<--	chrisb (~chrisb@li482-205.members.linode.com) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:07:54	<--	Ethan- (~Ethan-@60-248-176-37.HINET-IP.hinet.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:07:59	-->	kloeri_ (~kloeri@freenode/staff/exherbo.kloeri) has joined #emacs
+2013-06-04 14:08:00	<--	fmu (~^fmu@unaffiliated/fmu) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:00	--	fmu^ is now known as fmu
+2013-06-04 14:08:00	<--	jubos (~curtis@69.171.231.176) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	kennyd (~kennyd@78-0-221-81.adsl.net.t-com.hr) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	dueno (~daiki@fsf/member/dueno) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	peder (4822@rubin.ifi.uio.no) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	sorabji5252 (~user@wsip-184-177-173-28.sd.sd.cox.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	aisbaa (~aisbaa@88-119-11-127.static.zebra.lt) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	netmod (~unknown@unaffiliated/netmod) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	chm (~user@lubanbook.org) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	brighid (~krinn@69.46.88.22) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	angelixd_ (~pcmantz@box.mcpantz.org) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:01	<--	zz_zobbo (~ian@li500-123.members.linode.com) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	boredomist (~bdmst@198.27.77.11) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	Raynes (~macro@unaffiliated/raynes) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	jjore (~jjore@c-50-135-255-216.hsd1.wa.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	russm (~russm@203.7.155.137) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	BlastHardcheese (chris@pdpc/supporter/active/blasthardcheese) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	Sembei (~Sembei@unaffiliated/sembei) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	antgreen (~green@64.56.254.79) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	hyperair (~hyperair@ubuntu/member/hyperair) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	gic (~gic@proxy.iitk.ac.in) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	ryker (~ryker@c-67-176-243-86.hsd1.in.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	erkin (~PinkiePie@unaffiliated/erkin) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:02	<--	johanbev (~johanbev@84.48.216.30) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	cmatei (~cmatei@95.76.25.200) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	NaCl (~NaCl@unaffilated/nacl/x-827312) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	reactormonk (~reactormo@cpe-70-113-86-124.austin.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	Myk267 (~myk@unaffiliated/myk267) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	oconnore (~eric@38.111.17.138) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	muep_ (twingo@otitsun.oulu.fi) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	superbil (~superbil@114-34-221-169.HINET-IP.hinet.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	haroldwu (~user@118-170-186-137.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-04 14:08:03	<--	zellio (~zellio@NJOERD.ES.ITS.NYU.EDU) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	ginkgo (~ginko@unaffiliated/ginkgo) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:03	<--	hpd (~hpd@v22010117464441099.yourvserver.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:08:04	-->	oconnore (~eric@38.111.17.138) has joined #emacs
+2013-06-04 14:08:04	<--	kloeri (~kloeri@freenode/staff/exherbo.kloeri) has quit (Remote host closed the connection)
+2013-06-04 14:08:04	<--	jaredrhine (~quassel@mongoose.wordzoo.com) has quit (Read error: Connection reset by peer)
+2013-06-04 14:08:04	-->	Myk267 (~myk@adsl-71-149-245-243.dsl.mtry01.sbcglobal.net) has joined #emacs
+2013-06-04 14:08:04	-->	NaCl (~NaCl@li321-87.members.linode.com) has joined #emacs
+2013-06-04 14:08:04	<--	ceti331 (~walter@host81-159-233-25.range81-159.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2013-06-04 14:08:04	-->	lightquake (~lightquak@96.126.106.105) has joined #emacs
+2013-06-04 14:08:04	<--	repl (~user@183.83.168.110) has quit (Remote host closed the connection)
+2013-06-04 14:08:05	<--	Myk267 (~myk@adsl-71-149-245-243.dsl.mtry01.sbcglobal.net) has quit (Changing host)
+2013-06-04 14:08:05	-->	Myk267 (~myk@unaffiliated/myk267) has joined #emacs
+2013-06-04 14:08:05	<--	NaCl (~NaCl@li321-87.members.linode.com) has quit (Changing host)
+2013-06-04 14:08:05	-->	NaCl (~NaCl@unaffilated/nacl/x-827312) has joined #emacs
+2013-06-04 14:08:06	--	peder_ is now known as peder
+2013-06-04 14:08:08	<--	rksm (~user@169.145.89.206) has quit (Read error: Connection reset by peer)
+2013-06-04 14:08:09	-->	netmod_ (~unknown@athedsl-96910.home.otenet.gr) has joined #emacs
+2013-06-04 14:08:12	-->	muep (twingo@otitsun.oulu.fi) has joined #emacs
+2013-06-04 14:08:19	<--	jayne (~jayne@freenode/staff/jayne) has quit (Read error: Connection reset by peer)
+2013-06-04 14:08:24	hypnocat	hello netsplit
+2013-06-04 14:08:27	-->	superbil (~superbil@114-34-221-169.HINET-IP.hinet.net) has joined #emacs
+2013-06-04 14:08:30	-->	Sembei (~Sembei@unaffiliated/sembei) has joined #emacs
+2013-06-04 14:08:31	bremner	edgimar: give the full path to preamble.tex in you \input? or put it in a directory in TEXINPUTS
+2013-06-04 14:08:32	-->	jjore (~jjore@c-50-135-255-216.hsd1.wa.comcast.net) has joined #emacs
+2013-06-04 14:08:35	-->	ginkgo (~ginko@unaffiliated/ginkgo) has joined #emacs
+2013-06-04 14:08:36	-->	zellio (~zellio@NJOERD.ES.ITS.NYU.EDU) has joined #emacs
+2013-06-04 14:08:41	-->	julienXX_ (~julienXX@home.tigerlilyapps.com) has joined #emacs
+2013-06-04 14:08:49	-->	antgreen (~green@64.56.254.79) has joined #emacs
+2013-06-04 14:08:51	-->	hyperair (~hyperair@ubuntu/member/hyperair) has joined #emacs
+2013-06-04 14:08:54	<--	retroj (~retroj@unaffiliated/retroj) has quit (Disconnected by services)
+2013-06-04 14:08:55	--	jinie_ is now known as jinie
+2013-06-04 14:09:05	-->	reactormonk (~reactormo@cpe-70-113-86-124.austin.res.rr.com) has joined #emacs
+2013-06-04 14:09:06	-->	retroj (~retroj@unaffiliated/retroj) has joined #emacs
+2013-06-04 14:09:08	-->	hpd (~hpd@v22010117464441099.yourvserver.net) has joined #emacs
+2013-06-04 14:09:19	edgimar	bremner : yes, the thought had crossed my mind, but I was hoping for a solution which would allow me to use relative filenames, and just have the referenced files in the same directory as the org-mode file.
+2013-06-04 14:09:29	-->	anaumov (~an@bane.agnitas.de) has joined #emacs
+2013-06-04 14:09:42	-->	drmeiste_ (~drmeister@farnsworth.chem.temple.edu) has joined #emacs
+2013-06-04 14:09:45	<--	dr_diamond (~user@unaffiliated/dr-diamond/x-6130392) has quit (Read error: Connection reset by peer)
+2013-06-04 14:09:57	-->	erkin (~PinkiePie@unaffiliated/erkin) has joined #emacs
+2013-06-04 14:10:13	-->	thomases_ (~the@60.141-0-75.customer.lyse.net) has joined #emacs
+2013-06-04 14:10:40	-->	WillB (~wrboyce@88.198.95.211) has joined #emacs
+2013-06-04 14:10:42	--	zobbop is now known as zobbo
+2013-06-04 14:10:50	-->	dropdriv1 (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has joined #emacs
+2013-06-04 14:10:52	-->	ndrst_ (~ndrst@beta.an-ti.eu) has joined #emacs
+2013-06-04 14:10:54	<--	julienXX (~julienXX@unaffiliated/julienxx) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	tbarletz (~tbarletz@12.110.81.108) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	nick16 (~nick@ool-4b7fc343.static.optonline.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	cross (cross@spitfire.i.gajendra.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	thomases (~the@60.141-0-75.customer.lyse.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	wizard` (~user@eth900.qld.adsl.internode.on.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	chaos95 (chaos95@mafianode.com) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	ChongLi (~chongli@24.212.141.111) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	chriswk (uid11358@gateway/web/irccloud.com/x-pgyegyhylbxxxueh) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	clop (~jared@moat3.centtech.com) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	asuka (asuka@home.hadiko.uni-karlsruhe.de) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	prebz (~prebz@tunna.org) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	beneth` (~beneth`@beneth.fr) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	davef_ (dave@nightfall.bogus.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	ndrst (~ndrst@beta.an-ti.eu) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	spacebat (spacebat@50.56.189.236) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	{cms} (~cms@zappa.beatworm.co.uk) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	rizumu (~rizumu@50.56.76.128) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	sigjuice_ (~sigjuice@184.106.98.73) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	erewhon_ (~erewhon@ec2-107-20-210-148.compute-1.amazonaws.com) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	vds (~vds@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	rods (~rods@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	genehack (~genehack@65.49.60.231) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	cthuluh (~jca@chomsky.autogeree.net) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	myrkraverk (~johann@unaffiliated/myrkraverk) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	nano- (nano@217.73.97.14) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	jeffrubic (~jeffrubic@ec2-50-112-120-38.us-west-2.compute.amazonaws.com) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	entropie (~mt@static.168.238.47.78.clients.your-server.de) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	literal (hinrik@u.nix.is) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	ljhms (~jms@nl109-141-60.student.uu.se) has quit (*.net *.split)
+2013-06-04 14:10:54	<--	dropdrive (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	ganbold (~ganbold@202.179.0.162) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	Twey (~Twey@unaffiliated/twey) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	jmaister (~jmaister@unaffiliated/jmaister) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	setheus (~setheus@107-203-153-73.lightspeed.rcsntx.sbcglobal.net) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	arelius (~arelius@b9p9.x.rootbsd.net) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	frusen (~frusen@fsf/member/frusen) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	Vivek (~vivek@gnu-india/admin/lopsa.member.vivek) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	Will| (~wrboyce@88.198.95.211) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	Batalyx (~ji@halava.cc.jyu.fi) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	easye (~user@213.33.70.157) has quit (*.net *.split)
+2013-06-04 14:10:55	<--	mfisher (mfisher@cpe-74-74-150-229.rochester.res.rr.com) has quit (*.net *.split)
+2013-06-04 14:11:01	--	thomases_ is now known as thomases
+2013-06-04 14:11:04	edgimar	The idea being that I can have a self-contained document, including supporting files - all located in a single directory, which can be moved anywhere / shared with anyone.
+2013-06-04 14:11:06	-->	nick17 (~nick@ool-4b7fc343.static.optonline.net) has joined #emacs
+2013-06-04 14:11:14	-->	chaos95 (chaos95@mafianode.com) has joined #emacs
+2013-06-04 14:11:16	-->	cthuluh (~jca@chomsky.autogeree.net) has joined #emacs
+2013-06-04 14:11:33	<--	drmeister (~drmeister@farnsworth.chem.temple.edu) has quit (Ping timeout: 259 seconds)
+2013-06-04 14:12:01	-->	sigjuice (~sigjuice@184.106.98.73) has joined #emacs
+2013-06-04 14:12:03	<--	hyperair (~hyperair@ubuntu/member/hyperair) has quit (Excess Flood)
+2013-06-04 14:12:09	-->	rizumu (~rizumu@50.56.76.128) has joined #emacs
+2013-06-04 14:12:10	-->	Raynes (~macro@unaffiliated/raynes) has joined #emacs
+2013-06-04 14:12:11	-->	tbarletz (~tbarletz@12.110.81.108) has joined #emacs
+2013-06-04 14:12:12	edgimar	Of course I could just have a bunch of +LaTeX_HEADER lines, but that's pretty ugly -- it would also be OK if there were a way to specify a *block* of text to use in the latex-header, but this seems also not to be possible.
+2013-06-04 14:12:18	-->	cmatei (~cmatei@95.76.25.200) has joined #emacs
+2013-06-04 14:12:21	-->	marcoscezar (~marcoscez@187.59.205.52) has joined #emacs
+2013-06-04 14:12:30	-->	setheus (~setheus@107-203-153-73.lightspeed.rcsntx.sbcglobal.net) has joined #emacs
+2013-06-04 14:12:39	-->	johanbev (~johanbev@30.84-48-216.nextgentel.com) has joined #emacs
+2013-06-04 14:12:49	-->	myrkraverk (~johann@unaffiliated/myrkraverk) has joined #emacs
+2013-06-04 14:12:57	-->	jmaister (~jmaister@unaffiliated/jmaister) has joined #emacs
+2013-06-04 14:13:09	-->	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has joined #emacs
+2013-06-04 14:13:16	-->	chriswk (uid11358@gateway/web/irccloud.com/x-wodipaxezloznuts) has joined #emacs
+2013-06-04 14:13:17	-->	{cms} (~cms@zappa.beatworm.co.uk) has joined #emacs
+2013-06-04 14:13:19	-->	spacebat (spacebat@50.56.189.236) has joined #emacs
+2013-06-04 14:13:26	-->	ganbold (~ganbold@202.179.0.162) has joined #emacs
+2013-06-04 14:13:43	-->	nano- (nano@217.73.97.14) has joined #emacs
+2013-06-04 14:13:46	-->	entropie (~mt@static.168.238.47.78.clients.your-server.de) has joined #emacs
+2013-06-04 14:13:54	-->	ijp (~user@host109-157-170-160.range109-157.btcentralplus.com) has joined #emacs
+2013-06-04 14:13:55	-->	wizard` (~user@eth900.qld.adsl.internode.on.net) has joined #emacs
+2013-06-04 14:13:56	-->	ljhms (~jms@nl109-141-60.student.uu.se) has joined #emacs
+2013-06-04 14:13:56	-->	asuka (asuka@home.hadiko.uni-karlsruhe.de) has joined #emacs
+2013-06-04 14:14:04	-->	easye` (~user@213.33.70.157) has joined #emacs
+2013-06-04 14:14:26	-->	vds (~vds@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has joined #emacs
+2013-06-04 14:14:36	-->	frusen (~frusen@fsf/member/frusen) has joined #emacs
+2013-06-04 14:14:39	jlf	edgimar: is there a pre-preview hook?
+2013-06-04 14:14:47	-->	genehack (~genehack@65.49.60.231) has joined #emacs
+2013-06-04 14:15:01	<--	amoe_ (~amoe@host-92-26-174-192.as13285.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:15:02	edgimar	jlf: not sure- I'll check.
+2013-06-04 14:15:09	-->	BlastHardcheese (chris@pdpc/supporter/active/blasthardcheese) has joined #emacs
+2013-06-04 14:15:11	jlf	you could perform the copy in such a hook, or in before-advise otherwise
+2013-06-04 14:15:24	ijp	yo crazies!
+2013-06-04 14:15:31	-->	lightquake_ (~lightquak@li363-105.members.linode.com) has joined #emacs
+2013-06-04 14:15:32	bremner	no u
+2013-06-04 14:15:33	jlf	but as you say, the preview logic should handle this case so you might want to ,,reportit
+2013-06-04 14:15:34	fsbot	reportit is [0] Found a bug? Good. Tell us about it by using M-x report-emacs-bug
+2013-06-04 14:15:34	fsbot	[1] to use the system mailer, try setting send-mail-function to 'mailclient-send-it
+2013-06-04 14:15:34	-->	amoe (~amoe@host-92-26-174-192.as13285.net) has joined #emacs
+2013-06-04 14:16:15	-->	cross (cross@spitfire.i.gajendra.net) has joined #emacs
+2013-06-04 14:16:16	-->	ChongLi (~chongli@24.212.141.111) has joined #emacs
+2013-06-04 14:16:16	-->	clop (~jared@moat3.centtech.com) has joined #emacs
+2013-06-04 14:16:16	-->	prebz (~prebz@tunna.org) has joined #emacs
+2013-06-04 14:16:16	-->	Batalyx (~ji@halava.cc.jyu.fi) has joined #emacs
+2013-06-04 14:16:16	-->	jeffrubic (~jeffrubic@ec2-50-112-120-38.us-west-2.compute.amazonaws.com) has joined #emacs
+2013-06-04 14:16:16	-->	16WAAB2DT (~arelius@b9p9.x.rootbsd.net) has joined #emacs
+2013-06-04 14:16:16	-->	mfisher (mfisher@cpe-74-74-150-229.rochester.res.rr.com) has joined #emacs
+2013-06-04 14:16:17	<--	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has quit (Remote host closed the connection)
+2013-06-04 14:16:35	-->	victor_lowther (~victorlow@143.166.116.80) has joined #emacs
+2013-06-04 14:16:36	-->	beneth` (~beneth`@beneth.fr) has joined #emacs
+2013-06-04 14:16:51	-->	rods (~rods@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has joined #emacs
+2013-06-04 14:16:51	edgimar	jlf: wasn't able to find a pre-preview hook.
+2013-06-04 14:16:51	-->	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has joined #emacs
+2013-06-04 14:16:51	-->	erewhon (~erewhon@ec2-107-20-210-148.compute-1.amazonaws.com) has joined #emacs
+2013-06-04 14:17:02	-->	nu7hatch1 (~nu7hatch@r190-134-37-157.dialup.adsl.anteldata.net.uy) has joined #emacs
+2013-06-04 14:17:11	ijp	I believe that this channel should commit itself to achieving the goal, before this decade is out, of embedding an emacs in vim and returning safely back to gnu emacs.
+2013-06-04 14:17:20	-->	NaCl_ (~NaCl@li321-87.members.linode.com) has joined #emacs
+2013-06-04 14:17:20	<--	NaCl_ (~NaCl@li321-87.members.linode.com) has quit (Changing host)
+2013-06-04 14:17:20	-->	NaCl_ (~NaCl@unaffilated/nacl/x-827312) has joined #emacs
+2013-06-04 14:17:30	-->	carsonc` (~user@adsl-74-240-5-213.jan.bellsouth.net) has joined #emacs
+2013-06-04 14:17:50	edgimar	Hm, seems like adding advice is even less portable (or can I do this from within the org file itself?).
+2013-06-04 14:18:15	ijp	rudybot_: naturally jfk wouldn't consider using xemacs
+2013-06-04 14:18:16	rudybot_	ijp: the occasional Catholic like JFK, or the current chief executive, excepted, of course.
+2013-06-04 14:18:22	-->	jlf_` (~user@pdpc/supporter/active/jlf) has joined #emacs
+2013-06-04 14:18:33	-->	yacc_ (~yacc@148.198.43.5) has joined #emacs
+2013-06-04 14:18:35	-->	ryanc` (~ryanc@208.85.208.53) has joined #emacs
+2013-06-04 14:18:56	-->	ggherdov (uid11402@gateway/web/irccloud.com/x-avmepfguhnjevfsd) has joined #emacs
+2013-06-04 14:19:06	-->	chaos95_ (chaos95@mafianode.com) has joined #emacs
+2013-06-04 14:19:39	<--	nicferrier (~nicferrie@140.35.155.90.in-addr.arpa) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:40	<--	jlf_ (~user@pdpc/supporter/active/jlf) has quit (Read error: Connection reset by peer)
+2013-06-04 14:19:40	<--	ryanc (~ryanc@unaffiliated/ryanc) has quit (Read error: Connection reset by peer)
+2013-06-04 14:19:40	<--	ivan\ (~ivan@unaffiliated/ivan/x-000001) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:45	<--	ktosiek (~quassel@46.22.173.54) has quit (Read error: Connection reset by peer)
+2013-06-04 14:19:58	<--	carsonc (~user@adsl-74-240-5-213.jan.bellsouth.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:58	<--	timvishe` (~tim.vishe@pool-108-16-111-189.phlapa.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:58	<--	killown (~killown@pdpc/supporter/student/killown) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:59	<--	martinjlowm (~martinjlo@82.211.194.161) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:59	<--	ArneBab (~quassel@212.255.19.160) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:19:59	<--	shabble_ (shabble@unaffiliated/shabble) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:20:10	<--	true_techie (~chatzilla@72.252.124.67) has quit (Write error: Connection reset by peer)
+2013-06-04 14:20:14	-->	martinjlowm (~martinjlo@82.211.194.161) has joined #emacs
+2013-06-04 14:20:20	jlf	ijp: we needn't bother; vim has already started leaning on emacs, see ,,vimorg
+2013-06-04 14:20:20	fsbot	I heard vimorganizer is an orgmode clone for vim which requires emacs to be fully functional, see http://www.vim.org/scripts/script.php?script_id=3342
+2013-06-04 14:20:33	<--	yacc (~yacc@148.198.43.5) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:20:38	ijp	yeah, I knew of that
+2013-06-04 14:20:51	-->	true_techie (~chatzilla@72.252.124.67) has joined #emacs
+2013-06-04 14:20:52	-->	shabble (shabble@metavore.org) has joined #emacs
+2013-06-04 14:20:53	<--	shabble (shabble@metavore.org) has quit (Changing host)
+2013-06-04 14:20:53	-->	shabble (shabble@unaffiliated/shabble) has joined #emacs
+2013-06-04 14:21:07	-->	oconnore_ (~eric@38.111.17.138) has joined #emacs
+2013-06-04 14:21:08	<--	nickdaly (~yaaic@66-87-25-213.pools.spcsdns.net) has quit (Ping timeout: 264 seconds)
+2013-06-04 14:21:10	jlf	edgimar: is there any notion of a search path for such headers?
+2013-06-04 14:21:13	-->	ArneBab (~quassel@212.255.19.160) has joined #emacs
+2013-06-04 14:21:19	ijp	rudybot_: apparently, I feel compelled to slander the dead
+2013-06-04 14:21:20	rudybot_	ijp: cluck`: vile slander. I haven't used ubuntu for about 6 years.
+2013-06-04 14:21:48	-->	Vivek__ (~vivek@96.126.115.102) has joined #emacs
+2013-06-04 14:21:49	<--	teggi (~teggi@123.20.106.53) has quit (Remote host closed the connection)
+2013-06-04 14:22:39	<--	ravster (~ravi@66.207.222.14) has quit (Remote host closed the connection)
+2013-06-04 14:22:39	<--	cthuluh (~jca@chomsky.autogeree.net) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	chaos95 (chaos95@mafianode.com) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	NaCl (~NaCl@unaffilated/nacl/x-827312) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	lightquake (~lightquak@96.126.106.105) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	oconnore (~eric@38.111.17.138) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	Myk267 (~myk@unaffiliated/myk267) has quit (*.net *.split)
+2013-06-04 14:22:39	<--	nu7hatch (~nu7hatch@r190-134-37-157.dialup.adsl.anteldata.net.uy) has quit (*.net *.split)
+2013-06-04 14:22:39	-->	ktosiek_ (~quassel@46.22.173.54) has joined #emacs
+2013-06-04 14:22:40	--	lightquake_ is now known as lightquake
+2013-06-04 14:22:40	-->	ferdy (~ferdy@funtoo/contrib/ferdy-) has joined #emacs
+2013-06-04 14:22:40	-->	nickdaly (~yaaic@66-87-114-109.pools.spcsdns.net) has joined #emacs
+2013-06-04 14:22:45	-->	ivan\ (~ivan@unaffiliated/ivan/x-000001) has joined #emacs
+2013-06-04 14:22:46	-->	cortexman (~Adium@74-93-234-89-Colorado.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 14:23:29	<--	cortexman (~Adium@74-93-234-89-Colorado.hfc.comcastbusiness.net) has left #emacs
+2013-06-04 14:23:31	-->	hyperair (~hyperair@ubuntu/member/hyperair) has joined #emacs
+2013-06-04 14:23:38	edgimar	jlf: I don't know too much about the internals of how it's implemented -- I would suspect that there isn't any search-path stuff connected with it, however -- it appears to just build a list of +latex_header lines, and insert them before the \begin{document} of the exported / preview latex file.
+2013-06-04 14:24:05	<--	Sixmsj (~Sixmsj@134.154.162.233) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 14:24:07	-->	davef (dave@nightfall.bogus.net) has joined #emacs
+2013-06-04 14:24:52	--	NaCl_ is now known as NaCl
+2013-06-04 14:25:01	<--	oconnore_ (~eric@38.111.17.138) has quit (Client Quit)
+2013-06-04 14:25:14	-->	cuba33ci_ (~cuba33ci@114-25-201-226.dynamic.hinet.net) has joined #emacs
+2013-06-04 14:26:05	--	ryanc` is now known as ryanc
+2013-06-04 14:26:06	<--	ryanc (~ryanc@208.85.208.53) has quit (Changing host)
+2013-06-04 14:26:06	-->	ryanc (~ryanc@unaffiliated/ryanc) has joined #emacs
+2013-06-04 14:26:19	-->	lykathea (~user@unaffiliated/lykathea) has joined #emacs
+2013-06-04 14:26:45	-->	kasper` (~user@ip68-227-84-104.sb.sd.cox.net) has joined #emacs
+2013-06-04 14:26:46	-->	Twey (~Twey@unaffiliated/twey) has joined #emacs
+2013-06-04 14:27:49	<--	jmnoz (~jmn@unaffiliated/setre) has quit (Ping timeout: 248 seconds)
+2013-06-04 14:27:57	jlf	edgimar: you might look through the output of M-x apropos org.*latex-header and/or org-latex.el -- it's possible there's a knob to make org interpolate the values specified in +LATEX_HEADER liens
+2013-06-04 14:28:00	jlf	lines even
+2013-06-04 14:28:06	-->	UrsoBranco (~leslie@187.117.93.51) has joined #emacs
+2013-06-04 14:28:29	-->	Han_ (~han@unaffiliated/han) has joined #emacs
+2013-06-04 14:28:40	-->	torbjorn_ (~torbjorn@2001:840:4051::56) has joined #emacs
+2013-06-04 14:28:42	<--	paddymahoney (~patrick@24.137.221.230) has quit (Read error: Connection reset by peer)
+2013-06-04 14:28:43	-->	chaos95 (chaos95@mafianode.com) has joined #emacs
+2013-06-04 14:28:49	-->	cbmuser_ (~glaubitz@squeeze64.physik.fu-berlin.de) has joined #emacs
+2013-06-04 14:28:51	-->	genehack_ (~genehack@65.49.60.231) has joined #emacs
+2013-06-04 14:28:52	-->	binski_ (~binski@192.81.216.32) has joined #emacs
+2013-06-04 14:28:55	-->	heathjs (quassel@2600:3c02::f03c:91ff:feae:6e5b) has joined #emacs
+2013-06-04 14:28:56	<--	heathjs (quassel@2600:3c02::f03c:91ff:feae:6e5b) has quit (Changing host)
+2013-06-04 14:28:56	-->	heathjs (quassel@unaffiliated/ybit) has joined #emacs
+2013-06-04 14:29:08	-->	sohail (~sohail@unaffiliated/sohail) has joined #emacs
+2013-06-04 14:29:27	-->	s00pcan (~chris@108-208-64-149.lightspeed.livnmi.sbcglobal.net) has joined #emacs
+2013-06-04 14:29:35	<--	rndnick0affe (~user@stgt-5f719ac7.pool.mediaWays.net) has quit (Remote host closed the connection)
+2013-06-04 14:29:49	<--	shergill (~user@gateway/tor-sasl/shergill) has quit (Ping timeout: 240 seconds)
+2013-06-04 14:30:00	-->	charlietanksley_ (~charlieta@ec2-50-19-178-131.compute-1.amazonaws.com) has joined #emacs
+2013-06-04 14:30:01	-->	Myk267 (~myk@unaffiliated/myk267) has joined #emacs
+2013-06-04 14:30:07	-->	kmt` (~kmt@pool-96-231-135-148.washdc.fios.verizon.net) has joined #emacs
+2013-06-04 14:30:19	-->	wdouglas` (~user@c-76-105-195-123.hsd1.or.comcast.net) has joined #emacs
+2013-06-04 14:30:25	-->	rryoumaa` (~user@ip68-226-110-213.ph.ph.cox.net) has joined #emacs
+2013-06-04 14:30:32	<--	cbpage_ (~anonymous@17.114.110.192) has quit (Quit: cbpage_)
+2013-06-04 14:30:32	<--	macron (~macron@158.255.215.93) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	calimocho (~calimocho@fedora/calimocho) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	Macphisto (~user@c-69-138-176-254.hsd1.va.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-04 14:30:33	<--	jweiss (~jweiss@cpe-107-015-062-011.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	rryoumaa (~user@ip68-226-110-213.ph.ph.cox.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	tensorpudding (~tensorpud@108.87.20.210) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	dzho (~deejoe@quercus.etrumeus.com) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	jdhore (~jdhore@gentoo/developer/jdhore) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	benny (~user@maidenhead3.tunnelr.com) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	_AnK (~AnK@pool-173-61-88-29.cmdnnj.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	webframp_ (webframp@gateway/shell/ircrelay.com/x-arkxqggkpxchethy) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	charlietanksley (~charlieta@ec2-50-19-178-131.compute-1.amazonaws.com) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	Borbus_ (borbus@85.17.58.106) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	Hapsbanan (~mike@janc.info) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	arbn (~arbn@unaffiliated/arbn) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	kmt (~kmt@pool-96-231-135-148.washdc.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	boodle (~boodle@174.46.129.59) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	doomlord_ (~doomlod@host81-159-233-25.range81-159.btcentralplus.com) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	stokachu (~stokachu@ubuntu/member/stokachu) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	tirengarfio (~tirengarf@207.Red-81-44-28.dynamicIP.rima-tde.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	aburgess (~aburgess@212.44.20.129.ip.redstone-isp.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	remote (~self@unaffiliated/remote) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	e2xistz (~user@unaffiliated/e2xistz) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	talyz (~user@109-104-19-108.customers.ownit.se) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	heath (~quassel@unaffiliated/ybit) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	wdouglas (~user@c-76-105-195-123.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:33	<--	ozialien (~ernest@ip98-167-220-198.ph.ph.cox.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:34	<--	hypnocat (~hypnocat@unaffiliated/hypnocat) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:30:34	-->	Borbus (~Borbus@85.17.58.106) has joined #emacs
+2013-06-04 14:30:34	-->	macron (~macron@158.255.215.93) has joined #emacs
+2013-06-04 14:30:42	<--	mag] (~mag]@ip174-75-101-180.br.br.cox.net) has quit (Ping timeout: 264 seconds)
+2013-06-04 14:30:44	-->	aburgess (~aburgess@212.44.20.129.ip.redstone-isp.net) has joined #emacs
+2013-06-04 14:30:52	-->	shergill (~user@gateway/tor-sasl/shergill) has joined #emacs
+2013-06-04 14:30:54	-->	dzho (~deejoe@quercus.etrumeus.com) has joined #emacs
+2013-06-04 14:31:02	-->	jweiss (~jweiss@cpe-107-015-062-011.nc.res.rr.com) has joined #emacs
+2013-06-04 14:31:06	-->	calimocho (~calimocho@fedora/calimocho) has joined #emacs
+2013-06-04 14:31:13	-->	Hapsbanan (~mike@janc.info) has joined #emacs
+2013-06-04 14:31:17	-->	stokachu (~stokachu@cypherbook.com) has joined #emacs
+2013-06-04 14:31:24	-->	sheepbat (~lev3k@2001:c08:3700:ffff::b8f) has joined #emacs
+2013-06-04 14:31:30	-->	e2xistz (~user@unaffiliated/e2xistz) has joined #emacs
+2013-06-04 14:31:38	-->	linvald (~linvald@209.251.200.243) has joined #emacs
+2013-06-04 14:31:49	-->	bmac_ (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 14:31:52	<--	Bentbot (~Bentbot@pool-108-39-200-125.pitbpa.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:32:05	-->	webframp (webframp@gateway/shell/ircrelay.com/x-iaiydbsnxtbiuxsb) has joined #emacs
+2013-06-04 14:32:18	<--	stokachu (~stokachu@cypherbook.com) has quit (Changing host)
+2013-06-04 14:32:18	-->	stokachu (~stokachu@ubuntu/member/stokachu) has joined #emacs
+2013-06-04 14:32:20	-->	hypnocat (~hypnocat@unaffiliated/hypnocat) has joined #emacs
+2013-06-04 14:32:20	-->	ozialien (~ernest@ip98-167-220-198.ph.ph.cox.net) has joined #emacs
+2013-06-04 14:32:24	-->	doomlord_ (~doomlod@host81-159-233-25.range81-159.btcentralplus.com) has joined #emacs
+2013-06-04 14:32:36	-->	arbn (~arbn@unaffiliated/arbn) has joined #emacs
+2013-06-04 14:32:38	<--	hyperair (~hyperair@ubuntu/member/hyperair) has quit (Excess Flood)
+2013-06-04 14:32:39	-->	jdhore (~jdhore@gentoo/developer/jdhore) has joined #emacs
+2013-06-04 14:32:39	-->	_AnK (~AnK@pool-173-61-88-29.cmdnnj.fios.verizon.net) has joined #emacs
+2013-06-04 14:32:48	-->	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has joined #emacs
+2013-06-04 14:32:49	-->	Macphisto (~user@c-69-138-176-254.hsd1.va.comcast.net) has joined #emacs
+2013-06-04 14:32:56	-->	vds` (~vds@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has joined #emacs
+2013-06-04 14:33:03	-->	eN_Joy_ (~zhou3594@jindan.chem.ou.edu) has joined #emacs
+2013-06-04 14:33:07	<--	stokachu (~stokachu@ubuntu/member/stokachu) has quit (Client Quit)
+2013-06-04 14:33:09	-->	cbpage_ (~anonymous@17.212.158.224) has joined #emacs
+2013-06-04 14:33:13	--	Macphisto is now known as Guest49409
+2013-06-04 14:33:24	-->	tirengarfio (~tirengarf@207.Red-81-44-28.dynamicIP.rima-tde.net) has joined #emacs
+2013-06-04 14:33:24	<--	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:33:35	-->	tensorpudding (~tensorpud@108.87.20.210) has joined #emacs
+2013-06-04 14:33:42	<--	nullie (~nullie@87-4-191-213.fttb.ur.ru) has quit (Ping timeout: 264 seconds)
+2013-06-04 14:33:53	-->	lusory_ (~lusory@42.60.25.228) has joined #emacs
+2013-06-04 14:33:54	-->	stfacc (~stefano@92.90.21.4) has joined #emacs
+2013-06-04 14:33:54	<--	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has quit (Excess Flood)
+2013-06-04 14:33:54	<--	xristos (x@ns3.suspicious.org) has quit (Excess Flood)
+2013-06-04 14:33:58	-->	liv1d1 (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 14:34:07	-->	killown (~killown@pdpc/supporter/student/killown) has joined #emacs
+2013-06-04 14:34:10	-->	MasseR_ (~masse@82.192.74.13) has joined #emacs
+2013-06-04 14:34:22	-->	dkh` (~user@arce79-177-dhcp.colorado.edu) has joined #emacs
+2013-06-04 14:34:37	-->	carminec` (~user@136.159.160.1) has joined #emacs
+2013-06-04 14:34:42	-->	ingeniou1 (~nortimer@2001:7c0:409:8001::32:115) has joined #emacs
+2013-06-04 14:34:45	-->	stokachu (~stokachu@cypherbook.com) has joined #emacs
+2013-06-04 14:34:46	<--	stokachu (~stokachu@cypherbook.com) has quit (Changing host)
+2013-06-04 14:34:47	-->	stokachu (~stokachu@ubuntu/member/stokachu) has joined #emacs
+2013-06-04 14:34:52	-->	espiral_ (~maze@unaffiliated/espiral) has joined #emacs
+2013-06-04 14:34:53	<--	MicaiahC (~quassel@108-216-109-72.lightspeed.sndgca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-06-04 14:35:10	-->	tazle (tazle@kapsi.fi) has joined #emacs
+2013-06-04 14:35:10	<--	Myk267 (~myk@unaffiliated/myk267) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:12	<--	zobbo (~ian@li500-123.members.linode.com) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:13	<--	nabilhas` (~user@199.47.72.30) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:13	<--	fallout (~fallout@unaffiliated/fallout) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:13	<--	dfox (~dfox@123.100.broadband11.iol.cz) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:13	<--	pjb` (~t@AMontsouris-651-1-111-59.w83-202.abo.wanadoo.fr) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:35:20	-->	_tinman_` (~user@69.170.149.10) has joined #emacs
+2013-06-04 14:35:37	<--	Raynes (~macro@unaffiliated/raynes) has quit (Excess Flood)
+2013-06-04 14:35:39	-->	ijp` (~user@host109-157-170-160.range109-157.btcentralplus.com) has joined #emacs
+2013-06-04 14:35:40	-->	ryanc` (~ryanc@208.85.208.53) has joined #emacs
+2013-06-04 14:35:41	-->	fallout (~fallout@unaffiliated/fallout) has joined #emacs
+2013-06-04 14:35:42	-->	zz_zobbo (~ian@li500-123.members.linode.com) has joined #emacs
+2013-06-04 14:35:43	--	zz_zobbo is now known as zobbo
+2013-06-04 14:35:45	-->	Raynes (~macro@li231-96.members.linode.com) has joined #emacs
+2013-06-04 14:35:45	<--	Raynes (~macro@li231-96.members.linode.com) has quit (Changing host)
+2013-06-04 14:35:45	-->	Raynes (~macro@unaffiliated/raynes) has joined #emacs
+2013-06-04 14:35:45	-->	xrq` (~user@unaffiliated/xrq) has joined #emacs
+2013-06-04 14:35:54	-->	jlf_`` (~user@70-36-133-99.dsl.dynamic.sonic.net) has joined #emacs
+2013-06-04 14:36:00	<--	venkatesh (~user@175.100.155.119) has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-06-04 14:36:02	<--	kasper` (~user@ip68-227-84-104.sb.sd.cox.net) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-04 14:36:02	-->	Natch_r (~Natch@c-10cfe155.25-4-64736c10.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 14:36:12	-->	carsonc`` (~user@adsl-74-240-5-213.jan.bellsouth.net) has joined #emacs
+2013-06-04 14:36:12	<--	offbyone (~offbyone@spf.ip6.is-is.ca) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:36:16	-->	NaCl_ (~NaCl@li321-87.members.linode.com) has joined #emacs
+2013-06-04 14:36:16	<--	NaCl_ (~NaCl@li321-87.members.linode.com) has quit (Changing host)
+2013-06-04 14:36:16	-->	NaCl_ (~NaCl@unaffilated/nacl/x-827312) has joined #emacs
+2013-06-04 14:36:16	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 14:36:23	<--	YoungFrog (~youngfrog@geodiff-mac3.ulb.ac.be) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:36:32	-->	remote (~self@184.107.242.84) has joined #emacs
+2013-06-04 14:36:36	-->	Hydan` (~hydan@ip-89-103-110-5.net.upcbroadband.cz) has joined #emacs
+2013-06-04 14:36:41	-->	venkatesh (~user@175.100.155.119) has joined #emacs
+2013-06-04 14:36:41	-->	marcoscezar_ (~marcoscez@187.59.205.52) has joined #emacs
+2013-06-04 14:36:44	-->	dfox (~dfox@123.100.broadband11.iol.cz) has joined #emacs
+2013-06-04 14:36:56	--	remote is now known as Guest80416
+2013-06-04 14:36:59	<--	linvald (~linvald@209.251.200.243) has quit (Read error: Operation timed out)
+2013-06-04 14:37:00	<--	seneca (~seneca@2a01:4f8:d13:5588::2) has quit (Remote host closed the connection)
+2013-06-04 14:37:00	<--	torbjorn (~torbjorn@2001:840:4051::56) has quit (Remote host closed the connection)
+2013-06-04 14:37:00	<--	Han (~han@unaffiliated/han) has quit (Remote host closed the connection)
+2013-06-04 14:37:13	<--	illovae (~illovae@unaffiliated/illovae) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:18	hypnocat	there was a huge fly flying around my kitchen just now..  so i got out the flyswatter and started chasing it
+2013-06-04 14:37:20	<--	bob2 (rweir@unaffiliated/bob2) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:20	<--	chm` (~user@218.242.168.194) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:20	<--	ParanoidSP (~paranoids@unaffiliated/paranoidsp) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:21	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:28	<--	ajw0100 (~ajw@c-24-62-69-13.hsd1.ma.comcast.net) has quit (Ping timeout: 289 seconds)
+2013-06-04 14:37:29	-->	abend_ (~quassel@75-148-54-129-Oregon.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 14:37:29	<--	NaCl (~NaCl@unaffilated/nacl/x-827312) has quit (Disconnected by services)
+2013-06-04 14:37:31	<--	Hydan (~hydan@ip-89-103-110-5.net.upcbroadband.cz) has quit (Write error: Broken pipe)
+2013-06-04 14:37:31	<--	carsonc` (~user@adsl-74-240-5-213.jan.bellsouth.net) has quit (Write error: Broken pipe)
+2013-06-04 14:37:31	<--	rods (~rods@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has quit (Write error: Broken pipe)
+2013-06-04 14:37:31	<--	vds (~vds@host24-14-dynamic.3-79-r.retail.telecomitalia.it) has quit (Write error: Broken pipe)
+2013-06-04 14:37:38	<--	jdhore (~jdhore@gentoo/developer/jdhore) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:38	chu	Victory?
+2013-06-04 14:37:39	--	NaCl_ is now known as NaCl
+2013-06-04 14:37:40	<--	yang_ (yang@irs.si) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:37:47	hypnocat	it was really loud.. so when i couldn't see it, i just followed the sound.. then, it got really quiet.. and i couldn't tell where it went
+2013-06-04 14:37:48	-->	m4dnificent (~madnifice@static.146.73.9.176.clients.your-server.de) has joined #emacs
+2013-06-04 14:37:54	-->	cantsin_ (cantsin@2600:3c01::f03c:91ff:fe70:4fad) has joined #emacs
+2013-06-04 14:38:04	<--	ggherdov (uid11402@gateway/web/irccloud.com/x-avmepfguhnjevfsd) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:38:05	<--	yonkeltr` (~user@yonkeltron.new.xen.prgmr.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:38:05	<--	z0d (~z0d@unaffiliated/z0d) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:38:05	<--	broquaint (~dbrook@static.94.217.47.78.clients.your-server.de) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:38:12	-->	fsvend`` (~user@ti0006a380-dhcp0530.bb.online.no) has joined #emacs
+2013-06-04 14:38:19	edgimar	jlf: there's org-create-formula--latex-header, which uses org-export--get-inbuffer-options to retrieve the latex-header lines it seems.  Anyway, do you think reporting it as a general emacs bug makes sense -- I was thinking just posting to the org-mode list might be better?
+2013-06-04 14:38:19	<--	cbmuser (~glaubitz@squeeze64.physik.fu-berlin.de) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	binski (~binski@192.81.216.32) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	ingenious (~nortimer@unaffiliated/ingenious) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	lusory (~lusory@42.60.25.228) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	MasseR (~masse@82.192.74.13) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	tazle_ (tazle@kapsi.fi) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	genehack (~genehack@65.49.60.231) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	chaos95_ (chaos95@mafianode.com) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	espiral (~maze@unaffiliated/espiral) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	eN_Joy (~zhou3594@jindan.chem.ou.edu) has quit (Write error: Broken pipe)
+2013-06-04 14:38:19	<--	cuba33ci (~cuba33ci@114-25-201-226.dynamic.hinet.net) has quit (Write error: Connection reset by peer)
+2013-06-04 14:38:19	<--	cantsin (cantsin@2600:3c01::f03c:91ff:fe70:4fad) has quit (Excess Flood)
+2013-06-04 14:38:20	<--	ktosiek_ (~quassel@46.22.173.54) has quit (Excess Flood)
+2013-06-04 14:38:20	<--	kenyon (kenyon@darwin.kenyonralph.com) has quit (Remote host closed the connection)
+2013-06-04 14:38:20	<--	przl (~przlrkt@p5B2987F7.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-04 14:38:20	<--	wagle (~wagle@static-50-43-34-150.bvtn.or.frontiernet.net) has quit (Excess Flood)
+2013-06-04 14:38:20	--	cantsin_ is now known as cantsin
+2013-06-04 14:38:20	-->	wilder_ (~quassel@160.80.10.178) has joined #emacs
+2013-06-04 14:38:22	<--	wilder_ (~quassel@160.80.10.178) has quit (Changing host)
+2013-06-04 14:38:22	-->	wilder_ (~quassel@kde/developer/wilder) has joined #emacs
+2013-06-04 14:38:22	hypnocat	finally, i spotted it.. sitting on the door of a kitchen cabinet... i wasn't going to let the sucker get away now...
+2013-06-04 14:38:22	-->	barika_ (tbalazs@cg.iit.bme.hu) has joined #emacs
+2013-06-04 14:38:28	--	cuba33ci_ is now known as cuba33ci
+2013-06-04 14:38:32	-->	fredridv (71725@rubin.ifi.uio.no) has joined #emacs
+2013-06-04 14:38:37	hypnocat	so i aimed.. and with a lightning strike, i nailed it...   and it fell right in to my toaster!
+2013-06-04 14:38:39	-->	cthuluh (~jca@91.216.110.36) has joined #emacs
+2013-06-04 14:38:39	-->	seneca (~seneca@2a01:4f8:d13:5588::2) has joined #emacs
+2013-06-04 14:38:39	<--	steckerhalter (~steckerha@46-126-219-77.dynamic.hispeed.ch) has quit (Ping timeout: 367 seconds)
+2013-06-04 14:38:39	<--	ktx (~ktx@unaffiliated/ktx) has quit (Ping timeout: 367 seconds)
+2013-06-04 14:38:39	<--	barik (~barik@short.csc.ncsu.edu) has quit (Ping timeout: 367 seconds)
+2013-06-04 14:38:40	-->	rods (~rods@79.3.14.24) has joined #emacs
+2013-06-04 14:38:46	-->	Boney_ (~paul@124-170-4-210.dyn.iinet.net.au) has joined #emacs
+2013-06-04 14:38:48	-->	ktx_ (~ktx@unaffiliated/ktx) has joined #emacs
+2013-06-04 14:38:48	-->	Seb__ (~Seb@static.60.129.47.78.clients.your-server.de) has joined #emacs
+2013-06-04 14:38:51	-->	hyperair (~hyperair@ubuntu/member/hyperair) has joined #emacs
+2013-06-04 14:38:51	<--	cluck (~user@174.144.37.188.rev.vodafone.pt) has quit (Remote host closed the connection)
+2013-06-04 14:38:51	-->	davemarq (~user@32.97.110.56) has joined #emacs
+2013-06-04 14:38:52	-->	bob2_ (rweir@2400:8900::f03c:91ff:fe70:d0e3) has joined #emacs
+2013-06-04 14:38:52	-->	kplauritzen (~user@ip68-227-84-104.sb.sd.cox.net) has joined #emacs
+2013-06-04 14:38:53	-->	_guitarm1n_ (~guitarman@mail.wootangent.net) has joined #emacs
+2013-06-04 14:39:05	-->	offbyone (~offbyone@spf.ip6.is-is.ca) has joined #emacs
+2013-06-04 14:39:07	chu	Nice, now you can cook him.
+2013-06-04 14:39:10	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-06-04 14:39:10	-->	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has joined #emacs
+2013-06-04 14:39:12	-->	dropdrive (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has joined #emacs
+2013-06-04 14:39:15	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #emacs
+2013-06-04 14:39:15	chu	Nutritious food for the whole family.
+2013-06-04 14:39:23	-->	steckerhalter (~steckerha@46-126-219-77.dynamic.hispeed.ch) has joined #emacs
+2013-06-04 14:39:23	-->	elarson_ (~elarson@ionrock.org) has joined #emacs
+2013-06-04 14:39:37	-->	kenyon (kenyon@darwin.kenyonralph.com) has joined #emacs
+2013-06-04 14:39:37	<--	davemarq (~user@32.97.110.56) has quit (Write error: Connection reset by peer)
+2013-06-04 14:39:43	jlf	edgimar: no idea, but if you go the org list route you might want to pull the latest from the org upstream to verify it there
+2013-06-04 14:39:44	-->	anaumov_ (~an@bane.agnitas.de) has joined #emacs
+2013-06-04 14:39:48	-->	xristos (x@ns3.suspicious.org) has joined #emacs
+2013-06-04 14:39:52	-->	przl (~przlrkt@p5B2987F7.dip0.t-ipconnect.de) has joined #emacs
+2013-06-04 14:39:55	-->	UNIXgod_ (~v0id@c-24-13-198-161.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 14:39:59	-->	andres-v_ (andres-v@2600:3c00::f03c:91ff:fe70:25af) has joined #emacs
+2013-06-04 14:40:00	-->	rudybot__ (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 14:40:07	-->	ajw0100 (~ajw@c-24-62-69-13.hsd1.ma.comcast.net) has joined #emacs
+2013-06-04 14:40:09	<--	UNIXgod_ (~v0id@c-24-13-198-161.hsd1.il.comcast.net) has quit (Client Quit)
+2013-06-04 14:40:16	--	xristos is now known as Guest88237
+2013-06-04 14:40:25	-->	emacsnw_ (~emacsnw@ec2-23-21-253-246.compute-1.amazonaws.com) has joined #emacs
+2013-06-04 14:40:34	-->	jjore_ (~jjore@c-50-135-255-216.hsd1.wa.comcast.net) has joined #emacs
+2013-06-04 14:40:36	<--	guns (~guns@c-98-228-72-208.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:36	<--	andres-v (andres-v@2600:3c00::f03c:91ff:fe70:25af) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:36	<--	emacsnw (~emacsnw@ec2-23-21-253-246.compute-1.amazonaws.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:36	-->	yang (yang@irs.si) has joined #emacs
+2013-06-04 14:40:36	<--	ingeniou1 (~nortimer@2001:7c0:409:8001::32:115) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:36	<--	assem (~assem@175.211.232.38) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:36	<--	fasta (~xchat@xs8.xs4all.nl) has quit (Read error: Connection reset by peer)
+2013-06-04 14:40:37	<--	espiral_ (~maze@unaffiliated/espiral) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	eN_Joy_ (~zhou3594@jindan.chem.ou.edu) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	davemq (~user@32.97.110.56) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	jjore (~jjore@c-50-135-255-216.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	wilfredh (uid159@gateway/web/irccloud.com/x-gzczxwmbncktgcyo) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	mickn (~mickn@unaffiliated/mickn) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	fsvend` (~user@ti0006a380-dhcp0530.bb.online.no) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	zenwryly (~me@2001:41d0:1:eb49::1) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	tali713 (~tali713@2001:0:53aa:64c:3c5c:7455:b3ee:137e) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	--	bmac_ is now known as bmac
+2013-06-04 14:40:37	<--	superbil (~superbil@114-34-221-169.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	peder (4822@rubin.ifi.uio.no) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	gnomon (~gnomon@CPE000e582ae076-CM000f9f776f96.cpe.net.cable.rogers.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	ErhardtMundt (~quassel@host31-20-dynamic.251-95-r.retail.telecomitalia.it) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	CosmicRay (~jgoerzen@glockenspiel.complete.org) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	wgreenhouse (~user@fsf/member/wgreenhouse) has quit (Read error: Connection reset by peer)
+2013-06-04 14:40:37	-->	deSilva^^ (deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 14:40:37	-->	CosmicRay (~jgoerzen@glockenspiel.complete.org) has joined #emacs
+2013-06-04 14:40:37	-->	ingeniou1 (~nortimer@2001:7c0:409:8001::32:115) has joined #emacs
+2013-06-04 14:40:37	<--	rryoumaa` (~user@ip68-226-110-213.ph.ph.cox.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	Han_ (~han@unaffiliated/han) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	Vivek__ (~vivek@96.126.115.102) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	deSilva (deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	noptys (~noptys@and.noemailaddress.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	caveat- (hoax@shell.bshellz.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:37	<--	Ralt (Ralt@2a01:7e00::f03c:91ff:feae:6c69) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:40:38	<--	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-04 14:40:38	-->	zenwryly` (~me@2001:41d0:1:eb49::1) has joined #emacs
+2013-06-04 14:40:42	<--	elij (~elij@80.71.3.183) has quit (Remote host closed the connection)
+2013-06-04 14:40:46	-->	hgb_ (~hgb@cm-84.215.13.213.getinternet.no) has joined #emacs
+2013-06-04 14:40:54	-->	fasta (~xchat@xs8.xs4all.nl) has joined #emacs
+2013-06-04 14:40:55	-->	nullie (~nullie@87-4-191-213.fttb.ur.ru) has joined #emacs
+2013-06-04 14:40:58	-->	eN_Joy (~zhou3594@jindan.chem.ou.edu) has joined #emacs
+2013-06-04 14:40:58	-->	jaimef (jaimef@dns.mauthesis.com) has joined #emacs
+2013-06-04 14:41:03	-->	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 14:41:05	-->	noptys (~noptys@and.noemailaddress.com) has joined #emacs
+2013-06-04 14:41:06	<--	ok2 (~user@2a01:4f8:130:4ff8::2) has quit (Excess Flood)
+2013-06-04 14:41:12	-->	Han (~han@unaffiliated/han) has joined #emacs
+2013-06-04 14:41:15	-->	MicaiahC (~quassel@108-216-109-72.lightspeed.sndgca.sbcglobal.net) has joined #emacs
+2013-06-04 14:41:16	hypnocat	all these quits and joins are making me sea sick
+2013-06-04 14:41:19	-->	mickn (~mickn@unaffiliated/mickn) has joined #emacs
+2013-06-04 14:41:20	-->	Ralt (Ralt@2a01:7e00::f03c:91ff:feae:6c69) has joined #emacs
+2013-06-04 14:41:25	<--	ajw0100 (~ajw@c-24-62-69-13.hsd1.ma.comcast.net) has quit (Max SendQ exceeded)
+2013-06-04 14:41:25	-->	wagle (~wagle@static-50-43-34-150.bvtn.or.frontiernet.net) has joined #emacs
+2013-06-04 14:41:28	<--	solarus (~solarus@tunna.org) has quit (Ping timeout: 251 seconds)
+2013-06-04 14:41:28	<--	kodein (~hellother@faust.lysator.liu.se) has quit (Ping timeout: 251 seconds)
+2013-06-04 14:41:34	-->	ok2 (~user@2a01:4f8:130:4ff8::2) has joined #emacs
+2013-06-04 14:41:37	-->	ktosiek (~quassel@46.22.173.54) has joined #emacs
+2013-06-04 14:41:37	-->	kodein (~hellother@faust.lysator.liu.se) has joined #emacs
+2013-06-04 14:41:37	-->	barik (~barik@short.csc.ncsu.edu) has joined #emacs
+2013-06-04 14:41:38	chu	hypnocat: Yeah, freenode's getting hurt by something.
+2013-06-04 14:41:40	-->	jashank_ (~jashank@unaffiliated/jashank) has joined #emacs
+2013-06-04 14:41:40	<--	bobdobbs` (~user@2403:d800:11c4:de00:50bd:ae36:91e8:81ac) has quit (Read error: Connection reset by peer)
+2013-06-04 14:41:43	--	kloeri_ is now known as kloeri
+2013-06-04 14:41:44	-->	solarus (~solarus@tunna.org) has joined #emacs
+2013-06-04 14:41:45	-->	caveat- (hoax@shell.bshellz.net) has joined #emacs
+2013-06-04 14:41:48	-->	_guns_ (~guns@c-98-228-72-208.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 14:41:49	<--	punketo28 (~user@190.206.153.50) has quit (Ping timeout: 265 seconds)
+2013-06-04 14:41:57	technomancy	people still run without join/part suppression?
+2013-06-04 14:42:00	-->	ajw0100 (~ajw@c-24-62-69-13.hsd1.ma.comcast.net) has joined #emacs
+2013-06-04 14:42:03	-->	shahinism (~shahinism@unaffiliated/shahinism) has joined #emacs
+2013-06-04 14:42:16	-->	jdhore (~jdhore@gentoo/developer/jdhore) has joined #emacs
+2013-06-04 14:42:17	hypnocat	i like to know when ther person i'm about to respond to leaves
+2013-06-04 14:42:17	-->	demolith1 (~nonehaxor@198.199.71.101) has joined #emacs
+2013-06-04 14:42:20	chu	I only show them in a particular channel.
+2013-06-04 14:42:41	jlf	(setq erc-lurker-hide-list '("JOIN" "PART" "QUIT"))
+2013-06-04 14:42:41	-->	kes_ (~kes@mocker.org) has joined #emacs
+2013-06-04 14:42:41	-->	ivan``_ (~ivan@unaffiliated/ivan/x-000001) has joined #emacs
+2013-06-04 14:42:42	<--	icule (~Icule@bureau.ubity.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 14:42:43	kodein	technomancy: I felt I had to disable it after becoming op
+2013-06-04 14:42:45	<--	liv1d1 (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has quit (Quit: Leaving.)
+2013-06-04 14:42:46	-->	gnomon_ (~gnomon@CPE000e582ae076-CM000f9f776f96.cpe.net.cable.rogers.com) has joined #emacs
+2013-06-04 14:42:46	<--	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has quit (Quit: Check it, Wreck it http://www.caffeineindustries.com/blog)
+2013-06-04 14:42:52	chu	kodein: Bingo :)
+2013-06-04 14:42:58	<--	cbmuser_ (~glaubitz@squeeze64.physik.fu-berlin.de) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:42:58	<--	russm_ (~russm@203.7.155.137) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:42:59	<--	tgunr (~davec@66-249-166-11.static-ip.telepacific.net) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:43:00	<--	ppppaul (~paul@198-84-177-45.cpe.teksavvy.com) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:43:00	<--	qwerty_nor (~Thunderbi@46.118.93.31) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:43:00	<--	futuro (~user@opennic/futuro) has quit (Ping timeout: 243 seconds)
+2013-06-04 14:43:08	-->	futuro (~user@opennic/futuro) has joined #emacs
+2013-06-04 14:43:11	-->	Fuco_ (dota.keys@server.dasnet.cz) has joined #emacs
+2013-06-04 14:43:16	-->	ErhardtMundt (~quassel@host31-20-dynamic.251-95-r.retail.telecomitalia.it) has joined #emacs
+2013-06-04 14:43:18	<--	hyperair (~hyperair@ubuntu/member/hyperair) has quit (Excess Flood)
+2013-06-04 14:43:20	jlf	i should try that erc-hide-list invisibility patch again.  maybe the display engine is more tolerant of a lot of invisible text these days.
+2013-06-04 14:43:24	-->	ae (~ae@190.179.133.19) has joined #emacs
+2013-06-04 14:43:25	-->	ppppaul (~paul@198-84-177-45.cpe.teksavvy.com) has joined #emacs
+2013-06-04 14:43:32	-->	broquaint (~dbrook@static.94.217.47.78.clients.your-server.de) has joined #emacs
+2013-06-04 14:43:32	-->	davef_ (dave@nightfall.bogus.net) has joined #emacs
+2013-06-04 14:43:39	-->	muep_ (twingo@otitsun.oulu.fi) has joined #emacs
+2013-06-04 14:43:47	<--	molqr (~m@202.3.77.183) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:43:48	--	ae is now known as Guest66227
+2013-06-04 14:43:49	<--	_guns_ (~guns@c-98-228-72-208.hsd1.il.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-04 14:43:56	hypnocat	is there a function that will uniq a given list?
+2013-06-04 14:44:02	--	heathjs is now known as heath
+2013-06-04 14:44:04	-->	linvald (~linvald@209.251.200.243) has joined #emacs
+2013-06-04 14:44:04	-->	z0d (~z0d@q.notresp.com) has joined #emacs
+2013-06-04 14:44:04	<--	z0d (~z0d@q.notresp.com) has quit (Changing host)
+2013-06-04 14:44:04	-->	z0d (~z0d@unaffiliated/z0d) has joined #emacs
+2013-06-04 14:44:05	-->	nicferrier (~nicferrie@140.35.155.90.in-addr.arpa) has joined #emacs
+2013-06-04 14:44:06	-->	jabot (1013@ente.hawo.stw.uni-erlangen.de) has joined #emacs
+2013-06-04 14:44:06	-->	russm (~russm@203.7.155.137) has joined #emacs
+2013-06-04 14:44:12	<--	lloydhuang (~user@60-249-133-212.HINET-IP.hinet.net) has quit (Excess Flood)
+2013-06-04 14:44:13	-->	cbmuser (~glaubitz@squeeze64.physik.fu-berlin.de) has joined #emacs
+2013-06-04 14:44:14	-->	martinjlowm_ (~martinjlo@82.211.194.161) has joined #emacs
+2013-06-04 14:44:15	-->	superbil (~superbil@114-34-221-169.HINET-IP.hinet.net) has joined #emacs
+2013-06-04 14:44:16	-->	TweyII (~Twey@unaffiliated/twey) has joined #emacs
+2013-06-04 14:44:21	<--	rizumu (~rizumu@50.56.76.128) has quit (Ping timeout: 278 seconds)
+2013-06-04 14:44:22	-->	ginkgo_ (~ginko@unaffiliated/ginkgo) has joined #emacs
+2013-06-04 14:44:23	<--	dardevelin (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has quit (Ping timeout: 278 seconds)
+2013-06-04 14:44:23	<--	a00001 (~kobra@ec2-174-129-6-230.compute-1.amazonaws.com) has quit (Ping timeout: 278 seconds)
+2013-06-04 14:44:25	 *	hypnocat floats away upwards with the tide...
+2013-06-04 14:44:27	nicferrier	--script seems good.
+2013-06-04 14:44:32	-->	boodle (~boodle@174.46.129.59) has joined #emacs
+2013-06-04 14:44:35	<--	ohama (ohama@cicolina.org) has quit (Disconnected by services)
+2013-06-04 14:44:37	-->	a00001 (~kobra@ec2-174-129-6-230.compute-1.amazonaws.com) has joined #emacs
+2013-06-04 14:44:38	nicferrier	reduced my startup cli mangling a bit.
+2013-06-04 14:44:43	-->	rizumu (~rizumu@50.56.76.128) has joined #emacs
+2013-06-04 14:44:44	-->	Will| (~wrboyce@88.198.95.211) has joined #emacs
+2013-06-04 14:44:48	-->	lloydhuang (~user@60-249-133-212.HINET-IP.hinet.net) has joined #emacs
+2013-06-04 14:44:50	-->	Sketch (sketch@newshells.gnugeneration.com) has joined #emacs
+2013-06-04 14:44:51	-->	xhrl_ (~ThomasW@d108-172-20-227.bchsia.telus.net) has joined #emacs
+2013-06-04 14:44:57	-->	harovali (~harovali@r186-53-198-40.dialup.adsl.anteldata.net.uy) has joined #emacs
+2013-06-04 14:44:59	nicferrier	now. how do I expand a path to absolute with bash? what's the quickest way to do that?
+2013-06-04 14:45:00	<--	fsvend`` (~user@ti0006a380-dhcp0530.bb.online.no) has quit (Ping timeout: 257 seconds)
+2013-06-04 14:45:00	<--	mgile_ (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has quit (Ping timeout: 257 seconds)
+2013-06-04 14:45:04	-->	espiral (~maze@unaffiliated/espiral) has joined #emacs
+2013-06-04 14:45:11	-->	ohama (ohama@cicolina.org) has joined #emacs
+2013-06-04 14:45:15	jlf	hypnocat: (let (new-list) (mapc (lambda (element) (add-to-list 'new-list element)) orig-list))
+2013-06-04 14:45:16	<--	c0rn (~c0rn@64.125.69.200) has quit (Quit: Lates.)
+2013-06-04 14:45:23	hypnocat	nicferrier: realpath foo
+2013-06-04 14:45:28	-->	tali713 (~tali713@2001:0:53aa:64c:3c5c:7455:b3ee:137e) has joined #emacs
+2013-06-04 14:45:33	<--	Boney_ (~paul@124-170-4-210.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2013-06-04 14:45:39	<--	jehan (~jehan@kiel4-dmz.gis.de) has quit (Ping timeout: 284 seconds)
+2013-06-04 14:45:43	jlf	bash: realpath: command not found
+2013-06-04 14:45:44	-->	Boney_ (~paul@124-170-4-210.dyn.iinet.net.au) has joined #emacs
+2013-06-04 14:45:54	-->	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has joined #emacs
+2013-06-04 14:45:55	-->	tgunr (~davec@66-249-166-11.static-ip.telepacific.net) has joined #emacs
+2013-06-04 14:45:57	hypnocat	it's part of coreutils
+2013-06-04 14:46:07	-->	c0rn (~c0rn@64.125.69.200) has joined #emacs
+2013-06-04 14:46:07	hypnocat	on linux
+2013-06-04 14:46:13	<--	lusory_ (~lusory@42.60.25.228) has quit (Ping timeout: 276 seconds)
+2013-06-04 14:46:18	-->	mgile (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 14:46:33	-->	lusory (~lusory@42.60.25.228) has joined #emacs
+2013-06-04 14:46:43	jlf	oh, you mean /grealpath/ :)
+2013-06-04 14:46:47	nicferrier	happy to install coreutils. surprised it's not already there actually
+2013-06-04 14:46:49	-->	wyan_ (~wyan@ec2-54-246-94-212.eu-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 14:46:54	<--	subopt (~eh3@inet-hqmc05-o.oracle.com) has quit (Ping timeout: 272 seconds)
+2013-06-04 14:46:56	-->	zeltak1 (~zeltak@karif.server-speed.net) has joined #emacs
+2013-06-04 14:47:12	--	_guitarm1n_ is now known as guitarman
+2013-06-04 14:47:14	-->	kennyd (~kennyd@78-0-221-81.adsl.net.t-com.hr) has joined #emacs
+2013-06-04 14:47:16	nicferrier	it still thinks it's not installed
+2013-06-04 14:47:19	<--	shahinism (~shahinism@unaffiliated/shahinism) has quit (Remote host closed the connection)
+2013-06-04 14:47:25	-->	Vivek_ (~vivek@96.126.115.102) has joined #emacs
+2013-06-04 14:47:31	-->	subopt (~eh3@inet-hqmc05-o.oracle.com) has joined #emacs
+2013-06-04 14:47:35	-->	yibe___ (~yibe@163.43.161.140) has joined #emacs
+2013-06-04 14:47:37	-->	peder (4822@rubin.ifi.uio.no) has joined #emacs
+2013-06-04 14:47:41	-->	ivan\_ (~ivan@108-213-76-179.lightspeed.frokca.sbcglobal.net) has joined #emacs
+2013-06-04 14:47:41	nicferrier	nope. not there.
+2013-06-04 14:47:48	jlf	maybe it's not on PATH
+2013-06-04 14:47:50	<--	bitonic (~user@2.121.145.83) has quit (Remote host closed the connection)
+2013-06-04 14:47:51	-->	dardevelin (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has joined #emacs
+2013-06-04 14:47:54	<--	dooglus (~biufter@unaffiliated/dooglus) has quit (Remote host closed the connection)
+2013-06-04 14:47:58	-->	ParanoidSP (~paranoids@117.192.234.21) has joined #emacs
+2013-06-04 14:47:59	<--	ParanoidSP (~paranoids@117.192.234.21) has quit (Changing host)
+2013-06-04 14:47:59	-->	ParanoidSP (~paranoids@unaffiliated/paranoidsp) has joined #emacs
+2013-06-04 14:48:02	-->	dooglus (~biufter@rincevent.net) has joined #emacs
+2013-06-04 14:48:03	<--	dooglus (~biufter@rincevent.net) has quit (Changing host)
+2013-06-04 14:48:03	-->	dooglus (~biufter@unaffiliated/dooglus) has joined #emacs
+2013-06-04 14:48:04	nicferrier	dpkg -L coretutils | grep real === nada
+2013-06-04 14:48:10	hypnocat	hmm
+2013-06-04 14:48:18	<--	marcoscezar_ (~marcoscez@187.59.205.52) has quit (Ping timeout: 256 seconds)
+2013-06-04 14:48:26	hypnocat	well, it's part of coreutils on gentoo
+2013-06-04 14:48:34	hypnocat	might want to ask on #bash
+2013-06-04 14:48:35	-->	illovae (~illovae@rennes1.dunnewind.net) has joined #emacs
+2013-06-04 14:48:38	fledermaus	dym readlink?
+2013-06-04 14:48:39	hypnocat	or #ubuntu
+2013-06-04 14:48:52	<--	davef (dave@nightfall.bogus.net) has quit (*.net *.split)
+2013-06-04 14:48:52	<--	ivan\ (~ivan@unaffiliated/ivan/x-000001) has quit (*.net *.split)
+2013-06-04 14:48:52	<--	nickdaly (~yaaic@66-87-114-109.pools.spcsdns.net) has quit (*.net *.split)
+2013-06-04 14:48:52	<--	martinjlowm (~martinjlo@82.211.194.161) has quit (*.net *.split)
+2013-06-04 14:48:52	<--	ryanc (~ryanc@unaffiliated/ryanc) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	jlf_` (~user@pdpc/supporter/active/jlf) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	ijp (~user@host109-157-170-160.range109-157.btcentralplus.com) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	Twey (~Twey@unaffiliated/twey) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	{cms} (~cms@zappa.beatworm.co.uk) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	marcoscezar (~marcoscez@187.59.205.52) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	dropdriv1 (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	WillB (~wrboyce@88.198.95.211) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	anaumov (~an@bane.agnitas.de) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	ginkgo (~ginko@unaffiliated/ginkgo) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	muep (twingo@otitsun.oulu.fi) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	microcode (~microcode@bas1-toronto04-1242322006.dsl.bell.ca) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	Sketch_ (sketch@newshells.gnugeneration.com) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	rudybot_ (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	dtw- (~dtw@pdpc/supporter/active/dtw) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	hgb (~hgb@cm-84.215.13.213.getinternet.no) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	nilg` (~user@77.70.2.229) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	ccd (~user@c-98-207-86-63.hsd1.ca.comcast.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	dberg (~user@66.162.159.254) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	harovali1 (~harovali@r186-53-198-40.dialup.adsl.anteldata.net.uy) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	UNIXgod (~v0id@funtoo/user/UNIXgod) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	mag]] (~kvirc@wsip-68-107-168-98.br.br.cox.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	_tinman_ (~user@69.170.149.10) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	ggole (~ggole@58-7-149-206.dyn.iinet.net.au) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	liv1d (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	dkh (~user@fsf/member/dkh) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	carminec (~user@136.159.160.1) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	pmade (~pmade@c-67-172-151-101.hsd1.co.comcast.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	reeses (~reeses@unaffiliated/reeses) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	Guest16822 (~ae@190.179.133.19) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	offby1 (~offby1@pdpc/supporter/monthlybyte/offby1) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	MrWoohoo (~MrWoohoo@pool-108-38-175-139.lsanca.fios.verizon.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	wchun (~wchun@81-232-46-25-no38.tbcn.telia.com) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	xhrl (~ThomasW@d108-172-20-227.bchsia.telus.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	aindilis (~aindilis@173-165-36-107-Illinois.hfc.comcastbusiness.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	dwts (pid@gateway/shell/blinkenshell.org/x-sipcwiiqnzttjclt) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	zeltak (~zeltak@karif.server-speed.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	Fuco (dota.keys@unaffiliated/fuco) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	_guitarman_ (~guitarman@mail.wootangent.net) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	madnificent (~madnifice@static.146.73.9.176.clients.your-server.de) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	newcup (newcup@peruna.fi) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	jabot_ (1013@ente.hawo.stw.uni-erlangen.de) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	fdv (71725@rubin.ifi.uio.no) has quit (*.net *.split)
+2013-06-04 14:48:53	<--	xrq (~user@unaffiliated/xrq) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	demolithion (~nonehaxor@198.199.71.101) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	wilder (~quassel@kde/developer/wilder) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	wyan (~wyan@ec2-54-246-94-212.eu-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	ivan`` (~ivan@unaffiliated/ivan/x-000001) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	Boney (~paul@124-170-4-210.dyn.iinet.net.au) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	Seb (~Seb@untangle/dev/seb) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	Natch (~Natch@c-10cfe155.25-4-64736c10.cust.bredbandsbolaget.se) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	abend (~quassel@75-148-54-129-Oregon.hfc.comcastbusiness.net) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	yibe__ (~yibe@163.43.161.140) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	jashank (~jashank@unaffiliated/jashank) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	barika (tbalazs@cg.iit.bme.hu) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	mocker (~kes@mocker.org) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	snet (~notmarcht@stallman.cse.ohio-state.edu) has quit (*.net *.split)
+2013-06-04 14:48:54	<--	elarson (~elarson@ionrock.org) has quit (*.net *.split)
+2013-06-04 14:48:54	--	wyan_ is now known as wyan
+2013-06-04 14:48:59	--	jashank_ is now known as jashank
+2013-06-04 14:49:09	jlf	grealpath --version -> realpath (GNU coreutils) 8.19
+2013-06-04 14:49:14	-->	mag] (~kvirc@wsip-68-107-168-98.br.br.cox.net) has joined #emacs
+2013-06-04 14:49:23	<--	ivan\_ (~ivan@108-213-76-179.lightspeed.frokca.sbcglobal.net) has quit (Excess Flood)
+2013-06-04 14:49:23	jlindsay	Debian has a realpath package. On Redhat it would be in coreutils though.
+2013-06-04 14:49:28	-->	snet (~notmarcht@stallman.cse.ohio-state.edu) has joined #emacs
+2013-06-04 14:49:29	nicferrier	I don't have it
+2013-06-04 14:49:43	-->	ivan\ (~ivan@unaffiliated/ivan/x-000001) has joined #emacs
+2013-06-04 14:49:51	nicferrier	thanks jlindsay
+2013-06-04 14:49:54	jlf	debian took realpath out of coreutils?!
+2013-06-04 14:50:02	<--	mahmoudimus (~mahmoudim@199.241.202.99) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 14:50:07	nicferrier	probably not free enough for them
+2013-06-04 14:50:13	sawjig	jlf, then people have a CHOICE to customize their system :D
+2013-06-04 14:50:20	fledermaus	vivek@noise:~$ dpkg -S $(which readlink)
+2013-06-04 14:50:21	fledermaus	coreutils: /bin/readlink
+2013-06-04 14:50:23	<--	true_techie (~chatzilla@72.252.124.67) has quit (Ping timeout: 245 seconds)
+2013-06-04 14:50:25	<--	jrm (~jrm@freebsd/hacker/jrm) has quit (Read error: Connection reset by peer)
+2013-06-04 14:50:28	jlf	i don't even
+2013-06-04 14:50:35	-->	jrm (~jrm@Dynamic34-29.Dynamic.Dal.Ca) has joined #emacs
+2013-06-04 14:50:39	mag]	i don't odd
+2013-06-04 14:50:44	fledermaus	“Print value of a symbolic link or canonical file name”
+2013-06-04 14:50:55	-->	antoineB (~antoine@210.229.13.109.rev.sfr.net) has joined #emacs
+2013-06-04 14:51:00	-->	microcode (~microcode@bas1-toronto04-1242322006.dsl.bell.ca) has joined #emacs
+2013-06-04 14:51:00	nicferrier	it's probabkly because it's "grealpath" - having a g makes it non-free
+2013-06-04 14:51:07	--	abend_ is now known as abend
+2013-06-04 14:51:20	 *	fledermaus taps the microphone 
+2013-06-04 14:51:21	nicferrier	realpath here is a debian program.
+2013-06-04 14:51:32	nicferrier	fledermaus: coming through loud and clear
+2013-06-04 14:51:37	fledermaus	just checking.
+2013-06-04 14:51:42	<--	jrm (~jrm@Dynamic34-29.Dynamic.Dal.Ca) has quit (Changing host)
+2013-06-04 14:51:42	-->	jrm (~jrm@freebsd/hacker/jrm) has joined #emacs
+2013-06-04 14:51:43	nicferrier	well, there was a bit of echo. but that's the room I think.
+2013-06-04 14:51:47	--	jrm is now known as Guest71523
+2013-06-04 14:51:50	fledermaus	because readlink -f does what you want, I believe 
+2013-06-04 14:51:53	-->	elij (~elij@80.71.3.183) has joined #emacs
+2013-06-04 14:51:55	fledermaus	and is installed 
+2013-06-04 14:52:02	nicferrier	oh sorry. ic.
+2013-06-04 14:52:02	jlf	nicferrier: it's only grealpath on macports, which prepends the g to avoid name conflicts with the bsd variants
+2013-06-04 14:52:07	-->	Myk267 (~myk@unaffiliated/myk267) has joined #emacs
+2013-06-04 14:52:20	-->	nickdaly (~yaaic@66-87-114-109.pools.spcsdns.net) has joined #emacs
+2013-06-04 14:52:55	jlf	,room
+2013-06-04 14:52:56	fsbot	AOL has chatrooms, IRC has channels.
+2013-06-04 14:52:57	nicferrier	ok. so I can use either I guess.
+2013-06-04 14:52:59	nicferrier	thanks.
+2013-06-04 14:53:15	nicferrier	jlf: room was funnier.
+2013-06-04 14:53:23	mag]	what's the difference between a realpath and a gnupath
+2013-06-04 14:53:39	-->	bitonic (~user@2.121.145.83) has joined #emacs
+2013-06-04 14:53:53	-->	hyperair (~hyperair@ubuntu/member/hyperair) has joined #emacs
+2013-06-04 14:54:01	-->	reeses (~reeses@li225-59.members.linode.com) has joined #emacs
+2013-06-04 14:54:02	-->	dwts (pid@gateway/shell/blinkenshell.org/session) has joined #emacs
+2013-06-04 14:54:03	<--	dwts (pid@gateway/shell/blinkenshell.org/session) has quit (Changing host)
+2013-06-04 14:54:03	-->	dwts (pid@gateway/shell/blinkenshell.org/x-ludwixvcnkncgvjc) has joined #emacs
+2013-06-04 14:54:15	<--	reeses (~reeses@li225-59.members.linode.com) has quit (Changing host)
+2013-06-04 14:54:15	-->	reeses (~reeses@unaffiliated/reeses) has joined #emacs
+2013-06-04 14:54:57	fledermaus	also freenode is experiencing netsplatter 
+2013-06-04 14:55:05	-->	Sixmsj (~Sixmsj@134.154.162.233) has joined #emacs
+2013-06-04 14:55:05	fledermaus	so I wasn't sure if you _could_ hear me.
+2013-06-04 14:55:31	nicferrier	fledermaus: sorry, I thought you were talking to someone else.
+2013-06-04 14:55:45	--	Guest71523 is now known as jrm2
+2013-06-04 14:56:09	fledermaus	np.
+2013-06-04 14:56:23	--	jrm2 is now known as jrm
+2013-06-04 14:56:47	mag]	with this many splits, you'd think it was a karate competition
+2013-06-04 14:57:12	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #emacs
+2013-06-04 14:57:17	nicferrier	haven't noticed that it's worse than normal
+2013-06-04 14:57:31	nicferrier	it's fucking weird to ddos things like freenode. but I guess it's a sign of the times.
+2013-06-04 14:57:40	-->	nkhodyunya (~nikolayho@181.208.73.94.ip.orionnet.ru) has joined #emacs
+2013-06-04 14:57:41	chu	Yeah, lots of little idiots.
+2013-06-04 14:57:54	fledermaus	GIFT in action.
+2013-06-04 14:58:00	--	fredridv is now known as fdv
+2013-06-04 14:58:06	mag]	well ignorance has to be reconciled with experience for some
+2013-06-04 14:58:08	chu	,gift
+2013-06-04 14:58:08	fsbot	chu: I heard tgiftt is Thank God it's Friday the Thirteenth
+2013-06-04 14:58:12	mag]	how many people have rm -rf / before?
+2013-06-04 14:58:16	-->	pmade (~pmade@c-67-172-151-101.hsd1.co.comcast.net) has joined #emacs
+2013-06-04 14:58:20	chu	Never
+2013-06-04 14:58:38	mag]	aren't you curious? just a little
+2013-06-04 14:58:43	fledermaus	http://tvtropes.org/pmwiki/pmwiki.php/Main/GIFT
+2013-06-04 14:58:48	-->	digie1 (~digie@209.119.72.170) has joined #emacs
+2013-06-04 14:59:09	sawjig	I thought you were talking about this https://en.wikipedia.org/wiki/GiFT
+2013-06-04 14:59:10	mag]	no time for tropes!
+2013-06-04 14:59:17	sawjig	and I was confused
+2013-06-04 14:59:20	fledermaus	mag: _ () { _ & _ & }; _ 
+2013-06-04 14:59:29	mag]	teh bombz?!
+2013-06-04 14:59:47	-->	juiko (~user@186.35.68.137) has joined #emacs
+2013-06-04 14:59:48	<--	linvald (~linvald@209.251.200.243) has left #emacs
+2013-06-04 15:00:01	-->	cityroasted_ (KGlZPjftHj@2600:3c02::f03c:91ff:fe70:6b33) has joined #emacs
+2013-06-04 15:00:05	<--	normanrichards (~normanric@rrcs-24-173-248-98.sw.biz.rr.com) has quit (Quit: normanrichards)
+2013-06-04 15:00:07	-->	ananthakumaran1 (~Adium@117.202.26.82) has joined #emacs
+2013-06-04 15:00:12	-->	eldariof (~CLD@pppoe-203-29-dyn-sr.volgaline.ru) has joined #emacs
+2013-06-04 15:00:17	<--	juiko (~user@186.35.68.137) has left #emacs
+2013-06-04 15:00:36	<--	Myk267 (~myk@unaffiliated/myk267) has quit (Quit: Ack! Hans, run! It's the lhurgoyf!)
+2013-06-04 15:00:38	-->	h0bbit (~h0bbit@59.95.7.149) has joined #emacs
+2013-06-04 15:00:42	-->	mgile_ (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has joined #emacs
+2013-06-04 15:01:08	-->	heathjs (quassel@2600:3c02::f03c:91ff:feae:6e5b) has joined #emacs
+2013-06-04 15:01:10	<--	heathjs (quassel@2600:3c02::f03c:91ff:feae:6e5b) has quit (Changing host)
+2013-06-04 15:01:12	-->	heathjs (quassel@unaffiliated/ybit) has joined #emacs
+2013-06-04 15:01:13	-->	Boney (~paul@124-170-4-210.dyn.iinet.net.au) has joined #emacs
+2013-06-04 15:01:13	-->	crypto_ (~z0d@q.notresp.com) has joined #emacs
+2013-06-04 15:01:13	-->	krkini (kini@unaffiliated/kini) has joined #emacs
+2013-06-04 15:01:16	-->	yhvh_ (~yhvh@209.40.204.161) has joined #emacs
+2013-06-04 15:01:22	-->	ae_ (~ae@190.179.133.19) has joined #emacs
+2013-06-04 15:01:46	-->	ginkgo (~ginko@unaffiliated/ginkgo) has joined #emacs
+2013-06-04 15:02:01	chu	mag]: Not particularly, but (at least compared to in here) I'm not really a programmer, or computer literate, so I don't really see the need.
+2013-06-04 15:02:03	-->	CampinSa` (~user@24-176-103-21.dhcp.jcsn.tn.charter.com) has joined #emacs
+2013-06-04 15:02:06	<--	harovali (~harovali@r186-53-198-40.dialup.adsl.anteldata.net.uy) has quit (Read error: Connection timed out)
+2013-06-04 15:02:17	paroneayea	hm
+2013-06-04 15:02:27	mag]	you mean you've never deltree C:/ /y 'd before?!
+2013-06-04 15:02:30	paroneayea	I really wish there was a magit-annex extension.
+2013-06-04 15:02:39	paroneayea	I guess I could write it, maybe.
+2013-06-04 15:02:42	mag]	im jp
+2013-06-04 15:02:44	-->	cbmuser_ (~glaubitz@squeeze64.physik.fu-berlin.de) has joined #emacs
+2013-06-04 15:02:50	<--	rogerzhou (~rogerzhou@128.224.252.2) has quit (Read error: Operation timed out)
+2013-06-04 15:03:03	sawjig	mag], lol hahaha lol you're bustin' my guts over here.
+2013-06-04 15:03:07	nicferrier	re gift and ddos I suppose access to the resources to ddos is just more widespread now.
+2013-06-04 15:03:12	-->	hvr_ (~hvr@h081217016230.dyn.cm.kabsi.at) has joined #emacs
+2013-06-04 15:03:17	-->	hgb (~hgb@cm-84.215.13.213.getinternet.no) has joined #emacs
+2013-06-04 15:03:20	-->	ahungry_ (~null@99-40-10-216.lightspeed.livnmi.sbcglobal.net) has joined #emacs
+2013-06-04 15:03:28	sawjig	you can pay for a ddos with paypay
+2013-06-04 15:03:33	-->	agumonke1 (~agu@52.158.70.86.rev.sfr.net) has joined #emacs
+2013-06-04 15:03:36	-->	nano-_ (nano@217.73.97.14) has joined #emacs
+2013-06-04 15:03:37	-->	Fuco (dota.keys@server.dasnet.cz) has joined #emacs
+2013-06-04 15:03:37	<--	Fuco (dota.keys@server.dasnet.cz) has quit (Changing host)
+2013-06-04 15:03:37	-->	Fuco (dota.keys@unaffiliated/fuco) has joined #emacs
+2013-06-04 15:03:37	-->	yang_ (yang@irs.si) has joined #emacs
+2013-06-04 15:03:37	-->	zen-ferdy (~ferdy@151.74.94.121) has joined #emacs
+2013-06-04 15:03:37	<--	zen-ferdy (~ferdy@151.74.94.121) has quit (Changing host)
+2013-06-04 15:03:37	-->	zen-ferdy (~ferdy@funtoo/contrib/ferdy-) has joined #emacs
+2013-06-04 15:03:46	sawjig	which as far as I know is what the kiddies do.
+2013-06-04 15:03:55	-->	ingenious (~nortimer@2001:7c0:409:8001::32:115) has joined #emacs
+2013-06-04 15:03:56	<--	ingenious (~nortimer@2001:7c0:409:8001::32:115) has quit (Changing host)
+2013-06-04 15:03:56	-->	ingenious (~nortimer@unaffiliated/ingenious) has joined #emacs
+2013-06-04 15:03:57	nicferrier	yeah
+2013-06-04 15:03:57	-->	solarus_ (~solarus@tunna.org) has joined #emacs
+2013-06-04 15:04:04	-->	ok2` (~user@2a01:4f8:130:4ff8::2) has joined #emacs
+2013-06-04 15:04:08	-->	ruediger_ (~quassel@ptmx.org) has joined #emacs
+2013-06-04 15:04:11	-->	harovali (~harovali@r186-53-198-40.dialup.adsl.anteldata.net.uy) has joined #emacs
+2013-06-04 15:04:13	sawjig	I don't think they really use LOIC anymore.
+2013-06-04 15:04:26	-->	CosmicRa` (~jgoerzen@glockenspiel.complete.org) has joined #emacs
+2013-06-04 15:04:27	-->	rah_ (rah@verain.settrans.net) has joined #emacs
+2013-06-04 15:04:45	<--	ginkgo_ (~ginko@unaffiliated/ginkgo) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:04:51	-->	jehan (~jehan@kiel4-dmz.gis.de) has joined #emacs
+2013-06-04 15:04:57	-->	Slowpoke_Man (chris@pdpc/supporter/active/blasthardcheese) has joined #emacs
+2013-06-04 15:05:03	-->	expez- (~expez@expez.com) has joined #emacs
+2013-06-04 15:05:04	-->	dardevelin_ (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has joined #emacs
+2013-06-04 15:05:07	-->	superbil^^ (~superbil@114-34-221-169.HINET-IP.hinet.net) has joined #emacs
+2013-06-04 15:05:12	-->	bipt` (~bpt@cpe-071-070-253-241.nc.res.rr.com) has joined #emacs
+2013-06-04 15:05:24	-->	zeltak2 (~zeltak@karif.server-speed.net) has joined #emacs
+2013-06-04 15:05:24	-->	demolithion (~nonehaxor@198.199.71.101) has joined #emacs
+2013-06-04 15:05:37	nicferrier	LOIC?
+2013-06-04 15:05:38	<--	cityroasted (7v9QTNi7Oj@2600:3c02::f03c:91ff:fe70:6b33) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:38	<--	ananthakumaran (~Adium@117.202.26.82) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:38	<--	barik (~barik@short.csc.ncsu.edu) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:38	<--	Boney_ (~paul@124-170-4-210.dyn.iinet.net.au) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	cbmuser (~glaubitz@squeeze64.physik.fu-berlin.de) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	z0d (~z0d@unaffiliated/z0d) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	Guest66227 (~ae@190.179.133.19) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	ferdy (~ferdy@funtoo/contrib/ferdy-) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	BlastHardcheese (chris@pdpc/supporter/active/blasthardcheese) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	yhvh (~yhvh@209.40.204.161) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	dardevelin (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	mgile (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	zeltak1 (~zeltak@karif.server-speed.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	demolith1 (~nonehaxor@198.199.71.101) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	solarus (~solarus@tunna.org) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	caveat- (hoax@shell.bshellz.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	noptys (~noptys@and.noemailaddress.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	hgb_ (~hgb@cm-84.215.13.213.getinternet.no) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	CosmicRay (~jgoerzen@glockenspiel.complete.org) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	deSilva^^ (deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	ingeniou1 (~nortimer@2001:7c0:409:8001::32:115) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	cmatei (~cmatei@95.76.25.200) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	netmod_ (~unknown@athedsl-96910.home.otenet.gr) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	jeffisabelle (~jeffisabe@88.227.243.49) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	digie (~digie@209.119.72.170) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	bipt (~bpt@cpe-071-070-253-241.nc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	agumonkey (~agu@52.158.70.86.rev.sfr.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	CampinSam (~user@24-176-103-21.dhcp.jcsn.tn.charter.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	ahungry (~null@99-40-10-216.lightspeed.livnmi.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	tg (~x@unaffiliated/tg) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	Monolith| (~monolith@c-354fe655.022-6-73746f21.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	expez (~expez@expez.com) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	murr4y (murray@kvikshaug.no) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	tokuhirom_ (~tokuhirom@www4071uf.sakura.ne.jp) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	kini (kini@unaffiliated/kini) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	superbil (~superbil@114-34-221-169.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	Fuco_ (dota.keys@server.dasnet.cz) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	Han (~han@unaffiliated/han) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	yang (yang@irs.si) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:39	<--	heath (quassel@unaffiliated/ybit) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	nano- (nano@217.73.97.14) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	leth (~user@fsf/member/leth) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	ruediger (~quassel@ptmx.org) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	Amadiro (jonathri@dalvik.ping.uio.no) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	sword (~sword@c-24-21-33-225.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	rah (rah@verain.settrans.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	<--	jdhore (~jdhore@gentoo/developer/jdhore) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:05:40	-->	leth (~user@h166n12-sde-d2.ias.bredband.telia.com) has joined #emacs
+2013-06-04 15:05:40	-->	deSilva (~deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 15:05:41	-->	Amadiro (jonathri@dalvik.ping.uio.no) has joined #emacs
+2013-06-04 15:05:41	--	cityroasted_ is now known as cityroasted
+2013-06-04 15:05:42	-->	barik_freenode (~barik@lug.ncsu.edu) has joined #emacs
+2013-06-04 15:05:55	<--	leth (~user@h166n12-sde-d2.ias.bredband.telia.com) has quit (Changing host)
+2013-06-04 15:05:55	-->	leth (~user@fsf/member/leth) has joined #emacs
+2013-06-04 15:05:59	-->	netmod (~unknown@unaffiliated/netmod) has joined #emacs
+2013-06-04 15:06:00	sawjig	Low Orbit Ion Cannon
+2013-06-04 15:06:03	<--	ok2 (~user@2a01:4f8:130:4ff8::2) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:06:09	--	jayne_ is now known as jayne
+2013-06-04 15:06:10	--	heathjs is now known as heath
+2013-06-04 15:06:17	hypnocat	this reminds me of the good old days of irc
+2013-06-04 15:06:21	sawjig	https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon
+2013-06-04 15:06:25	hypnocat	of channel takeovers and pings of death
+2013-06-04 15:06:29	-->	cmatei (~cmatei@95.76.25.200) has joined #emacs
+2013-06-04 15:06:31	-->	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has joined #emacs
+2013-06-04 15:06:33	--	expez- is now known as expez
+2013-06-04 15:06:37	-->	jdhore (~jdhore@gentoo/developer/jdhore) has joined #emacs
+2013-06-04 15:06:45	--	Slowpoke_Man is now known as BlastHardcheese
+2013-06-04 15:06:46	-->	jeffisabelle (~jeffisabe@88.227.243.49) has joined #emacs
+2013-06-04 15:08:33	-->	noptys (~noptys@and.noemailaddress.com) has joined #emacs
+2013-06-04 15:08:50	-->	caveat- (hoax@shell.bshellz.net) has joined #emacs
+2013-06-04 15:09:00	-->	Houl (~Parmi@unaffiliated/houl) has joined #emacs
+2013-06-04 15:09:19	-->	Monolith| (~monolith@c-354fe655.022-6-73746f21.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 15:09:34	--	solarus_ is now known as solarus
+2013-06-04 15:09:38	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Ping timeout: 244 seconds)
+2013-06-04 15:09:53	-->	Han (~han@unaffiliated/han) has joined #emacs
+2013-06-04 15:10:02	<--	dark_element (~textual@123.201.34.29) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 15:10:03	taylanub	nping > LOIC
+2013-06-04 15:10:15	-->	cads (~m@adsl-108-128-96-246.asm.bellsouth.net) has joined #emacs
+2013-06-04 15:10:18	<--	ntus1017 (~ntus1017@123.21.117.64) has quit (Ping timeout: 264 seconds)
+2013-06-04 15:10:36	<--	mjc` (~user@frost.sekurity.org) has quit (Read error: Connection reset by peer)
+2013-06-04 15:10:36	<--	segv- (~mb@95-91-241-60-dynip.superkabel.de) has quit (Ping timeout: 245 seconds)
+2013-06-04 15:10:37	mag]	Low Orbit Ion Cannon?
+2013-06-04 15:10:47	-->	tokuhirom (~tokuhirom@www4071uf.sakura.ne.jp) has joined #emacs
+2013-06-04 15:10:50	-->	mjc`` (~user@frost.sekurity.org) has joined #emacs
+2013-06-04 15:10:50	<--	ustunozgur (~ustunozgu@78.162.233.23) has quit (Remote host closed the connection)
+2013-06-04 15:10:55	<--	lusory (~lusory@42.60.25.228) has quit (Ping timeout: 271 seconds)
+2013-06-04 15:10:57	<--	broquaint (~dbrook@static.94.217.47.78.clients.your-server.de) has quit (Ping timeout: 271 seconds)
+2013-06-04 15:10:57	<--	guitarman (~guitarman@mail.wootangent.net) has quit (Ping timeout: 271 seconds)
+2013-06-04 15:11:07	-->	guitarman (~guitarman@mail.wootangent.net) has joined #emacs
+2013-06-04 15:11:25	-->	tg (~x@unaffiliated/tg) has joined #emacs
+2013-06-04 15:11:37	<--	digie1 (~digie@209.119.72.170) has quit (Quit: Leaving.)
+2013-06-04 15:11:49	-->	ntus1017 (~ntus1017@123.21.117.64) has joined #emacs
+2013-06-04 15:11:50	sawjig	mag], all the skiddies: "Wouldn't it be funny to take X offline? put the addy on 4chan and lets start firing LOICs"
+2013-06-04 15:11:57	JordiGH	Let's adopt the open-source development model and therefore always produce software of better qualit.
+2013-06-04 15:12:19	bremner	no u
+2013-06-04 15:12:22	<--	taylanub (tub@p4FD924A7.dip0.t-ipconnect.de) has quit (Disconnected by services)
+2013-06-04 15:12:27	sawjig	Sorry JordiGH but I cannot do that. Open-source software is less secure. I heard from microsoft.
+2013-06-04 15:12:30	-->	taylanub (tub@p4FD91CF4.dip0.t-ipconnect.de) has joined #emacs
+2013-06-04 15:12:42	<--	dardevelin_ (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has quit (Quit: Leaving)
+2013-06-04 15:12:43	bremner	typical gullible canadian
+2013-06-04 15:12:56	<--	illovae (~illovae@rennes1.dunnewind.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:13:15	-->	dardevelin (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has joined #emacs
+2013-06-04 15:13:35	JordiGH	I'm gonna go cathedral on your bazaar, sawjig.
+2013-06-04 15:13:51	<--	chaptastic (~chap@66.194.102.6) has quit (Quit: chaptastic)
+2013-06-04 15:13:57	-->	liv1d (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 15:14:09	-->	snet_ (~notmarcht@stallman.cse.ohio-state.edu) has joined #emacs
+2013-06-04 15:14:15	-->	dark_element (~textual@123.201.34.29) has joined #emacs
+2013-06-04 15:14:15	-->	nano- (nano@217.73.97.14) has joined #emacs
+2013-06-04 15:14:18	sawjig	my bazaar is in the cathedral though.
+2013-06-04 15:14:29	-->	jeffrubi` (~jeffrubic@ec2-50-112-120-38.us-west-2.compute.amazonaws.com) has joined #emacs
+2013-06-04 15:14:38	JordiGH	Why aren't all of Emacs's bugs shallow?
+2013-06-04 15:14:42	<--	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	bipt` (~bpt@cpe-071-070-253-241.nc.res.rr.com) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	CosmicRa` (~jgoerzen@glockenspiel.complete.org) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	nano-_ (nano@217.73.97.14) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	hgb (~hgb@cm-84.215.13.213.getinternet.no) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	hvr_ (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	yhvh_ (~yhvh@209.40.204.161) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	pmade (~pmade@c-67-172-151-101.hsd1.co.comcast.net) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	elij (~elij@80.71.3.183) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	snet (~notmarcht@stallman.cse.ohio-state.edu) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	cross (cross@spitfire.i.gajendra.net) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	ChongLi (~chongli@24.212.141.111) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	clop (~jared@moat3.centtech.com) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	prebz (~prebz@tunna.org) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	jeffrubic (~jeffrubic@ec2-50-112-120-38.us-west-2.compute.amazonaws.com) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	16WAAB2DT (~arelius@b9p9.x.rootbsd.net) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	Batalyx (~ji@halava.cc.jyu.fi) has quit (*.net *.split)
+2013-06-04 15:14:42	<--	mfisher (mfisher@cpe-74-74-150-229.rochester.res.rr.com) has quit (*.net *.split)
+2013-06-04 15:14:45	-->	ChongLi_ (~chongli@24.212.141.111) has joined #emacs
+2013-06-04 15:15:21	mag]	it's like... do you use product XYZ? do you ever read the TOS? do you use OSS? do you ever read the source?
+2013-06-04 15:15:47	mag]	aint nobody got time for that
+2013-06-04 15:16:05	JordiGH	Open source means you scratch your own itch.
+2013-06-04 15:16:06	anxt	i am having beans and rice JordiGH 
+2013-06-04 15:16:08	anxt	with rooser brand mystery mean
+2013-06-04 15:16:22	anxt	its shockingly good
+2013-06-04 15:16:23	--	ChongLi_ is now known as ChongLi
+2013-06-04 15:16:31	JordiGH	anxt: Oh, hey, you finally took down the FreeBSD vm, eh?
+2013-06-04 15:16:33	JordiGH	I wanted to ask you.
+2013-06-04 15:16:42	anxt	JordiGH: not deliberately
+2013-06-04 15:16:46	-->	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has joined #emacs
+2013-06-04 15:16:46	JordiGH	anxt: What happened?
+2013-06-04 15:16:54	-->	amoe_ (~amoe@host-92-19-31-127.as13285.net) has joined #emacs
+2013-06-04 15:16:57	anxt	JordiGH: dunno, i wasn't monitoring it anymore.
+2013-06-04 15:16:59	JordiGH	can haz back plz?
+2013-06-04 15:17:05	-->	CosmicRay (~jgoerzen@glockenspiel.complete.org) has joined #emacs
+2013-06-04 15:17:07	JordiGH	have moniez
+2013-06-04 15:17:07	JordiGH	will pay
+2013-06-04 15:17:11	anxt	perhaps, let me see if it is powered
+2013-06-04 15:17:11	-->	elij (~elij@80.71.3.183) has joined #emacs
+2013-06-04 15:17:13	-->	hgb (~hgb@cm-84.215.13.213.getinternet.no) has joined #emacs
+2013-06-04 15:17:17	anxt	no money i don't want it
+2013-06-04 15:17:23	-->	lusory (~lusory@42.60.25.228) has joined #emacs
+2013-06-04 15:17:23	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #emacs
+2013-06-04 15:17:25	<--	mgile_ (~mgile@74-92-220-177-Colorado.hfc.comcastbusiness.net) has quit (Quit: Parting is such sweet sorrow...)
+2013-06-04 15:17:33	-->	yhvh (~yhvh@209.40.204.161) has joined #emacs
+2013-06-04 15:17:39	JordiGH	Open source means money is only for dirty  M$ users.
+2013-06-04 15:17:42	-->	fuleo2 (~fuleo@165.21.240.246) has joined #emacs
+2013-06-04 15:17:50	--	krkini is now known as kini
+2013-06-04 15:18:23	<--	jehan (~jehan@kiel4-dmz.gis.de) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:18:25	<--	brainproxy (~brainprox@pdpc/supporter/gold/brainproxy) has quit (Ping timeout: 246 seconds)
+2013-06-04 15:18:32	<--	reeses (~reeses@unaffiliated/reeses) has quit (Ping timeout: 248 seconds)
+2013-06-04 15:18:33	<--	dwts (pid@gateway/shell/blinkenshell.org/x-ludwixvcnkncgvjc) has quit (Ping timeout: 248 seconds)
+2013-06-04 15:18:33	-->	reeses (~reeses@li225-59.members.linode.com) has joined #emacs
+2013-06-04 15:18:33	<--	reeses (~reeses@li225-59.members.linode.com) has quit (*.net *.split)
+2013-06-04 15:18:53	-->	illovae (~illovae@rennes1.dunnewind.net) has joined #emacs
+2013-06-04 15:18:59	-->	mahmoudimus (~mahmoudim@199.241.202.99) has joined #emacs
+2013-06-04 15:19:06	bremner	c'mon, any serious troll knows "open sores" to go with M$
+2013-06-04 15:19:06	<--	fuleo (~fuleo@165.21.240.246) has quit (Ping timeout: 246 seconds)
+2013-06-04 15:19:06	<--	mw (~mw@opensuse/member/maw) has quit (Ping timeout: 246 seconds)
+2013-06-04 15:19:06	<--	banjiewen (banjiewen@gateway/shell/cloudant/x-gsbbwjvbdkswbbew) has quit (Ping timeout: 246 seconds)
+2013-06-04 15:19:37	mag]	but how many people still develop for activex?! :<
+2013-06-04 15:19:50	-->	Batalyx (~ji@halava.cc.jyu.fi) has joined #emacs
+2013-06-04 15:19:53	<--	amoe (~amoe@host-92-26-174-192.as13285.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:20:02	-->	prebz (~prebz@tunna.org) has joined #emacs
+2013-06-04 15:20:22	-->	brainproxy (~brainprox@pdpc/supporter/gold/brainproxy) has joined #emacs
+2013-06-04 15:20:36	-->	rogerzhou (~rogerzhou@128.224.252.2) has joined #emacs
+2013-06-04 15:20:53	JordiGH	anxt: Well, I don't want to be a complete squatter.
+2013-06-04 15:20:54	-->	banjiewen (banjiewen@gateway/shell/cloudant/x-vczawscbpjerwwfq) has joined #emacs
+2013-06-04 15:21:09	-->	bipt` (~bpt@cpe-071-070-253-241.nc.res.rr.com) has joined #emacs
+2013-06-04 15:21:13	-->	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has joined #emacs
+2013-06-04 15:21:24	-->	clop (~jared@moat3.centtech.com) has joined #emacs
+2013-06-04 15:21:25	-->	broquaint (~dbrook@static.94.217.47.78.clients.your-server.de) has joined #emacs
+2013-06-04 15:22:02	--	jannie_ is now known as jannie
+2013-06-04 15:22:24	-->	cross (cross@spitfire.i.gajendra.net) has joined #emacs
+2013-06-04 15:23:03	-->	jmnoz (~jmn@unaffiliated/setre) has joined #emacs
+2013-06-04 15:23:24	-->	kplaurit` (~user@ip68-227-84-104.sb.sd.cox.net) has joined #emacs
+2013-06-04 15:24:03	-->	dwts (pid@gateway/shell/blinkenshell.org/session) has joined #emacs
+2013-06-04 15:24:06	-->	reeses (~reeses@li225-59.members.linode.com) has joined #emacs
+2013-06-04 15:24:06	<--	dwts (pid@gateway/shell/blinkenshell.org/session) has quit (Changing host)
+2013-06-04 15:24:06	-->	dwts (pid@gateway/shell/blinkenshell.org/x-rqjwrxwudhxydspj) has joined #emacs
+2013-06-04 15:24:14	<--	reeses (~reeses@li225-59.members.linode.com) has quit (Changing host)
+2013-06-04 15:24:14	-->	reeses (~reeses@unaffiliated/reeses) has joined #emacs
+2013-06-04 15:24:29	<--	venkatesh (~user@175.100.155.119) has quit (Ping timeout: 252 seconds)
+2013-06-04 15:24:34	-->	Quadrescence (~quad@unaffiliated/quadrescence) has joined #emacs
+2013-06-04 15:24:45	<--	c0rn (~c0rn@64.125.69.200) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 15:24:59	jlf	anyone know of a utility that will recurse a directory tree and convert duplicate files to hard links?
+2013-06-04 15:25:04	-->	Seagull (~user@82-71-4-25.dsl.in-addr.zen.co.uk) has joined #emacs
+2013-06-04 15:25:22	-->	arelius (~arelius@b9p9.x.rootbsd.net) has joined #emacs
+2013-06-04 15:25:23	-->	mfisher (mfisher@cpe-74-74-150-229.rochester.res.rr.com) has joined #emacs
+2013-06-04 15:25:23	-->	mw (~mw@li64-146.members.linode.com) has joined #emacs
+2013-06-04 15:25:31	bremner	there's a running joke about the number of such utilities in debian
+2013-06-04 15:25:34	shergill	how do people end up getting duplicate files
+2013-06-04 15:25:36	--	ruediger_ is now known as ruediger
+2013-06-04 15:25:41	<--	victor_lowther (~victorlow@143.166.116.80) has quit (Quit: Leaving IRC - dircproxy 1.2.0)
+2013-06-04 15:25:59	dash	shergill: copying, among other things.
+2013-06-04 15:26:00	bremner	jlf: fdupes is one
+2013-06-04 15:26:12	jlf	bremner: ty
+2013-06-04 15:26:18	hypnocat	looks like EasyDNS was dossed yesterday, and they say that "There was no identifiable target here on the system, rather, it appears as if our infrastructure was used in an attempt to DDoS somebody else, in other words, it was a DNS amplification attack."
+2013-06-04 15:26:35	hypnocat	http://blog.easydns.org/2013/06/04/post-mortem-of-the-june-3-4th-ddos/
+2013-06-04 15:26:37	-->	offby1 (~offby1@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 15:26:44	bremner	jlf: "hardlink" is another.
+2013-06-04 15:26:47	shergill	dash: so why not tackle the problem at the source?
+2013-06-04 15:26:51	-->	shriphani (~textual@c-67-165-107-75.hsd1.pa.comcast.net) has joined #emacs
+2013-06-04 15:27:15	-->	wgreenhouse (~user@76-204-122-235.lightspeed.wlfrct.sbcglobal.net) has joined #emacs
+2013-06-04 15:27:16	<--	wgreenhouse (~user@76-204-122-235.lightspeed.wlfrct.sbcglobal.net) has quit (Changing host)
+2013-06-04 15:27:16	-->	wgreenhouse (~user@fsf/member/wgreenhouse) has joined #emacs
+2013-06-04 15:27:17	hypnocat	i wonder this attack on easydns is related to the attack on freenode (assuming today's netsplits are caused by an attack)
+2013-06-04 15:27:18	dash	shergill: this _is_ tackling the problem at the source
+2013-06-04 15:27:42	dash	shergill: unless you think we should abandon hierarchical filesystems and use content-addressable storage exclusively :)
+2013-06-04 15:27:43	anxt	jlf, like a poor mans deduper?
+2013-06-04 15:27:47	<--	offby1 (~offby1@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (Changing host)
+2013-06-04 15:27:48	-->	offby1 (~offby1@pdpc/supporter/monthlybyte/offby1) has joined #emacs
+2013-06-04 15:27:50	wgreenhouse	hypnocat: there was already a past attack on Freenode, so the assumption is non-paranoid
+2013-06-04 15:27:52	jlf	yup
+2013-06-04 15:27:58	-->	shahinism (~shahinism@unaffiliated/shahinism) has joined #emacs
+2013-06-04 15:28:01	<--	agumonke1 (~agu@52.158.70.86.rev.sfr.net) has quit (Ping timeout: 248 seconds)
+2013-06-04 15:28:06	--	rudybot__ is now known as rudybot
+2013-06-04 15:28:16	-->	sdemarre (~serge@109.134.163.182) has joined #emacs
+2013-06-04 15:28:32	shergill	dash: no i meant use symlinks/hardlinks when you're copying. that would be tackling the problem at the source
+2013-06-04 15:28:35	<--	edgimar (~bip@209.140.208.8) has left #emacs ("Ex-Chat")
+2013-06-04 15:28:42	shergill	the problem occurs when you copy. so don't
+2013-06-04 15:28:55	-->	segv- (~mb@95-91-241-60-dynip.superkabel.de) has joined #emacs
+2013-06-04 15:28:55	shergill	instead of finding 'duplicates'
+2013-06-04 15:29:10	hypnocat	wgreenhouse: yeah, there have been attacks on pretty much all the major irc networks.. so the current netsplits being the result of an attack is quite in the realm of possibility
+2013-06-04 15:29:15	bremner	jlf: rdfind is yet another.
+2013-06-04 15:29:20	-->	chaptastic (~chap@66.194.102.6) has joined #emacs
+2013-06-04 15:29:31	dash	shergill: you have to know it's a dupe first :)
+2013-06-04 15:29:32	-->	jgama (~jgama@2607:fad8:4:6:64ac:6430:8495:7a91) has joined #emacs
+2013-06-04 15:29:43	jlf	bremner: i am starting to see the humor of that running joke :)
+2013-06-04 15:29:44	wgreenhouse	hypnocat: what I don't get is why.  Attacking a volunteer network like this one strikes me as morally equivalent to burning down a community center
+2013-06-04 15:30:26	bremner	ooh, good idea!
+2013-06-04 15:30:28	hypnocat	jlf: i don't know of a utility that will create hardlinks for you, but you might find these duplicate-finding utils useful:  http://duff.sourceforge.net/ and http://netdial.caribe.net/~adrian2/fdupes.html
+2013-06-04 15:30:31	--	Guest88237 is now known as xristos`
+2013-06-04 15:30:38	JordiGH	Y'know what, it just occurred to me that LYAHFGG never says what the comment character is.
+2013-06-04 15:30:39	--	xristos` is now known as xristos
+2013-06-04 15:30:55	shergill	dash: no you don't, you only do if you're fixing things retroactively. given the number of such tools available makes me wonder if it's a common problem people encounter, and if so why does it continue to persist
+2013-06-04 15:30:58	bremner	real Haskellers don't use comments
+2013-06-04 15:31:02	-->	alakran (~alakra@72.1.92.57) has joined #emacs
+2013-06-04 15:31:10	dash	shergill: links don't span filesystems or hosts
+2013-06-04 15:31:15	hypnocat	wgreenhouse: i've heard speculation that attacks like these are used as practice for attacking more lucrative targets
+2013-06-04 15:31:16	bremner	everything should be a pointless operated definition using only punctuation
+2013-06-04 15:31:16	dash	shergill: copies often do :)
+2013-06-04 15:31:18	jlf	lolnads
+2013-06-04 15:31:26	-->	ustunozgur (~ustunozgu@78.162.233.23) has joined #emacs
+2013-06-04 15:31:41	shergill	oic
+2013-06-04 15:31:52	<--	ananthakumaran1 (~Adium@117.202.26.82) has quit (Quit: Leaving.)
+2013-06-04 15:31:53	shergill	so you want a copy mechanism which persists link structure
+2013-06-04 15:31:56	-->	CatMtKing (~CatMtKing@108-224-122-111.lightspeed.irvnca.sbcglobal.net) has joined #emacs
+2013-06-04 15:32:06	shergill	i'm sure that's already solved
+2013-06-04 15:32:07	-->	juiko (~user@186.35.68.137) has joined #emacs
+2013-06-04 15:32:10	bremner	hypnocat: btw, fdupes does the linking.
+2013-06-04 15:32:21	<--	alakra (~alakra@72.1.92.57) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:32:27	hypnocat	bremner: good to know.. thanks
+2013-06-04 15:33:00	jagaj	what's a reasonable way to setup auto pairing of braces/parens in cc-mode?
+2013-06-04 15:33:04	<--	UrsoBranco (~leslie@187.117.93.51) has quit (Read error: Connection reset by peer)
+2013-06-04 15:33:11	JordiGH	paredit?
+2013-06-04 15:33:12	jlf	shergill: they come from poor filesystem hygiene, e.g. saving copies of the pictures somewhere "just to be safe", expanding a tar file to get some file you know is in there when it's already elsewhere on the disk, etc.
+2013-06-04 15:33:12	fsbot	I heard paredit is Riastradh's Emacs minor mode for editing balanced parens: #paredit, <http://mumble.net/~campbell/emacs/> <http://emacswiki.org/emacs/ParEdit> <http://emacsrocks.com/e14.html>, see also <smartparens>
+2013-06-04 15:33:33	wgreenhouse	hypnocat: I mean, Freenode is both a tactically worthless and surprisingly hardened target (it's all quite fault-tolerant and distributed, except for the node with the services bots)
+2013-06-04 15:33:46	hypnocat	wgreenhouse: i've heard speculation that attacks like these are used as practice for attacking more lucrative targets
+2013-06-04 15:33:52	jagaj	JordiGH: paredit works ok for C/c++ stuff ok you think?
+2013-06-04 15:34:08	JordiGH	jagaj: No clue, just a WAG.
+2013-06-04 15:34:13	<--	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:34:24	<--	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has quit (Ping timeout: 260 seconds)
+2013-06-04 15:34:30	wgreenhouse	hypnocat: Maybe some $government has heard that dissidents are talking in this thing called "IRC" and doesn't really know that this isn't one of "those" IRCs
+2013-06-04 15:34:36	jlf	what i'd really like is for one of these dedupers to output a shell script containing what it thinks should be done, so i can audit it before deciding to pull the trigger
+2013-06-04 15:35:00	jlf	wgreenhouse: insurgent rallying centers???
+2013-06-04 15:35:01	fsbot	Cannot predict now
+2013-06-04 15:35:05	--	ryanc` is now known as ryanc
+2013-06-04 15:35:10	wgreenhouse	,jlf++
+2013-06-04 15:35:11	fsbot	Noted, wgreenhouse.  One rms-point for jlf!
+2013-06-04 15:35:14	<--	ryanc (~ryanc@208.85.208.53) has quit (Changing host)
+2013-06-04 15:35:14	-->	ryanc (~ryanc@unaffiliated/ryanc) has joined #emacs
+2013-06-04 15:35:15	hypnocat	bremner: the fdupes command on my system does not do any linking
+2013-06-04 15:35:22	shergill	i guess i have good filesystem hygiene
+2013-06-04 15:35:44	<--	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 256 seconds)
+2013-06-04 15:35:45	bremner	hypnocat: oh, I misread the man page
+2013-06-04 15:36:40	<--	chaptastic (~chap@66.194.102.6) has quit (Quit: chaptastic)
+2013-06-04 15:37:16	<--	kini (kini@unaffiliated/kini) has left #emacs ("bye")
+2013-06-04 15:37:18	-->	murr4y (murray@kvikshaug.no) has joined #emacs
+2013-06-04 15:37:27	JordiGH	I've got source code from some asshole who believes that we should never insert newlines in our source code to break up long lines, but should instead configure our editors to do intelligent line wrapping.
+2013-06-04 15:37:35	JordiGH	So... what are my options for Emacs?
+2013-06-04 15:37:36	anxt	JordiGH: the machine is bootstrapped, i am not sure if everything is 100% it had a power outage and needed fsck -y
+2013-06-04 15:37:53	bremner	JordiGH: use an emacs MUA to tell this person to get their shit together
+2013-06-04 15:38:11	jmnoz	visual-line-mode isn't very intelligent :(
+2013-06-04 15:38:21	JordiGH	For example, he'll write paragraphs and paragraphs of comments, but it will all be one line and the comment character only appears once.
+2013-06-04 15:38:41	-->	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has joined #emacs
+2013-06-04 15:38:53	wgreenhouse	JordiGH: M-q on such a comment will usually both fill it and correctly append the comment character
+2013-06-04 15:39:07	jmnoz	that will alter the file though
+2013-06-04 15:39:18	JordiGH	wgreenhouse: So I should keep my own branch where I fix this dude's arrogant formatting?
+2013-06-04 15:39:19	wgreenhouse	indeed it will.
+2013-06-04 15:39:23	bremner	you really want to alter the author.
+2013-06-04 15:39:50	wgreenhouse	JordiGH: I would keep your own branch where you quietly use some Emacs thing, or maybe better, a batch command line style-compliance thingy like `astyle'
+2013-06-04 15:39:55	JordiGH	He thinks that the text editor should know where to align too, when breaking up long lines.
+2013-06-04 15:40:09	wgreenhouse	JordiGH: are you getting commits from Xah Lee?
+2013-06-04 15:40:09	jmnoz	what text editor is that person using?
+2013-06-04 15:40:14	JordiGH	Kate, I think.
+2013-06-04 15:40:24	jlf	back out his commits and point him at your coding standards?
+2013-06-04 15:40:37	nunag	send him some one comment character, one word per line comments
+2013-06-04 15:40:42	JordiGH	jlf: It's his code, his coding standards.
+2013-06-04 15:40:43	hypnocat	at least he doesn't believe in putting a space between e a c h   l e t t e r
+2013-06-04 15:40:50	-->	aisbaa (~aisbaa@84.240.50.20) has joined #emacs
+2013-06-04 15:41:01	jlf	oh, tough luck then
+2013-06-04 15:41:20	jmnoz	JordiGH: so this person has produced something you actually want to use?
+2013-06-04 15:41:30	-->	jehan (~jehan@kiel4-dmz.gis.de) has joined #emacs
+2013-06-04 15:41:32	<--	ggole_ (~ggole@58-7-149-206.dyn.iinet.net.au) has quit
+2013-06-04 15:41:43	JordiGH	jmnoz: Yeah, a C++ irc bot.
+2013-06-04 15:41:52	jmnoz	...
+2013-06-04 15:41:52	jlf	what
+2013-06-04 15:42:08	jlf	,tell JordiGH about erbot
+2013-06-04 15:42:10	fsbot	JordiGH: hmm, erbot is [0] an ERC (i.e. Emacs) based IRC infobot <http://emacswiki.org/wiki/ErBot>, <http://sv.nongnu.org/projects/erbot>
+2013-06-04 15:42:10	fsbot	[1] Here I am, brain the size of a planet, and they use me to store trivia., ..[Type ,more]
+2013-06-04 15:42:15	 *	bremner considers author sanity a prerequisite for choosing software.
+2013-06-04 15:42:31	JordiGH	jmnoz: It's a bot that evaluates C++ and returns the results.
+2013-06-04 15:42:35	bremner	ok, emacs might be an exception.
+2013-06-04 15:42:38	sawjig	bremner, how do you measure sanity?
+2013-06-04 15:42:41	nunag	I worked with a guy who wrote C with no indentation - he said that's just what they did books because they got paid per line
+2013-06-04 15:43:00	bremner	sawjig: lack of obvious, easily avoidable bullshit.
+2013-06-04 15:43:11	sawjig	>.>
+2013-06-04 15:43:29	JordiGH	He also uses a special UTF-8 module in Haskell just to type  → instead of ->.
+2013-06-04 15:43:38	nunag	actually he did use indentation, utterly random
+2013-06-04 15:44:56	<--	offby1 (~offby1@pdpc/supporter/monthlybyte/offby1) has quit (Quit: back to ERC)
+2013-06-04 15:45:26	-->	offby1 (~user@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 15:46:05	<--	metasyntax (~tvenable@proxy5.med-web.com) has quit (Quit: Leaving)
+2013-06-04 15:46:19	sawjig	JordiGH, is that any different than the people that like lambda symbols?
+2013-06-04 15:46:20	sawjig	nunag, I'd say sanity detector on that guy wouldn't be making a whole lot of noise.
+2013-06-04 15:46:20	JordiGH	sawjig: I suppose not. I just found another UTF-8 character in his source, ∈
+2013-06-04 15:46:20	JordiGH	Amazingly, no lambdas yet.
+2013-06-04 15:46:24	<--	offby1 (~user@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (Changing host)
+2013-06-04 15:46:24	-->	offby1 (~user@pdpc/supporter/monthlybyte/offby1) has joined #emacs
+2013-06-04 15:46:33	<--	teiresias (~teiresias@archlinux/trusteduser/teiresias) has quit (Quit: leaving)
+2013-06-04 15:46:48	sawjig	JordiGH, wait, he's actually putting the symbols in?
+2013-06-04 15:46:52	sawjig	o.O
+2013-06-04 15:47:01	JordiGH	sawjig: Yeah.
+2013-06-04 15:48:08	<--	offby1 (~user@pdpc/supporter/monthlybyte/offby1) has quit (Client Quit)
+2013-06-04 15:48:37	JordiGH	I'm kinda thrilled that I can actually read real Haskell code now.
+2013-06-04 15:48:39	-->	offby1 (~user@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 15:48:53	<--	offby1 (~user@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (Changing host)
+2013-06-04 15:48:53	-->	offby1 (~user@pdpc/supporter/monthlybyte/offby1) has joined #emacs
+2013-06-04 15:49:01	JordiGH	The C++ parser in Haskell seems easy to read.
+2013-06-04 15:49:17	nunag	coding in UTF-8 is sheer evil
+2013-06-04 15:50:44	jlf	inb4 7 bits ought to &c.
+2013-06-04 15:51:15	<--	kplaurit` (~user@ip68-227-84-104.sb.sd.cox.net) has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-06-04 15:51:57	nunag	bring back le terreur for french pythonistas
+2013-06-04 15:52:32	bremner	7bits was good enough for Jésus?
+2013-06-04 15:52:52	--	zenwryly` is now known as zenwryly
+2013-06-04 15:53:04	<--	chu (~user@unaffiliated/chu) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-04 15:54:27	bionicspider	hi guys, I'll copy a bit of text with copy-to-register, and insert-register will work for a little while, but then I start getting "insert-for-yank: Wrong type argument: buffer-or-string-p, file-query" errors when I try to insert-register. Any ideas as to why?
+2013-06-04 15:55:46	cajetanus	bremner: I'm pretty sure Jesus uses unicode.
+2013-06-04 15:55:58	-->	L42y (uid10623@gateway/web/irccloud.com/x-ekijlfvhlqycexae) has joined #emacs
+2013-06-04 15:56:59	Fuco	I'm pretty sure Jesus is encoding agnostic
+2013-06-04 15:57:00	<--	deSilva (~deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has quit
+2013-06-04 15:57:30	cajetanus	Anyone here programmed in APL? That was a symbol nightmare. What a pain without a proper keyboard.
+2013-06-04 15:57:40	-->	seangrove (~user@208.80.69.42) has joined #emacs
+2013-06-04 15:57:49	Fuco	isn't there APL input method?
+2013-06-04 15:58:02	Fuco	anyway, J is where all the kool kids are these days
+2013-06-04 15:58:07	cajetanus	Fuco: yes, but it is almost like learning a new keyboard layout
+2013-06-04 15:58:11	-->	agumonkey (~agu@52.158.70.86.rev.sfr.net) has joined #emacs
+2013-06-04 15:58:24	<--	morphling (~stefan@gssn-4d0028ab.pool.mediaWays.net) has quit (Quit: Konversation terminated!)
+2013-06-04 15:58:28	bremner	J source code is the worst code currently shipping that I know of.
+2013-06-04 15:58:35	-->	UrsoBranco (~leslie@177.114.99.96) has joined #emacs
+2013-06-04 15:58:37	<--	shahinism (~shahinism@unaffiliated/shahinism) has quit (Remote host closed the connection)
+2013-06-04 15:58:43	bremner	and I include org-mode.
+2013-06-04 15:59:11	<--	antoineB (~antoine@210.229.13.109.rev.sfr.net) has quit (Quit: Lost terminal)
+2013-06-04 15:59:54	Fuco	the use of DEFINEs there is amazing
+2013-06-04 16:00:01	sawjig	bremner, how dar you defame org-mode
+2013-06-04 16:00:03	-->	digie (~digie@209.119.72.170) has joined #emacs
+2013-06-04 16:00:06	ruediger	cajetanus: well you only need few symbols to achieve a lot
+2013-06-04 16:00:18	-->	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has joined #emacs
+2013-06-04 16:00:24	Fuco	bremner: but then, the author of J is mad genius so what did you expect :P
+2013-06-04 16:00:25	hypnocat	org-mode is great... org-mode source code... not so great
+2013-06-04 16:00:34	cajetanus	ruediger: yes, for terseness APL is right up there, but you spend half an hour on one line of code.
+2013-06-04 16:00:49	<--	UrsoBranco (~leslie@177.114.99.96) has quit (Client Quit)
+2013-06-04 16:00:53	cajetanus	Fuco: does 'J' stand for "Jenius" ?
+2013-06-04 16:01:05	Fuco	probably
+2013-06-04 16:01:14	bremner	Jerk-who-hates-the-person-reading-his-code
+2013-06-04 16:01:33	cajetanus	I've never even seen J code.
+2013-06-04 16:01:39	 *	cajetanus checks wikipedia
+2013-06-04 16:01:40	<--	ustunozgur (~ustunozgu@78.162.233.23) has quit (Remote host closed the connection)
+2013-06-04 16:01:53	ruediger	http://tryapl.org/
+2013-06-04 16:02:29	-->	shahinism (~shahinism@unaffiliated/shahinism) has joined #emacs
+2013-06-04 16:02:37	jlf	hypnocat: if you go and read ido.el you'll be moved to write a paean to the org code's elegance
+2013-06-04 16:02:39	-->	jrx (~jradix@228.145.13.109.rev.sfr.net) has joined #emacs
+2013-06-04 16:02:43	cajetanus	ruediger: awesome, thanks. 
+2013-06-04 16:03:06	turbofail	oh man.  ido.el is some hairy shit
+2013-06-04 16:03:47	cajetanus	My favorite is the domino symbol. Used it for a lot of stuff when I was working at Brookhaven National Laboratory.
+2013-06-04 16:04:10	cajetanus	functions stuff that is
+2013-06-04 16:04:11	JordiGH	So this dude thinks that Kate is doing the right thing: http://jordi.platinum.linux.pl/piccies/Screenshot.png
+2013-06-04 16:04:18	JordiGH	Can we make Emacs DTRT?
+2013-06-04 16:04:32	<--	frobware (~frobware@linaro/frobware) has quit (Ping timeout: 256 seconds)
+2013-06-04 16:04:33	JordiGH	Look near the bottom.
+2013-06-04 16:04:45	-->	sohail (~sohail@unaffiliated/sohail) has joined #emacs
+2013-06-04 16:04:50	JordiGH	Line wrapping in Kate keeps alignment.
+2013-06-04 16:05:09	cajetanus	You call that the right thing? 
+2013-06-04 16:05:24	-->	victor_lowther (~victorlow@143.166.116.80) has joined #emacs
+2013-06-04 16:05:32	cajetanus	well it does make it more readable I suppose
+2013-06-04 16:05:54	-->	hectorh30 (~hectorh30@c-5c7571d5.017-108-6c756e10.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 16:06:50	turbofail	as far as i'm concerned, not doing line wrapping is the right thing
+2013-06-04 16:07:10	cajetanus	some J code makes perl look actually readable. Look at this: quicksort=: (($:@(<#[), (=#[), $:@(>#[)) ({~ ?@#)) ^: (1<#)
+2013-06-04 16:07:24	wgreenhouse	JordiGH: I hate to say it, but if something elispy exists for this case, Xah probably wrote something suitable
+2013-06-04 16:07:29	turbofail	i only turn line-wrapping on for very special circumstances
+2013-06-04 16:07:30	<--	rogerzhou (~rogerzhou@128.224.252.2) has quit (Ping timeout: 248 seconds)
+2013-06-04 16:07:44	<--	illovae (~illovae@rennes1.dunnewind.net) has quit (Ping timeout: 264 seconds)
+2013-06-04 16:07:45	jlf	cajetanus: that looks like cave paintings done with emoticons
+2013-06-04 16:07:50	wgreenhouse	JordiGH: he's a confirmed visual-lines advocate and a believer that the Emacs world is wrong about this, as well as being wrong about tabs
+2013-06-04 16:07:53	-->	doublep (~doublep@178.121.255.18) has joined #emacs
+2013-06-04 16:07:55	Fuco	that's just the same thing repeated twice called recursively
+2013-06-04 16:08:04	Fuco	I don't see the problem
+2013-06-04 16:08:14	JordiGH	wgreenhouse: But visual-lines doesn't break at word boundaries.
+2013-06-04 16:08:16	-->	c0rn (~c0rn@64.125.69.200) has joined #emacs
+2013-06-04 16:08:21	-->	deSilva (deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has joined #emacs
+2013-06-04 16:08:22	<--	leth (~user@fsf/member/leth) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:08:30	hypnocat	There are three things a man must do / before his life is done;
+2013-06-04 16:08:33	wgreenhouse	JordiGH: yes it does.  you're not currently using it
+2013-06-04 16:08:36	hypnocat	Write two lines in APL, / And make the buggers run.
+2013-06-04 16:08:37	jmnoz	there could be a few options added to visual-line-mode
+2013-06-04 16:08:42	cajetanus	And just to top it off, someone invented the "K" Language. I guess it is worse than J : http://en.wikipedia.org/wiki/K_(programming_language)
+2013-06-04 16:08:50	JordiGH	wgreenhouse: Oh, whaddya know, it does.
+2013-06-04 16:08:59	<--	caveat- (hoax@shell.bshellz.net) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:09:00	jmnoz	point to break at being the other one
+2013-06-04 16:09:01	wgreenhouse	at least not in that piccie
+2013-06-04 16:09:20	-->	cluck (~user@174.144.37.188.rev.vodafone.pt) has joined #emacs
+2013-06-04 16:09:22	-->	caveat- (hoax@shell.bshellz.net) has joined #emacs
+2013-06-04 16:09:23	<--	deSilva (deSilva@c-398ee555.04-73-6c6b7013.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:09:23	cajetanus	K is even evaluated from right to left. Look at this wonder: (!R)@&{&/x!/:2_!x}'!R
+2013-06-04 16:09:26	cluck	:)
+2013-06-04 16:09:37	wgreenhouse	JordiGH: it doesn't do language-specific indentation unless someone has hacked up `wrap-prefix' for you, though.
+2013-06-04 16:09:38	Fuco	well K is actually ugly
+2013-06-04 16:10:03	Fuco	cajetanus: J is also evaluated from right to left :O
+2013-06-04 16:10:04	dash	on the other hand there's http://k-framework.org/
+2013-06-04 16:10:10	JordiGH	wgreenhouse: It might make sense if wrap-prefix just added the same amount of whitespace as the line being broken up.
+2013-06-04 16:10:13	<--	jangle (~jimmy1984@dsl-162.7-238.gtb.net) has quit (Read error: Operation timed out)
+2013-06-04 16:10:15	jmnoz	but modifying visual-line-mode might involve changing the display code in c which is very complicated
+2013-06-04 16:10:19	jmnoz	or so I hear
+2013-06-04 16:10:26	JordiGH	I eat C code for breakfast.
+2013-06-04 16:10:32	jlf	eww
+2013-06-04 16:10:35	<--	reeses (~reeses@unaffiliated/reeses) has quit (Ping timeout: 248 seconds)
+2013-06-04 16:10:35	<--	dwts (pid@gateway/shell/blinkenshell.org/x-rqjwrxwudhxydspj) has quit (Ping timeout: 248 seconds)
+2013-06-04 16:10:57	jmnoz	I'm not saying that c is complicated, but the display code
+2013-06-04 16:10:59	jmnoz	ask tali713 
+2013-06-04 16:11:08	turbofail	i bet all those curly braces get stuck in your semicolon
+2013-06-04 16:11:24	turbofail	probably not that healthy
+2013-06-04 16:11:41	cajetanus	JordiGH: org-mode already does line wrapping like in the screenshot, at least in auto-fill-mode it does.
+2013-06-04 16:11:53	 *	jlf slaps turbofail upside the haid
+2013-06-04 16:12:00	JordiGH	cajetanus: Yeah, the fill functions all do it.
+2013-06-04 16:12:18	JordiGH	cajetanus: It's not an org-mode thing. But I think it's cute you think it's an org-mode thing. Are you primarily an org-mode user?
+2013-06-04 16:12:18	jmnoz	auto-fill-mode changes the file though does it not
+2013-06-04 16:12:27	wgreenhouse	yes
+2013-06-04 16:12:44	wgreenhouse	auto-fill is real newlines (which Xah thinks is evil)
+2013-06-04 16:12:45	cajetanus	yes, auto-fill-mode changes the file. 
+2013-06-04 16:12:57	-->	_subopt (~eh3@inet-hqmc05-o.oracle.com) has joined #emacs
+2013-06-04 16:13:13	bremner	in soviet russia, newlines think Xah is evil.
+2013-06-04 16:13:15	-->	illovae (~illovae@rennes1.dunnewind.net) has joined #emacs
+2013-06-04 16:13:18	-->	nymo (~user@67.137.177.90) has joined #emacs
+2013-06-04 16:13:22	-->	cthuluh_ (~jca@chomsky.autogeree.net) has joined #emacs
+2013-06-04 16:13:24	cajetanus	JordiGH: well, the discussion was more about how it could be done - it seems like it should be easily done if org-mode already does this.
+2013-06-04 16:13:32	nymo	groovy grails or clojure?
+2013-06-04 16:13:37	jmnoz	 
+2013-06-04 16:13:53	JordiGH	cajetanus: org-mode is irrelevant, fill-paragraph works in fundamental mode this way.
+2013-06-04 16:13:53	cajetanus	clojure ftw
+2013-06-04 16:14:15	wgreenhouse	cajetanus: auto-fill makes sense for natural language formats (even rather elaborate ones like org) and email messages.  it makes less sense for code.
+2013-06-04 16:14:24	<--	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has quit (Remote host closed the connection)
+2013-06-04 16:14:31	-->	jlindsay_ (~jlindsay@unaffiliated/jlindsay) has joined #emacs
+2013-06-04 16:14:35	-->	YoungFrog (~youngfrog@geodiff-mac3.ulb.ac.be) has joined #emacs
+2013-06-04 16:14:42	cajetanus	wgreenhouse: agreed. That is why I was asking if the example was really DTRT.
+2013-06-04 16:14:45	wgreenhouse	because usually you're supposed to be using newlines in a syntactically useful way in code.  Unless you're this guy.
+2013-06-04 16:14:46	sawjig	cajetanus, right choose the language with parens instead of brackets :D
+2013-06-04 16:14:46	<--	jlindsay (~jlindsay@unaffiliated/jlindsay) has quit (Disconnected by services)
+2013-06-04 16:14:51	--	jlindsay_ is now known as jlindsay
+2013-06-04 16:14:52	-->	dwts (pid@gateway/shell/blinkenshell.org/x-ytpovzpwlcoiywkw) has joined #emacs
+2013-06-04 16:15:06	cajetanus	sawjig: my parens will kick your brackets' ass any day.
+2013-06-04 16:15:09	wgreenhouse	JordiGH: does haskell mode have something like pp-indent-sexp?  Or even better, is there a native haskell stylizer?
+2013-06-04 16:15:16	-->	teiresias (~teiresias@archlinux/trusteduser/teiresias) has joined #emacs
+2013-06-04 16:15:24	<--	shahinism (~shahinism@unaffiliated/shahinism) has quit (Remote host closed the connection)
+2013-06-04 16:15:30	-->	reeses (~reeses@li225-59.members.linode.com) has joined #emacs
+2013-06-04 16:15:34	JordiGH	wgreenhouse: I don't think the language of choice matters.
+2013-06-04 16:15:47	cluck	jlf: (a bit late) you can probably manage with something like #!/usr/bin/env eshell  (where eshell is unsurprisingly a small script or alias for emacsclient -f eshell) though i have no idea why anyone would want to do that, if you're running emacs anyway you might as well just use proper elisp
+2013-06-04 16:15:58	<--	reeses (~reeses@li225-59.members.linode.com) has quit (Changing host)
+2013-06-04 16:15:58	-->	reeses (~reeses@unaffiliated/reeses) has joined #emacs
+2013-06-04 16:16:02	 *	yates , out of general malice, says "how 'bout a nice hot cup of SHUT THE HELL UP!?!?"
+2013-06-04 16:16:05	-->	linvald_ (~linvald@209.251.200.243) has joined #emacs
+2013-06-04 16:16:18	jmnoz	yet another case where dictatorship wins. (like "go fmt")
+2013-06-04 16:16:22	-->	stfacc_ (~stefano@4.21.90.92.rev.sfr.net) has joined #emacs
+2013-06-04 16:16:24	jlf	yates: no u
+2013-06-04 16:16:28	-->	doublep1 (~doublep@178.121.255.18) has joined #emacs
+2013-06-04 16:16:36	wgreenhouse	JordiGH: If so I'd just quietly run that locally while trying to stay in this loony's good graces.
+2013-06-04 16:16:39	yates	jlf: true dat
+2013-06-04 16:16:52	dash	jmnoz: yeah that is the only good thing about go afaict
+2013-06-04 16:16:54	-->	ktosiek_ (~ktosiek@46.22.173.54) has joined #emacs
+2013-06-04 16:16:57	dash	jmnoz: but yes everything should do that
+2013-06-04 16:17:08	-->	MicaiahC_ (~quassel@108-216-109-72.lightspeed.sndgca.sbcglobal.net) has joined #emacs
+2013-06-04 16:17:12	-->	wagle_ (~wagle@static-50-43-34-150.bvtn.or.frontiernet.net) has joined #emacs
+2013-06-04 16:17:13	<--	doublep1 (~doublep@178.121.255.18) has left #emacs
+2013-06-04 16:17:15	jlf	cluck: the idea is to package up scripts for automation, but as johnw pointed out i can just  #!/path/to/emacs --batch
+2013-06-04 16:17:35	-->	golodhrim (~user@funtoo/core/golodhrim) has joined #emacs
+2013-06-04 16:17:43	-->	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has joined #emacs
+2013-06-04 16:18:33	wgreenhouse	JordiGH: I think it matters w/r/t whether or not Emacs is the sensible place to fix this.  many languages/environments [pretend to] know best their own rules about line length and indentation
+2013-06-04 16:18:49	<--	agumonkey (~agu@52.158.70.86.rev.sfr.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	seangrove (~user@208.80.69.42) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	doublep (~doublep@178.121.255.18) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	Seagull (~user@82-71-4-25.dsl.in-addr.zen.co.uk) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	lusory (~lusory@42.60.25.228) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	ChongLi (~chongli@24.212.141.111) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	liv1d (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	tg (~x@unaffiliated/tg) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	expez (~expez@expez.com) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	rah_ (rah@verain.settrans.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	ok2` (~user@2a01:4f8:130:4ff8::2) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	ingenious (~nortimer@unaffiliated/ingenious) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	zen-ferdy (~ferdy@funtoo/contrib/ferdy-) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	Sixmsj (~Sixmsj@134.154.162.233) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	microcode (~microcode@bas1-toronto04-1242322006.dsl.bell.ca) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	peder (4822@rubin.ifi.uio.no) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	yibe___ (~yibe@163.43.161.140) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	subopt (~eh3@inet-hqmc05-o.oracle.com) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	Vivek_ (~vivek@96.126.115.102) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	ktosiek (~quassel@46.22.173.54) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	wagle (~wagle@static-50-43-34-150.bvtn.or.frontiernet.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	MicaiahC (~quassel@108-216-109-72.lightspeed.sndgca.sbcglobal.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	mickn (~mickn@unaffiliated/mickn) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	Ralt (Ralt@2a01:7e00::f03c:91ff:feae:6c69) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	eN_Joy (~zhou3594@jindan.chem.ou.edu) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	rudybot (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	przl (~przlrkt@p5B2987F7.dip0.t-ipconnect.de) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	xristos (x@ns3.suspicious.org) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	kenyon (kenyon@darwin.kenyonralph.com) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	bob2_ (rweir@2400:8900::f03c:91ff:fe70:d0e3) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	kplauritzen (~user@ip68-227-84-104.sb.sd.cox.net) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	rods (~rods@79.3.14.24) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	seneca (~seneca@2a01:4f8:d13:5588::2) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	cthuluh (~jca@91.216.110.36) has quit (*.net *.split)
+2013-06-04 16:18:49	<--	stfacc (~stefano@92.90.21.4) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	nu7hatch1 (~nu7hatch@r190-134-37-157.dialup.adsl.anteldata.net.uy) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	easye` (~user@213.33.70.157) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	sshirokov (sshirokov@2600:3c02::f03c:91ff:fe93:e02d) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	Joelbyte (~joelbyte@h-62-90.a163.priv.bahnhof.se) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	emilh (~emil@194-236-182-101.customer.telia.com) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	gazoombo (uid6629@gateway/web/irccloud.com/x-erqqcjktrzcdzycu) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	brjannc (brjannc@unaffiliated/brjannc) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	drewc_ (~drewc@drewc.org) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	cybrhuman (torjehoa@monty.pvv.ntnu.no) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	texel (texel@nat/google/x-pwxreasfooldrpdp) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	k0ral_ (~k0ral@82.228.255.43) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	Lenzoidd (lenzoid@85.214.148.138) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	kanru (~kanru@118-163-10-190.HINET-IP.hinet.net) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	wtatsuru (~tatsuru@www12135ue.sakura.ne.jp) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	birny (~Birny@static.88-198-10-235.clients.your-server.de) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	zendeavor (zendeavor@auriga.kiwilight.com) has quit (*.net *.split)
+2013-06-04 16:18:50	<--	_flow_ (flow@star.freakempire.de) has quit (*.net *.split)
+2013-06-04 16:18:56	jlf	JordiGH: is this describing what you're after? http://lists.gnu.org/archive/html/emacs-devel/2013-02/msg00711.html
+2013-06-04 16:18:57	-->	brjannc| (brjannc@unaffiliated/brjannc) has joined #emacs
+2013-06-04 16:19:07	--	cthuluh_ is now known as cthuluh
+2013-06-04 16:19:49	-->	haole (~Ivan@177.141.173.8) has joined #emacs
+2013-06-04 16:20:43	 *	jmnoz thought Emacs was the place to fix everything
+2013-06-04 16:20:43	jmnoz	i r disappoint
+2013-06-04 16:20:46	JordiGH	adaptive-wrap-prefix-mode, ehi?
+2013-06-04 16:20:47	JordiGH	eh?
+2013-06-04 16:21:12	ahungry_	what's the max safe cpu temp for a laptop to operate at?
+2013-06-04 16:21:14	cajetanus	JordiGH: wow
+2013-06-04 16:21:15	cluck	jlf: sorry if i'm not adding much to the conversation, i didn't follow the whole chat, that Q just jumped out as i was scrolling the buffer that had died and i decided it was worth pointing that out as i rejoined (damned isp keeps killing my encrypted sessions and dropping my uplink)
+2013-06-04 16:21:36	<--	ahungry_ (~null@99-40-10-216.lightspeed.livnmi.sbcglobal.net) has quit (Quit: leaving)
+2013-06-04 16:21:42	jlf	cluck: no worries, thanks for the suggestion
+2013-06-04 16:21:54	-->	ahungry (~null@99-40-10-216.lightspeed.livnmi.sbcglobal.net) has joined #emacs
+2013-06-04 16:22:07	ahungry	what's the max safe temp for a cpu to run at in a laptop?
+2013-06-04 16:22:12	cajetanus	adaptive-wrap is another proof that emacs will be sentient someday.
+2013-06-04 16:22:24	tali713	ahungry: lower than what it is rated for.
+2013-06-04 16:22:28	turbofail	3000°C
+2013-06-04 16:22:41	<--	ErhardtMundt (~quassel@host31-20-dynamic.251-95-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2013-06-04 16:22:42	jrx	ahungry_: it depends on the cpu, ... your laptop has builtin temp constants that make it shutting down immediatly
+2013-06-04 16:22:55	bremner	ahungry: safe for the CPU, or for your lap?
+2013-06-04 16:22:58	-->	ErhardtMundt (~quassel@host31-20-dynamic.251-95-r.retail.telecomitalia.it) has joined #emacs
+2013-06-04 16:22:59	ahungry	what about a ballpark (if anyone has one)?  Safe for the pcu
+2013-06-04 16:22:59	-->	jlf` (~user@pdpc/supporter/active/jlf) has joined #emacs
+2013-06-04 16:22:59	jrx	100°C
+2013-06-04 16:23:10	<--	jehan (~jehan@kiel4-dmz.gis.de) has quit (Ping timeout: 268 seconds)
+2013-06-04 16:23:14	ahungry	I have a panasonic toughbook and under heavy gpu load the cpu gets up to 85c
+2013-06-04 16:23:14	wgreenhouse	but I am ignorant of the situation in Haskell
+2013-06-04 16:23:15	wgreenhouse	for C, I'd definitely use astyle and just ignore the loony
+2013-06-04 16:23:16	-->	ivan-kanis (~user@lns-c10k-ft-02-t2-89-83-137-164.dsl.sta.abo.bbox.fr) has joined #emacs
+2013-06-04 16:23:17	 *	wgreenhouse guesses ahungry_ found out what the safe max cpu temp was for his laptop
+2013-06-04 16:23:23	tali713	ahungry if you can boil water on it, you are starting to get too hot.  probably.
+2013-06-04 16:23:26	wgreenhouse	ahungry: depends on the laptop.  values in /proc/acpi or /sys/somethingorother can tell you what the laptop manufacturer thinks the answer is
+2013-06-04 16:23:30	<--	fledermaus (~vivek@93.93.133.71) has quit (Ping timeout: 264 seconds)
+2013-06-04 16:23:36	ahungry	my desktop never pases 40c or so though
+2013-06-04 16:23:42	ahungry	but this uses a heatseak integrated with the case
+2013-06-04 16:23:48	ahungry	85 just seems hot (idle is around 52)
+2013-06-04 16:23:53	jlf	ahungry: most industrial-rated (as opposed to "commercial" or "milspec") components are tested to maximum case temperatures of 85°C .  idk if CPUs follow that convention though.
+2013-06-04 16:23:54	tali713	nah
+2013-06-04 16:24:04	tali713	85C is fine.
+2013-06-04 16:24:11	<--	haole (~Ivan@177.141.173.8) has quit (Ping timeout: 246 seconds)
+2013-06-04 16:24:12	bremner	case temp != core temp
+2013-06-04 16:24:17	technomancy	idling at 52 seems kinda nuts
+2013-06-04 16:24:22	bremner	case temp of 85C is hot.
+2013-06-04 16:24:22	-->	agumonkey (~agu@52.158.70.86.rev.sfr.net) has joined #emacs
+2013-06-04 16:24:25	jlf	ahungry: it matters a _lot_ where you measure the temperature
+2013-06-04 16:24:29	-->	shahinism (~shahinism@unaffiliated/shahinism) has joined #emacs
+2013-06-04 16:24:32	-->	rah (rah@verain.settrans.net) has joined #emacs
+2013-06-04 16:24:34	-->	bob2_ (rweir@2400:8900::f03c:91ff:fe70:d0e3) has joined #emacs
+2013-06-04 16:24:38	-->	ChongLi (~chongli@24.212.141.111) has joined #emacs
+2013-06-04 16:24:41	-->	ingenious (~nortimer@2001:7c0:409:8001::32:115) has joined #emacs
+2013-06-04 16:24:42	<--	ingenious (~nortimer@2001:7c0:409:8001::32:115) has quit (Changing host)
+2013-06-04 16:24:42	-->	ingenious (~nortimer@unaffiliated/ingenious) has joined #emacs
+2013-06-04 16:24:42	-->	lusory (~lusory@42.60.25.228) has joined #emacs
+2013-06-04 16:24:43	tali713	bremner: yeah, if that's case temp, that's hot, if that's core temp, meh.
+2013-06-04 16:24:45	-->	przl (~przlrkt@p5B2987F7.dip0.t-ipconnect.de) has joined #emacs
+2013-06-04 16:24:55	wgreenhouse	^ yeah, that's important.  if you're only getting one sensor number, it's important to know where that sensor actually is.
+2013-06-04 16:25:01	-->	eN_Joy (~zhou3594@jindan.chem.ou.edu) has joined #emacs
+2013-06-04 16:25:19	bremner	temperature at CPU designers birthplace on mars
+2013-06-04 16:25:23	cluck	macs often broil eggs, darken plastic and burn chairs running normally (when they don't outright explode on owners' laps)
+2013-06-04 16:25:26	jmnoz	ahungry: howcome you have a toughbook if I may ask?
+2013-06-04 16:25:44	ahungry	jmnoz: I have 2 young children and got the toughbook for $200 used on craigslist
+2013-06-04 16:25:50	-->	seangrove (~user@208.80.69.42) has joined #emacs
+2013-06-04 16:25:56	jmnoz	ahungry: cool
+2013-06-04 16:25:57	cluck	(i'm only half joking, all that has happened at one point or other in time)
+2013-06-04 16:26:00	jaimef	is there a way to keep a buffer focused? I am using dedicated mode, but say znc-erc reconnects all the buffers popup and steal focus
+2013-06-04 16:26:02	-->	jehan (~jehan@kiel4-dmz.gis.de) has joined #emacs
+2013-06-04 16:26:07	jaimef	writegood-mode is
+2013-06-04 16:26:09	tali713	cluck: that's why you are crazy if you don't get a metal body.
+2013-06-04 16:26:11	-->	kplauritzen (~user@ip68-227-84-104.sb.sd.cox.net) has joined #emacs
+2013-06-04 16:26:12	<--	bubu^ (~gabriel@2a01:e35:2ef5:3d10:f541:b732:ea7d:4661) has quit (Quit: Leaving)
+2013-06-04 16:26:17	<--	drmeiste_ (~drmeister@farnsworth.chem.temple.edu) has quit (Remote host closed the connection)
+2013-06-04 16:26:17	<--	digie (~digie@209.119.72.170) has quit (Quit: Leaving.)
+2013-06-04 16:26:19	wgreenhouse	ahungry: ah, so you don't have a heat vs. usage history for the life of the laptop.  it's old but new to you.
+2013-06-04 16:26:26	ahungry	yea
+2013-06-04 16:26:27	-->	easye` (~user@213.33.70.157) has joined #emacs
+2013-06-04 16:26:30	bremner	tali713: metal body like terminator 2?
+2013-06-04 16:26:39	ahungry	It used to idle at around 60c but I took it apart and reapplied the heatsink putty
+2013-06-04 16:26:42	ahungry	and dropped it 10c
+2013-06-04 16:26:43	tali713	bremner: no. :(
+2013-06-04 16:27:05	ahungry	i may buy better heatsink components for it if 50c / 85c seems too hot
+2013-06-04 16:27:08	shergill	lower than 100C is ok. my old thinkpad would occasionally go beyond it. it hink it would auto-shutdown at 105 or something
+2013-06-04 16:27:09	tali713	But that would totally get apple back in the spotlight.
+2013-06-04 16:27:09	ahungry	those temps are from acpi -t
+2013-06-04 16:27:29	ahungry	the devices case never gets hot though
+2013-06-04 16:27:32	-->	rudybot (~luser@ec2-54-215-10-197.us-west-1.compute.amazonaws.com) has joined #emacs
+2013-06-04 16:27:35	ahungry	unless it sits in direct sun
+2013-06-04 16:27:38	ahungry	but the cpu stays cool then
+2013-06-04 16:27:42	cajetanus	Joke for physics: you know if your laptop is too hot when you reach the Landauer limit.
+2013-06-04 16:27:44	tali713	ahungry: why are you worrying about a non-problem?
+2013-06-04 16:27:45	-->	microcode (~microcode@bas1-toronto04-1242322006.dsl.bell.ca) has joined #emacs
+2013-06-04 16:27:48	wgreenhouse	ahungry: my netbook goes into "passive" mode at 85 C and starts shutting stuff off to cool down.  but that's just an Atom.
+2013-06-04 16:27:49	cajetanus	*physicists
+2013-06-04 16:27:54	ahungry	tali713: I didn't want to ruin the cpu by doing something too heavy on it
+2013-06-04 16:28:02	cajetanus	http://en.wikipedia.org/wiki/Landauer's_principle
+2013-06-04 16:28:03	wgreenhouse	ahungry: these tolerances are different for every machine.
+2013-06-04 16:28:06	tali713	ahungry: is your laptop /that/ ancient?
+2013-06-04 16:28:29	tali713	ahungry: I mean from before they shutdown when they got too hot?
+2013-06-04 16:28:31	ahungry	tali713: nah, but my wife burnt out a cheaper HP laptop a few years ago running some games on it
+2013-06-04 16:28:35	jlf	ahungry: don't worry.. if it gets too hot it'll start acting squirrely long before any physical damage occurs
+2013-06-04 16:28:42	<--	aisbaa (~aisbaa@84.240.50.20) has quit (Quit: Lost terminal)
+2013-06-04 16:28:50	wgreenhouse	ahungry: if it's an ACPI-capable laptop (as it obviously is if it has acpi -t), you don't have to worry.  it'll shut itself off before it actually has the chance to do damage.
+2013-06-04 16:28:55	-->	didi (~user@unaffiliated/didi/x-1022147) has joined #emacs
+2013-06-04 16:28:56	ahungry	ok thanks guys, it makes me feel a little less worrisome 
+2013-06-04 16:28:56	-->	ok2` (~user@2a01:4f8:130:4ff8::2) has joined #emacs
+2013-06-04 16:28:56	-->	rogerzhou (~rogerzhou@128.224.252.2) has joined #emacs
+2013-06-04 16:28:56	-->	aidalgol (~user@103.247.193.25) has joined #emacs
+2013-06-04 16:28:56	-->	liv1d (~Adium@c-98-193-90-95.hsd1.il.comcast.net) has joined #emacs
+2013-06-04 16:28:56	-->	tg (~x@unaffiliated/tg) has joined #emacs
+2013-06-04 16:28:56	-->	expez (~expez@expez.com) has joined #emacs
+2013-06-04 16:28:56	-->	zen-ferdy (~ferdy@funtoo/contrib/ferdy-) has joined #emacs
+2013-06-04 16:28:56	-->	Sixmsj (~Sixmsj@134.154.162.233) has joined #emacs
+2013-06-04 16:28:56	-->	peder (4822@rubin.ifi.uio.no) has joined #emacs
+2013-06-04 16:28:56	-->	yibe___ (~yibe@163.43.161.140) has joined #emacs
+2013-06-04 16:28:56	-->	Vivek_ (~vivek@96.126.115.102) has joined #emacs
+2013-06-04 16:28:56	-->	Ralt (Ralt@2a01:7e00::f03c:91ff:feae:6c69) has joined #emacs
+2013-06-04 16:28:56	-->	mickn (~mickn@unaffiliated/mickn) has joined #emacs
+2013-06-04 16:28:56	-->	xristos (x@ns3.suspicious.org) has joined #emacs
+2013-06-04 16:28:56	-->	kenyon (kenyon@darwin.kenyonralph.com) has joined #emacs
+2013-06-04 16:28:56	-->	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has joined #emacs
+2013-06-04 16:28:56	-->	rods (~rods@79.3.14.24) has joined #emacs
+2013-06-04 16:28:56	-->	seneca (~seneca@2a01:4f8:d13:5588::2) has joined #emacs
+2013-06-04 16:28:56	-->	nu7hatch1 (~nu7hatch@r190-134-37-157.dialup.adsl.anteldata.net.uy) has joined #emacs
+2013-06-04 16:28:56	-->	sshirokov (sshirokov@2600:3c02::f03c:91ff:fe93:e02d) has joined #emacs
+2013-06-04 16:28:56	-->	cybrhuman (torjehoa@monty.pvv.ntnu.no) has joined #emacs
+2013-06-04 16:28:56	-->	Joelbyte (~joelbyte@h-62-90.a163.priv.bahnhof.se) has joined #emacs
+2013-06-04 16:28:56	-->	emilh (~emil@194-236-182-101.customer.telia.com) has joined #emacs
+2013-06-04 16:28:56	-->	gazoombo (uid6629@gateway/web/irccloud.com/x-erqqcjktrzcdzycu) has joined #emacs
+2013-06-04 16:28:56	-->	drewc_ (~drewc@drewc.org) has joined #emacs
+2013-06-04 16:28:56	-->	texel (texel@nat/google/x-pwxreasfooldrpdp) has joined #emacs
+2013-06-04 16:28:56	-->	k0ral_ (~k0ral@82.228.255.43) has joined #emacs
+2013-06-04 16:28:56	-->	Lenzoidd (lenzoid@85.214.148.138) has joined #emacs
+2013-06-04 16:28:56	-->	wtatsuru (~tatsuru@www12135ue.sakura.ne.jp) has joined #emacs
+2013-06-04 16:28:56	-->	birny (~Birny@static.88-198-10-235.clients.your-server.de) has joined #emacs
+2013-06-04 16:28:57	-->	zendeavor (zendeavor@auriga.kiwilight.com) has joined #emacs
+2013-06-04 16:28:57	-->	_flow_ (flow@star.freakempire.de) has joined #emacs
+2013-06-04 16:28:57	<--	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has quit (Remote host closed the connection)
+2013-06-04 16:28:57	<--	hiredman (~hiredman@67-135-45-49.dia.static.qwest.net) has quit (Read error: Connection reset by peer)
+2013-06-04 16:29:12	-->	mpr312 (~Thunderbi@pool-173-77-163-15.nycmny.fios.verizon.net) has joined #emacs
+2013-06-04 16:29:19	cajetanus	I would worry more about the battery than the cpu.
+2013-06-04 16:29:20	-->	hiredman (~hiredman@67-135-45-49.dia.static.qwest.net) has joined #emacs
+2013-06-04 16:29:25	 *	jrx right now uses a laptop from 2004
+2013-06-04 16:29:38	wgreenhouse	and before it tries to shut itself off, it'll force the cpu freq and other stuff to slow down
+2013-06-04 16:29:58	<--	carsonc`` (~user@adsl-74-240-5-213.jan.bellsouth.net) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-06-04 16:30:05	ahungry	I also like this laptop since its silent
+2013-06-04 16:30:12	ahungry	the fan buzz was getting annoying on my last one
+2013-06-04 16:30:19	tali713	ahungry: laptops tend to run hot.  ideally they are very narrowly balancing energy requirements.
+2013-06-04 16:30:22	mag]	white noise is amazing
+2013-06-04 16:30:25	cluck	tali713: in general metal conducts heat and electricity rather well, if my electronics are gonna burst in flames or short while operating i'd welcome a fair warning and all the delay to that event i can muster (ergo metal is for dumbasses, smart people use and choose space age composites)
+2013-06-04 16:30:28	mag]	people who need absolute quiet are weird O.o
+2013-06-04 16:30:32	<--	linvald_ (~linvald@209.251.200.243) has quit (Remote host closed the connection)
+2013-06-04 16:30:42	cajetanus	Cool article : http://spectrum.ieee.org/computing/hardware/landauer-limit-demonstrated
+2013-06-04 16:30:51	cajetanus	or rather, hot
+2013-06-04 16:30:59	technomancy	metal computers
+2013-06-04 16:30:59	technomancy	man
+2013-06-04 16:30:59	tali713	cluck: surface area.
+2013-06-04 16:31:03	jlf	that said, years ago i encountered a power supply that had become so hot that some TO-220's on the board spontaneously desoldered
+2013-06-04 16:31:08	technomancy	what a crazy idea
+2013-06-04 16:31:11	ahungry	mag]: some white noise is alright, my last laptop had a busted fan bearing
+2013-06-04 16:31:16	ahungry	so it was excessively loud :)
+2013-06-04 16:31:29	<--	sdemarre (~serge@109.134.163.182) has quit (Ping timeout: 248 seconds)
+2013-06-04 16:31:33	-->	tilgovi (~randall@couchdb/committer/tilgovi) has joined #emacs
+2013-06-04 16:31:52	jmnoz	lead melting point=327.46 °C, 
+2013-06-04 16:31:53	tali713	cluck: but if you prefer wrapping cpus in a blanket be my guest.
+2013-06-04 16:32:11	-->	ustunozgur (~ustunozgu@78.162.233.23) has joined #emacs
+2013-06-04 16:32:21	jmnoz	oh wait, solder is not lead
+2013-06-04 16:32:21	<--	Sigma (~yann@unaffiliated/sigma) has quit (Read error: Operation timed out)
+2013-06-04 16:32:35	<--	ntus1017 (~ntus1017@123.21.117.64) has quit (Ping timeout: 256 seconds)
+2013-06-04 16:32:37	-->	arnested (~arnested@188-179-204-199-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-06-04 16:32:38	<--	aidalgol (~user@103.247.193.25) has quit (Changing host)
+2013-06-04 16:32:38	-->	aidalgol (~user@pdpc/supporter/student/aidalgol) has joined #emacs
+2013-06-04 16:32:46	jmnoz	"Soft solder is typically thought of when solder or soldering is mentioned, with a typical melting range of 90 to 450 °C"
+2013-06-04 16:32:54	cluck	tali713: i'm not bread! i don't enjoy getting toasty on a metal plate
+2013-06-04 16:33:12	turbofail	i'm pretty sure a metal case would give you more warning than an insulating one
+2013-06-04 16:33:14	tali713	cluck: the word "lap"top is a misnomer. :)
+2013-06-04 16:33:26	jmnoz	they started calling them notebooks
+2013-06-04 16:33:26	tali713	turbofail: it would, of course.
+2013-06-04 16:33:32	jmnoz	to avoid getting sued :)
+2013-06-04 16:33:37	-->	ntus1017 (~ntus1017@123.21.117.64) has joined #emacs
+2013-06-04 16:33:47	tali713	turbofail: but I didn't think cluck was really being all that serious.
+2013-06-04 16:33:54	turbofail	i actually put mine on my lap relatively often
+2013-06-04 16:34:19	technomancy	the other great thing about polished metal laptops is they have no friction on them
+2013-06-04 16:34:25	technomancy	so they just slide all over your lap
+2013-06-04 16:34:46	<--	agumonkey (~agu@52.158.70.86.rev.sfr.net) has quit (Ping timeout: 276 seconds)
+2013-06-04 16:34:47	technomancy	especially if you're wearing low-friction shorts like exercise gear
+2013-06-04 16:35:05	-->	drmeister (~drmeister@wirelessNAT188.wireless.temple.edu) has joined #emacs
+2013-06-04 16:35:21	 *	tali713 wears wool pants for most of the year.  (cotton in summer)
+2013-06-04 16:35:34	didi	,g wool pants
+2013-06-04 16:35:34	fsbot	[google]    http://shop.nordstrom.com/c/womens-pants/wool
+2013-06-04 16:35:34	fsbot	http://www.cabelas.com/product/Cabelas-Oufitters-Wool-Pants/752830.uts
+2013-06-04 16:35:41	turbofail	who uses polished metal for laptop cases?  that's silly
+2013-06-04 16:35:44	cluck	technomancy: metal laptops with glossy touchscreens, now there's a recipe for hilarity 
+2013-06-04 16:35:47	cluck	:D
+2013-06-04 16:36:08	ahungry	haha
+2013-06-04 16:36:37	turbofail	i'd prefer anodized aluminum if anything
+2013-06-04 16:36:38	tali713	didi: wool is awesome.  comes in many different weights.  very durable, fire resistant.  even chemical resistant.
+2013-06-04 16:36:40	kodein	cast iron laptop
+2013-06-04 16:36:45	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-04 16:36:48	-->	gzmask` (~user@prodvideo.cat.uregina.ca) has joined #emacs
+2013-06-04 16:37:08	-->	ggherdov (uid11402@gateway/web/irccloud.com/x-qphhopyhhfmvymrv) has joined #emacs
+2013-06-04 16:37:09	tali713	kodein: I was just thinking that. under the one-big-heatsink model.
+2013-06-04 16:37:23	-->	aspiers (~aspiers@pD9E53648.dip0.t-ipconnect.de) has joined #emacs
+2013-06-04 16:37:26	jmnoz	merino wool underwear is pretty awesome
+2013-06-04 16:37:28	kodein	yeah
+2013-06-04 16:37:32	cluck	turbofail: anodized aluminium does look cool, still suffers of the same shitty issues though
+2013-06-04 16:37:44	-->	assem (~assem@175.211.232.38) has joined #emacs
+2013-06-04 16:37:58	 *	technomancy just got rid of an anodized aluminum laptop
+2013-06-04 16:38:02	didi	tali713: Too hot for my taste. Cotton is awesome though.
+2013-06-04 16:38:05	technomancy	couldn't stand it
+2013-06-04 16:38:25	technomancy	nice bright screen; I thought I could work outdoors, but it got too hot to touch in direct sunlight. =\
+2013-06-04 16:38:43	turbofail	huh.  interesting
+2013-06-04 16:38:58	ruediger	is there a way to tell ./configure not to byte compile .el files?
+2013-06-04 16:38:58	tali713	didi: that's all about where you live.  I'm used to cold, unending cold.  and brief periods of blistering hot.
+2013-06-04 16:39:00	<--	marjan- (~marjan-@i238151.upc-i.chello.nl) has quit (Quit: Leaving.)
+2013-06-04 16:39:04	technomancy	kinda bummed because it was the best screen I've ever seen
+2013-06-04 16:39:10	-->	wilfredh (uid159@gateway/web/irccloud.com/x-kdomhocjmbxawrrp) has joined #emacs
+2013-06-04 16:39:19	<--	chronno (~chronno@132.248.181.1) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:39:50	turbofail	i guess lower thermal conductivity is useful in that situation
+2013-06-04 16:40:02	jmnoz	what made you not stand it?
+2013-06-04 16:40:09	<--	morazow (~morazow@gsd116.gsd.inesc-id.pt) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:40:11	jmnoz	the heat from the chassi?
+2013-06-04 16:40:13	didi	tali713: Ah, I see. Yeah, I would use it for about 2 weeks in the whole year here, if that much.
+2013-06-04 16:40:20	tali713	didi: but light wool trousers are nice when I am in places like New York or Seattle, since they also reduce how much wet wind penetrate. (I imagine much of british isles would be similar)
+2013-06-04 16:40:38	tali713	didi: I forget, where do you live?
+2013-06-04 16:40:44	didi	tali713: .br
+2013-06-04 16:40:45	technomancy	jmnoz: that was part of it, but the bigger problem was that it was ~1cm thin, so it had a really shitty keyboard and non-user-serivceable parts
+2013-06-04 16:40:48	<--	drmeister (~drmeister@wirelessNAT188.wireless.temple.edu) has quit (Ping timeout: 256 seconds)
+2013-06-04 16:41:08	jmnoz	shitty keyboard is shitty
+2013-06-04 16:41:12	tali713	didi: oh, well, yeah, whole different world. :) (one I would love to visit or even live in)
+2013-06-04 16:41:14	<--	fayek (~fayek@foresight/developer/fayek) has quit (Quit: WeeChat 0.4.1)
+2013-06-04 16:41:17	cluck	technomancy: physics says all ungrounded metals exposed to light build up electric charge, did you ever get a nice short?
+2013-06-04 16:41:18	technomancy	jmnoz: http://technomancy.us/160
+2013-06-04 16:41:28	jlf	turbofail: actually you really want the thermal conductivity to carry the heat away from the components.  the thing that really hurts is the lack of thermal mass, which is exacerbated by the constant demand for lighter and lighter laptops.
+2013-06-04 16:41:34	technomancy	cluck: I probably would have if I could have actually touched it for prolonged periods I guess?
+2013-06-04 16:41:53	<--	netmod (~unknown@unaffiliated/netmod) has quit (Quit: WeeChat 0.4.1)
+2013-06-04 16:42:12	jmnoz	technomancy: I use an old hp elitebook. those and thinkpads look like the only sane options usually when looking at laptops
+2013-06-04 16:42:16	-->	drmeister (~drmeister@166.137.105.207) has joined #emacs
+2013-06-04 16:42:18	<--	ustunozgur (~ustunozgu@78.162.233.23) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:42:21	-->	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has joined #emacs
+2013-06-04 16:42:23	<--	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has quit (Max SendQ exceeded)
+2013-06-04 16:42:28	jmnoz	pointy thingy is nice
+2013-06-04 16:42:43	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #emacs
+2013-06-04 16:43:01	technomancy	jmnoz: thinkpads are OK if you don't need a small one. for the X series you currently have to pick between low-res screens and non-user-serviceable parts; both non-negotiable for me.
+2013-06-04 16:43:01	-->	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has joined #emacs
+2013-06-04 16:43:01	<--	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has quit (Max SendQ exceeded)
+2013-06-04 16:43:10	turbofail	well ideally you'd have convection doing most of the heat transfer
+2013-06-04 16:43:26	<--	dark_element (~textual@123.201.34.29) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 16:43:26	turbofail	but i guess smaller laptops also mean smaller fans
+2013-06-04 16:43:39	jmnoz	technomancy: which parts do you want to service?
+2013-06-04 16:43:41	-->	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has joined #emacs
+2013-06-04 16:43:43	<--	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has quit (Max SendQ exceeded)
+2013-06-04 16:43:55	<--	nullie (~nullie@87-4-191-213.fttb.ur.ru) has quit (Ping timeout: 256 seconds)
+2013-06-04 16:44:03	jmnoz	or "be able to service"
+2013-06-04 16:44:04	technomancy	jmnoz: SSD, ram (soldered-on; ugh), and battery
+2013-06-04 16:44:08	jlf	turbofail: it would be nice, but convection is far, far less effective than radiation, which is itself far, far less effective than conduction.
+2013-06-04 16:44:23	jmnoz	technomancy: that would seem sane
+2013-06-04 16:44:29	technomancy	jmnoz: when I finally found a seller I was prepping it and the charger died, but it looked like a battery issue
+2013-06-04 16:44:46	technomancy	not being able to remove the battery made debugging a lot more difficult; I thought I was going to have to just junk the whole thing
+2013-06-04 16:44:57	tali713	jlf: what, you think you know physics or something?
+2013-06-04 16:45:03	legumbre	reversible computing or gtfo
+2013-06-04 16:45:06	cluck	didi: wool is isothermic, breathable and waterproof (that's why they were popular in brazil in the past, the traditional image of the musician in white trousers comes from there ;)
+2013-06-04 16:45:11	-->	paddymahoney (~patrick@24.137.221.230) has joined #emacs
+2013-06-04 16:45:23	technomancy	*found a buyer
+2013-06-04 16:45:50	turbofail	jlf: hm, i was under the impression that convection was more effective than radiation at lowish temperatures
+2013-06-04 16:46:03	tali713	how long would it take (assuming other things didn't get in the way) to freeze to death in the vaccuum of space?
+2013-06-04 16:46:07	-->	dark_element (~textual@123.201.34.29) has joined #emacs
+2013-06-04 16:46:14	<--	Joreji (~thomas@vpn-ho1.unidsl.de) has quit (Ping timeout: 246 seconds)
+2013-06-04 16:46:25	cluck	tali713: it depends
+2013-06-04 16:46:33	jmnoz	surely these non-servicable battery laptops can have the batteries replaced by the company?
+2013-06-04 16:47:00	jmnoz	or am I overly optimistic to assume such a thing
+2013-06-04 16:47:02	technomancy	jmnoz: not when you have a craigslist buyer meeting you in three hours
+2013-06-04 16:47:05	-->	Joreji (~thomas@vpn-ho1.unidsl.de) has joined #emacs
+2013-06-04 16:47:07	tali713	cluck:  assuming naked, "average" skin color.
+2013-06-04 16:47:22	cluck	tali713: if you weren't in the shade of some celestial body you could very well burn before freezing to death
+2013-06-04 16:47:23	<--	davexunit (~user@38.104.7.18) has quit (Quit: Later)
+2013-06-04 16:47:40	tali713	cluck: that was the other factor, assume in a shadow.
+2013-06-04 16:47:55	jlf	tali713: i was a mechanical engineer for a network equipment company for many years.  among my projects were DSLAMs in environmentally sealed enclosures hanging from telephone lines in Phoenix :)
+2013-06-04 16:47:57	<--	gzmask` (~user@prodvideo.cat.uregina.ca) has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-06-04 16:47:59	forcer	tali713: http://www.youtube.com/watch?v=pm6df_SExVw
+2013-06-04 16:48:00	cajetanus	Rate of Heat Loss  A * e * s * Tb^4
+2013-06-04 16:48:06	tali713	cluck: I believe I estimated it once, and it is a surprisingly long time.
+2013-06-04 16:48:10	turbofail	e.g. convection ovens
+2013-06-04 16:48:25	<--	emacssaint (~mmaheu@c-71-226-170-85.hsd1.sc.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-04 16:48:37	cajetanus	so about 550 J/s 
+2013-06-04 16:48:43	-->	lduros (~user@fsf/member/lduros) has joined #emacs
+2013-06-04 16:48:47	tali713	cluck: that is after the initial freezing if the surface layer, otherwise sweating kills you fast.
+2013-06-04 16:48:53	<--	Sixmsj (~Sixmsj@134.154.162.233) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 16:49:08	-->	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has joined #emacs
+2013-06-04 16:49:13	<--	pppaul (~pppaul@198-84-177-45.cpe.teksavvy.com) has quit (Max SendQ exceeded)
+2013-06-04 16:49:14	cluck	tali713: also, "space" is far less empty than people give it credit for, in earth orbit you could very well die of micrometeorites piercing you before you'd have a chance to get fully naked
+2013-06-04 16:49:16	cajetanus	body produces about 100 J/s, so net heat loss  450 J/s
+2013-06-04 16:49:34	tali713	cajetanus: how do you lose the heat in space?
+2013-06-04 16:49:45	nymo	working on this webapp that's on groovy grails... i have no experience in clojure but would like to start learning some with this app by mimicking functionality, and compare event...
+2013-06-04 16:49:48	nymo	even*
+2013-06-04 16:49:55	<--	stfacc_ (~stefano@4.21.90.92.rev.sfr.net) has quit (Quit: Buona notte...)
+2013-06-04 16:50:00	-->	imu96 (~imran@91.140.176.78) has joined #emacs
+2013-06-04 16:50:14	tali713	cajetanus: remember, cooling implies heat transfer, how are you transferring heat?
+2013-06-04 16:50:19	sawjig	tali713, your body just giving off head and body fluids.
+2013-06-04 16:50:20	technomancy	nymo: the #clojure channel is pretty welcoming
+2013-06-04 16:50:37	sawjig	tali713, you;d die from bubbles in your blood before you ever had to worry about freezing to death though
+2013-06-04 16:50:38	technomancy	though the jokes aren't as good as here, on average
+2013-06-04 16:50:52	forcer	I recommend the video above. You can avoid all sorts of embarrassing yourself.
+2013-06-04 16:51:13	-->	sellout- (~Adium@c-98-245-92-119.hsd1.co.comcast.net) has joined #emacs
+2013-06-04 16:51:18	<--	Quadrescence (~quad@unaffiliated/quadrescence) has quit (Quit: This computer has gone to sleep)
+2013-06-04 16:51:26	-->	Seagull (~user@82-71-4-25.dsl.in-addr.zen.co.uk) has joined #emacs
+2013-06-04 16:51:27	tali713	forcer: watching now.
+2013-06-04 16:51:28	<--	Joreji (~thomas@vpn-ho1.unidsl.de) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:52:04	tali713	sawjig: I'm ignoring those ideas.  just talking about the heating issue.
+2013-06-04 16:52:07	<--	dark_element (~textual@123.201.34.29) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 16:52:14	forcer	tali713: You seemed the least self-embarrassing participant here. %)
+2013-06-04 16:52:28	cajetanus	4200 * 70 * 5 = 1470 KJ, so 1470 KJ/450 is about 1 hour
+2013-06-04 16:52:32	tali713	forcer: lol.
+2013-06-04 16:52:41	-->	ejbs (~user@h-211-73.a176.priv.bahnhof.se) has joined #emacs
+2013-06-04 16:53:22	cajetanus	hmm. something is probably wrong with my math, but just from heat given off by your body you could last an hour in space. You'd probably die of something else before then though.
+2013-06-04 16:53:24	cluck	tali713: human skin is remarkably space resistant given it evolved in a completely different environment, re: freezing, you could probably choke to death before reaching lethal core temperatures (or even hypothermia) as long as you weren't sweating much or otherwise losing mass (don't breath out, don't piss, don't shit yourself)
+2013-06-04 16:53:41	sawjig	cajetanus, s/probably/would/
+2013-06-04 16:53:48	--	irc: disconnected from server

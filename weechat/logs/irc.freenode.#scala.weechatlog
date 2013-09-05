@@ -1,0 +1,1362 @@
+2013-03-16 21:06:37	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-16 21:06:37	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.0 dev 2.11.0-M1 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-16 21:06:37	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Tue, 15 Jan 2013 05:28:22
+2013-03-16 21:06:37	--	Nicks #scala: [__main__ _chad_ _janne _jwest _pa_ abumirqaan aburr agumonkey air_ ajhager alambert albel727 alexander__b aloiscochard|off anelson appamatto arkx arnihr__ Arrgh Ashoat asrail avenj axiak_ balrog bblfish_ beawesomeinstead befuddled benj_ bjartek blair blast_hardcheese blizzarac Blkt bogdanp BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculus camerin casualjim_zzz cespare chadrs charlesofarrell Chaze ches chirpsalot codingkevin colock companion_cube copumpkin creaux cross cuttooth cythrawll d_m darinmorrison darkfrog Dashkal datura daverstevens David____ dcorbin_work dcsobral desaila deuteros deuteros_ dgreensp dhoss digicyc DigitalKiwi dimensia dmiles_afk dmilith dobblego dolio doy Droggl dscleave1 duncanm_ dwins dxtr dyreshark E[ eamelinky edwtjo ekneuss elux eprst Excureo Ezku_ fanf fattrat fbettag FDFlock_ fikle fiv flazz folone` gaYak gemelen genehack gereedy gowlin gpampara_off gseitz heikkih himsin hipertracker hiptobecubic hiratara hiredman hirsch__ hoxu hvesalai_ hyko hyperboreean hypervise ijuma imeredith infynyxx ironm ish ishi ivank_ iXeno izebergiel jaeyeun jamesiry jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae- jyxent k_89 Kayakn Kemppi keras_ kip_litton kippesoep knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer leoncamel liesen liszt lkba lmm lopex lossyrob lusory_ lykes Lymia m0sf3t m_m8 machisuji MacTuitui majoh maluco Mandus mariaDa2 martint masoodmortazavi MasseR matt_c mattkruse_ mehitabe1 mharrah miasma michaelpj milosn Mitar mizu_no_oto mjc mknoszlig mnml_ monique_ mshaw multibot_ myyk ndvivedi nkpart nn0101 ntelford numbersman99 nuttycom nuttycom1 obcode Obvious og ogreface ohama OlegYch oletraveler oncenull onr ousado pakl pala2 pcboy_ pdxleif peltchu pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pragma- Pranz_ predator117 psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep rossabaker RRSchulz Rschulz2 Rubennn rue Ry4an ryanlecompte s00pcan_1 scalabot scalapeno scalatron Scient setheus SethTisue sgronblo shachaf Shadda sharpobj1ct sheerun Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch so solusfaran spiffxp sproingie srcerer srm` ssi stefan-_ StefanQn1 stevan stevefink stew stnly strax_ suiside supertramp SuperTux88 supki tanner tazle__ TDJACR teamon techlife tessi tewecske texray theatrus_ Theueip tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tpolecat tsinnema tupshin_ twowo twowo1 ultiprosan uris veer verma vsayer_ w0rp waerloga wagle Watcher7 weie whaley woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass]
+2013-03-16 21:06:37	--	Channel #scala: 341 nicks (0 ops, 0 halfops, 0 voices, 341 normals)
+2013-03-16 21:06:39	--	Mode #scala [+nt]
+2013-03-16 21:06:39	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-16 21:07:59	-->	cameron__ (~thereisno@27-33-1-87.tpgi.com.au) has joined #scala
+2013-03-16 21:08:58	-->	SonsOfErin (~testadmin@cpe-72-177-82-160.austin.res.rr.com) has joined #scala
+2013-03-16 21:11:03	-->	wm_eddie (~eddie@KD027087011231.ppp-bb.dion.ne.jp) has joined #scala
+2013-03-16 21:12:33	<--	wm_eddie (~eddie@KD027087011231.ppp-bb.dion.ne.jp) has quit (Client Quit)
+2013-03-16 21:13:03	<--	twowo1 (~Thunderbi@91.179.113.245) has quit (Ping timeout: 264 seconds)
+2013-03-16 21:13:18	-->	wm_eddie (~eddie@KD027087011231.ppp-bb.dion.ne.jp) has joined #scala
+2013-03-16 21:13:28	<--	SonsOfErin (~testadmin@cpe-72-177-82-160.austin.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-03-16 21:13:28	<--	wm_eddie (~eddie@KD027087011231.ppp-bb.dion.ne.jp) has left #scala
+2013-03-16 21:16:17	<--	imeredith (~ivan@152.201.69.111.dynamic.snap.net.nz) has quit (Remote host closed the connection)
+2013-03-16 21:17:54	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-03-16 21:17:55	<--	cameron__ (~thereisno@27-33-1-87.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2013-03-16 21:18:27	-->	Frode (~Frode@84.48.95.161) has joined #scala
+2013-03-16 21:19:27	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-16 21:20:12	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-16 21:20:12	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-16 21:20:58	-->	MachinShin (~vat@c-50-150-83-48.hsd1.ca.comcast.net) has joined #scala
+2013-03-16 21:22:46	-->	sritchie (~sritchie@c-67-180-210-142.hsd1.ca.comcast.net) has joined #scala
+2013-03-16 21:23:11	--	pdxleif is now known as pdxleif_away
+2013-03-16 21:24:27	-->	tyoc213 (~Thunderbi@189.135.128.221) has joined #scala
+2013-03-16 21:25:05	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-03-16 21:26:10	-->	adelbertc (~adelbertc@ResNet-8-208.resnet.ucsb.edu) has joined #scala
+2013-03-16 21:28:31	<--	scalatron (~Scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Quit: scalatron)
+2013-03-16 21:30:39	-->	cameron__ (~thereisno@27-33-1-87.tpgi.com.au) has joined #scala
+2013-03-16 21:31:00	-->	imeredith (~ivan@152.201.69.111.dynamic.snap.net.nz) has joined #scala
+2013-03-16 21:32:26	tsinnema	i wonder if you could have a stream library where the stream types would be made of a set of tagged channel types? you could have something like a 'Source[{Int@@44kHz@@Left, Int@@44kHz@@Middle, Int@@44kHz@@Right}]' -- compose it with a 'Sink[{Int@@44kHz@@Right, Int@@44kHz@@Middle}]' which leaves you with a 'Source[{Int@@44kHz@@Left}]'
+2013-03-16 21:32:36	chadrs	i feel like scala.concurrent.duration doesn't really belong in scala.concurrent. seems much more general purpose
+2013-03-16 21:33:04	<--	sritchie (~sritchie@c-67-180-210-142.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-03-16 21:33:26	-->	sritchie (~sritchie@8.25.194.28) has joined #scala
+2013-03-16 21:33:42	OlegYch	well you need a way to specify durations for some concurrent operations
+2013-03-16 21:34:00	<--	stefan-_ (~stefan@93.186.15.186) has quit (Ping timeout: 252 seconds)
+2013-03-16 21:34:01	<--	dolio (~dolio@c-174-63-84-118.hsd1.ma.comcast.net) has quit (Quit: Leaving)
+2013-03-16 21:34:05	chadrs	OlegYch: sure… you also need a way to specify callbacks; you don't see Function2 in the scala.concurrent package
+2013-03-16 21:34:42	OlegYch	you need callbacks for much more stuff than concurrent api
+2013-03-16 21:35:00	chadrs	I would say durations could also be used for much more stuff
+2013-03-16 21:36:28	OlegYch	sure, just not in the way they are used in scala.concurrent
+2013-03-16 21:36:28	chadrs	well, it's a pretty minor annoyance. more annoying is that "timeout" values in so many languages just take int and often don't document if it's micro/millis/seconds
+2013-03-16 21:36:42	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-03-16 21:36:51	OlegYch	there was a lenghty about thath package somewhere on ml
+2013-03-16 21:37:11	OlegYch	*lengthy discussion
+2013-03-16 21:37:12	chadrs	on, interesting
+2013-03-16 21:37:27	-->	Nitro (~nitro@unaffiliated/nitro) has joined #scala
+2013-03-16 21:39:42	<--	tyoc213 (~Thunderbi@189.135.128.221) has quit (Quit: tyoc213)
+2013-03-16 21:40:42	-->	nocturne7 (~havoc@c-76-103-150-97.hsd1.ca.comcast.net) has joined #scala
+2013-03-16 21:42:08	chadrs	oh, just noticed this in the docs "This class is not meant as a general purpose representation of time, it is optimized for the needs of scala.concurrent"
+2013-03-16 21:43:11	chadrs	but i don't want to pull in a dependency just to say "5 seconds" or pollute my own code with stuff unrelated to what i'm doing
+2013-03-16 21:43:59	OlegYch	jodatime would be a good choice
+2013-03-16 21:44:15	OlegYch	it's used ubiquitously
+2013-03-16 21:44:58	chadrs	well, i'm not really doing time-related things except passing a timeout to a socket call
+2013-03-16 21:50:18	-->	tyl (~tyl@42.60.185.119) has joined #scala
+2013-03-16 21:50:51	-->	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has joined #scala
+2013-03-16 21:51:36	--	casualjim_zzz is now known as casualjim
+2013-03-16 21:54:29	-->	tyoc213 (~Thunderbi@189.135.128.221) has joined #scala
+2013-03-16 21:54:38	-->	dolio (~dolio@c-174-63-84-118.hsd1.ma.comcast.net) has joined #scala
+2013-03-16 21:56:07	-->	codolio (~dolio@c-174-63-84-118.hsd1.ma.comcast.net) has joined #scala
+2013-03-16 21:56:14	<--	codolio (~dolio@c-174-63-84-118.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-03-16 21:57:48	<--	adelbertc (~adelbertc@ResNet-8-208.resnet.ucsb.edu) has quit (Quit: Computer has gone to sleep.)
+2013-03-16 21:58:12	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-16 21:58:47	<--	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-03-16 21:58:48	-->	kushal (kdas@fedora/kushal) has joined #scala
+2013-03-16 21:58:52	<--	kip_litton (~kip@gateway/tor-sasl/kiplitton/x-61093280) has quit (Ping timeout: 276 seconds)
+2013-03-16 21:59:21	-->	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has joined #scala
+2013-03-16 22:00:35	<--	jaeyeun (~jaeyeun@c-24-91-30-184.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-03-16 22:02:00	-->	_chad__ (~chad@i59F76741.versanet.de) has joined #scala
+2013-03-16 22:02:52	-->	adelbertc (~adelbertc@ResNet-8-208.resnet.ucsb.edu) has joined #scala
+2013-03-16 22:03:30	<--	masoodmortazavi (~masoodmor@99-46-136-148.lightspeed.sntcca.sbcglobal.net) has quit (Quit: masoodmortazavi)
+2013-03-16 22:03:42	<--	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-03-16 22:04:49	<--	_chad_ (~chad@i59F70F25.versanet.de) has quit (Ping timeout: 252 seconds)
+2013-03-16 22:05:44	<--	uris (~rguerra@200.123.210.2) has quit (Quit: Leaving)
+2013-03-16 22:06:09	--	casualjim is now known as casualjim_zzz
+2013-03-16 22:06:22	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-16 22:06:28	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Client Quit)
+2013-03-16 22:07:22	-->	masoodmortazavi (~masoodmor@99-46-136-148.lightspeed.sntcca.sbcglobal.net) has joined #scala
+2013-03-16 22:07:22	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-16 22:10:01	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-16 22:11:57	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 260 seconds)
+2013-03-16 22:12:14	-->	dancapo (dcsobral@201.47.149.87.dynamic.adsl.gvt.net.br) has joined #scala
+2013-03-16 22:12:32	<--	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has quit (Client Quit)
+2013-03-16 22:13:24	<--	dcsobral (dcsobral@189.27.22.252.dynamic.adsl.gvt.net.br) has quit (Ping timeout: 240 seconds)
+2013-03-16 22:16:56	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-16 22:17:16	<--	tyl (~tyl@42.60.185.119) has quit (Quit: Computer has gone to sleep.)
+2013-03-16 22:22:20	-->	tyl (~tyl@42.60.185.119) has joined #scala
+2013-03-16 22:23:10	<--	masoodmortazavi (~masoodmor@99-46-136-148.lightspeed.sntcca.sbcglobal.net) has quit (Quit: masoodmortazavi)
+2013-03-16 22:23:37	<--	dwins (~dwins@m872d36d0.tmodns.net) has quit (Quit: WeeChat 0.4.0)
+2013-03-16 22:23:59	-->	cdidd (~cdidd@93-80-5-226.broadband.corbina.ru) has joined #scala
+2013-03-16 22:26:27	<--	sritchie (~sritchie@8.25.194.28) has quit (Quit: sritchie)
+2013-03-16 22:29:03	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-16 22:29:58	<--	SethTisue (~tisue@c-76-24-29-48.hsd1.ma.comcast.net) has quit (Quit: SethTisue)
+2013-03-16 22:31:24	<--	martint (~martint@75-119-254-109.dsl.teksavvy.com) has quit (Ping timeout: 245 seconds)
+2013-03-16 22:35:37	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-03-16 22:36:35	<--	agumonkey (~agu@17.217.72.86.rev.sfr.net) has quit (Read error: Operation timed out)
+2013-03-16 22:38:16	-->	martint (~martint@69-196-171-119.dsl.teksavvy.com) has joined #scala
+2013-03-16 22:38:25	<--	tyoc213 (~Thunderbi@189.135.128.221) has quit (Quit: tyoc213)
+2013-03-16 22:38:45	-->	tyoc213 (~Thunderbi@189.135.128.221) has joined #scala
+2013-03-16 22:39:00	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-16 22:40:16	<--	tyoc213 (~Thunderbi@189.135.128.221) has quit (Client Quit)
+2013-03-16 22:40:58	-->	tyoc213 (~Thunderbi@189.135.128.221) has joined #scala
+2013-03-16 22:41:07	<--	tyoc213 (~Thunderbi@189.135.128.221) has quit (Client Quit)
+2013-03-16 22:42:45	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-16 22:44:55	<--	ishi (~ishi@cpc19-croy19-2-0-cust531.croy.cable.virginmedia.com) has quit (Remote host closed the connection)
+2013-03-16 22:48:09	tnks	just a sanity check. . . "package foo { private class Foo }" is the same as "package foo { private[foo] class Foo }", right?
+2013-03-16 22:48:32	<--	tanner (~tanner@unaffiliated/tanner) has quit
+2013-03-16 22:48:57	<--	hiratara (~hiratara@j081012.dynamic.ppp.asahi-net.or.jp) has quit (Ping timeout: 264 seconds)
+2013-03-16 22:48:57	tnks	most of the rules about access modifiers are intuitive, but I know there's a few corner cases.
+2013-03-16 22:49:11	-->	masoodmortazavi (~masoodmor@99-46-136-148.lightspeed.sntcca.sbcglobal.net) has joined #scala
+2013-03-16 22:49:26	-->	MisterD (MisterD@port-92-192-1-91.dynamic.qsc.de) has joined #scala
+2013-03-16 22:51:20	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-03-16 22:51:58	<--	dancapo (dcsobral@201.47.149.87.dynamic.adsl.gvt.net.br) has quit
+2013-03-16 22:52:17	-->	mor8a (~mor4g@ip70-171-41-60.ga.at.cox.net) has joined #scala
+2013-03-16 22:53:21	-->	SeriousWorm (~sworm@bnet2161.x3d.carnet.hr) has joined #scala
+2013-03-16 22:54:17	-->	hiratara (~hiratara@j081165.dynamic.ppp.asahi-net.or.jp) has joined #scala
+2013-03-16 22:54:31	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-16 22:56:45	-->	agumonkey (~agu@17.217.72.86.rev.sfr.net) has joined #scala
+2013-03-16 22:57:30	--	casualjim_zzz is now known as casualjim
+2013-03-16 22:57:55	<--	bogdanp (~bogdan@188.24.57.88) has quit (Quit: Computer has gone to sleep.)
+2013-03-16 22:58:58	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 246 seconds)
+2013-03-16 23:00:37	-->	tyoc213 (~Thunderbi@189.135.128.221) has joined #scala
+2013-03-16 23:02:16	<--	whaley (~whaley@108-86-97-217.lightspeed.jcvlfl.sbcglobal.net) has quit (Quit: Leaving...)
+2013-03-16 23:14:15	--	irc: disconnected from server
+2013-03-16 23:14:39	--	irc: disconnected from server
+2013-03-16 23:22:00	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-16 23:22:00	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.0 dev 2.11.0-M1 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-16 23:22:00	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Tue, 15 Jan 2013 05:28:22
+2013-03-16 23:22:01	--	Nicks #scala: [__main__ _chad__ _janne _jwest _pa_ abumirqaan aburr adelbertc agumonkey air_ ajhager alambert albel727 alexander__b aloiscochard|off anelson Apocalisp appamatto arkx arnihr__ Arrgh Ashoat asrail avenj axiak_ balrog bblfish_ beawesomeinstead befuddled benj_ bjartek blair blast_hardcheese blizzarac Blkt BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculus camerin cameron__ casualjim_zzz cdidd cespare chadrs charlesofarrell Chaze ches chirpsalot codingkevin colock companion_cube copumpkin creaux cross cuttooth cythrawll d_m darinmorrison darkfrog Dashkal datura daverstevens David____ dcorbin_work desaila deuteros deuteros_ dgreensp dhoss digicyc DigitalKiwi dimensia dmiles_afk dmilith dobblego dolio doy Droggl dscleave1 duncanm_ dxtr dyreshark E[ eamelinky edwtjo ekneuss elux eprst Excureo Ezku_ fanf fattrat fbettag FDFlock_ fikle fiv flazz folone` Frode gaYak gemelen genehack gereedy gowlin gpampara_off gseitz heikkih himsin hipertracker hiptobecubic hiratara hiredman hirsch__ hoxu hvesalai_ hyko hyperboreean hypervise ianmathwiz7 ijuma imeredith infynyxx ironm ish ivank_ iXeno izebergiel jamesiry jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae- jyxent k_89 Kayakn Kemppi keras_ kippesoep knix kppullin kratorius ktosiek Kuba kushal lambdabot lanemeyer leoncamel liesen liszt lkba lli lmm lopex lossyrob lusory_ lykes Lymia m0sf3t m_m8 MachinShin machisuji MacTuitui majoh maluco Mandus mariaDa2 martint masoodmortazavi MasseR matt_c mattkruse_ mehitabe1 mharrah miasma michaelpj milosn MisterD Mitar mjc mknoszlig mnml_ monique_ mshaw multibot_ myyk ndvivedi Nitro nkpart nn0101 nocturne7 ntelford numbersman99 nuttycom nuttycom1 obcode Obvious og ogreface ohama OlegYch oletraveler oncenull onr ousado pakl pala2 pcboy_ pdxleif_away peltchu pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pragma- Pranz_ predator117 psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep rossabaker RRSchulz Rschulz2 Rubennn rue Ry4an s00pcan_1 scalabot scalapeno Scient SeriousWorm setheus sgronblo shachaf Shadda sharpobj1ct sheerun Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch so solusfaran spiffxp sproingie srcerer srm` ssi StefanQn1 stevan stevefink stew stnly strax_ suiside supertramp SuperTux88 supki tazle__ TDJACR teamon techlife tessi tewecske texray theatrus_ Theueip tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tpolecat tsinnema tupshin_ twowo tyl tyoc213 ultiprosan veer verma vsayer_ w0rp waerloga wagle Watcher7 weie woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass]
+2013-03-16 23:22:01	--	Channel #scala: 341 nicks (0 ops, 0 halfops, 0 voices, 341 normals)
+2013-03-16 23:22:02	--	Mode #scala [+nt]
+2013-03-16 23:22:02	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-16 23:22:03	-->	FLOSSrookie (~brian@107-200-34-111.lightspeed.tulsok.sbcglobal.net) has joined #scala
+2013-03-16 23:24:03	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Client Quit)
+2013-03-16 23:26:15	-->	milStaja (~milStaja@KHP059139243021.ppp-bb.dion.ne.jp) has joined #scala
+2013-03-16 23:30:26	<--	k_89 (~k@182.68.173.117) has quit (Ping timeout: 245 seconds)
+2013-03-16 23:32:14	<--	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has quit (Quit: lli)
+2013-03-16 23:33:34	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-16 23:35:53	<--	solusfaran (~solusfara@198-84-200-172.cpe.teksavvy.com) has quit (Quit: Leaving)
+2013-03-16 23:37:56	-->	k_89 (~k@182.68.173.117) has joined #scala
+2013-03-16 23:38:07	adelbertc	hi
+2013-03-16 23:41:55	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-16 23:42:59	<--	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-03-16 23:43:13	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-16 23:45:41	<--	oletraveler (~tstevens@75-171-218-40.hlrn.qwest.net) has quit (Read error: Operation timed out)
+2013-03-16 23:45:41	<--	Pranz_ (~Zorro_24@c80-217-216-30.bredband.comhem.se) has quit (Quit: Lämnar)
+2013-03-16 23:46:07	<--	chadrs (~Adium@c-24-7-121-58.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-03-16 23:46:12	<--	MisterD (MisterD@port-92-192-1-91.dynamic.qsc.de) has quit (Quit: Read Error: 1337 (to leet to stay on server))
+2013-03-16 23:46:45	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-03-16 23:48:41	<--	Theueip (~theueip@h58n2-um-a32.ias.bredband.telia.com) has quit (Quit: Leaving...)
+2013-03-16 23:50:43	<--	blair (~blair@static-108-0-197-17.lsanca.fios.verizon.net) has quit (Quit: Ex-Chat)
+2013-03-16 23:50:50	ianmathwiz7	how's it going?
+2013-03-16 23:50:55	<--	asrail (~asrail@177.195.235.6) has quit (Quit: Konversation terminated!)
+2013-03-16 23:52:06	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-16 23:53:59	-->	ablokzijl (~arjan@46-126-12-5.dynamic.hispeed.ch) has joined #scala
+2013-03-16 23:56:04	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-03-16 23:56:38	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-16 23:57:21	<--	pala2 (~pala@HSI-KBW-134-3-229-202.hsi14.kabel-badenwuerttemberg.de) has quit (Quit: Leaving.)
+2013-03-16 23:57:47	--	casualjim_zzz is now known as casualjim
+2013-03-16 23:59:49	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-03-17 00:03:00	-->	oletraveler (~tstevens@75-171-218-40.hlrn.qwest.net) has joined #scala
+2013-03-17 00:05:02	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-17 00:05:29	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-03-17 00:05:41	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-17 00:06:54	<--	agumonkey (~agu@17.217.72.86.rev.sfr.net) has quit (Ping timeout: 252 seconds)
+2013-03-17 00:07:17	<--	darinmorrison (~dwm@unaffiliated/darinmorrison) has quit
+2013-03-17 00:07:17	--	casualjim is now known as casualjim_zzz
+2013-03-17 00:09:30	<--	hiratara (~hiratara@j081165.dynamic.ppp.asahi-net.or.jp) has quit (Ping timeout: 276 seconds)
+2013-03-17 00:10:53	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-17 00:13:35	<--	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has quit (Quit: lli)
+2013-03-17 00:14:53	-->	hiratara (~hiratara@i217231.dynamic.ppp.asahi-net.or.jp) has joined #scala
+2013-03-17 00:20:26	<--	k_89 (~k@182.68.173.117) has quit (Ping timeout: 255 seconds)
+2013-03-17 00:20:26	<--	colock (~colock@unaffiliated/colock) has quit (Read error: Connection reset by peer)
+2013-03-17 00:21:33	<--	s00pcan_1 (~chris@108-208-64-149.lightspeed.livnmi.sbcglobal.net) has quit (Quit: Lost terminal)
+2013-03-17 00:21:50	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-17 00:23:19	<--	izebergiel (~izebergie@177.85-237-187.tkchopin.pl) has quit (Ping timeout: 264 seconds)
+2013-03-17 00:24:42	<--	burris (~burris@199-83-221-133.PUBLIC.monkeybrains.net) has quit (Read error: Connection reset by peer)
+2013-03-17 00:24:59	-->	burris (~burris@199-83-221-133.PUBLIC.monkeybrains.net) has joined #scala
+2013-03-17 00:25:03	<--	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-03-17 00:25:42	<--	datura (~datura@unaffiliated/datura) has quit (Read error: Operation timed out)
+2013-03-17 00:25:43	<--	Chaze (~Chase@P6106.pallas.wh.tu-darmstadt.de) has quit (Ping timeout: 264 seconds)
+2013-03-17 00:25:47	-->	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has joined #scala
+2013-03-17 00:29:50	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-17 00:30:54	<--	oncenull (~oncenull@190.19.242.73) has quit (Remote host closed the connection)
+2013-03-17 00:31:14	-->	StefanQn (~qn@pD9E3CC81.dip.t-dialin.net) has joined #scala
+2013-03-17 00:31:53	-->	nn0101_ (~nn0101@124-149-57-208.dyn.iinet.net.au) has joined #scala
+2013-03-17 00:32:45	-->	oncenull (~oncenull@190.19.242.73) has joined #scala
+2013-03-17 00:33:10	<--	Nitro (~nitro@unaffiliated/nitro) has quit (Quit: Hmm)
+2013-03-17 00:33:23	<--	nn0101 (~nn0101@unaffiliated/nn0101) has quit (Ping timeout: 276 seconds)
+2013-03-17 00:34:43	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 264 seconds)
+2013-03-17 00:34:51	<--	StefanQn1 (~qn@pD9E0D9E4.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2013-03-17 00:36:18	<--	tyoc213 (~Thunderbi@189.135.128.221) has quit (Quit: tyoc213)
+2013-03-17 00:38:05	--	gpampara_off is now known as gpampara
+2013-03-17 00:38:24	-->	nn0101 (~nn0101@unaffiliated/nn0101) has joined #scala
+2013-03-17 00:39:48	<--	hiptobecubic (~john@unaffiliated/hiptobecubic) has quit (Ping timeout: 248 seconds)
+2013-03-17 00:41:50	<--	nn0101_ (~nn0101@124-149-57-208.dyn.iinet.net.au) has quit (Ping timeout: 276 seconds)
+2013-03-17 00:43:52	<--	himsin (~x@180.149.53.115) has quit (Remote host closed the connection)
+2013-03-17 00:53:51	--	irc: disconnected from server
+2013-03-17 10:48:46	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-17 10:48:46	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.0 dev 2.11.0-M1 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-17 10:48:46	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Tue, 15 Jan 2013 05:28:22
+2013-03-17 10:48:46	--	Nicks #scala: [[mth] __main__ _chad__ _janne _jwest _pa_ _pa__ _papuia_ _veer `ramses ablokzijl abumirqaan aburr adelbertc affixator air_ ajhager akafakir alambert albel727 alexander__b aloiscochard anelson Apocalisp appamatto arkx arnihr__ Arrgh artemk arturaz Ashoat avenj axiak_ azaq23 balrog bblfish beawesomeinstead befuddled benj_ bjartek blast_hardcheese blizzarac Blkt bmcgee bogdanp BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculus camerin cameron__ casualjim cdidd cespare charlesofarrell Chaze ches chirpsalot codingkevin companion_cube copumpkin cpojer crazysim creaux crocket cross cuttooth cythrawll d_m darkfrog Dashkal datura daverstevens David____ dcorbin dcorbin_work desaila deuteros dgreensp dhoss digicyc DigitalKiwi dimensia dmiles_afk dmilith dobblego dolio doy Droggl dscleave1 duncanm_ dxtr dyreshark eamelinky edwardk edwtjo eis ekneuss eldariof eprst Excureo Ezku_ fanf fattrat fbettag FDFlock_ fhaslam fikle fiv flazz folone` gaYak gemelen genehack gereedy gowlin gpampara_off gseitz Guest66916 heikkih hipertracker hiptobecubic hiratara hiredman hirsch__ hoxu hvesalai_ hyko hyperboreean hypervise ianmathwiz7 ijuma imeredith io2 ironm ish ishi ivank_ iXeno izebergiel jamesiry jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jjido jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae- jyxent k7k Kakadu Kayakn keras_ kippesoep knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer lennart_ leoncamel liesen liszt lkba lmm lopex lossyrob luft lusory_ lykes Lymia m0sf3t m_m8 machisuji MacTuitui majoh maluco Mandus mariaDa2 MasseR matheus23 matt_c mattkruse_ mehitabe1 mharrah miasma michaelpj milessabin milosn Mitar mizu_no_oto mknoszlig mnml_ monique_ mor8a mshaw multibot_ museun mytrile myyk ndvivedi Nitro nkpart nn0101 notk0 ntelford numbersman99 nuttycom nuttycom1 obcode Obvious og ogreface ohama OlegYch onr OOPMan oriig ousado pakl pantsman pcboy_ pdxleif_away peltchu PeteDaGuru pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pragma- Pranz_ predator117 przl psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep rossabaker RRSchulz Rschulz2 RSchulzM Rubennn rue Ry4an scalabot scalapeno Scient setheus SethTisue sgronblo shachaf Shadda sharpobj1ct sheerun Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch so soulofpeace spiffxp Spin1987 sproingie srcerer_ srm` ssi stefan-_ StefanQn1 stevan stevefink stew stif stnly strax_ suiside Sumail supertramp SuperTux88 supki tazle_ TDJACR teamon techlife tessi tewecske texray theatrus_ Theueip tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tsinnema tupshin_ twowo twowo1 ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii Watcher7|off weie wh0empah whaley woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass]
+2013-03-17 10:48:46	--	Channel #scala: 362 nicks (0 ops, 0 halfops, 0 voices, 362 normals)
+2013-03-17 10:48:48	--	Mode #scala [+nt]
+2013-03-17 10:48:49	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-17 10:49:22	multibot_	 String = f(1)=2, f(3)=4
+2013-03-17 10:50:06	datura	:p
+2013-03-17 10:51:30	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-03-17 10:54:27	-->	agumonkey (~agu@17.217.72.86.rev.sfr.net) has joined #scala
+2013-03-17 10:59:12	-->	oncenull (~oncenull@190.19.242.73) has joined #scala
+2013-03-17 10:59:57	<--	Theueip (~theueip@h58n2-um-a32.ias.bredband.telia.com) has quit (Quit: Leaving...)
+2013-03-17 11:01:13	<--	MacTuitui (~tuitui@HKRnm1328.tokyo-ip.dti.ne.jp) has quit (Ping timeout: 255 seconds)
+2013-03-17 11:01:58	-->	MacTuitui (~tuitui@HKRnm1328.tokyo-ip.dti.ne.jp) has joined #scala
+2013-03-17 11:03:29	<--	joneshf-laptop (~joneshf@c-98-208-37-38.hsd1.ca.comcast.net) has quit (Read error: Connection timed out)
+2013-03-17 11:03:33	-->	tanner (~tanner@unaffiliated/tanner) has joined #scala
+2013-03-17 11:04:28	-->	colock (~colock@unaffiliated/colock) has joined #scala
+2013-03-17 11:05:14	`ramses	scala cannot do TCO in a tail-recursive closure? :(
+2013-03-17 11:05:15	<--	Nitro (~nitro@unaffiliated/nitro) has quit (Read error: Connection reset by peer)
+2013-03-17 11:05:27	`ramses	@tailrec tells me it is not tail-recursive
+2013-03-17 11:05:27	lambdabot	Unknown command, try @list
+2013-03-17 11:05:42	`ramses	oops :) didn't know lambdabot was here
+2013-03-17 11:07:18	-->	romanb (~romanbors@g230121224.adsl.alicedsl.de) has joined #scala
+2013-03-17 11:08:35	qu1j0t3	`ramses: can you pastebin it?
+2013-03-17 11:10:16	-->	shock_one (~shock_one@46.118.141.174) has joined #scala
+2013-03-17 11:10:42	<--	mytrile (~mytrile@77.70.29.148) has quit (Remote host closed the connection)
+2013-03-17 11:10:51	shock_one	How to create a backward stream? For example, from 100 to 1
+2013-03-17 11:11:14	colock	shock_one: like you create any arbitrary stream no?
+2013-03-17 11:11:53	colock	shock_one: http://www.scala-lang.org/archives/downloads/distrib/files/nightly/docs/library/index.html#scala.collection.immutable.Stream
+2013-03-17 11:12:01	colock	in the examples:
+2013-03-17 11:12:05	colock	/ Our first Stream definition will be a val definition
+2013-03-17 11:12:06	colock	val stream1: Stream[Int] = {
+2013-03-17 11:12:08	colock	  def loop(v: Int): Stream[Int] = v #:: loop(v + 1)
+2013-03-17 11:12:10	colock	  loop(0)
+2013-03-17 11:12:12	colock	}
+2013-03-17 11:12:20	colock	i let you deduce how to make it go "down"
+2013-03-17 11:12:27	`ramses	qu1j0t3: http://hpaste.org/84216
+2013-03-17 11:12:37	<--	tanner (~tanner@unaffiliated/tanner) has quit
+2013-03-17 11:13:30	`ramses	qu1j0t3: if I make it pointfull the tailrec recognizes it as tail-recursive, but the closure makes the compiler reject it
+2013-03-17 11:14:45	colock	it's logical `ramses 
+2013-03-17 11:14:46	shock_one	colock, So, there is no simple way like Stream.from(100).by(-1)?
+2013-03-17 11:14:56	colock	shock_one: try.
+2013-03-17 11:15:30	colock	`ramses: write down the dropWhile nested calls for a 3 items list.
+2013-03-17 11:15:31	Rogach	(100 to 1 by -1)
+2013-03-17 11:16:16	shock_one	Rogach, thank you, by I need a stream
+2013-03-17 11:16:24	`ramses	colock: wait, maybe I'm not fully understanding how that "matching without match" is desugared then?
+2013-03-17 11:16:35	Rogach	(100 to 1 by -1).view
+2013-03-17 11:16:52	colock	shock_one: i wasn't thinking about the pattern matching.
+2013-03-17 11:16:52	`ramses	is it like "a => a match { ... }"?
+2013-03-17 11:16:58	colock	shock_one: sorry. `ramses 
+2013-03-17 11:17:18	`ramses	colock: what was meant for me? :)
+2013-03-17 11:17:18	Rogach	shock_one: Range doesn't allocate them all at once.
+2013-03-17 11:17:30	Rogach	shock_one: Why do you need stream, exactly?
+2013-03-17 11:17:35	colock	"wasn't thinking about the pattern matching"
+2013-03-17 11:17:44	shock_one	Rogach, seqs cannot contain more than Int.MaxValue elements.
+2013-03-17 11:18:24	Rogach	(1000000000000L to 1 by -1).view
+2013-03-17 11:18:56	-->	tanner (~tanner@unaffiliated/tanner) has joined #scala
+2013-03-17 11:19:03	Rogach	shock_one: Yes, you're right.
+2013-03-17 11:19:17	`ramses	colock: ah, you mean that I have actually written two mutually recursive functions?
+2013-03-17 11:19:19	Rogach	shock_one: But why do you need so many elements?
+2013-03-17 11:19:34	qu1j0t3	Rogach: infinite streams are useful
+2013-03-17 11:19:41	shock_one	Rogach, just solving Euler problems.
+2013-03-17 11:19:46	-->	joneshf-laptop (~joneshf@c-98-208-37-38.hsd1.ca.comcast.net) has joined #scala
+2013-03-17 11:19:57	Rogach	shock_one: Stream.iterate(1000)(_-1)
+2013-03-17 11:20:05	colock	Rogach: def dropWhile[A](p: (A) => Boolean): List[A] => List[A] = { @tailrec def dropWhile0(l: List[A]): List[A] = l match { case (x::xs) if p(x) => dropWhile0(xs); case xs => xs }; dropWhile0 }
+2013-03-17 11:20:10	colock	shock_one: try like that
+2013-03-17 11:20:18	colock	shit, i write shock_one instead of `ramses 
+2013-03-17 11:20:20	colock	:\
+2013-03-17 11:20:35	colock	`ramses: try this version
+2013-03-17 11:21:02	qu1j0t3	Rogach++ lovely answer
+2013-03-17 11:21:02	`ramses	colock: yeah, I see the issue.. too bad that's way more verbose for such a simple function
+2013-03-17 11:21:06	colock	`ramses: if it's not helping i go back studying :P
+2013-03-17 11:21:20	Rogach	shock_one: As far as I remember euler problems, if you want to construct a stream with more than Int.MaxValue elements, you're doing it *wrong*.
+2013-03-17 11:21:22	qu1j0t3	Rogach: no.
+2013-03-17 11:21:22	colock	`ramses: not really
+2013-03-17 11:21:35	Rogach	qu1j0t3: Which one required it?
+2013-03-17 11:21:35	qu1j0t3	Rogach: well, for Euler, maybe
+2013-03-17 11:21:35	colock	Rogach: a part that dropWhile is already implemented :P
+2013-03-17 11:21:41	`ramses	colock: the extra def is clutter imho
+2013-03-17 11:21:47	colock	shit, today is not a day to IRC
+2013-03-17 11:22:03	qu1j0t3	Rogach: sorry, thought you were speaking generally, i misread
+2013-03-17 11:22:03	qu1j0t3	Rogach: i didn't get too far into them :<
+2013-03-17 11:22:03	colock	`ramses: but it's the actual tailrec part.
+2013-03-17 11:22:03	qu1j0t3	colock: :)
+2013-03-17 11:22:03	Rogach	qu1j0t3: I meant Project Euler problems.
+2013-03-17 11:22:03	qu1j0t3	Rogach: gotcha
+2013-03-17 11:22:03	shock_one	Rogach, that's why I need stream. I don't need them all, only the first one, that meet some criteria.
+2013-03-17 11:22:05	qu1j0t3	Rogach: how far did you get?
+2013-03-17 11:22:23	Rogach	qu1j0t3: Let me check. I don't remember :)
+2013-03-17 11:23:03	Rogach	qu1j0t3: 113
+2013-03-17 11:23:03	<--	twowo1 (~Thunderbi@91.179.113.245) has quit (Ping timeout: 246 seconds)
+2013-03-17 11:23:28	`ramses	colock: I know, it just too bad that I am actually defining a new anonymous function if I don't put all the arguments left of the ":". The surrounding dropWhile is also tail-recursive when written pointfull
+2013-03-17 11:23:36	colock	shock_one: also read the Stream examples about garbage collection issue
+2013-03-17 11:23:48	colock	`ramses: indeed
+2013-03-17 11:24:22	colock	`ramses: but how can you put a tailrec annotation on an anonymous function?
+2013-03-17 11:24:31	colock	(not saying it's impossible, i just never tought about it)
+2013-03-17 11:25:02	`ramses	colock: you can't, I think, but even if you could, that would not solve my issue here
+2013-03-17 11:25:05	shock_one	Here we go Stream.from(100, -1)
+2013-03-17 11:25:34	-->	StefanQn (~qn@pD9E0F926.dip.t-dialin.net) has joined #scala
+2013-03-17 11:26:05	colock	`ramses: maybe something along: def dropWhile[A](p: (A) => Boolean): List[A] => List[A] = @tailrec { ... }
+2013-03-17 11:26:05	colock	?
+2013-03-17 11:26:05	`ramses	colock: I tried, doesn't work ;)
+2013-03-17 11:26:07	colock	eheh
+2013-03-17 11:26:10	qu1j0t3	Rogach: wow, I'm impressed... also i think we had this conversation a long time ago. I wish I had enough time to seriously tackle them again.
+2013-03-17 11:26:32	-->	grogs (~grogs@dab-bas2-h-82-1.dab.02.net) has joined #scala
+2013-03-17 11:26:37	shock_one	What the heck? It doesn't take Long
+2013-03-17 11:26:37	`ramses	colock: but even if that syntax was allowed, scala would tell me the closure isn't tailrec
+2013-03-17 11:26:37	qu1j0t3	shock_one: :)
+2013-03-17 11:26:37	`ramses	colock: because it calls dropWhile, not itself
+2013-03-17 11:26:42	colock	`ramses: it should make it call itself
+2013-03-17 11:26:50	colock	it's the definition of "recursive"
+2013-03-17 11:27:04	colock	clearly not tailrecursive if it's not even recursive
+2013-03-17 11:27:13	Rogach	qu1j0t3: Yes, I also remember that :) But the number stayed the same since that moment :( I'm also very short on time.
+2013-03-17 11:27:35	qu1j0t3	! Stream.iterate(1000L)(_-1)   // shock_one Rogach's does
+2013-03-17 11:27:36	multibot_	 scala.collection.immutable.Stream[Long] = Stream(1000, ?)
+2013-03-17 11:27:55	colock	shock_one: Stream doesn't take long... it's the whole point [sorry for the pun]
+2013-03-17 11:27:55	<--	StefanQn1 (~qn@pD9E0D6FA.dip.t-dialin.net) has quit (Ping timeout: 256 seconds)
+2013-03-17 11:28:07	`ramses	colock: it would desugar to two mutually recursive functions if the lambda was reused, but scala cannot TCO mutual recursion anyway
+2013-03-17 11:28:23	colock	`ramses: why mutually?
+2013-03-17 11:28:24	`ramses	and the lambda probably isn't reused
+2013-03-17 11:28:55	qu1j0t3	Rogach: a friend is trying to solve this right now http://projecteuler.net/problem=169
+2013-03-17 11:28:55	`ramses	colock: dropWhile -> lambda -> dropWhile -> lambda -> ...
+2013-03-17 11:29:23	shock_one	Rogach, have you solved 113 consecutive problems, or did you choose them randomly?
+2013-03-17 11:29:41	colock	`ramses: def dropWhile[A](p: (A) => Boolean) = { @tailrec def dropWhile0(list: List[A]): List[A] = list match { case (x::xs) if p(x) => dropWhile0(xs); case xs => xs }; dropWhile0 }
+2013-03-17 11:29:48	colock	i don't see any mutually calling thingie here `ramses 
+2013-03-17 11:30:26	Rogach	shock_one: First 85 consecutive, and a random bunch up to 206th.
+2013-03-17 11:30:26	colock	it's dropWhile -> dropWhile0* -> 
+2013-03-17 11:30:27	Rogach	qu1j0t3: It's the first time I see it, actually.
+2013-03-17 11:30:37	`ramses	colock: I was talking about my original definition, your alternative is tail-recursive indeed
+2013-03-17 11:31:13	--	irc: disconnected from server
+2013-03-17 11:57:26	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-17 11:57:26	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.0 dev 2.11.0-M1 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-17 11:57:26	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Tue, 15 Jan 2013 05:28:22
+2013-03-17 11:57:26	--	Nicks #scala: [[mth] __main__ _chad__ _janne _jwest _pa_ _pa__ _papuia_ _veer `ramses ablokzijl abumirqaan aburr adelbertc affixator agumonkey air_ ajhager akafakir alambert albel727 alexander__b aloiscochard anelson Apocalisp appamatto arkx arnihr__ Arrgh artemk arturaz Ashoat avenj axiak_ azaq23 balrog bblfish beawesomeinstead befuddled benj_ bjartek blast_hardcheese blizzarac Blkt bmcgee bogdanp BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculus camerin cameron__ casualjim cdidd cespare charlesofarrell Chaze ches chirpsalot codingkevin colock companion_cube copumpkin cpojer crazysim creaux crocket cross cuttooth cythrawll d_m darkfrog Dashkal datura daverstevens David____ dcorbin dcorbin_work desaila deuteros deuteros_ dgreensp dhoss digicyc DigitalKiwi dimensia dmiles_afk dmilith dobblego dolio doy Droggl dscleave1 duncanm_ dxtr dyreshark eamelinky edwardk edwtjo eis ekneuss eldariof eprst Excureo Ezku_ fanf fattrat fbettag FDFlock_ fhaslam fikle fiv flazz folone` gaYak gemelen genehack gereedy gotham__ gowlin gpampara_off gpeterso grogs gseitz Guest66916 heikkih hipertracker hiptobecubic hiratara hiredman hirsch__ hoxu hvesalai_ hyko hyperboreean hypervise ianmathwiz7 ijuma imeredith io2 ironm ish ishi ivank_ iXeno izebergiel jamesiry jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jjido jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae- jyxent k7k Kakadu Kayakn keras_ kippesoep knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer lennart_ leoncamel liesen liszt lkba lmm lopex lossyrob luft lusory_ lykes Lymia m0sf3t m_m8 machisuji MacTuitui majoh maluco Mandus mariaDa2 MasseR matheus23 matt_c mattkruse_ mehitabe1 mharrah miasma michaelpj milessabin milosn Mitar mizu_no_oto mknoszlig mnml_ monique_ mor8a mshaw multibot_ museun myyk ndvivedi nkpart nn0101 notk0 ntelford numbersman99 nuttycom nuttycom1 obcode Obvious og ogreface ohama OlegYch oncenull onr OOPMan oriig ousado pakl pantsman pcboy_ pdxleif_away peltchu PeteDaGuru pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pmenon pragma- Pranz_ predator117 przl psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep romanb rossabaker RRSchulz Rschulz2 Rubennn rue Ry4an scalabot scalapeno Scient setheus SethTisue sgronblo shachaf Shadda sharpobj1ct sheerun Shepard shergill shock_one SHODAN six Skyr sl33v3 Slush- Smol snearch so soulofpeace spiffxp Spin1987 sproingie srcerer_ srm` ssi stefan-_ StefanQn stevan stevefink stew stif stnly strax_ suiside Sumail supertramp SuperTux88 supki tazle_ TDJACR teamon techlife tessi tewecske texray theatrus_ tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tsinnema tupshin_ twowo ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii Watcher7|off weie wh0empah whaley woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass]
+2013-03-17 11:57:26	--	Channel #scala: 367 nicks (0 ops, 0 halfops, 0 voices, 367 normals)
+2013-03-17 11:57:27	--	Mode #scala [+nt]
+2013-03-17 11:57:27	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-17 12:00:47	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-03-17 12:01:44	<--	befuddled (~brian@cpc2-aztw24-2-0-cust618.aztw.cable.virginmedia.com) has quit (Read error: Connection reset by peer)
+2013-03-17 12:02:50	-->	befuddled (~brian@cpc2-aztw24-2-0-cust618.aztw.cable.virginmedia.com) has joined #scala
+2013-03-17 12:03:15	-->	Spin19871 (~Adium@port-92-196-77-139.dynamic.qsc.de) has joined #scala
+2013-03-17 12:03:15	<--	Spin1987 (~Adium@port-92-196-77-139.dynamic.qsc.de) has quit (Read error: Connection reset by peer)
+2013-03-17 12:05:25	gpeterso	is there special sauce available anywhere for implementing equals(), canEqual() and hashCode()?  Like something that examines the objects and if they are the same type or comparable as the same type, just does equals on every field?
+2013-03-17 12:05:27	-->	tyl (~tyl@42.60.185.119) has joined #scala
+2013-03-17 12:06:38	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-03-17 12:07:11	qu1j0t3	you might want a case class
+2013-03-17 12:07:39	qu1j0t3	you pretty much described what a case class gives you out of the box
+2013-03-17 12:07:40	--	Watcher7|off is now known as Watcher7
+2013-03-17 12:08:15	-->	mirari (~mirari@daimi-pat.daimi.au.dk) has joined #scala
+2013-03-17 12:08:34	<--	mirari (~mirari@daimi-pat.daimi.au.dk) has quit (Client Quit)
+2013-03-17 12:08:46	-->	datura_ (~datura@unaffiliated/datura) has joined #scala
+2013-03-17 12:09:07	Tok-A-Mak	does anyone know how i can match case objects depending on their content? it would like to simplify this ugly boilerplate, but i can't find out how: https://github.com/Tok/Jenkem-9000/blob/master/src/main/scala/jenkem/engine/color/Scheme.scala#L47
+2013-03-17 12:09:34	qu1j0t3	! case class Foo(a:Int,b:Int); (Foo(1,2).hashCode, Foo(3,4).hashCode, new Foo(1,2).hashCode, Foo(1,2) == Foo(1,2), Foo(1,2) eq Foo(1,2)) // gpeterso 
+2013-03-17 12:09:35	multibot_	 defined class Foo
+2013-03-17 12:09:36	multibot_	 (Int, Int, Int, Boolean, Boolean) = (1411956066,-1021740295,1411956066,true,false)
+2013-03-17 12:12:04	<--	datura (~datura@unaffiliated/datura) has quit (Ping timeout: 245 seconds)
+2013-03-17 12:12:07	Tok-A-Mak	https://github.com/Tok/Jenkem-9000/blob/master/src/main/scala/jenkem/engine/color/Scheme.scala#L15 <-- same here.. this is even worse.. i miss something like the name() method that java enums provide
+2013-03-17 12:12:09	gpeterso	@qu1j0t3: Thanks!  I'll read some more about case classes, but that solves my immediate problem!
+2013-03-17 12:12:09	lambdabot	Unknown command, try @list
+2013-03-17 12:12:15	Rogach	Q: Is it possible to emit anonymous class creation with scala 2.10 macros? For example, if I want a call to the macro expand into something like "new Object { def stuff = "" }"
+2013-03-17 12:13:09	<--	soulofpeace (~soulofpea@cm79.gamma163.maxonline.com.sg) has quit (Ping timeout: 252 seconds)
+2013-03-17 12:15:04	qu1j0t3	gpeterso: you're welcome :)
+2013-03-17 12:16:46	-->	jamestastic (~james@173-228-28-49.dsl.dynamic.sonic.net) has joined #scala
+2013-03-17 12:18:09	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-17 12:19:32	<--	akafakir (~akafakir@95-25-26-138.broadband.corbina.ru) has quit (Ping timeout: 248 seconds)
+2013-03-17 12:22:00	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-17 12:22:01	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-17 12:22:06	<--	arturaz (~arturas@88-222-56-13.meganet.lt) has quit (Remote host closed the connection)
+2013-03-17 12:22:35	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-17 12:23:11	<--	ablokzijl (~arjan@46-126-12-5.dynamic.hispeed.ch) has quit (Read error: Operation timed out)
+2013-03-17 12:24:15	<--	bmcgee (~bmcgee@02dc3fda.bb.sky.com) has quit (Quit: bmcgee)
+2013-03-17 12:25:06	-->	twowo1 (~Thunderbi@91.179.113.245) has joined #scala
+2013-03-17 12:25:45	<--	RRSchulz (~RRSchulz@173-228-5-23.dsl.static.sonic.net) has quit (Quit: Leaving.)
+2013-03-17 12:27:05	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-03-17 12:28:30	-->	akafakir (~akafakir@95-25-26-138.broadband.corbina.ru) has joined #scala
+2013-03-17 12:28:40	<--	whaley (~whaley@108-86-97-217.lightspeed.jcvlfl.sbcglobal.net) has quit (Quit: Leaving...)
+2013-03-17 12:31:00	-->	dwins (~dwins@m872d36d0.tmodns.net) has joined #scala
+2013-03-17 12:33:58	-->	tyoc213 (~Thunderbi@189.135.224.166) has joined #scala
+2013-03-17 12:35:15	<--	gpeterso (~gpeterso@h89.247.188.173.static.ip.windstream.net) has quit (Quit: Leaving)
+2013-03-17 12:35:35	aloiscochard	Rogach: yes but you'll get structural type
+2013-03-17 12:35:43	aloiscochard	and that sucks
+2013-03-17 12:36:13	aloiscochard	Tok-A-Mak: you should probably create a custom extractor
+2013-03-17 12:37:52	aloiscochard	Tok-A-Mak: well in your case you don't need extractor, why not finding on the list of values??
+2013-03-17 12:38:17	aloiscochard	Tok-A-Mak:  def valuOfIrcColor(irc: Short): Option[IrcColor] = ircColors.find(_.irc == irc)
+2013-03-17 12:38:32	aloiscochard	Tok-A-Mak: you should return Option anyway instead of throwing exception
+2013-03-17 12:39:11	-->	RRSchulz (~RRSchulz@67.218.117.3) has joined #scala
+2013-03-17 12:40:05	-->	Theueip (~theueip@h58n2-um-a32.ias.bredband.telia.com) has joined #scala
+2013-03-17 12:40:19	Tok-A-Mak	yes. that makes sense.. thank you.. i will try that... also is it common to have a list of all case objects that belong to a sealed group like that? ..because thats another thing that bugs me (i didn't have to do that using enums)
+2013-03-17 12:41:02	aloiscochard	Tok-A-Mak: I have a macro that enumerate them automatically if the trait/abstract class is sealed
+2013-03-17 12:41:12	aloiscochard	Tok-A-Mak: that way you can avoid boilerplate
+2013-03-17 12:41:15	aloiscochard	Tok-A-Mak: interested?
+2013-03-17 12:41:27	-->	RSchulzB (~Adium@67.218.117.3) has joined #scala
+2013-03-17 12:41:36	--	Watcher7 is now known as Watcher7|off
+2013-03-17 12:41:48	aloiscochard	it's 2.10 macro
+2013-03-17 12:41:59	OlegYch	2.10-macro-paradise?
+2013-03-17 12:41:59	aloiscochard	for 2.11 you can use https://github.com/aloiscochard/enum-paradise
+2013-03-17 12:42:07	aloiscochard	no 2.10.final
+2013-03-17 12:42:16	<--	colock (~colock@unaffiliated/colock) has quit (Read error: Operation timed out)
+2013-03-17 12:42:19	Tok-A-Mak	not really. but thanks. i dont really mind the additional line here. i was more wondering if there was any "official" way to do it.
+2013-03-17 12:42:27	Tok-A-Mak	thank you
+2013-03-17 12:42:37	OlegYch	try klang enums https://gist.github.com/viktorklang/1057513
+2013-03-17 12:43:06	aloiscochard	well, that macro is better imo, let me find it OlegYch 
+2013-03-17 12:43:14	OlegYch	you can still use java enums btw
+2013-03-17 12:43:19	OlegYch	i don't fancy macros
+2013-03-17 12:43:49	aloiscochard	OlegYch: http://pastie.org/6583439
+2013-03-17 12:44:05	-->	oletraveler (~tstevens@75-171-218-40.hlrn.qwest.net) has joined #scala
+2013-03-17 12:44:17	OlegYch	oh that's interesting
+2013-03-17 12:44:20	OlegYch	thanks
+2013-03-17 12:44:25	aloiscochard	np :)
+2013-03-17 12:44:37	aloiscochard	I should share it in a nice way
+2013-03-17 12:45:10	aloiscochard	but this is kind of throw-away code, when 2.11 will be out and with hopefully type macro
+2013-03-17 12:46:37	aloiscochard	guys I must confess you something.... I'll start learning clojure
+2013-03-17 12:46:42	shock_one	Anybody knows in which version will be implemented if, while and stuff without parentheses?
+2013-03-17 12:47:10	OlegYch	prolly in 2.11
+2013-03-17 12:47:32	aloiscochard	oh really, if without parens would be cool indeed
+2013-03-17 12:47:36	-->	mengu (~mengu@unaffiliated/mengu) has joined #scala
+2013-03-17 12:48:10	<--	romanb (~romanbors@g230121224.adsl.alicedsl.de) has quit (Quit: This computer has gone to sleep)
+2013-03-17 12:48:40	-->	colock (~colock@unaffiliated/colock) has joined #scala
+2013-03-17 12:49:56	shock_one	I'm trying to switch from Ruby, and they're really annoying. 
+2013-03-17 12:50:42	aloiscochard	shock_one: btw, I don't write 'if' very often
+2013-03-17 12:50:57	aloiscochard	the funny thing is that they are not needed when used as guard on pattern matching
+2013-03-17 12:52:02	OlegYch	that's because there is no block in the guard
+2013-03-17 12:52:12	-->	nirvdrum (~nirvdrum@pool-173-48-98-124.bstnma.fios.verizon.net) has joined #scala
+2013-03-17 12:52:17	-->	scalatron (~Scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-17 12:52:26	shock_one	Is there a way to make a function parameter mutable?
+2013-03-17 12:52:33	OlegYch	no
+2013-03-17 12:52:56	aloiscochard	hell no!!
+2013-03-17 12:53:18	notk0	http://www.youtube.com/watch?v=ljPFZrRD3J8
+2013-03-17 12:53:19	notk0	guyz
+2013-03-17 12:53:34	aloiscochard	OlegYch: oh yeah make sense, but iirc they become mandatory if you have '&&' or '||'
+2013-03-17 13:22:52	--	irc: disconnected from server
+2013-03-17 13:23:25	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-17 13:23:25	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.0 dev 2.11.0-M1 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-17 13:23:25	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Tue, 15 Jan 2013 05:28:22
+2013-03-17 13:23:26	--	Nicks #scala: [[mth] __main__ _chad_ _janne _jwest _pa_ _pa__ _papuia_ _veer `ramses abumirqaan aburr adelbertc affixator agumonkey air_ ajhager akafakir alambert albel727 alexander__b aloiscochard anelson Apocalisp appamatto arkx arnihr__ Arrgh artemk Ashoat avenj axiak_ azaq23 balrog bblfish beawesomeinstead befuddled benj_ bjartek blast_hardcheese blizzarac Blkt bogdanp BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculus camerin cameron__ casualjim cdidd cespare charlesofarrell chatsiri_ Chaze ches chirpsalot codingkevin colock companion_cube copumpkin cpojer crazysim creaux crocket cross cuttooth cythrawll d_m darkfrog Dashkal datura_ daverstevens David____ dcorbin dcorbin_work desaila deuteros deuteros_ dgreensp dhoss digicyc DigitalKiwi dimensia dmiles_afk dmilith dobblego dolio doy Droggl dscleave1 duncanm_ dwins dxtr dyreshark E[ eamelinky edwardk edwtjo eis ekneuss eldariof eprst Excureo Ezku_ fanf fattrat fbettag FDFlock_ fhaslam fikle fiv flazz folone` gaYak gemelen genehack gereedy gowlin gpampara_off gseitz heikkih hipertracker hiptobecubic hiratara hiredman hirsch__ hoxu hvesalai_ hyko hyperboreean hypervise ianmathwiz7 ijuma imeredith io2 ironm ish ishi ivank_ iXeno izebergiel jamesiry jamestastic jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jjido jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae- jyxent k7k Kakadu Kayakn keras_ kippesoep knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer lennart_ leoncamel liesen liszt lkba lmm lopex lossyrob luft luft_ lusory_ lykes Lymia m0sf3t m_m8 machisuji MacTuitui majoh maluco Mandus mariaDa2 MasseR matheus23 matt_c mattkruse_ mehitabe1 mengu mharrah miasma michaelpj milessabin milosn Mitar mknoszlig mnml_ monique_ mshaw multibot_ museun myyk ndvivedi nirvdrum nkpart nn0101 notk0 ntelford numbersman99 nuttycom1 obcode Obvious og ogreface ohama OlegYch oletraveler oncenull onr OOPMan oriig ousado pakl pantsman pcboy_ pdxleif_away peltchu PeteDaGuru pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pmenon pragma- Pranz_ predator117 przl psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep rossabaker RRSchulz Rschulz2 RSchulzB Rubennn rue Ry4an scalabot scalapeno scalatron Scient SeriousWorm setheus SethTisue sgronblo shachaf Shadda sharpobj1ct sheerun Shepard shergill shock_one SHODAN six Skyr sl33v3 Slush- Smol snearch so spiffxp Spin19871 sproingie srcerer_ sritchie srm` ssi stefan-_ StefanQn stevan stevefink stew stif stnly strax_ suiside Sumail supertramp SuperTux88 supki tazle_ TDJACR teamon techlife tessi tewecske texray theatrus_ Theueip tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tpolecat tsinnema tupshin_ twowo twowo1 tyl tyoc213 ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii Watcher7|off weie wh0empah woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass]
+2013-03-17 13:23:26	--	Channel #scala: 371 nicks (0 ops, 0 halfops, 0 voices, 371 normals)
+2013-03-17 13:23:26	--	Notice(sendak.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-03-17 13:23:27	<--	luft (~luft@sto93-1-82-67-165-220.fbx.proxad.net) has quit (Ping timeout: 245 seconds)
+2013-03-17 13:23:27	--	Mode #scala [+nt]
+2013-03-17 13:23:27	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-17 13:23:50	miasma	currently i've solved it by defining a class with fmap like method, overriding it and doing: override def fmap(value: T) = super.fmap(g(value).orElse(g)) // g is partial f
+2013-03-17 13:25:23	<--	shock_one (~shock_one@46.118.141.174) has quit (Ping timeout: 264 seconds)
+2013-03-17 13:25:45	shachaf	miasma: "recursing"?
+2013-03-17 13:25:50	tpolecat	sorry, i don't understand your question. fmap doesn't have anything to do with recursion
+2013-03-17 13:26:10	shachaf	I suppose you mean that the implementation of fmap for a recursive type will be recursive?
+2013-03-17 13:26:12	miasma	tpolecat: if you define it for stuff like lists or trees, it does recursion
+2013-03-17 13:26:15	miasma	yea
+2013-03-17 13:26:17	tpolecat	ok
+2013-03-17 13:26:25	<--	sritchie (~sritchie@c-67-180-210-142.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-03-17 13:26:38	aloiscochard	so you need to create your own monad stuff, or maybe there is something in scalaz
+2013-03-17 13:26:38	miasma	now, in my case my tree could have several types of nodes. fmap doesn't let me change the type
+2013-03-17 13:27:19	miasma	ok
+2013-03-17 13:27:27	 *	shachaf isn't quite sure what you're after. At any rate it shouldn't be called "fmap".
+2013-03-17 13:27:29	miasma	i thought there would be some standard abstraction for this
+2013-03-17 13:27:52	shachaf	Do you have a concrete example?
+2013-03-17 13:27:53	miasma	shachaf: i'd like to combine fmap style processing with a custom function that may alter the node type in a recursive structure
+2013-03-17 13:27:55	aloiscochard	miasma: sounds like a weird use case
+2013-03-17 13:28:07	tpolecat	sounds like fold
+2013-03-17 13:28:40	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-17 13:28:49	miasma	SpecialTree T = NodeT1 (SpecialTree T) | NodeT2 (SpecialTree T) | Leaf T
+2013-03-17 13:28:55	miasma	fmap here maps NodeT1 --> NodeT1
+2013-03-17 13:29:05	miasma	but sometimes i'd like to control it and let g change the type to NodeT2
+2013-03-17 13:29:21	miasma	this is just a simplified example
+2013-03-17 13:29:34	aloiscochard	traverse
+2013-03-17 13:29:46	<--	jmv (~jmvanel@81.73.139.88.rev.sfr.net) has quit (Ping timeout: 256 seconds)
+2013-03-17 13:29:54	tpolecat	hm fmap here should be SpecialTree a -> (a -> b) -> SpecialTree b
+2013-03-17 13:30:07	shachaf	If Scala traverse is like Haskell traverse, it won't let you change the structure like that.
+2013-03-17 13:30:54	miasma	tpolecat: yea, with fmap i can change the leaf node values, but not NodeT1 x into NodeT2 x
+2013-03-17 13:30:59	<--	nirvdrum (~nirvdrum@pool-173-48-98-124.bstnma.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-03-17 13:31:20	miasma	some sort of fold sounds more like it
+2013-03-17 13:31:52	<--	lkba (~AndChat@agaf13.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 264 seconds)
+2013-03-17 13:32:05	shachaf	Can you just map a tag here?
+2013-03-17 13:32:27	miasma	i could possibly change the algebraic data type, but i'm not sure if it makes sense, yet
+2013-03-17 13:32:34	shachaf	I.e. SpecialTree T = Node Tag (SpecialTree T) | Leaf T; Tag = T1 | T2
+2013-03-17 13:37:02	miasma	shachaf: thanks, i'll consider that. it sounds most reasonable
+2013-03-17 13:37:06	<--	copumpkin (~copumpkin@unaffiliated/copumpkin) has quit (Ping timeout: 252 seconds)
+2013-03-17 13:37:47	-->	copumpkin (~copumpkin@unaffiliated/copumpkin) has joined #scala
+2013-03-17 13:38:47	<--	stefan-_ (~stefan@93.186.15.186) has quit (Ping timeout: 256 seconds)
+2013-03-17 13:40:03	<--	OOPMan (~Adam_Jorg@105-236-79-236.access.mtnbusiness.co.za) has quit (Read error: Connection reset by peer)
+2013-03-17 13:42:00	-->	romanb (~romanbors@g230121224.adsl.alicedsl.de) has joined #scala
+2013-03-17 13:42:08	shachaf	With that you can make a different sort of map function that just maps over both the tag and the value based on some sort of input, or something.
+2013-03-17 13:45:37	-->	martint (~martint@76-10-172-43.dsl.teksavvy.com) has joined #scala
+2013-03-17 13:47:26	-->	pala2 (~pala@HSI-KBW-134-3-229-202.hsi14.kabel-badenwuerttemberg.de) has joined #scala
+2013-03-17 13:47:29	<--	twowo1 (~Thunderbi@91.179.113.245) has quit (Ping timeout: 264 seconds)
+2013-03-17 13:48:13	<--	pala2 (~pala@HSI-KBW-134-3-229-202.hsi14.kabel-badenwuerttemberg.de) has left #scala
+2013-03-17 13:51:23	-->	nocturne7 (~havoc@c-76-103-150-97.hsd1.ca.comcast.net) has joined #scala
+2013-03-17 13:53:23	<--	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-03-17 13:53:24	-->	tanner (~tanner@unaffiliated/tanner) has joined #scala
+2013-03-17 13:56:18	<--	Sumail (~Sumail@net-2-34-58-93.cust.dsl.vodafone.it) has quit (Ping timeout: 245 seconds)
+2013-03-17 13:56:28	-->	julmae (~MAXHARRIE@q186.ip4.netikka.fi) has joined #scala
+2013-03-17 13:57:58	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-17 13:59:54	<--	julmae- (~MAXHARRIE@q186.ip4.netikka.fi) has quit (Ping timeout: 264 seconds)
+2013-03-17 14:00:34	-->	asrail (~asrail@177.195.235.6) has joined #scala
+2013-03-17 14:02:35	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 245 seconds)
+2013-03-17 14:02:42	-->	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has joined #scala
+2013-03-17 14:04:01	-->	cvogt (~Chris@194.230.155.125) has joined #scala
+2013-03-17 14:05:06	-->	lkba (~AndChat@aesw218.neoplus.adsl.tpnet.pl) has joined #scala
+2013-03-17 14:05:08	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-17 14:11:05	<--	cvogt (~Chris@194.230.155.125) has quit (Ping timeout: 264 seconds)
+2013-03-17 14:11:42	-->	cvogt (~Chris@194.230.159.118) has joined #scala
+2013-03-17 14:15:18	-->	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has joined #scala
+2013-03-17 14:18:37	<--	eis (~eis@109.197.218.46) has quit (Ping timeout: 260 seconds)
+2013-03-17 14:23:31	<--	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has quit (Quit: lli)
+2013-03-17 14:26:28	<--	akafakir (~akafakir@95-25-26-138.broadband.corbina.ru) has quit (Ping timeout: 240 seconds)
+2013-03-17 14:33:47	-->	Eldariof-ru (~CLD@pppoe-211-52-dyn-sr.volgaline.ru) has joined #scala
+2013-03-17 14:37:55	<--	eldariof (~CLD@pppoe-201-141-dyn-sr.volgaline.ru) has quit (Ping timeout: 276 seconds)
+2013-03-17 14:37:59	-->	RRSchulz1 (~RRSchulz@22.sub-70-199-71.myvzw.com) has joined #scala
+2013-03-17 14:38:49	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-03-17 14:39:18	<--	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-03-17 14:39:23	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-17 14:40:06	<--	_chad_ (~chad@i59F76741.versanet.de) has quit (Remote host closed the connection)
+2013-03-17 14:41:57	<--	chatsiri_ (~chatsiri_@110.49.225.105) has quit (Ping timeout: 246 seconds)
+2013-03-17 14:41:58	<--	RRSchulz (~RRSchulz@67.218.117.3) has quit (Ping timeout: 264 seconds)
+2013-03-17 14:44:05	<--	tanner (~tanner@unaffiliated/tanner) has quit
+2013-03-17 14:44:26	-->	RRSchulz (~RRSchulz@67.218.117.3) has joined #scala
+2013-03-17 14:45:08	-->	lizzin (~lizzin@c-24-14-148-164.hsd1.il.comcast.net) has joined #scala
+2013-03-17 14:45:26	--	lizzin is now known as Guest97444
+2013-03-17 14:45:48	-->	chad (~chad@i59F76741.versanet.de) has joined #scala
+2013-03-17 14:45:50	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-17 14:46:26	<--	RRSchulz1 (~RRSchulz@22.sub-70-199-71.myvzw.com) has quit (Ping timeout: 264 seconds)
+2013-03-17 14:46:50	<--	cvogt (~Chris@194.230.159.118) has quit (Quit: Leaving.)
+2013-03-17 14:48:08	-->	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has joined #scala
+2013-03-17 14:49:35	<--	lli (~lli@pool-96-226-121-232.dllstx.fios.verizon.net) has quit (Client Quit)
+2013-03-17 14:50:30	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 248 seconds)
+2013-03-17 14:50:50	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-17 14:55:33	-->	stephenjudkins (~textual@c-67-189-34-121.hsd1.or.comcast.net) has joined #scala
+2013-03-17 14:56:18	--	gpampara_off is now known as gpampara
+2013-03-17 14:56:52	-->	Naktibalda (~chatzilla@cpc2-heme10-2-0-cust25.9-1.cable.virginmedia.com) has joined #scala
+2013-03-17 14:56:52	-->	atoll (~atoll@84-74-103-21.dclient.hispeed.ch) has joined #scala
+2013-03-17 14:57:03	-->	jmv (~jmvanel@139.239.24.109.rev.sfr.net) has joined #scala
+2013-03-17 14:58:17	-->	Nekuromento (~Nekuromen@91.187.6.22) has joined #scala
+2013-03-17 14:58:33	-->	whaley (~whaley@108-86-97-217.lightspeed.jcvlfl.sbcglobal.net) has joined #scala
+2013-03-17 14:59:58	-->	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has joined #scala
+2013-03-17 15:00:32	-->	akafakir (~akafakir@95-25-26-138.broadband.corbina.ru) has joined #scala
+2013-03-17 15:00:48	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-03-17 15:01:13	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #scala
+2013-03-17 15:01:48	<--	ryanlecompte (~ryanlecom@172-7-149-76.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-03-17 15:05:44	-->	shock_one (~shock_one@46.118.141.174) has joined #scala
+2013-03-17 15:08:46	-->	greenrd (~user@host-92-246-171-31.cloudsigma.com) has joined #scala
+2013-03-17 15:11:28	<--	gowlin (~rgolbeck@debian/developer/rmgolbeck) has quit (Ping timeout: 252 seconds)
+2013-03-17 15:13:44	-->	Shapeshifter (~Shapeshif@unaffiliated/shapeshifter) has joined #scala
+2013-03-17 15:14:17	<--	luft_ (~luft@sto93-1-82-67-165-220.fbx.proxad.net) has quit (Ping timeout: 252 seconds)
+2013-03-17 15:14:18	Shapeshifter	If I have a list of Option[Any], how can I get all the items out of it that are also Option[Id]?
+2013-03-17 15:15:19	<--	nocturne7 (~havoc@c-76-103-150-97.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-03-17 15:16:24	miasma	Shapeshifter: list.collect ?
+2013-03-17 15:16:41	qu1j0t3	! List(Option(1),Option("a")).collect{ case Some(x:String) => x } // Shapeshifter 
+2013-03-17 15:16:41	multibot_	 List[String] = List(a)
+2013-03-17 15:17:01	qu1j0t3	Shapeshifter: but where does the Any come from?
+2013-03-17 15:18:37	-->	Gryffin (5ce95183@gateway/web/freenode/ip.92.233.81.131) has joined #scala
+2013-03-17 15:19:24	<--	jjido (~jjido@94-30-32-13.xdsl.murphx.net) has quit (Ping timeout: 256 seconds)
+2013-03-17 15:19:24	-->	nocturne7 (~havoc@c-76-103-150-97.hsd1.ca.comcast.net) has joined #scala
+2013-03-17 15:19:26	stephenjudkins	what XML library do people recommend? I loved using anti-xml but it doesn't appear to be available for 2.10
+2013-03-17 15:19:47	--	irc: disconnected from server
+2013-03-18 09:56:04	-->	Z_Mass (~Z_Mass@72.1.214.140) has joined #scala
+2013-03-18 09:56:04	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.1 dev 2.11.0-M2 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-18 09:56:04	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Mon, 18 Mar 2013 06:14:13
+2013-03-18 09:56:04	--	Nicks #scala: [[mth] __main__ _chad_ _janne _jwest _pa_ _papuia_ _veer `ramses abumirqaan aburr adelbertc agumonkey air_ ajhager Aktau alambert albel727 alexander__b aloiscochard anelson appamatto arkx arnihr__ Arrgh artemk arturaz Ashoat atoll avenj axiak_ balrog beawesomeinstead benj_ betehess bjartek blast_hardcheese blizzarac bogdanp BombStrike bracken Bracki brett_h bruntonspall burris Caelum calculu5 camerin cameron__ casualjim cdidd cespare charlesofarrell ches chirpsalot codingkevin colock companion_cube copumpkin cpojer crazysim creaux cross cythrawll d_m darkfrog Dashkal daverstevens David____ dcorbin_work desaila deuteros dgreensp dhoss dibblego DigitalKiwi dimensia dmiles_afk dmilith dolio doy Droggl dscleave1 duncanm_ dwins dxtr dyreshark edwtjo eintr ekneuss elux eprst Excureo Ezku fanf fattrat fbettag FDFlock_ fhaslam fikle fiv flazz folone` gaYak gemelen genehack gereedy gildegoma gowlin gpampara_off gseitz heikkih himsin hipertracker hiptobecubic hiratara hiredman hoxu hvesalai_ hyko hyperboreean hypervise idntfy2 igstan ijuma imeredith infynyxx io2 ironm ish ishi ivank_ iXeno jamesiry jamestastic jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jkarlsson jkriesten jlewis jmv joed johnlcox joneshf joneshf-laptop joschi josh050 jrodicus jroesch julmae jyxent k7k Kayakn keras_ kip_litton kippesoep knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer lennart_ leoncamel liesen liszt lkba lmm lopex lossyrob lusory_ lykes Lymia m0sf3t m_m8 machisuji MacTuitui magnet majoh maluco mapreduce martint MasseR matt_c mattkruse_ mehitabe1 mengu metalog mharrah miasma michaelpj milessabin milosn MisterD Mitar mjc mknoszlig mnml_ monique_ motionman mshaw multibot_ museun mytrile myyk Naktibalda Narigo ndvivedi nirvdrum Nitro nkpart nn0101 ntelford numbersman99 nuttycom obcode Obvious og ogreface ohama OlegYch onr OOPMan oriig ousado pakl pantsman pcboy_ pdxleif_away peltchu PeteDaGuru pettter pfn pfurla piggybox pionic piotr_ pipeline pkondzior__ pmenon pragma- predator217 przl psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous Refefer relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep romanb rossabaker RRSchulz Rschulz2 RSchulzB rsuniev123 Rubennn rue Ry4an sambio saml scalabot scalapeno scalatron schlicht_ Scient scott_w SeriousWorm setheus SethTisue sgronblo shachaf Shadda Shapeshifter sharpobj1ct shellac Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch so soc soulofpeace spiffxp sproingie Squarism srcerer_ srm` ssi stefan-_ StefanQn1 stevan_ stevefink stew stif stnly strax_ suiside supertramp SuperTux88 supki szeiger tazle_ TDJACR teamon techlife tessi texray theatrus_ tim timemage tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tupshin_ twowo1 tyl_ ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii-afk Watcher7|off weie Wertax wh0empah whaley woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass zip]
+2013-03-18 09:56:04	--	Channel #scala: 366 nicks (0 ops, 0 halfops, 0 voices, 366 normals)
+2013-03-18 09:56:06	--	Mode #scala [+nt]
+2013-03-18 09:56:06	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-18 09:56:17	qu1j0t3	Aktau: check out Finger trees - e.g. http://www.soi.city.ac.uk/~ross/papers/FingerTree.html
+2013-03-18 09:56:46	Aktau	qu1j0t3: will do, thanks!
+2013-03-18 09:57:02	-->	milStaja (~milStaja@KHP059139243021.ppp-bb.dion.ne.jp) has joined #scala
+2013-03-18 10:00:08	-->	crocket (~crocket@unaffiliated/crocket) has joined #scala
+2013-03-18 10:00:17	-->	mary5030 (~mary5030@72-48-77-85.dyn.grandenetworks.net) has joined #scala
+2013-03-18 10:00:31	<--	OOPMan (~Adam_Jorg@105-236-79-236.access.mtnbusiness.co.za) has quit (Read error: Connection reset by peer)
+2013-03-18 10:00:42	<--	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has quit (Read error: Operation timed out)
+2013-03-18 10:00:56	crocket	for(p <- java.util.TreeSet) doesn't iterate TreeSet in the natural order provided by Comparable<T>.
+2013-03-18 10:01:07	crocket	Why not?
+2013-03-18 10:02:11	qu1j0t3	crocket: can you show an example?
+2013-03-18 10:04:00	-->	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has joined #scala
+2013-03-18 10:04:26	-->	dcsobral (dcsobral@201.47.149.87.dynamic.adsl.gvt.net.br) has joined #scala
+2013-03-18 10:04:46	<--	rsuniev123 (~textual@212.140.174.166) has quit (Quit: Computer has gone to sleep.)
+2013-03-18 10:05:17	<--	MisterD (~MisterD@AGrenoble-651-1-475-223.w90-42.abo.wanadoo.fr) has quit (Quit: Read Error: 1337 (to leet to stay on server))
+2013-03-18 10:05:41	-->	OOPMan (~adamj@105-236-79-236.access.mtnbusiness.co.za) has joined #scala
+2013-03-18 10:05:47	-->	Aman_ (~aman_@159.140.254.106) has joined #scala
+2013-03-18 10:07:57	-->	jaeyeun (~jaeyeun@c-24-91-30-184.hsd1.ma.comcast.net) has joined #scala
+2013-03-18 10:07:58	<--	tyl_ (~tyl@bb121-7-158-29.singnet.com.sg) has quit (Quit: Computer has gone to sleep.)
+2013-03-18 10:08:02	-->	eldariof (~CLD@89.22.1.3) has joined #scala
+2013-03-18 10:08:26	crocket	qu1j0t3, Refer to line 80 on http://pastebin.com/00xhSiEp
+2013-03-18 10:08:49	crocket	new java.util.TreeSet(typeCounts.keySet()) is iterated over in random orders.
+2013-03-18 10:08:49	-->	noelw (~noel@host-89-241-188-196.as13285.net) has joined #scala
+2013-03-18 10:10:58	-->	jsuereth (~jsuereth@dynamic-acs-72-23-189-218.zoominternet.net) has joined #scala
+2013-03-18 10:11:52	<--	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has quit (Ping timeout: 256 seconds)
+2013-03-18 10:12:25	-->	rsuniev123 (~textual@212.140.174.166) has joined #scala
+2013-03-18 10:12:33	aloiscochard	avenj: :-D
+2013-03-18 10:14:27	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-18 10:14:54	<--	lkba (~AndChat@aesw218.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 264 seconds)
+2013-03-18 10:15:02	-->	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has joined #scala
+2013-03-18 10:15:06	-->	sdeinum (~Spencer@dn-142-89-181-222.sjhc.london.on.ca) has joined #scala
+2013-03-18 10:15:32	<--	dolio (~dolio@c-174-63-84-118.hsd1.ma.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-03-18 10:17:50	OlegYch	crocket: use native scala treeset
+2013-03-18 10:17:59	qu1j0t3	crocket: is the underlying SortedSet iterated in the order you want?
+2013-03-18 10:18:12	crocket	qu1j0t3, I haven't checked.
+2013-03-18 10:18:14	OlegYch	or just sort your keyset prior iterating
+2013-03-18 10:18:16	qu1j0t3	i would check that first.
+2013-03-18 10:18:25	crocket	qu1j0t3, But I think it's converted to a scala set.
+2013-03-18 10:18:28	qu1j0t3	since the TreeSet inherits its ordering.
+2013-03-18 10:18:29	<--	idntfy2 (~idntfy@5.187.81.163) has quit (Read error: Connection reset by peer)
+2013-03-18 10:18:30	qu1j0t3	crocket: it's not.
+2013-03-18 10:18:35	crocket	It's play framework
+2013-03-18 10:18:52	crocket	qu1j0t3, It's TreeSet<java.lang.String>
+2013-03-18 10:18:57	qu1j0t3	crocket: i assume you've already read http://docs.oracle.com/javase/6/docs/api/java/util/SortedSet.html + http://docs.oracle.com/javase/6/docs/api/java/util/TreeSet.html
+2013-03-18 10:18:59	-->	idntfy (~idntfy@5.187.81.163) has joined #scala
+2013-03-18 10:19:08	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-03-18 10:19:14	crocket	Of course
+2013-03-18 10:19:16	crocket	natural order
+2013-03-18 10:19:20	qu1j0t3	in particular the constructor from a SortedSet
+2013-03-18 10:19:22	crocket	natural order of String
+2013-03-18 10:20:35	-->	lkba (~AndChat@aesw218.neoplus.adsl.tpnet.pl) has joined #scala
+2013-03-18 10:21:08	OlegYch	qu1j0t3: keySet is not ordeded afaik
+2013-03-18 10:21:11	<--	soc (~soc@HSI-KBW-5-56-204-25.hsi17.kabel-badenwuerttemberg.de) has quit (Ping timeout: 258 seconds)
+2013-03-18 10:21:58	qu1j0t3	OlegYch: funny that
+2013-03-18 10:22:16	qu1j0t3	OlegYch: this is why i am suggesting verify that the underlying SortedSet is enumerated as expected
+2013-03-18 10:22:42	OlegYch	crocket: btw that kind of template is exactle the kind of mixing logic and view i was talking about
+2013-03-18 10:22:46	OlegYch	it's outrageous
+2013-03-18 10:22:51	qu1j0t3	hehe
+2013-03-18 10:23:02	-->	oncenull (~oncenull@200.69.203.221) has joined #scala
+2013-03-18 10:23:02	qu1j0t3	well, it's exactly like the pre-framework PHP I wrote in the early '00s
+2013-03-18 10:23:07	 *	qu1j0t3 hangs head, ashamed
+2013-03-18 10:23:40	<--	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has quit (Ping timeout: 256 seconds)
+2013-03-18 10:24:06	OlegYch	qu1j0t3: i mean in this case looks like http://docs.oracle.com/javase/6/docs/api/java/util/TreeSet.html#TreeSet(java.util.Collection) this is called
+2013-03-18 10:24:35	qu1j0t3	does Play provide some kind of implicit for iterators?
+2013-03-18 10:24:38	qu1j0t3	java iterators*
+2013-03-18 10:24:48	 *	qu1j0t3 no hablo play
+2013-03-18 10:24:54	OlegYch	crocket:  @for( type <- typeCounts.keySet.sorted ) {
+2013-03-18 10:25:13	-->	matt_c (~mcroydon@173-203-86-231.static.cloud-ips.com) has joined #scala
+2013-03-18 10:25:25	OlegYch	play automatically imports javaconversions if the project is in java
+2013-03-18 10:25:43	-->	soc (~soc@HSI-KBW-5-56-204-25.hsi17.kabel-badenwuerttemberg.de) has joined #scala
+2013-03-18 10:26:02	qu1j0t3	wouldn't that still need .asScala ?
+2013-03-18 10:26:17	OlegYch	no, that's javaconverters
+2013-03-18 10:27:08	crocket	OlegYch, Don't I need keySet()?
+2013-03-18 10:27:08	OlegYch	anyone has idea deadlocked with latest scala plugin?
+2013-03-18 10:27:10	<--	gildegoma (~gildegoma@217-162-100-29.dynamic.hispeed.ch) has quit (Quit: gildegoma)
+2013-03-18 10:27:17	qu1j0t3	OlegYch: gotcha
+2013-03-18 10:27:26	OlegYch	no, you don't need the parentheses
+2013-03-18 10:27:43	crocket	OlegYch, "value sorted is not a member of java.util.Set[String]"
+2013-03-18 10:27:54	saml	No Manifest available for T. 
+2013-03-18 10:27:56	saml	what is this?
+2013-03-18 10:28:01	saml	def getAs[T](dbo: MongoDBObject, key: String): Option[T] = dbo.getAs[T](key)   
+2013-03-18 10:28:02	OlegYch	try keySet.toSeq.sorted
+2013-03-18 10:28:05	crocket	OlegYch, It is a java.util.Map<String,Integer>.keySet()
+2013-03-18 10:28:34	OlegYch	saml getAs[T:Manifest]
+2013-03-18 10:28:36	crocket	OlegYch, You're the man. saved my day.
+2013-03-18 10:28:50	OlegYch	np
+2013-03-18 10:29:26	soc	can someone verify that this doesn't create any additional class files: https://github.com/scala/scala/pull/2275/files#L0R172
+2013-03-18 10:29:31	saml	is it saying that type parameter T is of type Manifest?
+2013-03-18 10:29:57	soc	afaik the nested method should become a private, unnested one without any additional class fax
+2013-03-18 10:29:59	saml	this is signature of MongoDBObject.getAs        def getAs[A : NotNothing : Manifest](key: String): Option[A] 
+2013-03-18 10:30:04	OlegYch	not exactly, google for context bounds
+2013-03-18 10:30:14	saml	thanks
+2013-03-18 10:34:47	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-18 10:35:08	--	calculu5 is now known as calculus
+2013-03-18 10:36:13	-->	lizzin (~lizzin@c-24-14-148-164.hsd1.il.comcast.net) has joined #scala
+2013-03-18 10:36:40	--	lizzin is now known as Guest64694
+2013-03-18 10:38:08	-->	tsinnema (~tsinnema@dsl-espbrasgw1-50dfb9-125.dhcp.inet.fi) has joined #scala
+2013-03-18 10:38:45	-->	oletraveler (~tstevens@67.217.228.116) has joined #scala
+2013-03-18 10:38:56	<--	mary5030 (~mary5030@72-48-77-85.dyn.grandenetworks.net) has quit (Remote host closed the connection)
+2013-03-18 10:39:35	<--	soulofpeace (~soulofpea@119.75.11.250) has quit (Ping timeout: 258 seconds)
+2013-03-18 10:40:15	-->	notk0 (~notk0@unaffiliated/notk0) has joined #scala
+2013-03-18 10:44:32	crocket	OlegYch, It seems play framework is for scala devs, not java devs.
+2013-03-18 10:44:38	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-03-18 10:44:51	OlegYch	i don't really use java
+2013-03-18 10:45:10	sdeinum	I didn't have an issue using Java in play
+2013-03-18 10:45:13	OlegYch	just try to not put any logic in your templates
+2013-03-18 10:46:07	crocket	OlegYch, How do you think of http://gitweb.snowberry.me/?p=ZeroIrcLog.git;a=blob;f=app/views/main.scala.html;h=4f631c36e1ed25845a6d9f0e6bd0a63821a551ef;hb=15b166d4f2ae4d86dabdfebc133c92fc54e6b131 ?
+2013-03-18 10:46:10	crocket	It's a template.
+2013-03-18 10:46:22	crocket	Does it contain many complex logics?
+2013-03-18 10:46:42	OlegYch	yep
+2013-03-18 10:47:04	crocket	How do I abstract them away?
+2013-03-18 10:47:25	saml	intellij got stuck
+2013-03-18 10:47:31	saml	can't type anything
+2013-03-18 10:47:59	-->	gildegoma (~gildegoma@217-162-100-29.dynamic.hispeed.ch) has joined #scala
+2013-03-18 10:48:11	-->	oscarvarto (~oscarvart@187.193.105.156) has joined #scala
+2013-03-18 10:49:24	crocket	OlegYch, Should I use HTML builder framework for the content in <div id="searchtools"></div>?
+2013-03-18 10:49:44	OlegYch	dunno what's html builder
+2013-03-18 10:49:52	crocket	OlegYch, Something like gagawa
+2013-03-18 10:50:05	crocket	OlegYch, http://code.google.com/p/gagawa/
+2013-03-18 10:50:06	-->	mizu_no_oto (~textual@cpe-76-180-124-229.buffalo.res.rr.com) has joined #scala
+2013-03-18 10:50:24	<--	scalatron (~Scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Quit: scalatron)
+2013-03-18 10:50:46	OlegYch	no i don't think it would be useful
+2013-03-18 10:51:06	crocket	OlegYch, Should I just keep http://gitweb.snowberry.me/?p=ZeroIrcLog.git;a=blob;f=app/views/main.scala.html;h=4f631c36e1ed25845a6d9f0e6bd0a63821a551ef;hb=15b166d4f2ae4d86dabdfebc133c92fc54e6b131 ?
+2013-03-18 10:51:23	OlegYch	no
+2013-03-18 10:51:25	crocket	What do you suggest?
+2013-03-18 10:51:52	aloiscochard	move logic into controllers probably
+2013-03-18 10:51:52	<--	Guest64694 (~lizzin@c-24-14-148-164.hsd1.il.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-03-18 10:52:04	crocket	aloiscochard, Logic is for models
+2013-03-18 10:52:17	aloiscochard	O_o
+2013-03-18 10:52:17	aloiscochard	what?
+2013-03-18 10:52:28	aloiscochard	oh yeah, that's the bucket model
+2013-03-18 10:52:43	crocket	It's MVC
+2013-03-18 10:53:01	aloiscochard	you should have logic in your controller
+2013-03-18 10:53:14	aloiscochard	otherwise it's MBC, model-bucket-controller
+2013-03-18 10:53:22	crocket	I don't know how to move all @for and @if in http://gitweb.snowberry.me/?p=ZeroIrcLog.git;a=blob;f=app/views/main.scala.html;h=4f631c36e1ed25845a6d9f0e6bd0a63821a551ef;hb=15b166d4f2ae4d86dabdfebc133c92fc54e6b131
+2013-03-18 10:53:47	-->	scalatron (~Scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-18 10:53:59	<--	gowlin (~rgolbeck@debian/developer/rmgolbeck) has quit (Read error: Operation timed out)
+2013-03-18 10:54:00	aloiscochard	crocket: read Play tutorial
+2013-03-18 10:54:17	crocket	aloiscochard, http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller is the MVC I know.
+2013-03-18 10:54:37	<--	oncenull (~oncenull@200.69.203.221) has quit (Remote host closed the connection)
+2013-03-18 10:55:02	<--	Squarism (~Squarism4@130.238.144.155) has quit (Ping timeout: 245 seconds)
+2013-03-18 10:55:47	aloiscochard	crocket: sure, MBC was a joke actually, sorry for that. but you should really try to move as much as possible that logic into real code (controller) instead of inside the template
+2013-03-18 10:55:55	aloiscochard	crocket: I'll give you a concrete example
+2013-03-18 10:56:03	crocket	aloiscochard, You mean model
+2013-03-18 10:56:09	-->	nuttycom1 (~Adium@70-91-169-68-BusName-Colorado.hfc.comcastbusiness.net) has joined #scala
+2013-03-18 10:56:14	crocket	In play tutorials, controllers are just for routes.
+2013-03-18 10:56:19	-->	Apocalisp (~textual@173-14-185-169-NewEngland.hfc.comcastbusiness.net) has joined #scala
+2013-03-18 10:56:25	aloiscochard	no I mean what I said
+2013-03-18 10:56:35	-->	betehess_laptop (~betehess@31-34-254.wireless.csail.mit.edu) has joined #scala
+2013-03-18 10:57:22	-->	mary5030 (~mary5030@50.56.230.39) has joined #scala
+2013-03-18 10:57:23	crocket	aloiscochard, I'm going to go to bed and sleep now. So leave me messages here, and I'll see them after I wake up.
+2013-03-18 10:58:02	aloiscochard	crocket: http://pastie.org/6604189
+2013-03-18 10:58:07	aloiscochard	crocket: good night
+2013-03-18 10:58:20	<--	mary5030 (~mary5030@50.56.230.39) has quit (Remote host closed the connection)
+2013-03-18 10:58:42	OlegYch	hm i don't think that's how it supposed to be
+2013-03-18 10:58:53	--	irc: disconnected from server
+2013-03-18 15:47:05	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-18 15:47:05	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.1 dev 2.11.0-M2 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-18 15:47:05	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Mon, 18 Mar 2013 06:12:32
+2013-03-18 15:47:05	--	Nicks #scala: [[mth] __main__ _janne _jwest _pa_ _papuia_ `ramses abumirqaan aburr adammh adelbertc agumonkey air_ ajhager Aktau alambert albel727 alexander__b aloiscochard Aman_ anelson Apocalisp appamatto arkx arnihr__ Arrgh Artheist arturaz Ashoat avenj axiak_ azaq23 balrog bblfish beawesomeinstead befuddled benj_ betehess betehess_laptop bjartek blast_hardcheese blizzarac bogdanp BombStrike boogie bracken Bracki brett_h bruntonspall burris Caelum calculus camerin cameron__ casualjim cespare chadrs charlesofarrell ches chirpsalot codingkevin colock companion_cube copumpkin cpojer crazysim creaux crocket cross cythrawll d_m danman darkfrog Dashkal datura daverstevens David____ dcorbin_work dcsobral derfury desaila deuteros dgreensp dhoss dibblego DigitalKiwi dimensia djspiewak dmiles_afk dmilith dolio doy Droggl dscleave1 duncanm dv dwins dxtr dyreshark ecuderpam edwardk edwtjo efoncubierta eis ekneuss elux eprst Excureo Ezku fanf fattrat fbettag FDFlock_ fhaslam fikle fiv flazz folone` gaYak gdey gemelen genehack gereedy gildegoma gowlin gpampara_off gseitz headius heikkih himsin hipertracker hiptobecubic hiratara hiredman hoxu hvesalai_ hyko hyperboreean hypervise idntfy ijuma imeredith io2 ironm ish ishi ivank_ iXeno jamesiry jamestastic jasonmay jberkel jdstroy jedws jhulten Jibbers42_away jkarlsson jlewis joed johnlcox joneshf joneshf-laptop jonshea joschi josh050 jrodicus jroesch jsuereth julmae jyxent_ k7k Kakadu Kayakn keras_ kip_litton kippesoep knix kppullin kratorius ktosiek Kuba kushal lambdabot lanemeyer lennart_ leoncamel liesen liszt lmm lopex lossyrob lusory_ lykes Lymia m0sf3t m_m8 MachinShin machisuji MacTuitui magnet majoh maluco Mandus mapreduce mariaDa2 martint mary5030 MasseR matheus23 matt_c mattkruse_ mehitabe1 mengu mharrah miasma michaelpj milessabin milosn Mitar mjc mknoszlig mnml_ monique_ mordonez1 mshaw multibot_ museun Narigo ndvivedi Nekuromento nirvdrum Nitro nkpart nn0101 notk0 ntelford numbersman99 nuttycom nuttycom1 obcode Obvious og ogreface ohama OlegYch oletraveler oncenull onr OOPMan oriig ousado OwenOu pakl pala2 pantsman pcboy_ pdxleif peltchu PeteDaGuru pettter pfn pfurla philipd piggybox pionic piotr_ pipeline pkondzior__ pmenon pragma- predator217 psino qu1j0t3 qz rafl Ragnor raid reactormonk reddickulous redjohn Refefer relrod rethaw rkj rmk0 rnewson rodgort Rogach RogueShadow rom1dep rossabaker RRSchulz Rschulz2 RSchulzB Rubennn rue Ry4an ryanlecompte S11001001 sambio saml scalabot scalapeno scalatron Scient sdeinum setheus SethTisue sgronblo shachaf Shadda Shapeshifter sharpobj1ct Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch spiffxp sproingie srcerer sritchie srm` ssi ssmoot stefan-_ StefanQn1 stevan_ stevefink stew stif stnly strax_ suiside supertramp SuperTux88 supki tanner tazle_ TDJACR teamon techlife tessi tewecske texray theatrus_ Theueip tim timemage tixxit tnks Tok-A-Mak tomh_bsc tomku topi` toudi tpolecat tsinnema tupshin_ twoism twowo twowo1 tyoc213 ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii-afk Watcher7|off weie whaley woky woshty Xaseron xav Xorlev xplat yan_ yogurt_truck yoong Z_Mass zip]
+2013-03-18 15:47:05	--	Channel #scala: 389 nicks (0 ops, 0 halfops, 0 voices, 389 normals)
+2013-03-18 15:47:06	--	Mode #scala [+nt]
+2013-03-18 15:47:06	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-18 15:47:22	pipeline	http://en.wikipedia.org/wiki/Partial_function
+2013-03-18 15:47:30	pipeline	it would have been awful nice to have this in the first scala book i read
+2013-03-18 15:47:37	pipeline	an awful lot of type definitions make more sense now too
+2013-03-18 15:47:52	sproingie	it's explained quite well in Programming In Scala
+2013-03-18 15:48:14	tpolecat	! List(1,2,3).lift(5)
+2013-03-18 15:48:18	tpolecat	...
+2013-03-18 15:48:32	multibot_	 Option[Int] = None
+2013-03-18 15:48:43	pipeline	i went with scala for the impatient
+2013-03-18 15:48:46	pipeline	apparently too impatient
+2013-03-18 15:48:59	sproingie	as the title implies, it's not an in-depth treatment
+2013-03-18 15:49:21	dv	Hi! 
+2013-03-18 15:49:35	dv	Can I ask about sbt| 
+2013-03-18 15:49:36	dv	?
+2013-03-18 15:49:46	sproingie	feel free
+2013-03-18 15:50:16	saml	howa I think I can do fizzbuzz with partialfunction
+2013-03-18 15:50:55	sproingie	guards i suppose
+2013-03-18 15:50:58	dv	It's simple: Assuming this: 
+2013-03-18 15:50:58	dv	> show dependency-classpath
+2013-03-18 15:50:58	dv	[info] ArrayBuffer(Attributed(/home/dv/.sbt/boot/scala-2.9.1/lib/scala-library.jar), Attributed(/home/dv/.ivy2/cache/com.oracle/ojdbc14/jars/ojdbc14-10.2.0.5.0.jar))
+2013-03-18 15:50:58	dv	Got this:
+2013-03-18 15:50:59	dv	java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@//xxx.xx.xx.xxx:1521/dbname
+2013-03-18 15:51:00	lambdabot	  Not in scope: `dependency'Not in scope: `classpath'
+2013-03-18 15:52:21	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Read error: Connection reset by peer)
+2013-03-18 15:52:43	saml	(1 to 20) map ({case x if x % 15 == 0 => "FizzBuzz" } orElse {case x if x % 5 == 0 => "Buzz"} orElse {case x if x % 3 == 0 => "Fizz"})
+2013-03-18 15:52:54	saml	meh doen'st work. need type declaration
+2013-03-18 15:53:31	sproingie	yeah anonymous partial functions aren't quite as syntax-sugared as i wish they were
+2013-03-18 15:54:13	dv	saml: yes I suppose the match is not exhaustive for type guess
+2013-03-18 15:54:34	sproingie	that's not the problem, it's that it doesn't infer the type as well as it could
+2013-03-18 15:55:04	-->	infynyxx (~infynyxx@208.82.12.18) has joined #scala
+2013-03-18 15:55:14	sproingie	had a similar issue wiring up gui action handlers with PF's
+2013-03-18 15:55:40	tpolecat	dv: are you loading the driver explicitly with class.forName? i think i had to do that for oracle lite
+2013-03-18 15:55:58	sproingie	in that case though the noise from the annotation was minimal compared to the size of the match block
+2013-03-18 15:56:18	sproingie	but the extra parens still weren't pretty
+2013-03-18 15:57:01	-->	pr0ton (~pr0ton@8.25.197.24) has joined #scala
+2013-03-18 15:57:06	<--	kushal (kdas@fedora/kushal) has quit (Ping timeout: 264 seconds)
+2013-03-18 15:57:22	dv	tpolecat: yes i did that before: 
+2013-03-18 15:57:22	dv	  val conn:Option[java.sql.Connection] = {
+2013-03-18 15:57:22	dv	    try { Class.forName("com.oracle.Driver") }
+2013-03-18 15:57:22	dv	    catch { case e:Throwable => None }
+2013-03-18 15:57:22	dv	    val url = "jdbc:oracle:thin:@//xxxxxxxxx/dbname"
+2013-03-18 15:57:23	dv	    Some(DriverManager.getConnection(url, "____","____"))
+2013-03-18 15:57:25	dv	  }
+2013-03-18 15:58:08	-->	eintr (~dln@h-38-150.a254.priv.bahnhof.se) has joined #scala
+2013-03-18 15:58:08	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-18 15:58:10	dv	oh my god! I should use oracle.jdbc.driver.OracleDriver! sorry for my stupidity
+2013-03-18 15:59:11	arturaz	dv, also your None clause is non-returning
+2013-03-18 15:59:18	<--	saml (~sam@adfb12c2.cst.lightpath.net) has quit (Ping timeout: 245 seconds)
+2013-03-18 15:59:57	<--	oncenull (~oncenull@200.69.203.221) has quit (Remote host closed the connection)
+2013-03-18 16:00:29	tpolecat	dv it may be oracle.jdbc.OracleDriver
+2013-03-18 16:00:47	tpolecat	hard to get a straight answer. i don't have that code in front of me today
+2013-03-18 16:01:47	dv	arturaz, tpolecat: many thanks! Got it working. Also fixed non-returning catch block moving rest of function to "try" clause
+2013-03-18 16:02:00	--	Watcher7|off is now known as Watcher7
+2013-03-18 16:02:01	-->	saml (~sam@adfb12c2.cst.lightpath.net) has joined #scala
+2013-03-18 16:03:21	-->	lkba (~AndChat@acjr75.neoplus.adsl.tpnet.pl) has joined #scala
+2013-03-18 16:04:29	<--	eintr (~dln@h-38-150.a254.priv.bahnhof.se) has quit (Quit: Leaving.)
+2013-03-18 16:04:37	-->	oncenull (~oncenull@200.69.203.221) has joined #scala
+2013-03-18 16:05:02	-->	eintr (~dln@h-38-150.a254.priv.bahnhof.se) has joined #scala
+2013-03-18 16:05:32	<--	oncenull (~oncenull@200.69.203.221) has quit (Remote host closed the connection)
+2013-03-18 16:05:33	tpolecat	dv: you might consider scala.util.Try { do stuff } instead of try/catch 
+2013-03-18 16:06:06	OlegYch	is any reason to use Class.forName instead of classOf
+2013-03-18 16:06:23	OlegYch	assuming you know the class is available
+2013-03-18 16:06:31	-->	harpreet_ (~harpreet@c-50-143-146-252.hsd1.ca.comcast.net) has joined #scala
+2013-03-18 16:06:41	Lymia	forName forces intialization, I think
+2013-03-18 16:06:42	-->	kushal (kdas@fedora/kushal) has joined #scala
+2013-03-18 16:06:48	Lymia	Which would register the driver.
+2013-03-18 16:06:48	sproingie	dv: please use a pastebin btw
+2013-03-18 16:07:09	OlegYch	classOf should do the same afaik
+2013-03-18 16:07:14	dv	sproingie: sorry, no more code here.
+2013-03-18 16:08:09	-->	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has joined #scala
+2013-03-18 16:08:09	-->	oncenull (~oncenull@200.69.203.221) has joined #scala
+2013-03-18 16:08:51	Lymia	OlegYch, classOf only gets you the Class object, doesn't it?
+2013-03-18 16:08:55	Lymia	i.e. it compiles to Foo.class
+2013-03-18 16:09:06	<--	ssmoot (~ssmoot@208.86.167.247) has left #scala ("Linkinus - http://linkinus.com")
+2013-03-18 16:09:13	dv	tpolecat: I'm studying scala.util.control package. It's amazingly convenient
+2013-03-18 16:09:37	sproingie	classOf is for when you have an existing instance, Class.forName is to load the class from the classpath
+2013-03-18 16:11:45	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-03-18 16:11:53	sproingie	DataSource is what you're supposed to use these days instead of DriverManager, but it's much clumsier in a standalone app
+2013-03-18 16:12:23	OlegYch	sproingie: getClass is for existing instance
+2013-03-18 16:12:35	Lymia	http://paste.strictfp.com/37025/e86ab42cb0f751da8371bd6d1197e609
+2013-03-18 16:12:44	Lymia	I'm going to assume this is the reason to use forName
+2013-03-18 16:12:48	<--	RSchulzM (~RSchulzM@173-228-5-16.dsl.static.sonic.net) has quit (Ping timeout: 264 seconds)
+2013-03-18 16:13:09	sproingie	actually you should use the jdbc.drivers system property and not hardwire Class.forName in your code
+2013-03-18 16:13:23	-->	mizu_no_oto (~textual@cpe-76-180-124-229.buffalo.res.rr.com) has joined #scala
+2013-03-18 16:13:37	sproingie	unless you're trying to support arbitrary class names dynamically
+2013-03-18 16:13:42	OlegYch	Lymia: thanks
+2013-03-18 16:14:32	<--	OwenOu (~Adium@207.194.223.3) has quit (Quit: Leaving.)
+2013-03-18 16:15:21	tpolecat	Lymia: yeah that's good to know
+2013-03-18 16:16:18	<--	mizu_no_oto (~textual@cpe-76-180-124-229.buffalo.res.rr.com) has quit (Client Quit)
+2013-03-18 16:17:06	<--	toudi (~toudi@toudi.eu) has quit (Ping timeout: 276 seconds)
+2013-03-18 16:18:06	-->	mizu_no_oto (~textual@cpe-76-180-124-229.buffalo.res.rr.com) has joined #scala
+2013-03-18 16:20:21	saml	https://gist.github.com/saml/5190419   how can I push Option to the top level?
+2013-03-18 16:20:41	-->	toudi (~toudi@toudi.eu) has joined #scala
+2013-03-18 16:20:44	saml	Instead of Some(ArrayBuffer(Some(MenuItemPortion($1)))) , I want Some(ArrayBuffer(MenuItemPortion($1))))
+2013-03-18 16:20:50	saml	oh for expression
+2013-03-18 16:20:57	-->	infynyxx (~infynyxx@208.82.12.18) has joined #scala
+2013-03-18 16:23:06	Lymia	saml, so you want.
+2013-03-18 16:23:10	OlegYch	! List(Some(1)).flatten
+2013-03-18 16:23:11	multibot_	 List[Int] = List(1)
+2013-03-18 16:23:19	Lymia	Some(Array(Some(a), None)) => Some(Array(a))?
+2013-03-18 16:23:22	Lymia	And None => None?
+2013-03-18 16:23:24	<--	mizu_no_oto (~textual@cpe-76-180-124-229.buffalo.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-03-18 16:23:32	Lymia	If so, x.map(_.flatten)
+2013-03-18 16:23:41	Lymia	! None.map(_.flatten)
+2013-03-18 16:23:42	multibot_	 error: value flatten is not a member of Nothing
+2013-03-18 16:23:43	multibot_	               None.map(_.flatten)
+2013-03-18 16:23:44	multibot_	                          ^
+2013-03-18 16:23:50	Lymia	Well...
+2013-03-18 16:23:55	Lymia	When properly typed at least :p
+2013-03-18 16:24:10	Lymia	! Some(List(Some(1), Some(2), Some(3), None, None, Some(1), None)).map(_.flatten)
+2013-03-18 16:24:37	saml	http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List   oh nice. use case!
+2013-03-18 16:24:48	Lymia	! println("hi?"0
+2013-03-18 16:24:51	Lymia	! println("hi?")
+2013-03-18 16:25:04	-->	_veer (~veer@pool-108-33-26-144.tampfl.fios.verizon.net) has joined #scala
+2013-03-18 16:25:04	<--	_veer (~veer@pool-108-33-26-144.tampfl.fios.verizon.net) has quit (Changing host)
+2013-03-18 16:25:04	-->	_veer (~veer@unaffiliated/lolsuper-/x-9881387) has joined #scala
+2013-03-18 16:25:12	multibot_	 Option[List[Int]] = Some(List(1, 2, 3, 1))
+2013-03-18 16:25:13	multibot_	 error: ')' expected but integer literal found.
+2013-03-18 16:25:14	multibot_	        println("hi?"0
+2013-03-18 16:25:15	multibot_	                     ^
+2013-03-18 16:25:16	multibot_	 hi?
+2013-03-18 16:25:23	tpolecat	multibot_ is kind of mopey today
+2013-03-18 16:26:57	saml	oh there's Option.flatten :P
+2013-03-18 16:26:58	-->	_chad_ (~chad@i59F74AFC.versanet.de) has joined #scala
+2013-03-18 16:27:56	<--	gildegoma (~gildegoma@217-162-100-29.dynamic.hispeed.ch) has quit (Quit: gildegoma)
+2013-03-18 16:28:00	<--	Mandus (~aasmundo@oroback.simula.no) has quit (Quit: Changing server)
+2013-03-18 16:28:53	<--	notk0 (~notk0@unaffiliated/notk0) has quit (Quit: Leaving)
+2013-03-18 16:28:57	saml	 Converts this list of traversable collections into a list formed by the elements of these traversable collections.
+2013-03-18 16:29:12	saml	Option is considered a traversable collection?
+2013-03-18 16:29:34	qu1j0t3	! ('wake, 'the, 'hell, 'up)
+2013-03-18 16:29:34	sproingie	sure, it's a list of one element
+2013-03-18 16:29:34	sproingie	zero or one
+2013-03-18 16:29:34	multibot_	 (Symbol, Symbol, Symbol, Symbol) = ('wake,'the,'hell,'up)
+2013-03-18 16:29:52	 *	qu1j0t3 clapped some symbols
+2013-03-18 16:30:28	tpolecat	!reset
+2013-03-18 16:30:36	tpolecat	! 'howAboutNow
+2013-03-18 16:30:36	-->	Mandus (~aasmundo@oroback.simula.no) has joined #scala
+2013-03-18 16:30:37	multibot_	 Symbol = 'howAboutNow
+2013-03-18 16:30:56	tpolecat	! 1 + 1
+2013-03-18 16:30:56	multibot_	 Int = 2
+2013-03-18 16:30:56	tpolecat	meh
+2013-03-18 16:31:56	-->	pmenon_ (~pmenon@75.98.196.98) has joined #scala
+2013-03-18 18:55:18	--	irc: disconnected from server
+2013-03-22 17:03:11	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #scala
+2013-03-22 17:03:11	--	Topic for #scala is "The Scala Programming Language http://www.scala-lang.org/ stable 2.10.1 dev 2.11.0-M2 Scala API: http://scala-lang.org/api | Paste http://pastie.org/?lang=scala"
+2013-03-22 17:03:11	--	Topic set by ijuma (~ijuma@83-244-132-215.cust-83.exponential-e.net) on Mon, 18 Mar 2013 06:12:32
+2013-03-22 17:03:11	--	Nicks #scala: [__main__ _janne _pa_ _pa__ _veer `ramses abumirqaan aburr adammh agumonkey air_ ajhager alambert alexander__b aloiscochard anelson Apocalisp appamatto arbn arkx arnihr__ Arrgh artemk arturaz arussel atoll avenj axiak_ balrog bblfish_ beawesomeinstead befuddled1 benj_ betehess bjartek blair blast_hardcheese blizzarac bmcgee bogdanp BombStrike bracken Bracki brett_h bruntonspall buhawi burris Caelum calculus camerin casualjim_zzz cdidd cespare charlesofarrell ches chirpsalot codingkevin coldboot_work companion_cube copumpkin cpojer crazysim crocket cross cuttooth cythrawll d_m danman darkfrog Dashkal datura daverstevens David____ dcorbin_work derfury desaila deuteros dfrey dgreensp dhoss dibblego DigitalKiwi dimensia djspiewak dmiles dmilith dolio Droggl dscleave1 duncanm dustingetz dwins dxtr dyreshark E[ E[_ ecuderpam edwardk edwtjo eis ekneuss Eldariof-ru elux eprst Excureo Ezku fanf fattrat fbettag FDFlock_ fikle fivv flazz folone_ gaYak gemelen genehack gereedy gowlin gpampara_off grogs gseitz heikkih hipertracker hiratara hiredman hoxu hvesalai hyko hyperboreean hypervise ilyam imeredith infynyxx ironm ish ivank_ iXeno jamesiry jamestastic jasonmay jberkel jdstroy jedws jeremyc Jibbers42_away jkarlsson jkim jlewis jmvanel joed johnlcox joneshf joneshf-laptop jonross jonshea joschi jpiche jrodicus jroesch julmae jyxent k7k k_89 keras_ kip_litton kippesoep kkress knix kppullin kratorius ktosiek Kuba lambdabot lanemeyer lennart__ leoncamel liesen liszt lkba lmm lopex lossyrob lykes Lymia m0sf3t m_m8 machisuji MacTuitui majoh malaverdiere maluco Mandus mapreduce mariaDa2 MasseR matheus23 matt_538 matt_c mehitabe1 mengu mercwithamouth mharrah miasma michaelpj milessabin milosn mjc mknoszlig mnml_ monique_ mshaw multibot_ museun Naktibalda ndvivedi niczero Nitro nkpart nn0101_ ntelford nu11ptr nuttycom nuttycom2 Obvious ogreface ohama OlegYch oncenull oriig OwenOu paddymahoney pakl papuja pcboy_ pdxleif peltchu pettter pfn pfurla philipd piggybox pionic pkondzior__ pmenon pragma- Pranz predator117 pseudolio psino qu1j0t3 qz rackesis rafl Ragnor raid ramn[work] reactormonk reddickulous Redpunch relrod rethaw rickeyski-k rmk0 rnewson|away rodgort Rogach RogueShadow rom1dep ropr rossabaker RRSchulz1 RSchulz RSchulzB RSchulzM rsebastian Rubennn rue Ry4an ryanlecompte sambio saml scalabot scalatron schlicht__ Scient seanparsons setheus SethTisue sgronblo shachaf Shadda shango Shapeshifter sharpobject Shepard shergill SHODAN six Skyr sl33v3 Slush- Smol snearch snits spiffxp Spion sproingie srcerer srm` ssi stevan__ stevefink stew stif stnly strax_ suiside Sumail supertramp SuperTux88 supki tanner tazle_ TDJACR teamon techlife tehshy tessi tewecske texray theatrus thereisnospoon Theueip tim timemage timte tixxit tnks Tok-A-Mak tomh_ tomku topi` toudi tpolecat trepidaciousMBR tsinnema tupshin twoism twowo ultiprosan uris verma vsayer_ w0rp waerloga wagle wajiii Watcher7 weie_ woky woshty xastey xav Xorlev xplat yan_ ymasory Z_Mass zip]
+2013-03-22 17:03:11	--	Channel #scala: 370 nicks (0 ops, 0 halfops, 0 voices, 370 normals)
+2013-03-22 17:03:12	--	Mode #scala [+nt]
+2013-03-22 17:03:12	--	Channel created on Sun, 28 Jan 2007 17:58:41
+2013-03-22 17:03:13	arussel	is there other more appropriate refactoring ? (I assume parsing a tree accumulating result and keeping state is very common)
+2013-03-22 17:03:32	arussel	should I bring scalaz just to do this ?
+2013-03-22 17:03:35	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-03-22 17:04:01	<--	snearch (~snearch@brln-4dba249d.pool.mediaWays.net) has quit (Quit: Verlassend)
+2013-03-22 17:05:59	tixxit	arussel: I've done a few refactorings of recursive methods + state using State monad
+2013-03-22 17:06:11	tixxit	generally been quite happy with the results
+2013-03-22 17:06:18	tixxit	beware of larger stack usage of course
+2013-03-22 17:06:41	<--	jonross (~jross@hq.tripadvisor.com) has quit (Quit: jonross)
+2013-03-22 17:06:59	arussel	usign scalaz ?
+2013-03-22 17:07:03	reactormonk	Could anyone try to reproduce this? https://github.com/utcompling/applied-nlp/issues/12
+2013-03-22 17:07:08	arussel	s/usign/using/
+2013-03-22 17:07:20	tixxit	Scalaz, yeah
+2013-03-22 17:07:42	tixxit	Is there any reason not to use it?
+2013-03-22 17:07:44	tpolecat	State is just a few lines of code, but you'll eventually end up rewriting hunks of scalaz so it might make sense to just go ahead and use it
+2013-03-22 17:07:44	-->	MisterD (~MisterD@AGrenoble-651-1-459-238.w82-122.abo.wanadoo.fr) has joined #scala
+2013-03-22 17:08:24	tixxit	Scalaz7 makes it very easy to use small parts, ad hoc
+2013-03-22 17:08:26	qu1j0t3	tpolecat: which reminds me i never finished my trivial state example w/ scalaz
+2013-03-22 17:08:44	arussel	I'll give it a shot with scalaz
+2013-03-22 17:08:47	arussel	ta
+2013-03-22 17:08:57	tpolecat	you can also use trampolined state or the free monad to avoid stack issues (if it comes up)
+2013-03-22 17:09:07	tixxit	Yeah, but then you run into perf issues :\
+2013-03-22 17:09:20	tpolecat	qu1j0t3: get on it!
+2013-03-22 17:09:22	tixxit	No free lunches :(
+2013-03-22 17:09:24	qu1j0t3	tpolecat: inorite!
+2013-03-22 17:09:41	qu1j0t3	tixxit: i'll buy you a free lunch if you're still in TO and lonely on the weekend.
+2013-03-22 17:10:12	-->	jaeyeun (~jaeyeun@c-24-91-30-184.hsd1.ma.comcast.net) has joined #scala
+2013-03-22 17:10:26	tixxit	qu1j0t3: Sure. I'll actually be near Queen West or Yonge & Eg several times during the week
+2013-03-22 17:10:29	tixxit	if you can do a weekday
+2013-03-22 17:11:00	qu1j0t3	tixxit: yes I can. i work very close to Queen W.
+2013-03-22 17:11:17	tixxit	Not necessarily this week, the next 3 weeks I'll be around
+2013-03-22 17:11:19	qu1j0t3	ok.
+2013-03-22 17:11:46	qu1j0t3	tixxit: i know a good Indian on Queen (or King).
+2013-03-22 17:12:37	tixxit	Sounds good! I'll let you know when I'll be around
+2013-03-22 17:12:45	qu1j0t3	great :)
+2013-03-22 17:13:03	-->	nirvdrum (~nirvdrum@c-75-69-252-106.hsd1.nh.comcast.net) has joined #scala
+2013-03-22 17:15:42	-->	darinmorrison (~dwm@unaffiliated/darinmorrison) has joined #scala
+2013-03-22 17:15:48	-->	felmas (~felmas@212.243.55.154) has joined #scala
+2013-03-22 17:16:12	arturaz	reactormonk, works for me
+2013-03-22 17:17:23	tpolecat	qu1j0t3: btw i must confess that i have used serialization to make deep copies of big java structures
+2013-03-22 17:17:48	<--	Nitro (~nitro@unaffiliated/nitro) has quit (Ping timeout: 260 seconds)
+2013-03-22 17:18:18	<--	pseudolio (~dolio@gw1.mcgraw-hill.com) has quit (Quit: Leaving)
+2013-03-22 17:20:44	-->	cybernd (~cybernd@85-127-109-51.dynamic.xdsl-line.inode.at) has joined #scala
+2013-03-22 17:21:32	qu1j0t3	tpolecat: :)
+2013-03-22 17:21:40	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Read error: Connection reset by peer)
+2013-03-22 17:22:38	<--	arussel (~user@host-85-27-20-244.brutele.be) has quit (Remote host closed the connection)
+2013-03-22 17:27:01	-->	dcorbin (~dcorbin@unaffiliated/dcorbin) has joined #scala
+2013-03-22 17:28:19	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 17:28:47	-->	stephenjudkins (~textual@c-24-21-128-244.hsd1.or.comcast.net) has joined #scala
+2013-03-22 17:31:28	--	pdxleif is now known as pdxleif_away
+2013-03-22 17:31:31	-->	Wertax (~wertax@wolfkamp.xs4all.nl) has joined #scala
+2013-03-22 17:31:38	<--	mengu (~mengu@server-213.128.92.227.radore.net.tr) has quit (Quit: Konversation terminated!)
+2013-03-22 17:31:48	-->	mengu (~mengu@server-213.128.92.227.radore.net.tr) has joined #scala
+2013-03-22 17:31:58	-->	metaweta (43a1d74a@gateway/web/freenode/ip.67.161.215.74) has joined #scala
+2013-03-22 17:32:15	metaweta	What's the difference between these two ways of defining functions?
+2013-03-22 17:32:26	metaweta	scala> val addOne = { m: Int => m + 1 }
+2013-03-22 17:32:28	<--	elux (~peter@96.45.198.150) has quit (Quit: Leaving...)
+2013-03-22 17:32:44	metaweta	scala> def addOne(m: Int) = m + 1
+2013-03-22 17:32:55	qu1j0t3	the latter is a method
+2013-03-22 17:33:02	arturaz	under the hood addOne is scala.Function1[Int, Int]
+2013-03-22 17:33:10	arturaz	latter is a method
+2013-03-22 17:33:23	arturaz	which can be lifted into a function object with partial application
+2013-03-22 17:33:34	arturaz	! def a(m: Int) = m + 1
+2013-03-22 17:33:34	multibot_	 a: (m: Int)Int
+2013-03-22 17:33:41	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 17:33:42	arturaz	! val b = a _
+2013-03-22 17:33:42	multibot_	 b: Int => Int = <function1>
+2013-03-22 17:33:43	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 17:34:04	arturaz	you can pass around latter but not the former
+2013-03-22 17:34:16	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 17:34:17	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 17:34:24	metaweta	Is there any benefit to using def, then?
+2013-03-22 17:34:33	arturaz	jvm has native support for it
+2013-03-22 17:34:36	qu1j0t3	metaweta: you get a method
+2013-03-22 17:34:41	qu1j0t3	here's another form..
+2013-03-22 17:34:43	qu1j0t3	! def m: Int => Int = 1 +
+2013-03-22 17:34:44	stephenjudkins	is there an implicit conversion that roughly does Seq[A] => Seq[B] (using CanBuildFrom, etc, properly) provided implicit A => B is available?
+2013-03-22 17:34:44	multibot_	 m: Int => Int
+2013-03-22 17:34:51	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 17:34:53	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 17:34:59	arturaz	also you can't have generics in functions IIRC
+2013-03-22 17:35:00	stephenjudkins	if so, what harm would there be from having it in scala.Predef?
+2013-03-22 17:35:24	tpolecat	def can have type parameters but a value (including a function value) cannot
+2013-03-22 17:35:27	qu1j0t3	metaweta: def gives you a jvm method, which has all the usual connotations, including a related instance
+2013-03-22 17:35:28	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 17:35:33	tpolecat	! def foo[A](a:A):A = a
+2013-03-22 17:35:33	multibot_	 foo: [A](a: A)A
+2013-03-22 17:35:35	tpolecat	! foo _
+2013-03-22 17:35:36	multibot_	 Nothing => Nothing = <function1>
+2013-03-22 17:35:41	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #scala
+2013-03-22 17:35:41	tpolecat	! foo[Int] _
+2013-03-22 17:35:42	multibot_	 Int => Int = <function1>
+2013-03-22 17:36:17	metaweta	tpolcat: thanks, that helps.
+2013-03-22 17:36:50	tpolecat	stephenjudkins: you could certainly define that … seems a little sketchy for it to be there all the time
+2013-03-22 17:37:00	stephenjudkins	tpolecat: why?
+2013-03-22 17:37:55	tpolecat	! implicit def hmm[A,B](as:Seq[A])(implicit f: A => B):Seq[B] = as map f
+2013-03-22 17:37:56	multibot_	 hmm: [A, B](as: Seq[A])(implicit f: A => B)Seq[B]
+2013-03-22 17:38:01	tpolecat	! Seq(1,2,3) : Seq[Double]
+2013-03-22 17:38:01	multibot_	 Seq[Double] = List(1.0, 2.0, 3.0)
+2013-03-22 17:38:29	tpolecat	oh well maybe that doesn't illustrate it
+2013-03-22 17:38:39	<--	danman (~djung@firebox.rsmart.com) has quit (Quit: danman)
+2013-03-22 17:39:37	<--	mengu (~mengu@server-213.128.92.227.radore.net.tr) has quit (Ping timeout: 245 seconds)
+2013-03-22 17:39:38	tpolecat	bah
+2013-03-22 17:40:02	<--	cuttooth (~cuttooth@c-71-225-66-201.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2013-03-22 17:40:21	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-03-22 17:40:31	tpolecat	stephenjudkins: anyway i can't think of a reason why it's wrong but you could extend it to anything … why not have (A,B) => (C,D) if the conversions are available for A => C and B => D?
+2013-03-22 17:40:47	tpolecat	seems like it could get out of hand really fast
+2013-03-22 17:41:02	arturaz	I see a hole
+2013-03-22 17:41:02	arturaz	expensive conversion
+2013-03-22 17:41:11	arturaz	inexplicit usage of implicits leading to slow code
+2013-03-22 17:41:19	<--	Eldariof-ru (~CLD@pppoe-214-197-dyn-sr.volgaline.ru) has quit
+2013-03-22 17:41:32	arturaz	because conversion happens every time you pass things around lets say
+2013-03-22 17:41:47	stephenjudkins	tpolecat: i have not thought through all the implications, so I'm not sure how bad of an idea it might be
+2013-03-22 17:41:47	qu1j0t3	stephenjudkins: pun intended?
+2013-03-22 17:41:48	tpolecat	! implicit def hmm[A,B](implicit f: A => B):(Seq[A] => Seq[B]) = _ map f
+2013-03-22 17:41:48	multibot_	 hmm: [A, B](implicit f: A => B)Seq[A] => Seq[B]
+2013-03-22 17:42:04	tpolecat	! { implicit def i2s(i:Int) = i.toString; Seq(1,2,3) : Seq[String] }
+2013-03-22 17:42:04	multibot_	 Seq[String] = List(1, 2, 3)
+2013-03-22 17:42:04	tpolecat	:-/
+2013-03-22 17:42:04	stephenjudkins	qu1j0t3: no, it appears all my best puns are unintended :P
+2013-03-22 17:42:13	qu1j0t3	stephenjudkins: :)
+2013-03-22 17:42:35	tpolecat	interestingly you also get
+2013-03-22 17:42:36	tpolecat	! { implicit def i2s(i:Int) = i.toString; Seq(Seq(1,2,3), Seq(2)) : Seq[Seq[String]] }
+2013-03-22 17:42:36	multibot_	 Seq[Seq[String]] = List(List(1, 2, 3), List(2))
+2013-03-22 17:43:20	malaverdiere	I have an interesting (read: crazy) problem
+2013-03-22 17:44:05	tpolecat	stephenjudkins: whenever i have implicit conversions between "real" types (i.e., unlike pimps, where i actually hang onto a reference) it always ends up biting me
+2013-03-22 17:44:25	malaverdiere	I have a Map[String. XYZ], I tried a map.contains("abc") and it returns false. When I copy the values from the debugger, to a text editor, I can confirm that the map has that key!
+2013-03-22 17:45:53	<--	dustingetz (~dustinget@static-71-185-167-35.phlapa.fios.verizon.net) has quit (Quit: dustingetz)
+2013-03-22 17:46:05	stephenjudkins	tpolecat: really? whenever I am forced to interact with a sufficiently complex Java library, I almost always end up writing a little mini-library of conversions to deal with its nonsense. but those are generally only used/imported where I'm dealing with that library...
+2013-03-22 17:46:50	qu1j0t3	:)
+2013-03-22 17:47:08	tpolecat	i have done that too but keep it scoped pretty carefully. more often than not i use a pimp to add an .asScala method to the java type
+2013-03-22 17:47:08	arturaz	malaverdiere, unprintable symbols
+2013-03-22 17:47:21	arturaz	try getBytes
+2013-03-22 17:47:36	arturaz	i had this problem when reading from UTF8 file with BOM
+2013-03-22 17:47:41	arturaz	BOM became part of a key
+2013-03-22 17:47:53	malaverdiere	arturaz: How do I troubleshoot those? I hope there is a better option than getBytes()
+2013-03-22 17:47:53	qu1j0t3	heh yeah the cursed BOM
+2013-03-22 17:47:53	stephenjudkins	malaverdiere: is this occurring in the REPL? are you, by chance, using class names as keys?
+2013-03-22 17:48:22	malaverdiere	stephenjudkins: Not in REPL
+2013-03-22 17:48:22	qu1j0t3	arturaz: CSV amirite?
+2013-03-22 17:48:22	qu1j0t3	arturaz: header row?
+2013-03-22 17:48:34	arturaz	qu1j0t3, yeah
+2013-03-22 17:48:34	malaverdiere	The keys are class names indeed, but I get those from the Soot Framework
+2013-03-22 17:48:54	qu1j0t3	arturaz: hehe, had that issue a few weeks ago :)
+2013-03-22 17:49:24	<--	oriig (~ilia@78-83-56-21.spectrumnet.bg) has quit (Remote host closed the connection)
+2013-03-22 17:49:24	malaverdiere	stephenjudkins: You had a bad experience with class names? Mind sharing?
+2013-03-22 17:50:02	stephenjudkins	malaverdiere: the REPL does insane things with class names. classes defined in the session actually have crazy-long mangled names
+2013-03-22 17:50:56	stephenjudkins	then, in the output, it goes in and does a replace of the mangled names in the output, however they've been output
+2013-03-22 17:51:41	stephenjudkins	thus, a Map that is in reality Map(sdfasfsdafasdfFoo -> bar) comes up as Map(Foo -> Bar), even if it's a string. the only way to tell is to do getBytes on the string and notice that the bytes aren't correct at all
+2013-03-22 17:52:24	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-22 17:52:24	Redpunch	! class Foo {}; print(new Foo().getClass.getName)
+2013-03-22 17:52:24	multibot_	 $line95.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$Foodefined class Foo
+2013-03-22 17:52:24	stephenjudkins	it's insidious because it's so aggressive at replacing the mangled names, wherever they appear. you can also do split("") or something
+2013-03-22 17:52:36	-->	fhaslam (~fhaslam@c-67-189-8-57.hsd1.wa.comcast.net) has joined #scala
+2013-03-22 17:52:57	tpolecat	! "$line95.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$Foo"
+2013-03-22 17:52:57	multibot_	 String = Foo
+2013-03-22 17:52:57	tpolecat	WAT
+2013-03-22 17:52:57	tpolecat	ok stephenjudkins you win the prize
+2013-03-22 17:52:58	malaverdiere	WAT???????????????
+2013-03-22 17:53:09	arturaz	:D
+2013-03-22 17:53:09	arturaz	AWESOME
+2013-03-22 17:53:09	Redpunch	lol
+2013-03-22 17:53:14	tpolecat	holy fucking shit that is awesome
+2013-03-22 17:53:21	arturaz	this has to go somewhere
+2013-03-22 17:53:22	qu1j0t3	stephenjudkins++
+2013-03-22 17:53:39	 *	qu1j0t3 hands stephenjudkins one internets
+2013-03-22 17:53:57	<--	Sumail (~Sumail@net-2-34-58-93.cust.dsl.vodafone.it) has quit (Quit: Sumail)
+2013-03-22 17:54:53	stephenjudkins	it's… something
+2013-03-22 17:55:43	reactormonk	arturaz, argh
+2013-03-22 17:55:44	Redpunch	val s = "Foo"
+2013-03-22 17:55:47	Redpunch	! val s = "Foo"
+2013-03-22 17:55:47	multibot_	 s: String = Foo
+2013-03-22 17:55:57	Redpunch	! s == "$line95.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$Foo"
+2013-03-22 17:55:57	multibot_	 Boolean = false
+2013-03-22 17:56:16	tpolecat	! val s = "$line95.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$Foo"
+2013-03-22 17:56:17	multibot_	 s: String = Foo
+2013-03-22 17:56:21	tpolecat	! s
+2013-03-22 17:56:22	multibot_	 String = Foo
+2013-03-22 17:56:24	tpolecat	! s.length
+2013-03-22 17:56:24	multibot_	 Int = 61
+2013-03-22 17:56:29	tpolecat	:-D
+2013-03-22 17:56:42	Redpunch	what!
+2013-03-22 17:56:42	arturaz	behold, UNICORNS...
+2013-03-22 17:56:58	arturaz	magical string mangling unicorn
+2013-03-22 17:56:58	arturaz	err
+2013-03-22 17:56:58	 *	qu1j0t3 is depressed
+2013-03-22 17:57:01	Redpunch	haha
+2013-03-22 17:57:03	arturaz	developer->scala repl->magical string mangling unicorn
+2013-03-22 17:57:08	arturaz	more like it
+2013-03-22 17:57:27	arturaz	stringlicorn.
+2013-03-22 17:57:27	qu1j0t3	you know, somewhere, John McCarthy is spinning like a turbocharger
+2013-03-22 17:57:43	tpolecat	! s.toUpperCase
+2013-03-22 17:57:43	multibot_	 String = $LINE95.$READ$$IW$$IW$$IW$$IW$$IW$$IW$$IW$$IW$$IW$$IW$$IW$FOO
+2013-03-22 17:57:45	tpolecat	! s.toLowerCase
+2013-03-22 17:57:45	multibot_	 String = foo
+2013-03-22 17:57:58	tpolecat	love it
+2013-03-22 17:57:58	 *	qu1j0t3 goes back to Common Lisp
+2013-03-22 17:57:58	Redpunch	this is CRAZY!
+2013-03-22 17:58:12	malaverdiere	Too keep my life simple, is there a simple way to output hex?
+2013-03-22 17:58:43	-->	idntfy (~idntfy@94.141.44.56) has joined #scala
+2013-03-22 17:58:57	<--	grogs (~grogs@87-194-56-223.bethere.co.uk) has quit (Quit: grogs)
+2013-03-22 17:59:13	arturaz	f"%02x$byte"
+2013-03-22 17:59:20	arturaz	array.map(b => f"%02x$b").mkString
+2013-03-22 17:59:44	stephenjudkins	! (1 to 10) map { _.toByte } map { "%02x" format _ } mkString ""
+2013-03-22 17:59:44	multibot_	 String = 0102030405060708090a
+2013-03-22 18:00:09	stephenjudkins	do what arturaz says, the 2.10 string interpolation happens to be typesafe
+2013-03-22 18:00:43	arturaz	! (1 to 10).map(_.toByte).map(b => f"%02x$b").mkString
+2013-03-22 18:00:45	multibot_	 String = %02x1%02x2%02x3%02x4%02x5%02x6%02x7%02x8%02x9%02x10
+2013-03-22 18:00:47	arturaz	wat
+2013-03-22 18:00:58	-->	pantsman (~pantsman@188-222-133-52.zone13.bethere.co.uk) has joined #scala
+2013-03-22 18:00:58	<--	pantsman (~pantsman@188-222-133-52.zone13.bethere.co.uk) has quit (Changing host)
+2013-03-22 18:00:58	-->	pantsman (~pantsman@pdpc/supporter/active/pantsman) has joined #scala
+2013-03-22 18:00:59	Redpunch	stephenjudkins: not everybody is lucky enough to use 2.10
+2013-03-22 18:01:30	stephenjudkins	Redpunch: then use my example
+2013-03-22 18:01:30	-->	danman (~djung@ip68-3-211-243.ph.ph.cox.net) has joined #scala
+2013-03-22 18:01:30	qu1j0t3	http://macrochan.org/images/W/B/WBOWX6HWNYFF7RD2XKQVE2UOKI3AJ3P3.jpeg
+2013-03-22 18:02:01	qu1j0t3	(sfw)
+2013-03-22 18:02:21	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-03-22 18:02:34	<--	ymasory (~ymasory@209.49.103.254) has quit (Remote host closed the connection)
+2013-03-22 18:03:05	Redpunch	I will NEVER trust you again!
+2013-03-22 18:03:18	Redpunch	ASSHOLE!
+2013-03-22 18:03:40	Redpunch	my have another report against my IP now :(
+2013-03-22 18:03:49	Redpunch	s/my/I
+2013-03-22 18:04:05	 *	qu1j0t3 aims to please
+2013-03-22 18:05:09	qu1j0t3	okay so i think everybody just gained another Scala interview question
+2013-03-22 18:05:09	 *	qu1j0t3 scribbles in notebook
+2013-03-22 18:07:45	<--	Redpunch (~aman_@159.140.254.106) has quit (Remote host closed the connection)
+2013-03-22 18:07:46	arturaz	wtf just happened
+2013-03-22 18:08:44	<--	idntfy (~idntfy@94.141.44.56) has quit (Ping timeout: 276 seconds)
+2013-03-22 18:09:15	arturaz	qu1j0t3, you're hiring scala devs now?
+2013-03-22 18:09:29	<--	jamestastic (~james@173-228-28-49.dsl.dynamic.sonic.net) has quit (Quit: leaving)
+2013-03-22 18:11:14	qu1j0t3	arturaz: sadly no
+2013-03-22 18:11:14	OlegYch	bastards, give poor repl a break
+2013-03-22 18:11:46	qu1j0t3	OlegYch: Common Lisp is over there giggling
+2013-03-22 18:12:31	arturaz	(giggling (there (over (is Common Lisp))))
+2013-03-22 18:12:31	arturaz	sometimes I think that lisp was designed by Yoda
+2013-03-22 18:12:31	qu1j0t3	arturaz: a common misconception.
+2013-03-22 18:12:31	qu1j0t3	arturaz: lisp is not RPN.
+2013-03-22 18:12:31	sproingie	no, that was forth
+2013-03-22 18:12:31	qu1j0t3	arturaz: but a lot of people who never wrote lisp seem to think it is.
+2013-03-22 18:12:31	qu1j0t3	sproingie: right.
+2013-03-22 18:12:45	sproingie	FORTH LOVE IF HONK THEN
+2013-03-22 18:13:04	arturaz	i've written lisp, unfortunately
+2013-03-22 18:13:04	qu1j0t3	arturaz: lisp's function application position is the same as most languages.
+2013-03-22 18:13:04	qu1j0t3	arturaz: notably scala, haskell, ...
+2013-03-22 18:13:13	sproingie	it just brackets it differently
+2013-03-22 18:13:32	sproingie	"correctly" as lispers would say
+2013-03-22 18:13:32	<--	metaweta (43a1d74a@gateway/web/freenode/ip.67.161.215.74) has left #scala
+2013-03-22 18:13:32	qu1j0t3	sproingie: i have come to prefer the offside rule to explicit parens.
+2013-03-22 18:13:46	sproingie	i think they both have their place
+2013-03-22 18:13:46	qu1j0t3	sure
+2013-03-22 18:14:16	qu1j0t3	sproingie: not that i am paren-phobic.
+2013-03-22 18:14:17	-->	metaweta (43a1d74a@gateway/web/freenode/ip.67.161.215.74) has joined #scala
+2013-03-22 18:14:17	arturaz	1 + 4 * 5 - 3 / 4 ? of course (+ 1 (- (* 4 5) (/ 3 4))) is easier to read
+2013-03-22 18:14:18	sproingie	haskell can look pretty lispy when you start explicitly parenthesizing instead of using point-free and $
+2013-03-22 18:14:31	qu1j0t3	sproingie: exactly
+2013-03-22 18:14:46	<--	metaweta (43a1d74a@gateway/web/freenode/ip.67.161.215.74) has left #scala
+2013-03-22 18:15:07	-->	Ashoat (~Ashoat@199.36.244.25) has joined #scala
+2013-03-22 18:15:47	<--	atoll (~atoll@adsl-89-217-208-21.adslplus.ch) has quit (Ping timeout: 245 seconds)
+2013-03-22 18:15:47	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 18:17:21	saml	how can I fmap a key in Map?
+2013-03-22 18:17:26	arturaz	! Map(1 -> 2).map { case (k, v) => k.toString -> v }
+2013-03-22 18:17:31	multibot_	 scala.collection.immutable.Map[String,Int] = Map(1 -> 2)
+2013-03-22 18:17:46	<--	Ashoat (~Ashoat@199.36.244.25) has quit (Client Quit)
+2013-03-22 18:17:47	saml	that'llbe applied to all k,v
+2013-03-22 18:18:07	saml	oh i can pass partial function
+2013-03-22 18:18:07	<--	danman (~djung@ip68-3-211-243.ph.ph.cox.net) has quit (Quit: danman)
+2013-03-22 18:18:07	stephenjudkins	it'd be great if you could set your Google preferences to always favor results with one prefix ahead of similar results with a different prefix. as in, http://www.scala-lang.org/api/current will always appear ahead of http://www.scala-lang.org/api/2.9.1
+2013-03-22 18:18:21	arturaz	  class (Monad m, HasBounds a) => MArray a e m where
+2013-03-22 18:18:26	arturaz	     get     :: Ix ix => a ix e -> ix -> m e
+2013-03-22 18:18:26	arturaz	why haskell, WHYYY
+2013-03-22 18:18:47	saml	! Map("boroughs" -> Set("Queens", "Brooklyn")) map { case ("boroughs", v) => v + "Manhattan" }
+2013-03-22 18:19:14	multibot_	 scala.collection.immutable.Iterable[scala.collection.immutable.Set[String]] = List(Set(Queens, Brooklyn, Manhattan))
+2013-03-22 18:19:14	<--	stephenjudkins (~textual@c-24-21-128-244.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 18:19:14	saml	hahahahahah
+2013-03-22 18:19:16	arturaz	saml, what?
+2013-03-22 18:19:24	qu1j0t3	saml: looks legit
+2013-03-22 18:19:37	saml	yah i'm building a drop down for facets
+2013-03-22 18:20:09	qu1j0t3	of course
+2013-03-22 18:20:14	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #scala
+2013-03-22 18:20:22	<--	saml (~sam@adfb12c6.cst.lightpath.net) has quit (Quit: Leaving)
+2013-03-22 18:21:19	-->	grogs (~grogs@87-194-56-223.bethere.co.uk) has joined #scala
+2013-03-22 18:22:21	<--	cdidd (~cdidd@95-27-217-155.broadband.corbina.ru) has quit (Ping timeout: 255 seconds)
+2013-03-22 18:22:34	-->	infynyxx (~infynyxx@208.82.12.18) has joined #scala
+2013-03-22 18:23:40	<--	arturaz (~arturas@88-222-56-13.meganet.lt) has quit (Remote host closed the connection)
+2013-03-22 18:25:14	<--	MisterD (~MisterD@AGrenoble-651-1-459-238.w82-122.abo.wanadoo.fr) has quit (Ping timeout: 252 seconds)
+2013-03-22 18:26:37	<--	dwins (~dwins@197-239-234-66.static.cosmoweb.net) has quit (Ping timeout: 264 seconds)
+2013-03-22 18:26:53	-->	kelvl (~kelvl@501folsom.static.monkeybrains.net) has joined #scala
+2013-03-22 18:26:53	<--	oncenull (~oncenull@200.69.203.221) has quit (Remote host closed the connection)
+2013-03-22 18:28:23	-->	atoll (~atoll@adsl-89-217-208-21.adslplus.ch) has joined #scala
+2013-03-22 18:28:27	-->	deuteros_ (~deuteros@unaffiliated/deuteros) has joined #scala
+2013-03-22 18:29:47	<--	pantsman (~pantsman@pdpc/supporter/active/pantsman) has quit (Quit: Leaving)
+2013-03-22 18:29:50	<--	grogs (~grogs@87-194-56-223.bethere.co.uk) has quit (Quit: grogs)
+2013-03-22 18:30:47	<--	lopex (uid4272@gateway/web/irccloud.com/x-ekijelsmnqjfgikp) has left #scala
+2013-03-22 18:30:56	-->	lopex (uid4272@gateway/web/irccloud.com/x-ekijelsmnqjfgikp) has joined #scala
+2013-03-22 18:31:54	-->	lizzinn (~b@66.158.61.2) has joined #scala
+2013-03-22 18:34:29	<--	Naktibalda (~chatzilla@cpc2-heme10-2-0-cust25.9-1.cable.virginmedia.com) has quit (Quit: ChatZilla 0.9.90 [Firefox 19.0.2/20130307122351])
+2013-03-22 18:34:50	<--	artemk (~artem@188-191-19-142.dynamic.vega-ua.net) has quit (Quit: Leaving.)
+2013-03-22 18:35:52	--	casualjim_zzz is now known as casualjim
+2013-03-22 18:37:34	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 18:39:36	<--	pmenon (~pmenon@75.98.196.98) has quit (Ping timeout: 245 seconds)
+2013-03-22 18:39:50	malaverdiere	! (1 to 10).map(_.toByte).map(b => f"%02$b").mkString
+2013-03-22 18:39:51	multibot_	 String = %021%022%023%024%025%026%027%028%029%0210
+2013-03-22 18:40:10	<--	jamesiry (~Adium@199.87.82.130) has quit (Quit: Leaving.)
+2013-03-22 18:40:19	malaverdiere	! (1 to 10).map(_.toByte).map(b => f"$b").mkString
+2013-03-22 18:40:19	multibot_	 String = 12345678910
+2013-03-22 18:40:30	malaverdiere	! (1 to 20).map(_.toByte).map(b => f"%02x$b").mkString
+2013-03-22 18:40:31	multibot_	 String = %02x1%02x2%02x3%02x4%02x5%02x6%02x7%02x8%02x9%02x10%02x11%02x12%02x13%02x14%02x15%02x16%02x17%02x18%02x19%02x20
+2013-03-22 18:40:40	<--	malaverdiere (~marc-andr@bas10-montreal28-2925115523.dsl.bell.ca) has quit (Quit: Leaving.)
+2013-03-22 18:41:51	-->	dmiles_afk (~dmiles@c-71-237-234-93.hsd1.or.comcast.net) has joined #scala
+2013-03-22 18:42:07	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 18:44:33	<--	dmiles (~dmiles@c-71-237-234-93.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-03-22 18:44:54	<--	fhaslam (~fhaslam@c-67-189-8-57.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2013-03-22 18:45:28	-->	fhaslam (~fhaslam@c-67-189-8-57.hsd1.wa.comcast.net) has joined #scala
+2013-03-22 18:46:13	cpojer	in akka, is there an actorOf method that returns an Option[ActorRef] instead of throwing an InvalidActorNameException?
+2013-03-22 18:46:32	cpojer	catching exceptions in scala seems so wrong
+2013-03-22 18:46:57	-->	Nitro (~nitro@unaffiliated/nitro) has joined #scala
+2013-03-22 18:47:06	-->	Rovak (~rovak@g126186.upc-g.chello.nl) has joined #scala
+2013-03-22 18:47:18	<--	deuteros_ (~deuteros@unaffiliated/deuteros) has quit (Quit: deuteros_)
+2013-03-22 18:47:45	-->	deuteros_ (~deuteros@unaffiliated/deuteros) has joined #scala
+2013-03-22 18:48:19	<--	milessabin (~miles@private.milessabin.com) has quit (Read error: Operation timed out)
+2013-03-22 18:49:39	-->	fayimora (~fayimora@host86-181-59-96.range86-181.btcentralplus.com) has joined #scala
+2013-03-22 18:50:45	<--	djspiewak (~djspiewak@70-91-169-68-BusName-Colorado.hfc.comcastbusiness.net) has quit (Quit: djspiewak)
+2013-03-22 18:51:02	-->	grogs (~grogs@87-194-56-223.bethere.co.uk) has joined #scala
+2013-03-22 18:51:25	<--	agumonkey (~agu@8.158.70.86.rev.sfr.net) has quit (Ping timeout: 260 seconds)
+2013-03-22 18:51:29	<--	stif (~stif@93.125.34.10) has quit (Ping timeout: 255 seconds)
+2013-03-22 18:51:49	<--	grogs (~grogs@87-194-56-223.bethere.co.uk) has quit (Client Quit)
+2013-03-22 18:52:06	-->	mary5030 (~mary5030@50.56.230.39) has joined #scala
+2013-03-22 18:52:06	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-22 18:52:06	<--	papuja (~sennik@dsl-hkibrasgw3-54fb70-141.dhcp.inet.fi) has quit (Ping timeout: 272 seconds)
+2013-03-22 18:53:22	-->	shellac (~shellac@cpc6-aztw25-2-0-cust83.aztw.cable.virginmedia.com) has joined #scala
+2013-03-22 18:54:04	-->	papuja (~sennik@dsl-hkibrasgw3-54fb70-141.dhcp.inet.fi) has joined #scala
+2013-03-22 18:56:36	OlegYch	cpojer: since paths are usually constants, i don't see how Options would help
+2013-03-22 18:57:12	<--	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-03-22 18:57:39	-->	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has joined #scala
+2013-03-22 18:57:43	<--	RRSchulz1 (~RRSchulz@67.218.117.3) has quit (Quit: Leaving.)
+2013-03-22 18:58:35	OlegYch	as well as actor names
+2013-03-22 19:00:02	<--	avenj (avenj@unaffiliated/avenj) has quit (Ping timeout: 245 seconds)
+2013-03-22 19:01:07	-->	redjohn (~redjohn@76.8.223.68) has joined #scala
+2013-03-22 19:01:20	cpojer	right
+2013-03-22 19:01:22	cpojer	OlegYch: you should make a play/akka/scala channel where you answer all the things
+2013-03-22 19:01:24	cpojer	:)
+2013-03-22 19:02:12	cpojer	well, since I'm now creating one actor per user I'd like to reuse the same actor for every connection
+2013-03-22 19:02:20	cpojer	and actorFor doesn't help either
+2013-03-22 19:02:48	<--	gowlin (~rgolbeck@debian/developer/rmgolbeck) has quit (Ping timeout: 248 seconds)
+2013-03-22 19:03:48	<--	Nitro (~nitro@unaffiliated/nitro) has quit (Quit: Hmm)
+2013-03-22 19:03:48	-->	gowlin (~rgolbeck@debian/developer/rmgolbeck) has joined #scala
+2013-03-22 19:04:27	<--	Wertax (~wertax@wolfkamp.xs4all.nl) has quit (Remote host closed the connection)
+2013-03-22 19:05:09	<--	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-03-22 19:05:13	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 19:05:13	OlegYch	yeah i think something like actorGetOrCreate might be useful
+2013-03-22 19:05:15	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 19:05:21	-->	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has joined #scala
+2013-03-22 19:05:50	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 19:05:50	<--	mary5030 (~mary5030@50.56.230.39) has quit (Remote host closed the connection)
+2013-03-22 19:07:10	-->	ymasory (~ymasory@209.49.103.254) has joined #scala
+2013-03-22 19:10:26	<--	thereisnospoon (~thereisno@CPE-60-231-75-18.lns7.cha.bigpond.net.au) has quit (Ping timeout: 276 seconds)
+2013-03-22 19:10:26	<--	pfurla (~Adium@186.221.102.211) has quit (Read error: Connection reset by peer)
+2013-03-22 19:10:26	-->	pfurla1 (~Adium@186.221.102.211) has joined #scala
+2013-03-22 19:12:31	-->	grogs (~grogs@87-194-56-223.bethere.co.uk) has joined #scala
+2013-03-22 19:15:34	-->	mazesc (~Matthias@chello084115154022.2.graz.surfer.at) has joined #scala
+2013-03-22 19:18:47	<--	mazesc (~Matthias@chello084115154022.2.graz.surfer.at) has quit (Quit: Leaving.)
+2013-03-22 19:18:47	-->	skchrko (~sk@130.255.129.64) has joined #scala
+2013-03-22 19:20:34	<--	buhawi (~buhawi@111.68.53.159) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-03-22 19:22:16	-->	thereisnospoon (~thereisno@CPE-60-231-75-18.lns7.cha.bigpond.net.au) has joined #scala
+2013-03-22 19:22:31	<--	folone_ (~folone@brln-4dbaa4da.pool.mediaWays.net) has quit (Read error: Operation timed out)
+2013-03-22 19:23:19	<--	copumpkin (~copumpkin@unaffiliated/copumpkin) has quit (Ping timeout: 245 seconds)
+2013-03-22 19:23:48	-->	copumpkin (~copumpkin@unaffiliated/copumpkin) has joined #scala
+2013-03-22 19:24:36	<--	skchrko (~sk@130.255.129.64) has quit (Ping timeout: 256 seconds)
+2013-03-22 19:24:57	-->	avenj (avenj@rakshasa.oppresses.us) has joined #scala
+2013-03-22 19:25:07	<--	avenj (avenj@rakshasa.oppresses.us) has quit (Changing host)
+2013-03-22 19:25:07	-->	avenj (avenj@unaffiliated/avenj) has joined #scala
+2013-03-22 19:26:05	-->	skchrko (~sk@130.255.129.64) has joined #scala
+2013-03-22 19:27:32	<--	timte (~timte@90-224-165-119-no123.tbcn.telia.com) has quit (Quit: timte)
+2013-03-22 19:28:02	-->	RRSchulz (~RRSchulz@67.218.117.3) has joined #scala
+2013-03-22 19:28:17	<--	nuttycom (~Adium@70-91-169-68-BusName-Colorado.hfc.comcastbusiness.net) has quit (Quit: Leaving.)
+2013-03-22 19:29:30	-->	stephenjudkins (~textual@c-67-189-34-121.hsd1.or.comcast.net) has joined #scala
+2013-03-22 19:32:11	<--	Rovak (~rovak@g126186.upc-g.chello.nl) has quit (Quit: Konversation terminated!)
+2013-03-22 19:35:18	<--	rickeyski-k (~rickeyski@206.217.106.178) has quit (Quit: leaving)
+2013-03-22 19:36:44	<--	RRSchulz (~RRSchulz@67.218.117.3) has quit (Ping timeout: 252 seconds)
+2013-03-22 19:40:01	<--	`ramses (~ramses@cl-1301.bru-01.be.sixxs.net) has quit (Ping timeout: 245 seconds)
+2013-03-22 19:40:03	<--	lizzinn (~b@66.158.61.2) has quit (Quit: leaving)
+2013-03-22 19:41:58	<--	jkarlsson (~jonas@70-100-132-50.dsl1-field.roch.ny.frontiernet.net) has quit (Quit: jkarlsson)
+2013-03-22 19:43:58	<--	timemage (~user@pool-70-16-208-33.man.east.myfairpoint.net) has quit (Quit: .)
+2013-03-22 19:44:29	<--	grogs (~grogs@87-194-56-223.bethere.co.uk) has quit (Quit: grogs)
+2013-03-22 19:45:22	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-03-22 19:46:45	<--	joneshf-laptop (~joneshf@mail.concordusapps.com) has quit (Ping timeout: 260 seconds)
+2013-03-22 19:47:21	--	pdxleif_away is now known as pdxleif
+2013-03-22 19:50:29	<--	nirvdrum (~nirvdrum@c-75-69-252-106.hsd1.nh.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-03-22 19:51:31	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-22 19:53:26	<--	matheus23 (~quassel@2a02:8071:2802:6a00:be5f:f4ff:fe47:390e) has quit (Read error: Connection reset by peer)
+2013-03-22 19:55:25	<--	betehess (~betehess@2001:470:8b2d:804:ddff:f049:8da4:8180) has quit (Quit: Leaving)
+2013-03-22 19:57:12	<--	tewecske (~tewe@catv-80-98-162-185.catv.broadband.hu) has quit (Quit: Leaving.)
+2013-03-22 19:57:12	-->	nuttycom (~Adium@71-208-237-17.hlrn.qwest.net) has joined #scala
+2013-03-22 19:57:48	-->	grogs (~grogs@87-194-56-223.bethere.co.uk) has joined #scala
+2013-03-22 19:58:36	<--	lennart__ (~lennart@kiel-d9bfc403.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2013-03-22 20:01:20	<--	ktosiek (~quassel@46.22.173.54) has quit (Ping timeout: 260 seconds)
+2013-03-22 20:01:42	-->	idntfy (~idntfy@94.141.44.56) has joined #scala
+2013-03-22 20:01:52	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 20:02:38	-->	ktosiek (~quassel@46.22.173.54) has joined #scala
+2013-03-22 20:03:53	<--	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-03-22 20:04:40	<--	gowlin (~rgolbeck@debian/developer/rmgolbeck) has quit (Ping timeout: 258 seconds)
+2013-03-22 20:07:43	<--	k7k (~k7k@77-254-128-242.adsl.inetia.pl) has quit (Quit: Leaving.)
+2013-03-22 20:08:12	<--	RSchulzB (~Adium@67.218.117.3) has quit (Quit: Leaving.)
+2013-03-22 20:09:09	-->	infynyxx (~infynyxx@208.82.12.18) has joined #scala
+2013-03-22 20:09:33	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:09:34	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:10:10	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:10:14	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:10:49	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:10:54	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:10:54	-->	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has joined #scala
+2013-03-22 20:11:29	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:11:36	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:11:50	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Read error: Connection reset by peer)
+2013-03-22 20:12:07	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:12:07	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:12:52	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:12:52	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:14:23	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:14:24	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:14:50	<--	tehshy (~tehshy@2001:6d8:10:a014:226:b9ff:fe01:39d) has quit (Remote host closed the connection)
+2013-03-22 20:15:07	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:15:07	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Max SendQ exceeded)
+2013-03-22 20:15:34	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #scala
+2013-03-22 20:15:43	-->	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has joined #scala
+2013-03-22 20:15:48	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-03-22 20:15:48	<--	copumpkin (~copumpkin@unaffiliated/copumpkin) has quit (Ping timeout: 252 seconds)
+2013-03-22 20:16:16	-->	copumpkin (~copumpkin@unaffiliated/copumpkin) has joined #scala
+2013-03-22 20:16:17	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 20:16:20	<--	cybernd (~cybernd@85-127-109-51.dynamic.xdsl-line.inode.at) has quit (Quit: running away)
+2013-03-22 20:16:31	-->	mary5030 (~mary5030@50.56.230.39) has joined #scala
+2013-03-22 20:17:08	<--	imeredith (~ivan@152.201.69.111.dynamic.snap.net.nz) has quit (Remote host closed the connection)
+2013-03-22 20:19:20	-->	timemage (~user@pool-70-16-208-33.man.east.myfairpoint.net) has joined #scala
+2013-03-22 20:20:09	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-03-22 20:20:25	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-03-22 20:20:48	<--	mary5030 (~mary5030@50.56.230.39) has quit (Ping timeout: 252 seconds)
+2013-03-22 20:22:27	-->	imeredith (~ivan@152.201.69.111.dynamic.snap.net.nz) has joined #scala
+2013-03-22 20:23:50	<--	ajhager (~ajhager@108-71-214-22.lightspeed.iplsin.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2013-03-22 20:24:23	<--	schlicht__ (~fl@e179128222.adsl.alicedsl.de) has quit (Ping timeout: 258 seconds)
+2013-03-22 20:24:38	<--	philipd (~textual@cpe-071-068-084-202.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 20:25:44	-->	agumonkey (~agu@8.158.70.86.rev.sfr.net) has joined #scala
+2013-03-22 20:27:42	<--	bmcgee (~bmcgee@027c77bb.bb.sky.com) has quit (Quit: bmcgee)
+2013-03-22 20:30:54	<--	nuttycom (~Adium@71-208-237-17.hlrn.qwest.net) has quit (Quit: Leaving.)
+2013-03-22 20:31:10	<--	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 20:31:20	<--	twowo (~Thunderbi@91.179.109.208) has quit (Ping timeout: 246 seconds)
+2013-03-22 20:32:27	<--	ymasory (~ymasory@209.49.103.254) has quit (Remote host closed the connection)
+2013-03-22 20:36:32	<--	skchrko (~sk@130.255.129.64) has quit (Quit: .)
+2013-03-22 20:39:53	<--	OwenOu (~Adium@ws206.acl.com) has quit (Quit: Leaving.)
+2013-03-22 20:40:37	<--	papuja (~sennik@dsl-hkibrasgw3-54fb70-141.dhcp.inet.fi) has quit (Ping timeout: 245 seconds)
+2013-03-22 20:44:19	<--	shergill (~user@gateway/tor-sasl/shergill) has quit (Remote host closed the connection)
+2013-03-22 20:44:44	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-03-22 20:45:18	-->	shergill (~user@gateway/tor-sasl/shergill) has joined #scala
+2013-03-22 20:46:40	<--	shergill (~user@gateway/tor-sasl/shergill) has quit (Remote host closed the connection)
+2013-03-22 20:46:45	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 20:47:14	-->	shergill (~user@gateway/tor-sasl/shergill) has joined #scala
+2013-03-22 20:47:26	<--	predator117 (~predator1@p50804E41.dip.t-dialin.net) has quit (Ping timeout: 246 seconds)
+2013-03-22 20:47:41	<--	atoll (~atoll@adsl-89-217-208-21.adslplus.ch) has quit (Ping timeout: 252 seconds)
+2013-03-22 20:48:26	<--	grogs (~grogs@87-194-56-223.bethere.co.uk) has quit (Quit: grogs)
+2013-03-22 20:49:42	-->	predator117 (~predator1@p5080629F.dip.t-dialin.net) has joined #scala
+2013-03-22 20:51:36	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-03-22 20:53:07	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-03-22 20:54:35	<--	darinmorrison (~dwm@unaffiliated/darinmorrison) has quit
+2013-03-22 20:56:40	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-22 21:01:31	-->	motionman (~klrkdekir@175.139.37.57) has joined #scala
+2013-03-22 21:01:59	-->	jalex (~jalex@user-0c935v4.cable.mindspring.com) has joined #scala
+2013-03-22 21:02:18	<--	jalex (~jalex@user-0c935v4.cable.mindspring.com) has quit (Client Quit)
+2013-03-22 21:03:03	<--	dibblego (~nobody@220-245-107-64.static.tpgi.com.au) has quit (Ping timeout: 260 seconds)
+2013-03-22 21:06:08	-->	RRSchulz (~RRSchulz@173-228-5-23.dsl.static.sonic.net) has joined #scala
+2013-03-22 21:08:04	-->	asrail (~asrail@177.195.235.6) has joined #scala
+2013-03-22 21:10:18	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 21:13:07	--	Arrgh is now known as Arr`Gone
+2013-03-22 21:14:20	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-03-22 21:15:16	-->	gowlin (~rgolbeck@debian/developer/rmgolbeck) has joined #scala
+2013-03-22 21:16:03	-->	dibblego (~nobody@220-245-107-64.static.tpgi.com.au) has joined #scala
+2013-03-22 21:16:40	<--	idntfy (~idntfy@94.141.44.56) has quit (Ping timeout: 245 seconds)
+2013-03-22 21:16:46	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 21:20:16	<--	ilyam (~ilyam@eng.nat.mtv.ooyala.com) has quit (Quit: ilyam)
+2013-03-22 21:20:52	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-03-22 21:24:15	-->	lli (~lli@140.247.0.14) has joined #scala
+2013-03-22 21:24:16	<--	ryanlecompte (~ryanlecom@c-67-180-16-120.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-03-22 21:25:22	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 21:26:03	<--	kelvl (~kelvl@501folsom.static.monkeybrains.net) has quit (Remote host closed the connection)
+2013-03-22 21:28:13	-->	Mayur (chatzilla@14.97.146.13) has joined #scala
+2013-03-22 21:29:23	<--	stephenjudkins (~textual@c-67-189-34-121.hsd1.or.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-03-22 21:29:46	<--	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has quit (Ping timeout: 258 seconds)
+2013-03-22 21:31:11	<--	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has quit (Quit: is having a little nap now.)
+2013-03-22 21:31:40	<--	eis (~eis@109.197.218.46) has quit (Ping timeout: 260 seconds)
+2013-03-22 21:31:47	-->	tpolecat (~tpolecat@c-24-22-11-146.hsd1.or.comcast.net) has joined #scala
+2013-03-22 21:33:42	-->	scalatron (~scalatron@c-67-180-18-60.hsd1.ca.comcast.net) has joined #scala
+2013-03-22 21:34:26	<--	dibblego (~nobody@220-245-107-64.static.tpgi.com.au) has quit (Ping timeout: 256 seconds)
+2013-03-22 21:35:28	--	irc: disconnected from server

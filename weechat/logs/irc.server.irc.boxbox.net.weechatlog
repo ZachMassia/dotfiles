@@ -1,0 +1,12 @@
+2013-02-18 18:54:50	--	irc: connecting to server irc.boxbox.net/6667...
+2013-02-18 18:54:50	=!=	irc: address "irc.boxbox.net" not found
+2013-02-18 18:54:50	=!=	irc: error: Name or service not known
+2013-02-18 18:54:50	--	irc: reconnecting to server in 10 seconds
+2013-02-18 18:55:00	--	irc: reconnecting to server...
+2013-02-18 18:55:00	--	irc: connecting to server irc.boxbox.net/6667...
+2013-02-18 18:55:01	=!=	irc: address "irc.boxbox.net" not found
+2013-02-18 18:55:01	=!=	irc: error: Name or service not known
+2013-02-18 18:55:01	--	irc: reconnecting to server in 20 seconds
+2013-02-18 18:55:06		irc: auto-reconnection is cancelled
+2013-02-18 18:55:06	--	irc: disconnected from server
+2013-02-19 00:37:14	--	irc: disconnected from server

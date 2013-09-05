@@ -1,0 +1,341 @@
+2012-12-12 22:54:10	-->	Z_Mass (~Z_Mass@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #ruby-lang
+2012-12-12 22:54:10	--	Topic for #ruby-lang is "Ruby 1.9.3-p327: http://ruby-lang.org (ruby-2.0.0-preview2) || Paste >3 lines of text on http://gist.github.com"
+2012-12-12 22:54:10	--	Topic set by apeiros_ (~apeiros_@77-58-114-9.dclient.hispeed.ch) on Sat, 01 Dec 2012 09:57:57
+2012-12-12 22:54:10	--	Nicks #ruby-lang: [@zenspider [dmp] _br_ _dumfries _ko1 _sillymarkets _whitelogger a3li abuiles achiu adgar aef agarcia agarie agib_ agile ahf akahn akamike amdprophet amerine ammar anannie AndChat| andrewvos anekos anildigital_work Antiarc apeiros_ Asher Averna b3nt_pin babinho banisterfiend bastl beawesomeinstead bedouin benteaa benwoody blowmage bluepojo Boohbah bougyman brianpWins brixen bryanl bryno bstrie burgestrand Bwild Caius canton7 CaptainJet cddr certainty chaosis charliesome Cherrum chimkan chris2 cinch coffeejunk conceal_rs_ corundum cout CoverSlide crankharder cschneid cyndis_ dabradley dagobah_ darix Darkspiel_ davidbalber|away davidboy db1382 dbussink ddd ddfreyne ddv DEac- dedis defishguy DefV devn djinni` dkannan dlackty dominikh dRbiG drbrain dreamfactory dumfries dvorak dzhulk eam eban ejholmes epitron erichmenge ericwood esad EvilJStoker faces faen FastJack felipe firefux fireglow flexd flori floyd2 foca foucist franckverrot freedrull Fretta fuzzy8balls ged Gekz ggreer gianlucadv GitNick gix Glass_saga grandy Guedes Guest51135 guns hachiya hackeron hagabaka hakunin havenn heftig henrikhodne herpless hibariya_ imajes injekt io_syl ioga_wrk ironcamel jackhammer2022 jaimef jammi jarib jashank jaska jaymes jayne jds jds_ jkyle jmeeuwen jnoon joast jonasac joschi jsaak jstemmer jwollert jxie kain kaliya_ kalleth kennyvb Kero khaase KillerFox kirin` kith_ kke knu krohrbaugh krz kuja kurko_ Kuukunen kvs lake lele lele|w levicole levifig lewrker_ lianj linc01n listrophy llakey lsegal lucas_ lupine lzhz mahlon mame0 manveru marco masterkorp matled matson matthewd matti mbr mccraig Mchl meise meizaps Mellett68_ mephux mercwithamouth mfn mihar mindbender1 mitchty mjio mksm mrb_bk_ mroth msch musl Muz namidark naquad nazty nertzy3 neurodamage nibbo nick_h_ Nisstyre no_i_wont nyuszika7h oddmunds ohsix ottbot ozzloy pabs Paradox pcboy__ pdswan perry phlipper pkondzior_ postmodern pvh__ ramonmaruko randym reactormonk rebelcan retro|cz rhizmoe richardjortega rikkus rins rking rtl rue ruskie ryanf s0ber S3kx s4muel samuelkadolph schroedinbug1 scottschecter seanstickle segfault- setmeaway2 shachaf shajith shaman42 sheerun shtirlic_ Silex singpolyma sj26 slaytanic Smol snk soahccc sora_h Spaceghostc2c Spaceghost|cloud spectra spuk stardiviner steez Steve-W strmpnk SubSpawn Swimming_Bird t0h Taranis tdy telemachus_ thejspr_ TheMoonMaster theoros thone thorncp threeday1onk tockitj_ tonni_ tos9 tpope tris tsou tsov TTilus tubbo turbolihis unsymbol Uranio uuair valeri_ufo vbatts Veejay vesan VGoff ViperMaul|_ vmoravec wang wardrop wasnotrice weeb1e Weems whitequark wmoxam_ wnd wycats wyhaines x0F xsdg Xzyx987X Y_Ichiro yellow5 yeltzooo yfeldblum yibe_ yorickpeterse yugui_zzz yxhuvud Z_Mass zanea_ zigidias znouza znz_jp znz_v zz_chrismcg zzak]
+2012-12-12 22:54:10	--	Channel #ruby-lang: 350 nicks (1 op, 0 halfops, 0 voices, 349 normals)
+2012-12-12 22:54:10	--	URL for #ruby-lang: http://www.ruby-lang.org
+2012-12-12 22:54:11	--	Mode #ruby-lang [+cnt]
+2012-12-12 22:54:11	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2012-12-12 22:54:37	tpope	cheers
+2012-12-12 22:59:57	<--	jackhammer2022 (~textual@c-71-234-45-223.hsd1.ct.comcast.net) has quit (Ping timeout: 244 seconds)
+2012-12-12 23:00:13	-->	jackhamm_ (~textual@c-71-234-45-223.hsd1.ct.comcast.net) has joined #ruby-lang
+2012-12-12 23:03:52	<--	brianpWins (~brianpWin@S0106c8d71904e992.va.shawcable.net) has quit (Quit: brianpWins)
+2012-12-12 23:05:01	drbrain	I hope I can get at least 33 more tests into RDoc
+2012-12-12 23:05:07	drbrain	then I'll have 2000!
+2012-12-12 23:06:17	zzak	https://github.com/ruby/ruby/blob/trunk/doc/irb/irb.rd everything merged but Restrictions section
+2012-12-12 23:06:29	zzak	which seems like it doesnt apply anymore
+2012-12-12 23:07:22	zzak	like the bit about local variables and here document not being implemented
+2012-12-12 23:07:56	charliesome	zzak: nice work
+2012-12-12 23:08:07	drbrain	declaration of local variables shuold always be true in irb
+2012-12-12 23:08:21	drbrain	eval "a = 1"; p a # => NameError
+2012-12-12 23:08:43	zzak	right, but that doc says it will work
+2012-12-12 23:09:13	zzak	Though, the above will successfully done by irb. `eval "foo = 0"; #=> 0; foo #=> 0;
+2012-12-12 23:09:34	zzak	i think its wrong
+2012-12-12 23:09:37	drbrain	eval "eval %{a = 1}; p a"
+2012-12-12 23:09:43	drbrain	also gets NameError
+2012-12-12 23:10:14	zzak	which seems to match non-irb
+2012-12-12 23:10:29	drbrain	huh
+2012-12-12 23:11:14	zzak	they both return NameError
+2012-12-12 23:11:19	zzak	ruby and irb
+2012-12-12 23:11:24	drbrain	that's nice
+2012-12-12 23:11:56	zzak	so doc is saying, that irb wont NameError, which is wrong
+2012-12-12 23:12:12	drbrain	yeah
+2012-12-12 23:12:20	zzak	that whole chapter should just be removed
+2012-12-12 23:12:41	zzak	i couldnt figure out the Symbol bit tho
+2012-12-12 23:12:54	zzak	"Irb can not always recognize a symbol as to be Symbol. Concretely, an expression have completed, however Irb regard it as continuation line."
+2012-12-12 23:13:12	zzak	any idea how to reproduce that?
+2012-12-12 23:13:13	drbrain	that may still be true
+2012-12-12 23:13:18	charliesome	yep
+2012-12-12 23:13:21	charliesome	[1,2,3].reduce :*
+2012-12-12 23:13:24	charliesome	continues in irb
+2012-12-12 23:13:37	charliesome	wait
+2012-12-12 23:13:41	charliesome	no it doesn't
+2012-12-12 23:13:44	charliesome	i swear it used to
+2012-12-12 23:14:01	charliesome	ah
+2012-12-12 23:14:08	charliesome	:+ continues
+2012-12-12 23:14:47	drbrain	I wonder if I worked around that in rdoc
+2012-12-12 23:14:58	drbrain	I have fixes irb doesn't and should merge
+2012-12-12 23:15:16	drbrain	… but irb doesn't care about most of my changes :/
+2012-12-12 23:15:58	zzak	i dont get it, both those do the same thing in `ruby` and irb
+2012-12-12 23:16:18	ryanf	zzak: "[1,2,3].reduce :+" is a complete statement, but irb thinks it isn't
+2012-12-12 23:16:20	ryanf	pry, on the other hand...
+2012-12-12 23:16:20	zzak	: returns unexpected ':', and :+ returns undefined local variable
+2012-12-12 23:16:49	drbrain	"p :+" is a simpler reproduction
+2012-12-12 23:17:13	zzak	oh, i see now
+2012-12-12 23:17:34	zzak	ruby -e '[1,2,3].reduce :+\n'
+2012-12-12 23:17:36	<--	jackhamm_ (~textual@c-71-234-45-223.hsd1.ct.comcast.net) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2012-12-12 23:17:39	zzak	is syntactically complete
+2012-12-12 23:17:47	ryanf	yes
+2012-12-12 23:17:52	zzak	thank you
+2012-12-12 23:18:01	-->	jackhammer2022 (~textual@c-71-234-45-223.hsd1.ct.comcast.net) has joined #ruby-lang
+2012-12-12 23:19:02	zzak	you guys rock
+2012-12-12 23:19:33	zzak	i was literally reading Symbol docs before trying to surmise a plot to break irb
+2012-12-12 23:19:57	<--	imajes (~imajes@is.imaj.es) has quit (Excess Flood)
+2012-12-12 23:20:00	drbrain	zzak: you'd need to compare the parse.y to the irb parser
+2012-12-12 23:20:04	-->	imajes (~imajes@is.imaj.es) has joined #ruby-lang
+2012-12-12 23:20:38	drbrain	(moreso the lexer)
+2012-12-12 23:21:06	zzak	i have nightmares about parse.y
+2012-12-12 23:24:58	-->	rippa (~flak@host-176-100-246-253.masterbit.su) has joined #ruby-lang
+2012-12-12 23:25:15	drbrain	all grammars are scary at first
+2012-12-12 23:27:39	-->	methods (~Adium@c-69-136-250-114.hsd1.nj.comcast.net) has joined #ruby-lang
+2012-12-12 23:28:28	drbrain	OMG FINALLY
+2012-12-12 23:28:38	zzak	!
+2012-12-12 23:28:38	drbrain	now single files can be properly re-parsed!
+2012-12-12 23:28:40	drbrain	rather single C files
+2012-12-12 23:29:00	drbrain	previously they didn't know the proper C variable names to hook themselves up
+2012-12-12 23:29:04	zzak	oh, you mean the rdoc update bug
+2012-12-12 23:29:08	drbrain	yeah
+2012-12-12 23:29:11	banisterfiend	drbrain: how does the rdoc C parser compare to the yard one?
+2012-12-12 23:29:28	zzak	i always nuke my ./html folder when generating doco
+2012-12-12 23:29:29	drbrain	so touch ext/openssl/ossl_x509name.c; make will have all zeros
+2012-12-12 23:29:43	drbrain	HTML generation always re-parses everything
+2012-12-12 23:29:52	drbrain	banisterfiend: I have no idea, I've never looked at it
+2012-12-12 23:30:08	zzak	that is new tho
+2012-12-12 23:30:38	zzak	old habits die hard
+2012-12-12 23:31:38	drbrain	zzak: I usually make; rdoc --no-standard -d .ext/rdoc Whatever
+2012-12-12 23:31:48	drbrain	since the incremental ri build is so much faster
+2012-12-12 23:32:38	zzak	i actually dont check the ri
+2012-12-12 23:32:58	zzak	am i fired?
+2012-12-12 23:33:08	drbrain	no
+2012-12-12 23:33:13	drbrain	making sure they're the same is my job :D
+2012-12-12 23:33:13	charliesome	parse.y is particularly scary
+2012-12-12 23:33:20	charliesome	because it does way more than just parse
+2012-12-12 23:33:22	zzak	hurray!
+2012-12-12 23:33:29	zzak	ive been meaning to ask you about that
+2012-12-12 23:35:45	<--	Swimming_Bird (~Swimming_@cpe-68-173-73-203.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2012-12-12 23:42:38	<--	esad (~esad@chello080108108211.10.11.vie.surfer.at) has quit (Quit: Computer has gone to sleep.)
+2012-12-12 23:47:33	-->	briantrust (~briantrus@cpe-76-175-168-30.socal.res.rr.com) has joined #ruby-lang
+2012-12-12 23:51:14	<--	seanstickle (~seanstick@c-98-218-6-204.hsd1.dc.comcast.net) has quit (Quit: seanstickle)
+2012-12-12 23:52:38	-->	sush24 (~sharma@59.92.148.247) has joined #ruby-lang
+2012-12-12 23:58:58	<--	ejholmes (~ejholmes@c-98-248-102-0.hsd1.ca.comcast.net) has quit (Quit: ejholmes)
+2012-12-12 23:59:47	-->	ejholmes (~ejholmes@c-98-248-102-0.hsd1.ca.comcast.net) has joined #ruby-lang
+2012-12-13 00:05:47	<--	sush24 (~sharma@59.92.148.247) has quit (Quit: This computer has gone to sleep)
+2012-12-13 00:06:59	<--	wyhaines (~wyhaines@host--65.39.118.39.vistabeam.com) has quit (Remote host closed the connection)
+2012-12-13 00:12:48	<--	Fretta (~Fretta@ip98-171-187-56.sb.sd.cox.net) has quit (Quit: Fretta)
+2012-12-13 00:16:39	<--	dbussink (~dbussink@ec2-46-137-118-125.eu-west-1.compute.amazonaws.com) has quit (Ping timeout: 246 seconds)
+2012-12-13 00:16:48	-->	dbussink (~dbussink@ec2-46-137-118-125.eu-west-1.compute.amazonaws.com) has joined #ruby-lang
+2012-12-13 00:16:59	<--	agarie (~agarie@65.120.92.147) has quit (Remote host closed the connection)
+2012-12-13 00:17:29	<--	chimkan (~chimkan@108.162.181.142) has quit (Quit: chimkan)
+2012-12-13 00:19:35	-->	sush24 (~sharma@59.92.148.247) has joined #ruby-lang
+2012-12-13 00:20:19	<--	imajes (~imajes@is.imaj.es) has quit (Excess Flood)
+2012-12-13 00:20:44	<--	sush24 (~sharma@59.92.148.247) has quit (Client Quit)
+2012-12-13 00:22:13	-->	agarie (~agarie@65.120.92.147) has joined #ruby-lang
+2012-12-13 00:22:34	-->	imajes (~imajes@is.imaj.es) has joined #ruby-lang
+2012-12-13 00:26:19	-->	sn0wb1rd (~kannanman@ip24-254-86-209.sb.sd.cox.net) has joined #ruby-lang
+2012-12-13 00:33:12	-->	sush24 (~sharma@59.92.148.247) has joined #ruby-lang
+2012-12-13 00:34:19	-->	jsilver (~jsilver@2602:306:cfb0:aa70:6cfc:45b4:d822:4c3b) has joined #ruby-lang
+2012-12-13 00:36:19	-->	gregmoreno (~gregmoren@d23-16-240-113.bchsia.telus.net) has joined #ruby-lang
+2012-12-13 00:40:24	--	davidbalber|away is now known as davidbalbert
+2012-12-13 00:40:48	<--	CaptainJet (~CaptainJe@57.sub-97-157-173.myvzw.com) has quit
+2012-12-13 00:41:03	--	davidbalbert is now known as davidbalber|away
+2012-12-13 00:42:44	<--	banisterfiend (~banisterf@5ED280BF.cm-7-3c.dynamic.ziggo.nl) has quit (Ping timeout: 248 seconds)
+2012-12-13 00:43:39	<--	sush24 (~sharma@59.92.148.247) has quit (Quit: This computer has gone to sleep)
+2012-12-13 00:46:07	-->	banisterfiend (~banisterf@5ED280BF.cm-7-3c.dynamic.ziggo.nl) has joined #ruby-lang
+2012-12-13 00:49:56	-->	pototo (~pototo@71.198.46.121) has joined #ruby-lang
+2012-12-13 00:50:41	<--	charliesome (~charlieso@115.146.71.1) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2012-12-13 00:53:09	-->	cirwin (~cirwin@wiktionary/ConradIrwin) has joined #ruby-lang
+2012-12-13 00:55:47	<--	bluepojo (~Adium@12.249.95.222) has quit (Quit: Leaving.)
+2012-12-13 00:56:07	-->	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has joined #ruby-lang
+2012-12-13 00:56:54	<--	marco (~marco@c-98-254-52-240.hsd1.fl.comcast.net) has quit (Ping timeout: 260 seconds)
+2012-12-13 00:57:39	<--	faces (~faces@123-243-252-109.static.tpgi.com.au) has quit (Quit: Leaving)
+2012-12-13 00:57:40	<--	agarie (~agarie@65.120.92.147) has quit (Remote host closed the connection)
+2012-12-13 00:57:52	-->	faces (~faces@123-243-252-109.static.tpgi.com.au) has joined #ruby-lang
+2012-12-13 00:58:03	-->	robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #ruby-lang
+2012-12-13 00:58:25	pototo	Is there a way I can interact with the Wordpress user database via a Ruby webapp? I want a user to log in with the same credentials they use on Wordpress.
+2012-12-13 01:00:18	<--	methods (~Adium@c-69-136-250-114.hsd1.nj.comcast.net) has left #ruby-lang
+2012-12-13 01:00:43	<--	burgestrand (~Burgestra@c83-254-37-119.bredband.comhem.se) has quit (Quit: Leaving.)
+2012-12-13 01:05:31	sent-hil	pototo: it'll be very complicated
+2012-12-13 01:05:54	sent-hil	you're better off building your own blog
+2012-12-13 01:08:12	-->	rohit (~rohit@117.204.128.150) has joined #ruby-lang
+2012-12-13 01:09:11	<--	uuair (~uuair@219.142.185.213) has quit (Quit: uuair)
+2012-12-13 01:10:13	pototo	I really just want to verify a user exists and not make them create 2 different accounts.
+2012-12-13 01:11:10	<--	gregmoreno (~gregmoren@d23-16-240-113.bchsia.telus.net) has quit (Remote host closed the connection)
+2012-12-13 01:11:59	pototo	And I have access to the WP database, so it possible for me to log them in the Ruby web app and do the normal password unhashing that wordpress does when it logs someone in?
+2012-12-13 01:12:47	-->	sush24 (~sharma@59.92.148.247) has joined #ruby-lang
+2012-12-13 01:12:57	sent-hil	pototo: i've no idea how wordpress stores the password, prob. diff from the way rails stores pass., so you'll need to modify one of them to use the same method as the other
+2012-12-13 01:13:31	pototo	I'm not using rails, but I figured that maybe someone's implemented Wordpress' hashing algo in Ruby and I could use that.
+2012-12-13 01:14:00	<--	jackhammer2022 (~textual@c-71-234-45-223.hsd1.ct.comcast.net) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2012-12-13 01:14:03	sent-hil	i highly doubt it, but you can easily look for it
+2012-12-13 01:14:04	-->	JohnBat26 (~Eugene@80.251.120.55) has joined #ruby-lang
+2012-12-13 01:14:58	-->	wyhaines (~wyhaines@host--65.39.118.39.vistabeam.com) has joined #ruby-lang
+2012-12-13 01:15:00	shachaf	Looking at the WordPress code is probably the simplest way to figure out the format.
+2012-12-13 01:15:53	sent-hil	isn't it a whole lot easier to just build a blog?
+2012-12-13 01:16:16	<--	ryanf (~rf-@199.87.82.138) has quit (Quit: leaving)
+2012-12-13 01:16:43	pototo	I already have a large website based on Wordpress with a blog, and I want to create a Sinatra app that has the same user database.
+2012-12-13 01:16:49	<--	mjio (~mjio@115.146.71.1) has quit
+2012-12-13 01:16:49	shachaf	Looks like they use phpass
+2012-12-13 01:16:50	<--	rohit (~rohit@117.204.128.150) has quit (Quit: Leaving)
+2012-12-13 01:17:10	pototo	Basically, I want to stay away from writing this new thing in PHP.
+2012-12-13 01:18:50	shachaf	Well, being able to figure out how the WP database works on your own is a test you have to be pass for people to let you do something like that. :-)
+2012-12-13 01:19:20	shachaf	Fortunately it's not very hard, and I already gave it away, really.
+2012-12-13 01:19:54	pototo	Cha ching http://rubygems.org/gems/phpass-ruby
+2012-12-13 01:20:30	sent-hil	pototo: i guess there's more of you going around :)
+2012-12-13 01:20:33	pototo	I know enough about how Wordpress does DBs that I can get to the user, email, and hash
+2012-12-13 01:20:36	<--	imajes (~imajes@is.imaj.es) has quit (Excess Flood)
+2012-12-13 01:21:32	-->	imajes (~imajes@is.imaj.es) has joined #ruby-lang
+2012-12-13 01:29:24	<--	pototo (~pototo@71.198.46.121) has quit (Quit: pototo)
+2012-12-13 01:30:48	--	irc: disconnected from server
+2012-12-14 23:55:47	-->	Z_Mass (~Z_Mass@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #ruby-lang
+2012-12-14 23:55:47	--	Topic for #ruby-lang is "Ruby 1.9.3-p327: http://ruby-lang.org (ruby-2.0.0-preview2) || Paste >3 lines of text on http://gist.github.com"
+2012-12-14 23:55:47	--	Topic set by apeiros_ (~apeiros_@77-58-114-9.dclient.hispeed.ch) on Sat, 01 Dec 2012 09:57:57
+2012-12-14 23:55:47	--	Nicks #ruby-lang: [@zenspider [dmp] _br_ _dumfries _ko1 _whitelogger a3li abuiles achiu adgar aef agarie agib_ agile ahf akahn akamike amdprophet amerine_ ammar_ anannie andrewvos anekos anildigital_work apeiros_ Asher Axsuul b3nt_pin babinho_ badeball Banistergalaxy bastl beawesomeinstead bedouin benteaa bentis benwoody blowmage Boohbah bougyman brixen_ bryanl bryno bstrie burgestrand Bwild Caius canton7 cddr certainty charliesome Cherrum chris2 chrismcgh cinch cirwin coffeejunk conceal_rs_ corundum cout CoverSlide crankharder crazyhorse18 Croms_ cschneid cyndis_ dabradley dagobah_ darix davidbalber|away davidboy db1382 dbussink ddd ddfreyne ddv DEac-_ DefV devn djinni` dkannan dlackty dominikh dRbiG drbrain dreamfactory dumfries dvorak dyfrgi eam eban epitron erichmenge ericwood esad EvilJStoker faces faen FastJack faustman felipe firefux fireglow FiXato flexd flori floyd2 foca_ franckverrot freedrull fuzzy8balls ged Gekz ggreer gianlucadv GitNick gix Glass_saga glebm grandy gregmoreno Guedes Guest51135 hachiya hackeron_ hagabaka hakunin_ heftig henrikhodne herpless hibariya_ imajes injekt io_syl ioga_wrk ironcamel jackhammer2022 jaimef jammi jarib jashank jaska jaymes jayne jds_ jds__ jkyle jMCg jmeeuwen jnoon joast joevandyk jonasac joschi jstemmer jwollert- jxie kain kalleth kennyvb Kero khaase KillerFox kirin` kith kke knu krohrbaugh kuja Kuukunen kvs lake LanceHaig lcdhoffman lele lele|w levifig lianj linc01n listrophy llakey lsegal lupine lzhz madveru mahlon mame0 manveru masterkorp matled matson matthewd matti mbr mccraig Mch1 meatballhat meise meizaps Mellett68_ mephux mercwithamouth mfn mihar mitchty mksm Mon_Ouie mrb_bk_ mroth msch musl Muz namidark naquad nazty nertzy2 neurodamage nibbo nick_h Nisstyre no_i_wont nyuszika7h oddmunds ohsix olds22 ottbot ozzloy pabs Paradox pcboy__ perry pkondzior_ poga postmodern pvh__ ramonmaruko randym reactormonk rebelcan ReinH rhizmoe rikkus rking robbyoconnor rtl rue ruskie ryanf s0ber S1kx s4muel_ samuelkadolph schroedinbug1 scottschecter segfault- sent-hil setmeaway shachaf shajith shaman42 sheerun shtirlic Silex singpolyma sj26 slaytanic Smol sn0wb1rd snk soahccc sora_h Spaceghostc2c Spaceghost|cloud spectra spuk srbaker stardiviner steez Steve-W stonerfish strmpnk SubSpawn sush24 t0h_ Taranis tdy telemachus_ terite thejspr_ TheMoonMaster theoros thone thorncp threeday1onk tjadc tonni_ tos9 tpope tris tsou tsov TTilus tubbo turbolihis unsymbol Uranio valeri_ufo vbatts Veejay vesan VGoff ViperMaul|_ vmoravec wallerdev wang wasnotrice_ weeb1e Weems whitequark wmoxam wnd wycats wyhaines x0F xsdg_ Xzyx987X Y_Ichiro yellow5 yeltzooo yfeldblum yibe_ yorickpeterse yugui_zzz yxhuvud Z_Mass zanea_ zarubin zigidias znouza_ znz_jp znz_v0 zzak]
+2012-12-14 23:55:47	--	Channel #ruby-lang: 342 nicks (1 op, 0 halfops, 0 voices, 341 normals)
+2012-12-14 23:55:47	--	URL for #ruby-lang: http://www.ruby-lang.org
+2012-12-14 23:55:49	--	Mode #ruby-lang [+cnt]
+2012-12-14 23:55:49	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2012-12-14 23:56:03	<--	meatballhat (~dbuch@unaffiliated/meatballhat) has quit (Ping timeout: 260 seconds)
+2012-12-14 23:56:45	-->	ryanf_ (~ryanf@149.sub-174-254-232.myvzw.com) has joined #ruby-lang
+2012-12-14 23:57:44	-->	guns (~guns@c-98-228-72-208.hsd1.il.comcast.net) has joined #ruby-lang
+2012-12-14 23:59:09	<--	wyhaines (~wyhaines@host--65.39.118.39.vistabeam.com) has quit (Ping timeout: 256 seconds)
+2012-12-14 23:59:43	<--	ryanf (~ryanf@199.87.82.138) has quit (Ping timeout: 245 seconds)
+2012-12-15 00:00:27	-->	havenn (~havenn@pool-72-67-31-9.lsanca.fios.verizon.net) has joined #ruby-lang
+2012-12-15 00:02:57	<--	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has quit (Remote host closed the connection)
+2012-12-15 00:02:59	-->	wyhaines (~wyhaines@host--65.39.118.39.vistabeam.com) has joined #ruby-lang
+2012-12-15 00:10:52	<--	poga (~poga@1-171-123-126.dynamic.hinet.net) has quit (Remote host closed the connection)
+2012-12-15 00:11:00	<--	ryanf_ (~ryanf@149.sub-174-254-232.myvzw.com) has quit (Quit: broken pipes |||)
+2012-12-15 00:12:51	<--	havenn (~havenn@pool-72-67-31-9.lsanca.fios.verizon.net) has quit (Remote host closed the connection)
+2012-12-15 00:13:17	<--	sush24 (~sharma@59.92.161.45) has quit (Quit: This computer has gone to sleep)
+2012-12-15 00:13:29	-->	havenn (~havenn@pool-72-67-31-9.lsanca.fios.verizon.net) has joined #ruby-lang
+2012-12-15 00:14:50	-->	ryanf (~ryanf@149.sub-174-254-232.myvzw.com) has joined #ruby-lang
+2012-12-15 00:17:55	<--	havenn (~havenn@pool-72-67-31-9.lsanca.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2012-12-15 00:18:23	-->	jobicoppola (~jobicoppo@cpe-098-024-035-060.carolina.res.rr.com) has joined #ruby-lang
+2012-12-15 00:19:24	<--	esad (~esad@chello080108108211.10.11.vie.surfer.at) has quit (Quit: Computer has gone to sleep.)
+2012-12-15 00:21:11	<--	crazyhorse18 (~AA@108.171.100.82) has left #ruby-lang ("Leaving...")
+2012-12-15 00:21:58	<--	cirwin (cirwin@wiktionary/ConradIrwin) has quit (Ping timeout: 265 seconds)
+2012-12-15 00:24:26	<--	ryanf (~ryanf@149.sub-174-254-232.myvzw.com) has quit (Quit: broken pipes |||)
+2012-12-15 00:28:08	-->	voker57 (~voker57@37-147-59-152.broadband.corbina.ru) has joined #ruby-lang
+2012-12-15 00:28:08	<--	voker57 (~voker57@37-147-59-152.broadband.corbina.ru) has quit (Changing host)
+2012-12-15 00:28:08	-->	voker57 (~voker57@kvirc/developer/Voker57) has joined #ruby-lang
+2012-12-15 00:30:11	-->	ryanf (~rf-@c-98-234-88-2.hsd1.ca.comcast.net) has joined #ruby-lang
+2012-12-15 00:31:21	-->	brianpWins (~brianpWin@S01060014bf8930ea.vc.shawcable.net) has joined #ruby-lang
+2012-12-15 00:32:41	-->	meatballhat (~dbuch@unaffiliated/meatballhat) has joined #ruby-lang
+2012-12-15 00:43:33	<--	srbaker (~textual@142.177.242.6) has quit (Quit: Computer has gone to sleep.)
+2012-12-15 00:45:13	charliesome	TIL ruby 1.9 regexps are context free grammars: http://eval.in/4659
+2012-12-15 00:47:35	-->	gregmore_ (~gregmoren@d23-16-240-113.bchsia.telus.net) has joined #ruby-lang
+2012-12-15 00:48:10	-->	esad (~esad@chello080108108211.10.11.vie.surfer.at) has joined #ruby-lang
+2012-12-15 00:49:54	<--	imajes (~imajes@is.imaj.es) has quit (Excess Flood)
+2012-12-15 00:50:43	<--	gregmoreno (~gregmoren@d23-16-240-113.bchsia.telus.net) has quit (Ping timeout: 256 seconds)
+2012-12-15 00:51:03	-->	imajes (~imajes@is.imaj.es) has joined #ruby-lang
+2012-12-15 00:54:09	zzak	e2mm is magical
+2012-12-15 00:55:07	charliesome	zzak: e2mm?
+2012-12-15 00:55:15	charliesome	oh it's one of those obscure stdlib libraries
+2012-12-15 00:55:18	-->	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has joined #ruby-lang
+2012-12-15 00:55:39	<--	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has quit (Remote host closed the connection)
+2012-12-15 00:57:10	<--	drbrain (~drbrain@c-50-132-105-226.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2012-12-15 00:57:12	-->	methods (~Adium@c-69-136-250-114.hsd1.nj.comcast.net) has joined #ruby-lang
+2012-12-15 00:57:37	zzak	irb uses it to define some custom exceptions, such as FrameOverflow
+2012-12-15 00:57:44	zzak	but since its magic, rdoc doesn't know about them
+2012-12-15 00:58:23	charliesome	you can tell a stdlib library is old by the presence of capital letters in method names
+2012-12-15 01:00:37	ryanf	whoa, wtf
+2012-12-15 01:00:37	ryanf	re: e2mm
+2012-12-15 01:00:57	ryanf	I like how the documentation and examples give no indication of what it actually does
+2012-12-15 01:01:53	<--	methods (~Adium@c-69-136-250-114.hsd1.nj.comcast.net) has left #ruby-lang
+2012-12-15 01:02:07	-->	cirwin (~cirwin@wiktionary/ConradIrwin) has joined #ruby-lang
+2012-12-15 01:02:46	-->	headius (~headius@65-128-173-31.mpls.qwest.net) has joined #ruby-lang
+2012-12-15 01:02:56	ryanf	that inspired me to go looking for stdlibs I'd never heard of: http://ruby-doc.org/stdlib-1.9.2/libdoc/tsort/rdoc/TSort.html
+2012-12-15 01:03:04	zzak	charliesome: haha
+2012-12-15 01:03:28	zzak	tsort is neat
+2012-12-15 01:03:45	zzak	rdoc uses it: https://github.com/rdoc/rdoc/blob/d4c86a4/lib/rdoc/parser/c.rb#L172-L194
+2012-12-15 01:04:35	<--	gregmore_ (~gregmoren@d23-16-240-113.bchsia.telus.net) has quit (Remote host closed the connection)
+2012-12-15 01:05:01	zzak	i love the stdlib, it smells of rich mahogany and leather bound books
+2012-12-15 01:05:04	ryanf	haha
+2012-12-15 01:05:09	ryanf	zzak: are you going to document e2mm?
+2012-12-15 01:05:16	zzak	i hope to
+2012-12-15 01:05:23	zzak	and tsort / tsort::cyclic too
+2012-12-15 01:05:47	zzak	im still working on irb
+2012-12-15 01:06:11	zzak	slow but steady, irb is almost 50%
+2012-12-15 01:06:14	ryanf	cool
+2012-12-15 01:06:17	zzak	when i started it was 8%
+2012-12-15 01:06:20	cirwin	wow, I have no idea what E2MM even does...
+2012-12-15 01:06:24	ryanf	cirwin: same
+2012-12-15 01:06:27	ryanf	zzak: I'll be very interested to read it actually
+2012-12-15 01:06:37	zzak	check IRB::Frame
+2012-12-15 01:06:37	ryanf	I have a vague idea of the things it can do, but I'm sure there's stuff I don't know about
+2012-12-15 01:06:40	zzak	makes a bit more sense
+2012-12-15 01:07:18	zzak	https://github.com/ruby/ruby/blob/trunk/lib/irb/frame.rb
+2012-12-15 01:07:22	zzak	def_exception is e2mm
+2012-12-15 01:07:27	-->	sush24 (~sharma@59.92.161.45) has joined #ruby-lang
+2012-12-15 01:07:37	cirwin	I think I see
+2012-12-15 01:07:37	zzak	and Fail is alias for Raise
+2012-12-15 01:07:47	-->	gregmoreno (~gregmoren@d23-16-240-113.bchsia.telus.net) has joined #ruby-lang
+2012-12-15 01:07:51	cirwin	def_exception just gives you an exception class with a default error
+2012-12-15 01:07:51	zzak	i still havent figured out where Raise comes from
+2012-12-15 01:07:52	ryanf	why does e2mm need a special fail method for the classes it produces
+2012-12-15 01:08:08	ryanf	couldn't the class just define #message to have a default
+2012-12-15 01:08:11	cirwin	dunno
+2012-12-15 01:08:17	cirwin	maybe it's not implemented like that :p
+2012-12-15 01:08:21	ryanf	:)
+2012-12-15 01:08:37	cirwin	      def Raise(err = nil, *rest)
+2012-12-15 01:08:37	cirwin	        Exception2MessageMapper.Raise(self.class, err, *rest)
+2012-12-15 01:08:37	cirwin	      end
+2012-12-15 01:08:46	ryanf	oh well in that csae
+2012-12-15 01:08:47	ryanf	*case
+2012-12-15 01:09:04	cirwin	hah, it aliases "fail" to Raise as well
+2012-12-15 01:09:05	cirwin	but leaves "raise" alone :)
+2012-12-15 01:09:07	zzak	oh
+2012-12-15 01:09:17	zzak	Raise is also in e2mm
+2012-12-15 01:09:19	cirwin	yeah
+2012-12-15 01:09:20	<--	gregmoreno (~gregmoren@d23-16-240-113.bchsia.telus.net) has quit (Remote host closed the connection)
+2012-12-15 01:09:23	zzak	def Raise(err = nil, *rest)
+2012-12-15 01:09:24	zzak	haha
+2012-12-15 01:09:32	ryanf	it's funny how different in character irb's source is from pry's
+2012-12-15 01:09:58	cirwin	yeah
+2012-12-15 01:10:07	ryanf	I guess it solves some different problems
+2012-12-15 01:10:07	ryanf	like wtf is https://github.com/ruby/ruby/blob/trunk/lib/irb/locale.rb
+2012-12-15 01:10:27	cirwin	it's an internationalization moduule
+2012-12-15 01:10:37	cirwin	says so at the top :p
+2012-12-15 01:10:47	cirwin	wow, each_sublocale is terrifying
+2012-12-15 01:11:05	zzak	it hasnt changed much since matz original implementation: https://github.com/ruby/ruby/blob/3db12e8b236ac8f88db8eb4690d10e4a3b8dbcd4/lib/e2mmap.rb
+2012-12-15 01:11:14	cirwin	oh interesting
+2012-12-15 01:11:27	zzak	12 years ago
+2012-12-15 01:11:27	zzak	haha
+2012-12-15 01:11:28	cirwin	https://github.com/ruby/ruby/blob/trunk/lib/irb/lc/error.rb
+2012-12-15 01:11:37	cirwin	localization frameworks + e2mm
+2012-12-15 01:11:38	cirwin	it all makes sense now
+2012-12-15 01:11:54	zzak	yeah :)
+2012-12-15 01:12:04	zzak	https://github.com/ruby/ruby/blob/trunk/lib/irb/lc/ja/error.rb
+2012-12-15 01:12:19	zzak	its funny they didnt add the other exceptions tho
+2012-12-15 01:12:30	zzak	like FrameUnderflow/FrameOverflow
+2012-12-15 01:12:45	zzak	probably a patch waiting to happen
+2012-12-15 01:12:49	cirwin	they probably moved on to more exciting things before then :)
+2012-12-15 01:12:50	zzak	12 years in the making
+2012-12-15 01:13:09	<--	jobicoppola (~jobicoppo@cpe-098-024-035-060.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2012-12-15 01:13:17	zzak	this one too: https://twitter.com/_zzak/status/279818924256800768
+2012-12-15 01:13:27	cirwin	heh
+2012-12-15 01:13:54	zzak	that is all part of it
+2012-12-15 01:14:15	cirwin	interesting
+2012-12-15 01:14:24	cirwin	pry has a similar thing where inputs can eof and it's all ok
+2012-12-15 01:14:32	cirwin	but I can't see the similarity beyond that
+2012-12-15 01:15:24	zzak	irb lets you provide a separate context for each io
+2012-12-15 01:15:40	zzak	it could be anything that responds to inspect, i think
+2012-12-15 01:15:57	cirwin	that's nice and generic :)
+2012-12-15 01:16:18	zzak	but i think it prefers Stdio, File or Readline
+2012-12-15 01:17:51	<--	Taranis (~taranis@2620:100:5007:5::203) has quit (Remote host closed the connection)
+2012-12-15 01:18:13	zzak	i am not sure on it tho, parts of irb are confusing, like input, workspaces, inspector, frame, and extend-command
+2012-12-15 01:18:23	zzak	basically the whole thing then :D
+2012-12-15 01:18:26	cirwin	yeah
+2012-12-15 01:18:29	cirwin	I've browsed it a bit
+2012-12-15 01:18:36	cirwin	but never tried to comprehend more than small chunks
+2012-12-15 01:19:07	zzak	i always welcome another set of eyes
+2012-12-15 01:19:45	zzak	im working another another ~1k diff
+2012-12-15 01:19:57	zzak	so things are still changing
+2012-12-15 01:20:07	cirwin	are you working on the code or docs?
+2012-12-15 01:20:10	zzak	its very much a WIP
+2012-12-15 01:20:12	<--	lcdhoffman (~hoffman@ool-4579b3e5.dyn.optonline.net) has quit (Quit: lcdhoffman)
+2012-12-15 01:20:48	zzak	docs, but i am collecting ideas for other patches, like that input method name mispelling and exception locale
+2012-12-15 01:20:54	cirwin	cool
+2012-12-15 01:21:14	zzak	i dont think anyone would object
+2012-12-15 01:21:37	zzak	i just commit at will, no bug report or feature request :D
+2012-12-15 01:21:43	zzak	if maintainer has problem, i kill them
+2012-12-15 01:21:59	zzak	ill take over ruby! :D
+2012-12-15 01:22:06	cirwin	I like your style
+2012-12-15 01:22:08	--	irc: disconnected from server
+2012-12-16 01:19:07	-->	Z_Mass (~Z_Mass@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #ruby-lang
+2012-12-16 01:19:07	--	Topic for #ruby-lang is "Ruby 1.9.3-p327: http://ruby-lang.org (ruby-2.0.0-preview2) || Paste >3 lines of text on http://gist.github.com"
+2012-12-16 01:19:07	--	Topic set by apeiros_ (~apeiros_@77-58-114-9.dclient.hispeed.ch) on Sat, 01 Dec 2012 09:57:57
+2012-12-16 01:19:08	--	Nicks #ruby-lang: [@zenspider [dmp] _br_ _dumfries _ko1 _whitelogger a3li abuiles achiu adgar aef agarie agib_ agile ahf akahn akamike amdprophet amerine_ ammar_ anannie AndChat| andrewhl andrewvos anekos anildigital_work Asher Axsuul b3nt_pin babinho_ badeball bastl beawesomeinstead bedouin benteaa bentis benwoody blowmage Boohbah Bosox20051 bougyman briantrust brixen bryanl bryno bstrie burgestrand Bwild Caius canton7 cddr certainty charliesome Cherrum chris2 chrismcgh cinch coffeejunk coliflor_ conceal_rs_ corundum cout CoverSlide crankharder Croms cschneid cyndis_ dabradley dagobah_ darix davidbalber|away davidboy db1382 dbussink ddfreyne ddv DEac-_ DefV devn djinni` dkannan dlackty dominikh dRbiG drbrain dreamfactory dumfries dvorak dyfrgi eam eban epitron erichmenge ericwood EvilJStoker faces faen FastJack felipe firefux fireglow FiXato flexd flori floyd2 foca_ franckverrot freedrull fuzzy8balls ged Gekz ggreer gianlucadv GitNick gix Glass_saga glebm grandy gsav Guedes Guest51135 hachiya hackeron_ hagabaka hakunin_ heftig henrikhodne herpless hibariya_ imajes injekt io_syl ioga_wrk ironcamel jaimef jammi jarib jashank jaska jaymes jayne jds_ jds__ jkyle jMCg jmeeuwen jnoon joast joevandyk jonasac joschi jsaak jsilver jstemmer jwollert- jxie kain kalleth kennyvb Kero khaase KillerFox kirin` kith kke knu krohrbaugh kuja Kuukunen kvs lake LanceHaig lele lele|w levifig lianj linc01n listrophy llakey lupine lzhz madveru mahlon mame0 masterkorp matled matson matthewd matti mbr mccraig Mch1 meise meizaps Mellett68_ mephux mercwithamouth mfn mihar mistym mitchty mksm Mon_Ouie mrb_bk_ mroth msch musl Muz namidark naquad nazty neocoin nertzy2 neurodamage nibbo nick_h Nisstyre Nisstyre-laptop no_i_wont nyuszika7h oddmunds ohsix ottbot ozzloy pabs Paradox pcboy_ perry pkondzior_ postmodern pvh__ ramonmaruko randym reactormonk rebelcan ReinH retro|cz rhizmoe rikkus rking robbyoconnor rtl rue ruskie ryanf s0ber s4muel_ samuelkadolph schroedinbug1 scottschecter setmeaway2 shachaf shajith shaman42 sheerun shtirlic Silex singpolyma sj26 slaytanic slyphon Smol sn0wb1rd snk soahccc sora_h Spaceghostc2c Spaceghost|cloud spectra spuk steez Steve-W stonerfish strmpnk SubSpawn swaits swav t0h_ tallship tdy telemachus terite thejspr_ TheMoonMaster theoros thone_ thorncp threeday1onk tjadc tonni_ tos9 tpope tris tsou tsov TTilus tubbo turbolihis unsymbol Uranio valeri_ufo vbatts Veejay vesan VGoff ViperMaul|_ vmoravec voker57 waffleau wallerdev wang wasnotrice_ weeb1e Weems whitequark wmoxam wnd wycats x0F xsdg_ Xzyx987X Y_Ichiro yellow5 yeltzooo yfeldblum yibe_ yorickpeterse yugui_zzz yxhuvud Z_Mass zanea_ zigidias znouza_ znz_jp znz_v0 zzak]
+2012-12-16 01:19:08	--	Channel #ruby-lang: 336 nicks (1 op, 0 halfops, 0 voices, 335 normals)
+2012-12-16 01:19:08	--	URL for #ruby-lang: http://www.ruby-lang.org
+2012-12-16 01:19:10	--	Mode #ruby-lang [+cnt]
+2012-12-16 01:19:10	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2012-12-16 01:21:41	-->	kurko_ (~textual@189-72-59-154.paebv700.dsl.brasiltelecom.net.br) has joined #ruby-lang
+2012-12-16 01:21:44	-->	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has joined #ruby-lang
+2012-12-16 01:21:54	<--	sent-hil (~sent_hil@cpe-72-227-144-229.nyc.res.rr.com) has quit (Remote host closed the connection)
+2012-12-16 01:28:36	-->	sullenel (~el@109.229.251.111) has joined #ruby-lang
+2012-12-16 01:28:36	<--	sullenel (~el@109.229.251.111) has quit (Client Quit)
+2012-12-16 01:36:16	<--	kurko_ (~textual@189-72-59-154.paebv700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 265 seconds)
+2012-12-16 01:38:09	-->	sush24 (~sharma@59.92.222.204) has joined #ruby-lang
+2012-12-16 01:47:57	<--	waffleau (~waffleau@113.160.248.109) has quit (Quit: waffleau)
+2012-12-16 01:55:15	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Ping timeout: 276 seconds)
+2012-12-16 02:03:01	-->	gjaldon (~gjaldon@49.145.31.60) has joined #ruby-lang
+2012-12-16 02:03:26	--	irc: disconnected from server

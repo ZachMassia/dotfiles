@@ -1,0 +1,160 @@
+2013-03-15 17:03:10	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #archlinux-newbie
+2013-03-15 17:03:10	--	Topic for #archlinux-newbie is "Welcome to the Arch community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://gist.github.com/nyux/aa55651de42818f6f971 | Please don't be an ass."
+2013-03-15 17:03:10	--	Topic set by KaiSforza (~wgiokas@unaffiliated/kaisforza) on Sat, 02 Mar 2013 00:50:51
+2013-03-15 17:03:10	--	Nicks #archlinux-newbie: [+carharttjimmy +fsckd +halosghost +KaiSforza +KylieBrooks +meskarune +numeral +sudokode +terra-and-luna +tigrmesh +yardena Afwas Atmoz bspar_ CalimeroTeknik Cirrus_Minor comhack CryptoNaut Erika_Mustermann iostream Ketsuban kj4 lattenwald marxine matuka mcurve MikeWatt_ phrik piefge Ricaz rosenstam sakaru SirDeiu ttag vodik Wntrvnm Xyrtic z3bra Z_Mass]
+2013-03-15 17:03:10	--	Channel #archlinux-newbie: 39 nicks (0 ops, 0 halfops, 11 voices, 28 normals)
+2013-03-15 17:03:12	--	Mode #archlinux-newbie [+Cgnt]
+2013-03-15 17:03:12	--	Channel created on Wed, 27 Feb 2013 22:13:33
+2013-03-15 17:27:03	<--	rosenstam (~rosenstam@65.49.80.17) has quit (Quit: leaving)
+2013-03-15 18:03:42	-->	Neohuman (~wesley@76-250-148-206.lightspeed.snantx.sbcglobal.net) has joined #archlinux-newbie
+2013-03-15 18:04:21	Neohuman	just reinstalled arch on vb logged in as root ran pacman -Syu and got failed to update multilib
+2013-03-15 18:04:41	Neohuman	failed to synchronize any databases
+2013-03-15 18:06:11	Neohuman	didn't install sudo either rookie mistake I know
+2013-03-15 18:06:11	Cirrus_Minor	is it uncommented?
+2013-03-15 18:06:11	Neohuman	yes i made sure of that
+2013-03-15 18:06:11	Cirrus_Minor	kk
+2013-03-15 18:06:12	Neohuman	but how would I check that
+2013-03-15 18:06:26	Neohuman	I think the packages in general are broken though
+2013-03-15 18:06:48	Cirrus_Minor	https://wiki.archlinux.org/index.php/Multilib
+2013-03-15 18:06:48	phrik	Title: Multilib - ArchWiki (at wiki.archlinux.org)
+2013-03-15 18:07:25	Neohuman	yup it was uncommented still error though
+2013-03-15 18:07:54	Cirrus_Minor	only other thing i got is as u not got sudo
+2013-03-15 18:08:37	Neohuman	indeed and I am logged in as root
+2013-03-15 18:10:11	Cirrus_Minor	did you -Syy ?
+2013-03-15 18:10:11	Neohuman	yup
+2013-03-15 18:10:15	Cirrus_Minor	:/ whats actual error pacman gives ?
+2013-03-15 18:10:35	Neohuman	failed to retrieve files from mirror list
+2013-03-15 18:10:46	Cirrus_Minor	ok therein lie s the problem
+2013-03-15 18:11:06	Neohuman	never mind
+2013-03-15 18:11:06	Neohuman	just ran dhcpcd
+2013-03-15 18:11:23	Cirrus_Minor	ah u had no network
+2013-03-15 18:11:49	Neohuman	now I am just gonna run the xorg stuff then 
+2013-03-15 18:12:08	Neohuman	systemctl enable gdm.service
+2013-03-15 18:12:08	Neohuman	pacman -S gnome gnome-extra
+2013-03-15 18:12:26	Neohuman	and I should be good to go
+2013-03-15 18:12:28	Neohuman	which reminds me do I need mesa for gnome?
+2013-03-15 18:13:28	Cirrus_Minor	me sticks to wm's but id keep mesa around yes
+2013-03-15 18:13:28	Neohuman	okay then
+2013-03-15 18:14:50	Cirrus_Minor	tho you should be doin tht as user
+2013-03-15 18:14:56	Cirrus_Minor	not root
+2013-03-15 18:15:18	Neohuman	i am doing it as root
+2013-03-15 18:15:19	Neohuman	...
+2013-03-15 18:17:27	Cirrus_Minor	ok thats not wise , create new user first
+2013-03-15 18:17:28	Neohuman	i did
+2013-03-15 18:17:28	Neohuman	just didn't have sudo so i had to be root to install and now I am running all of this
+2013-03-15 18:17:28	+halosghost	o/
+2013-03-15 18:17:44	Neohuman	meh just did
+2013-03-15 18:17:44	Cirrus_Minor	 \o
+2013-03-15 18:19:47	-->	big_area (~big_area@r74-192-210-106.bcstcmta02.clsttx.tl.dh.suddenlink.net) has joined #archlinux-newbie
+2013-03-15 18:22:08	Neohuman	user is not in the sudoers file
+2013-03-15 18:22:28	<--	sudokode (~ponies@unaffiliated/sudokode) has quit (Disconnected by services)
+2013-03-15 18:22:53	Neohuman	i ran  sudopacman -S xorg-server xorg-xinit xorg-server-utils mesa
+2013-03-15 18:22:53	-->	sudokode (~ponies@unaffiliated/sudokode) has joined #archlinux-newbie
+2013-03-15 18:23:56	Cirrus_Minor	If you want to add yourself into the sudoers so that you can use the sudo command, you can use the TTY and login as root. While as root open the file /etc/sudoers with your text editor (like nano) and this line:
+2013-03-15 18:23:58	+halosghost	did you put your user in the sudoers file?
+2013-03-15 18:23:58	Cirrus_Minor	USER_NAME   ALL=(ALL) ALL
+2013-03-15 18:26:13	Neohuman	in my case it would be wesley ALL(ALL) ALL
+2013-03-15 18:26:23	Neohuman	right
+2013-03-15 18:26:24	<--	big_area (~big_area@r74-192-210-106.bcstcmta02.clsttx.tl.dh.suddenlink.net) has quit (Remote host closed the connection)
+2013-03-15 18:27:56	Cirrus_Minor	no not right
+2013-03-15 18:27:56	+halosghost	ALL=(ALL) ALL
+2013-03-15 18:28:01	Cirrus_Minor	wesley   ALL=(ALL) ALL
+2013-03-15 18:28:29	Neohuman	and yes i put "wesley ALL=(ALL) ALL"
+2013-03-15 18:28:41	Neohuman	in the sudoers file
+2013-03-15 18:28:41	Cirrus_Minor	ill duck out halosghost  gots more skills than me, im a gnube
+2013-03-15 18:28:56	+halosghost	haha
+2013-03-15 18:29:46	+halosghost	Neohuman: where did you put that? and you didn't put it in quotes, did you?
+2013-03-15 18:29:48	Neohuman	at the bottom of sudoers and no I didn't add quotes
+2013-03-15 18:30:39	+halosghost	Okay, I'd recommend you don't do that
+2013-03-15 18:31:09	Neohuman	then what shall I do?
+2013-03-15 18:31:21	+halosghost	instead, uncomment the line "%wheel ALL=(ALL) ALL"
+2013-03-15 18:31:42	+halosghost	then add your user to group wheel
+2013-03-15 18:31:47	+halosghost	then log out and log back in
+2013-03-15 18:32:07	Cirrus_Minor	+1
+2013-03-15 18:34:26	Cirrus_Minor	gpasswd -a wesley  wheel   #to add uself to wheel group
+2013-03-15 18:35:16	Neohuman	added myself before i rooted
+2013-03-15 18:35:29	<--	Afwas (~foppe@195-241-250-222.ip.telfort.nl) has quit (Ping timeout: 246 seconds)
+2013-03-15 18:35:38	+halosghost	…
+2013-03-15 18:35:39	+halosghost	rooted?
+2013-03-15 18:35:41	Cirrus_Minor	with no sudo   mkay
+2013-03-15 18:35:47	Neohuman	added myself before i rebooted
+2013-03-15 18:36:01	+halosghost	did you uncomment the wheel line?
+2013-03-15 18:36:19	Neohuman	https://www.dropbox.com/s/15skppcto2xmjw6/arch.sh and yes i di
+2013-03-15 18:36:19	phrik	Title: Dropbox - arch.sh (at www.dropbox.com)
+2013-03-15 18:36:19	Neohuman	*did
+2013-03-15 18:36:19	Neohuman	that is my install commands
+2013-03-15 18:36:29	Neohuman	mind you only for vb and not for laptop but still
+2013-03-15 18:36:49	+halosghost	you're using a script to install Arch?
+2013-03-15 18:37:12	Neohuman	no i am just keep the commands to run in there
+2013-03-15 18:37:31	Cirrus_Minor	as a .shell .sh script :/
+2013-03-15 18:37:39	Neohuman	yeah been a long day man
+2013-03-15 18:37:44	Cirrus_Minor	wotever works
+2013-03-15 18:38:57	+halosghost	If you uncommented the wheel line, added your user to the wheel group and logged out and back in
+2013-03-15 18:39:01	+halosghost	you should have full sudo access
+2013-03-15 18:39:39	Neohuman	i am didn't do that this time around the script is still being updated
+2013-03-15 18:39:58	Cirrus_Minor	did u uncomment ant mirrors ?
+2013-03-15 18:40:07	Neohuman	yes
+2013-03-15 18:40:08	Cirrus_Minor	any*
+2013-03-15 18:40:13	Cirrus_Minor	try rankmirror
+2013-03-15 18:41:28	+halosghost	reflector ftw
+2013-03-15 18:42:07	Cirrus_Minor	nice one halosghost 
+2013-03-15 18:42:09	Neohuman	just updated it
+2013-03-15 18:43:05	--	irc: disconnected from server
+2013-03-15 20:25:25	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #archlinux-newbie
+2013-03-15 20:25:25	--	Topic for #archlinux-newbie is "Welcome to the Arch community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://gist.github.com/nyux/aa55651de42818f6f971 | Please don't be an ass."
+2013-03-15 20:25:25	--	Topic set by KaiSforza (~wgiokas@unaffiliated/kaisforza) on Sat, 02 Mar 2013 00:50:50
+2013-03-15 20:25:25	--	Nicks #archlinux-newbie: [+carharttjimmy +fsckd +KaiSforza +KylieBrooks +meskarune +numeral +terra-and-luna +tigrmesh +yardena Afwas Atmoz bspar_ CalimeroTeknik comhack CryptoNaut Erika_Mustermann iostream Ketsuban kj4 lattenwald marxine matuka mcurve MikeWatt phrik piefge Ricaz sakaru SirDeiu sudokode ttag vodik Wntrvnm Xyrtic z3bra Z_Mass]
+2013-03-15 20:25:25	--	Channel #archlinux-newbie: 36 nicks (0 ops, 0 halfops, 9 voices, 27 normals)
+2013-03-15 20:25:25	--	Notice(verne.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-03-15 20:25:26	--	Mode #archlinux-newbie [+Cgnt]
+2013-03-15 20:25:26	--	Channel created on Wed, 27 Feb 2013 22:13:33
+2013-03-15 21:01:13	-->	atmka (55409adc@gateway/web/freenode/ip.85.64.154.220) has joined #archlinux-newbie
+2013-03-15 22:14:43	-->	MikeWatt_ (~MikeWatt@xdsl-87-78-237-162.netcologne.de) has joined #archlinux-newbie
+2013-03-15 22:18:12	<--	MikeWatt (~MikeWatt@xdsl-213-168-111-251.netcologne.de) has quit (Ping timeout: 264 seconds)
+2013-03-15 22:31:00	--	Erika_Mustermann is now known as Max_Mustermann
+2013-03-15 23:03:29	<--	piefge (~piefge@p4FE3B475.dip.t-dialin.net) has quit (Ping timeout: 248 seconds)
+2013-03-15 23:05:35	-->	piefge (~piefge@p4FE39545.dip.t-dialin.net) has joined #archlinux-newbie
+2013-03-15 23:08:38	--	MikeWatt_ is now known as MikeWatt
+2013-03-15 23:09:43	<--	marxine (~maxineb@fedora/maxine) has quit (Ping timeout: 245 seconds)
+2013-03-15 23:10:46	-->	marxine (~maxineb@fedora/maxine) has joined #archlinux-newbie
+2013-03-15 23:11:02	+tigrmesh	!.
+2013-03-15 23:11:03	phrik	Beware the dot!
+2013-03-15 23:11:12	+KaiSforza	!!
+2013-03-15 23:11:13	phrik	POPOZÃO!
+2013-03-15 23:12:00	+tigrmesh	that too!
+2013-03-15 23:12:17	+KaiSforza	!¡
+2013-03-15 23:12:19	phrik	¡O∀ZOԀOԀ
+2013-03-15 23:12:29	-->	tweezy (~oscar@186.6.204.63) has joined #archlinux-newbie
+2013-03-15 23:12:38	+tigrmesh	how do you get the upside down bang?
+2013-03-15 23:12:49	<--	tweezy (~oscar@186.6.204.63) has quit (Client Quit)
+2013-03-15 23:13:13	+fsckd	¡magic!
+2013-03-15 23:14:02	+tigrmesh	i think arch women should offer a class in it!
+2013-03-15 23:14:02	+fsckd	(also called compose key)
+2013-03-15 23:14:11	+fsckd	heh
+2013-03-15 23:14:12	+tigrmesh	oh
+2013-03-15 23:14:21	+KaiSforza	or the altgr key
+2013-03-15 23:14:44	+fsckd	i turned capslock to xcompose
+2013-03-15 23:15:10	+KaiSforza	i should set up xcompose.
+2013-03-15 23:15:19	+tigrmesh	KaiSforza: 2 ways to do this? you're making this complicated!
+2013-03-15 23:15:52	Max_Mustermann	¿ǝɹǝɥ uo buıob s,ʇɐɥʍ
+2013-03-15 23:17:18	+KaiSforza	nothing.
+2013-03-15 23:17:51	+fsckd	it's ok, she's one of us
+2013-03-15 23:17:59	+tigrmesh	hehe
+2013-03-15 23:18:45	+fsckd	we're going to overthrow the tyrants in #archlinux
+2013-03-15 23:18:58	+fsckd	the revolution begins now!
+2013-03-15 23:19:42	 *	fsckd is in a rebelling mood
+2013-03-15 23:22:25	+tigrmesh	haha
+2013-03-15 23:30:49	--	fsckd is now known as kirhp
+2013-03-15 23:36:10	<--	tigrmesh (~arch@archlinux/op/tigrmesh) has quit (Quit: - reboot)
+2013-03-15 23:39:44	-->	tigrmesh (~arch@archlinux/op/tigrmesh) has joined #archlinux-newbie
+2013-03-15 23:39:44	--	Mode #archlinux-newbie [+v tigrmesh] by ChanServ
+2013-03-15 23:41:02	--	kirhp is now known as fsckd
+2013-03-16 00:41:41	-->	skassy (~skassy@121.168.222.149) has joined #archlinux-newbie
+2013-03-16 01:12:38	<--	vodik (~root@archlinux/op/vodik) has quit (Ping timeout: 256 seconds)
+2013-03-16 01:17:20	-->	smakked (~smakked@119-18-34-109.cust.aussiebb.net) has joined #archlinux-newbie
+2013-03-16 01:19:23	<--	fsckd (~joggle@unaffiliated/fsckd) has quit (Ping timeout: 255 seconds)
+2013-03-16 01:23:20	-->	majikstreet (~majikstre@70-36-157-147.static.sonic.net) has joined #archlinux-newbie
+2013-03-16 01:28:24	<--	smakked (~smakked@119-18-34-109.cust.aussiebb.net) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-03-16 01:29:19	-->	Smakked (~adrian@119-18-34-109.cust.aussiebb.net) has joined #archlinux-newbie
+2013-03-16 01:45:01	<--	numeral (~numeral@198.23.228.15) has quit (Ping timeout: 258 seconds)
+2013-03-16 10:18:28	--	irc: disconnected from server

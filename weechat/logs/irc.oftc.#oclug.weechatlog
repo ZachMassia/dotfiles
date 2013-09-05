@@ -1,0 +1,1574 @@
+2012-12-02 22:58:24	-->	zachm (~zachm@bas1-cornwall24-1279267733.dsl.bell.ca) has joined #oclug
+2012-12-02 22:58:24	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-02 22:58:24	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-02 22:58:24	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0` dvl HIghoS_ jean keverets_ mcr mcr-credil mort msoulier orospakr SunRaycer TheMike VicGedris vmesons wardi_ zachm Zygo zykotick9]
+2012-12-02 22:58:24	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-02 22:58:27	--	Mode #oclug [+n]
+2012-12-02 22:58:27	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-03 01:16:34	--	irc: disconnected from server
+2012-12-04 18:11:32	-->	zachm (~zachm@bas1-cornwall24-1088716968.dsl.bell.ca) has joined #oclug
+2012-12-04 18:11:32	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-04 18:11:32	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-04 18:11:32	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0` dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort msoulier orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm Zygo zykotick9]
+2012-12-04 18:11:32	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-04 18:11:35	--	Mode #oclug [+n]
+2012-12-04 18:11:35	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-04 18:35:30	--	irc: disconnected from server
+2012-12-04 18:47:36	-->	zachm (~zachm@bas1-cornwall24-1088716968.dsl.bell.ca) has joined #oclug
+2012-12-04 18:47:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-04 18:47:36	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-04 18:47:36	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0` dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort msoulier orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm Zygo zykotick9]
+2012-12-04 18:47:36	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-04 18:47:39	--	Mode #oclug [+n]
+2012-12-04 18:47:39	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-04 19:05:54	-->	habibilus (~habibilus@206-47-100-92.dsl.ncf.ca) has joined #oclug
+2012-12-04 19:27:16	--	irc: disconnected from server
+2012-12-05 09:48:55	-->	zachm (~zachm@72.1.214.149) has joined #oclug
+2012-12-05 09:48:55	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-05 09:48:55	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-05 09:48:55	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0` derekm dvl habibilus HIghoS_ jean keverets luiz__ mcr mcr-credil mort msoulier norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm Zygo zykotick9]
+2012-12-05 09:48:55	--	Channel #oclug: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2012-12-05 09:48:57	--	Mode #oclug [+n]
+2012-12-05 09:48:57	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-05 10:21:01	--	irc: disconnected from server
+2012-12-05 12:05:43	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-05 12:05:43	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-05 12:05:43	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-05 12:05:43	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz__ mcr mcr-credil mort msoulier norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-05 12:05:43	--	Channel #oclug: 29 nicks (0 ops, 0 halfops, 0 voices, 29 normals)
+2012-12-05 12:05:45	--	Mode #oclug [+n]
+2012-12-05 12:05:45	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-05 16:23:23	--	irc: disconnected from server
+2012-12-05 20:27:12	-->	zachm (~zachm@bas1-cornwall24-845467152.dsl.bell.ca) has joined #oclug
+2012-12-05 20:27:12	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-05 20:27:12	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-05 20:27:12	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mort msoulier norm orospakr robechlin_ SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-05 20:27:12	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-05 20:27:14	--	Mode #oclug [+n]
+2012-12-05 20:27:14	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-05 20:45:15	--	irc: disconnected from server
+2012-12-05 20:56:30	-->	zachm (~zachm@bas1-cornwall24-845467152.dsl.bell.ca) has joined #oclug
+2012-12-05 20:56:30	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-05 20:56:30	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-05 20:56:30	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mort msoulier norm orospakr robechlin_ SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-05 20:56:30	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-05 20:56:32	--	Mode #oclug [+n]
+2012-12-05 20:56:32	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-05 21:06:02	<--	luiz__ (~luiz_capi@186.215.32.244) has quit (Ping timeout: 480 seconds)
+2012-12-05 21:52:33	--	irc: disconnected from server
+2012-12-05 22:39:20	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-05 22:39:20	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-05 22:39:20	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-05 22:39:20	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr robechlin_ SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-05 22:39:20	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-05 22:39:22	--	Mode #oclug [+n]
+2012-12-05 22:39:22	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-05 23:12:49	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2012-12-06 00:31:53	--	irc: disconnected from server
+2012-12-07 19:27:58	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-07 19:27:58	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-07 19:27:58	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-07 19:27:58	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-07 19:27:58	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-07 19:28:01	--	Mode #oclug [+n]
+2012-12-07 19:28:01	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-07 19:39:14	-->	luiz (~luiz_capi@177.156.119.54) has joined #oclug
+2012-12-07 20:21:29	--	irc: disconnected from server
+2012-12-08 14:26:55	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-08 14:26:55	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-08 14:26:55	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-08 14:26:55	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-08 14:26:55	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-08 14:26:57	--	Mode #oclug [+n]
+2012-12-08 14:26:57	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-08 15:39:05	-->	habibilus1 (~habibilus@206-47-117-225.dsl.ncf.ca) has joined #oclug
+2012-12-08 15:43:11	<--	habibilus (~habibilus@206-47-101-144.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2012-12-08 15:55:52	<--	zykotick9 (~ZykoticK9@206-47-13-1.dsl.ncf.ca) has quit (Quit: leaving)
+2012-12-08 16:08:17	<--	habibilus1 (~habibilus@206-47-117-225.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2012-12-08 16:14:47	-->	zykotick9 (~ZykoticK9@206-47-13-1.dsl.ncf.ca) has joined #oclug
+2012-12-08 16:31:03	-->	habibilus (~habibilus@206-47-101-144.dsl.ncf.ca) has joined #oclug
+2012-12-08 17:36:49	--	irc: disconnected from server
+2012-12-08 19:39:54	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-08 19:39:54	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-08 19:39:54	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-08 19:39:54	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-08 19:39:54	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-08 19:39:55	--	Mode #oclug [+n]
+2012-12-08 19:39:55	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-08 20:12:39	--	irc: disconnected from server
+2012-12-08 23:00:55	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-08 23:00:55	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-08 23:00:55	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-08 23:00:55	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo zykotick9]
+2012-12-08 23:00:55	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-08 23:00:57	--	Mode #oclug [+n]
+2012-12-08 23:00:57	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-08 23:46:05	<--	habibilus (~habibilus@206-47-117-225.dsl.ncf.ca) has quit (Remote host closed the connection)
+2012-12-09 00:28:06	--	irc: disconnected from server
+2012-12-09 21:06:36	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-09 21:06:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-09 21:06:36	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-09 21:06:36	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort norm orospakr SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo zykotick9]
+2012-12-09 21:06:36	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-09 21:06:38	--	Mode #oclug [+n]
+2012-12-09 21:06:38	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-09 21:50:41	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2012-12-10 02:31:26	--	irc: disconnected from server
+2012-12-10 10:03:48	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-10 10:03:48	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-10 10:03:48	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-10 10:03:48	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean jeongyun keverets luiz_ mcr mcr-credil mort msoulier norm orospakr SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo zykotick9]
+2012-12-10 10:03:48	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2012-12-10 10:03:50	--	Mode #oclug [+n]
+2012-12-10 10:03:50	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-10 10:04:25	-->	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has joined #oclug
+2012-12-10 11:28:24	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2012-12-10 13:08:36	--	irc: disconnected from server
+2012-12-10 13:49:14	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-10 13:49:14	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-10 13:49:14	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-10 13:49:14	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean jeongyun keverets luiz_ mcr mcr-credil mort msoulier norm orospakr robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo zykotick9]
+2012-12-10 13:49:14	--	Channel #oclug: 29 nicks (0 ops, 0 halfops, 0 voices, 29 normals)
+2012-12-10 13:49:16	--	Mode #oclug [+n]
+2012-12-10 13:49:16	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-10 14:31:34	-->	vmesons (~quassel@128.224.252.2) has joined #oclug
+2012-12-10 14:32:20	<--	vmeson (~quassel@128.224.252.2) has quit (Read error: Connection reset by peer)
+2012-12-10 15:28:35	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Read error: Connection reset by peer)
+2012-12-10 15:28:35	-->	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has joined #oclug
+2012-12-10 17:08:22	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2012-12-10 17:40:14	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2012-12-10 18:27:34	<--	habibilus (~habibilus@2001:4830:116e:1:e057:c03e:8cc6:1199) has quit (Remote host closed the connection)
+2012-12-10 18:41:49	-->	norm (~norm@24.212.229.153) has joined #oclug
+2012-12-10 19:34:50	<--	zykotick9 (~ZykoticK9@206-47-13-1.dsl.ncf.ca) has left #oclug
+2012-12-10 21:16:48	<--	luiz_ (~luiz_capi@186.214.43.123) has quit (Ping timeout: 480 seconds)
+2012-12-10 21:43:21	<--	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has quit (Read error: Connection reset by peer)
+2012-12-10 21:58:04	-->	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has joined #oclug
+2012-12-10 22:14:27	--	irc: disconnected from server
+2012-12-11 14:13:09	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-11 14:13:09	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-11 14:13:09	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-11 14:13:09	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz__ mcr mcr-credil mort norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-11 14:13:09	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2012-12-11 14:13:12	--	Mode #oclug [+n]
+2012-12-11 14:13:12	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-11 15:08:06	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2012-12-11 16:45:26	--	irc: disconnected from server
+2012-12-11 20:44:38	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-11 20:44:38	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-11 20:44:38	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-11 20:44:38	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mort norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-11 20:44:38	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-11 20:44:39	--	Mode #oclug [+n]
+2012-12-11 20:44:39	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-11 21:26:26	<--	luiz__ (~luiz_capi@177.40.122.84) has quit (Read error: Operation timed out)
+2012-12-11 23:56:33	--	irc: disconnected from server
+2012-12-12 13:43:07	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-12 13:43:07	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-12 13:43:07	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-12 13:43:07	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-12 13:43:07	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2012-12-12 13:43:09	--	Mode #oclug [+n]
+2012-12-12 13:43:09	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-12 13:51:25	<--	luiz (~luiz_capi@187.112.102.93) has quit (Ping timeout: 480 seconds)
+2012-12-12 15:43:55	--	irc: disconnected from server
+2012-12-12 16:13:48	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-12 16:13:48	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-12 16:13:48	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-12 16:13:48	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` derekm dvl HIghoS_ jean jeongyun keverets mcr mcr-credil mort norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-12 16:13:48	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-12 16:13:51	--	Mode #oclug [+n]
+2012-12-12 16:13:51	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-12 16:15:18	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2012-12-12 16:29:52	-->	msoulier (~msoulier@hs-216-106-102-79.storm.ca) has joined #oclug
+2012-12-12 16:56:59	-->	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has joined #oclug
+2012-12-12 17:17:15	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2012-12-12 17:40:23	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Read error: Operation timed out)
+2012-12-12 18:17:47	-->	norm (~norm@24-212-229-153.cable.teksavvy.com) has joined #oclug
+2012-12-12 18:39:14	-->	robechlin_ (~rechlin@128.224.252.2) has joined #oclug
+2012-12-12 18:45:40	<--	robechlin (~rechlin@128.224.252.2) has quit (Ping timeout: 480 seconds)
+2012-12-12 19:24:28	--	irc: disconnected from server
+2012-12-12 21:23:31	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-12 21:23:31	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-12 21:23:31	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-12 21:23:31	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets luiz mcr mcr-credil mort msoulier norm orospakr robechlin_ SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-12 21:23:31	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2012-12-12 21:23:33	--	Mode #oclug [+n]
+2012-12-12 21:23:33	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-12 21:24:25	<--	luiz (~luiz_capi@187.112.102.93) has quit (Ping timeout: 480 seconds)
+2012-12-12 21:40:36	<--	habibilus (~habibilus@206-47-113-114.dsl.ncf.ca) has quit (Quit: Leaving.)
+2012-12-12 22:57:13	<--	norm (~norm@24-212-229-153.cable.teksavvy.com) has quit (Read error: Operation timed out)
+2012-12-13 01:30:48	--	irc: disconnected from server
+2012-12-13 11:45:35	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-13 11:45:35	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Dec 6 at Shopify"
+2012-12-13 11:45:35	--	Topic set by wardi (~ian@edgy.excess.org) on Fri, 02 Nov 2012 14:55:45
+2012-12-13 11:45:35	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` derekm dvl factor HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort msoulier norm orospakr robechlin_ SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-13 11:45:35	--	Channel #oclug: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2012-12-13 11:45:37	--	Mode #oclug [+n]
+2012-12-13 11:45:37	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-13 12:00:31	--	robechlin_ is now known as robechlin
+2012-12-13 12:01:00	--	robechlin has changed topic for #oclug from "http://oclug.on.ca - Next meeting - Dec 6 at Shopify" to "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-13 12:01:05	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Ping timeout: 480 seconds)
+2012-12-13 12:37:19	-->	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has joined #oclug
+2012-12-13 12:38:55	<--	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has quit
+2012-12-13 13:02:08	<--	luiz (~luiz_capi@177.16.42.224) has quit (Remote host closed the connection)
+2012-12-13 13:04:48	--	irc: disconnected from server
+2012-12-13 22:59:40	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-13 22:59:40	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-13 22:59:40	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:01:00
+2012-12-13 22:59:40	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr robechlin SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-13 22:59:40	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-13 22:59:42	--	Mode #oclug [+n]
+2012-12-13 22:59:42	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-13 23:28:01	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2012-12-14 01:23:03	--	irc: disconnected from server
+2012-12-14 10:44:32	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-14 10:44:32	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-14 10:44:32	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-14 10:44:32	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean jeongyun keverets luiz_ mcr mcr-credil mort msoulier norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-14 10:44:32	--	Channel #oclug: 29 nicks (0 ops, 0 halfops, 0 voices, 29 normals)
+2012-12-14 10:44:34	--	Mode #oclug [+n]
+2012-12-14 10:44:34	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-14 12:11:48	--	irc: disconnected from server
+2012-12-14 14:40:59	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-14 14:40:59	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-14 14:40:59	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-14 14:40:59	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean jeongyun keverets luiz_ mcr mcr-credil mort msoulier norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-14 14:40:59	--	Channel #oclug: 29 nicks (0 ops, 0 halfops, 0 voices, 29 normals)
+2012-12-14 14:41:02	--	Mode #oclug [+n]
+2012-12-14 14:41:02	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-14 14:43:53	<--	habibilus (~habibilus@2001:4830:116e:1:5a:840:da92:3ce2) has quit (Quit: Leaving.)
+2012-12-14 14:43:56	-->	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has joined #oclug
+2012-12-14 15:01:30	--	irc: disconnected from server
+2012-12-14 22:56:20	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-14 22:56:20	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-14 22:56:20	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-14 22:56:20	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-14 22:56:20	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-14 22:56:22	--	Mode #oclug [+n]
+2012-12-14 22:56:22	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-14 23:01:08	<--	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has quit (Remote host closed the connection)
+2012-12-14 23:24:03	<--	msoulier (~msoulier@2001:470:b0d4:1:d5d:4de5:1284:7b14) has quit (Quit: ZZzzzz)
+2012-12-15 01:22:08	--	irc: disconnected from server
+2012-12-15 11:53:56	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-15 11:53:56	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-15 11:53:56	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-15 11:53:56	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mort msoulier norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-15 11:53:56	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2012-12-15 11:53:58	--	Mode #oclug [+n]
+2012-12-15 11:53:58	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-15 11:59:29	--	irc: disconnected from server
+2012-12-15 13:44:24	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-15 13:44:24	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-15 13:44:24	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-15 13:44:24	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-15 13:44:24	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-15 13:44:26	--	Mode #oclug [+n]
+2012-12-15 13:44:26	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-15 13:48:45	<--	msoulier (~msoulier@2001:470:b0d4:1:8951:87df:c84f:41f6) has quit (Quit: ZZzzzz)
+2012-12-15 14:19:56	<--	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has quit (Read error: Connection reset by peer)
+2012-12-15 14:34:36	-->	factor (~factor@r74-193-21-175.cnrocmta01.conrtx.tl.dh.suddenlink.net) has joined #oclug
+2012-12-15 14:48:49	--	irc: disconnected from server
+2012-12-16 00:02:47	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-16 00:02:47	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-16 00:02:47	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-16 00:02:47	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-16 00:02:47	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-16 00:02:50	--	Mode #oclug [+n]
+2012-12-16 00:02:50	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-16 00:19:21	<--	msoulier (~msoulier@2001:470:b0d4:1:f5d3:4781:36ea:58e) has quit (Quit: ZZzzzz)
+2012-12-16 02:03:26	--	irc: disconnected from server
+2012-12-16 16:22:55	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-16 16:22:55	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-16 16:22:55	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-16 16:22:55	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-16 16:22:55	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-16 16:22:57	--	Mode #oclug [+n]
+2012-12-16 16:22:57	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-16 16:38:37	--	irc: disconnected from server
+2012-12-16 17:51:28	-->	zachm (~zachm@bas1-cornwall24-3096456045.dsl.bell.ca) has joined #oclug
+2012-12-16 17:51:28	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-16 17:51:28	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-16 17:51:28	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-16 17:51:28	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-16 17:51:30	--	Mode #oclug [+n]
+2012-12-16 17:51:30	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-16 18:09:04	<--	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has quit (Quit: Leaving.)
+2012-12-16 19:25:25	factor	I cant get to your website.
+2012-12-16 19:26:31	factor	I had to move hosting site for my page , so redoing info, had link but did not back up my lug pages yet.
+2012-12-16 19:31:48	factor	wardi, Anyone know the website is down. 
+2012-12-16 20:15:40	-->	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has joined #oclug
+2012-12-16 21:05:01	<--	habibilus (~habibilus@206-47-100-88.dsl.ncf.ca) has quit (Remote host closed the connection)
+2012-12-16 22:02:02	wardi	hmm?
+2012-12-16 22:04:09	wardi	SunRaycer: ^
+2012-12-16 22:04:55	wardi	SunRaycer: I can't seem to ssh in.  There were some messages in the log about failed database connections this morning
+2012-12-16 22:12:32	factor	Yes was wondering what was up
+2012-12-16 22:16:26	jean	The system is down, yo.
+2012-12-16 22:16:33	 *	jean turns the channel lights on and off
+2012-12-16 22:27:56	--	irc: disconnected from server
+2012-12-16 18:12:30	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-16 18:12:30	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-16 18:12:30	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-16 18:12:30	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-16 18:12:30	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-16 18:12:31	--	Mode #oclug [+n]
+2012-12-16 18:12:31	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-16 23:26:54	SunRaycer	hmmm, ping works, but as mentioned, ssh and http don't...  I'll check console...
+2012-12-16 23:29:08	bartman`	ping will continue to work after some oopses, where as user space could be completely hung or hangs after any VFS request.
+2012-12-16 23:29:13	--	bartman` is now known as bartman
+2012-12-16 23:33:22	SunRaycer	bartman: oh, I've seen many of those, quite aware of *that* possibility...  just that means I have to walk four flights of stairs to fix that and resume what I was doing (which was heading to bed...)
+2012-12-16 23:35:33	SunRaycer	hmmm, oomkiller was quite active...  console was unresponsive...
+2012-12-16 23:37:15	SunRaycer	there's a chance it was related to turning the rack 90 degrees to be able to stand at the rack console without ducking to avoid a heating duct.  much more comfortable for working now though!
+2012-12-16 23:39:15	SunRaycer	there's one dead disk on the raid1.
+2012-12-16 23:39:24	SunRaycer	but we knew that this past week...
+2012-12-16 23:43:41	SunRaycer	ok, it is back up.
+2012-12-16 23:43:51	SunRaycer	ssh, http working again.
+2012-12-16 23:43:58	 *	SunRaycer goes to bed...
+2012-12-16 23:51:23	bartman	mark your sshd as non killable by oom
+2012-12-16 23:58:27	SunRaycer	hadn't occurred to me to do that, but I just assumed it was a side effect of the move...  I assumed it was caused by a minor power glitch, as opposed to an processes (or people) misbehaving
+2012-12-17 00:24:35	factor	http up now I see
+2012-12-17 00:25:15	factor	Glad to see , now I can gleen the info about eh group from it. 
+2012-12-17 00:40:26	<--	factor (~factor@r74-195-184-164.msk1cmtc01.mskgok.ok.dh.suddenlink.net) has quit (synthon.oftc.net oxygen.oftc.net)
+2012-12-17 00:40:26	<--	SunRaycer (~rgb@2001:470:b13d:1:211:11ff:feb1:395e) has quit (synthon.oftc.net oxygen.oftc.net)
+2012-12-17 00:42:36	-->	factor (~factor@r74-195-184-164.msk1cmtc01.mskgok.ok.dh.suddenlink.net) has joined #oclug
+2012-12-17 00:42:36	-->	SunRaycer (~rgb@2001:470:b13d:1:211:11ff:feb1:395e) has joined #oclug
+2012-12-17 00:43:24	<--	SunRaycer (~rgb@2001:470:b13d:1:211:11ff:feb1:395e) has quit (Ping timeout: 480 seconds)
+2012-12-17 00:53:03	-->	SunRaycer (~rgb@2001:470:b13d:1:211:11ff:feb1:395e) has joined #oclug
+2012-12-17 01:34:26	--	irc: disconnected from server
+2012-12-17 16:44:53	-->	zachm (~zachm@bas1-cornwall24-1242466333.dsl.bell.ca) has joined #oclug
+2012-12-17 16:44:53	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-17 16:44:53	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-17 16:44:53	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort msoulier norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-17 16:44:53	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-17 16:44:56	--	Mode #oclug [+n]
+2012-12-17 16:44:56	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-17 17:08:16	--	irc: disconnected from server
+2012-12-17 22:41:40	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-17 22:41:40	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-17 22:41:40	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-17 22:41:40	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl factor HIghoS_ jean keverets mcr mcr-credil mort msoulier orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-17 22:41:40	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-17 22:41:41	--	Mode #oclug [+n]
+2012-12-17 22:41:41	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-17 23:57:19	--	irc: disconnected from server
+2012-12-18 12:56:13	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-18 12:56:13	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-18 12:56:13	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-18 12:56:13	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort msoulier norm orospakr Renfro robechlin_sproing SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-18 12:56:13	--	Channel #oclug: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2012-12-18 12:56:15	--	Mode #oclug [+n]
+2012-12-18 12:56:15	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-18 13:49:18	--	irc: disconnected from server
+2012-12-18 15:56:20	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-18 15:56:20	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-18 15:56:20	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-18 15:56:20	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort msoulier norm orospakr Renfro robechlin_sproing SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-18 15:56:20	--	Channel #oclug: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2012-12-18 15:56:22	--	Mode #oclug [+n]
+2012-12-18 15:56:22	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-18 16:04:00	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2012-12-18 16:23:34	<--	habibilus (~habibilus@2001:4830:116e:1:addb:b1b:e83e:4e3) has quit (Read error: Operation timed out)
+2012-12-18 16:28:21	-->	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has joined #oclug
+2012-12-18 16:42:44	-->	luiz_ (~luiz_capi@186.214.40.250) has joined #oclug
+2012-12-18 16:44:53	<--	luiz (~luiz_capi@201.86.4.29.dynamic.adsl.gvt.net.br) has quit (Read error: Operation timed out)
+2012-12-18 17:18:58	--	irc: disconnected from server
+2012-12-18 21:30:29	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-18 21:30:29	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-18 21:30:29	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-18 21:30:29	--	Nicks #oclug: [bartman bjb bjb-credil dave0 dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort msoulier norm orospakr Renfro robechlin_sproing SunRaycer TheMike VicGedris vmeson wardi zachm Zygo]
+2012-12-18 21:30:29	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-18 21:30:31	--	Mode #oclug [+n]
+2012-12-18 21:30:31	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-18 22:08:23	-->	zul (~asd@CPE98fc113f439d-CM000a73655d0e.cpe.net.cable.rogers.com) has joined #oclug
+2012-12-18 22:27:41	<--	luiz_ (~luiz_capi@186.214.40.250) has quit (Ping timeout: 480 seconds)
+2012-12-18 23:19:35	<--	norm (~norm@24.212.229.153) has quit (Read error: Operation timed out)
+2012-12-18 23:37:40	<--	msoulier (~msoulier@2001:470:b0d4:1:8584:4694:e08b:df97) has left #oclug
+2012-12-18 23:41:56	--	irc: disconnected from server
+2012-12-19 15:33:17	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-19 15:33:17	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-19 15:33:17	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-19 15:33:17	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-19 15:33:17	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2012-12-19 15:33:18	--	Mode #oclug [+n]
+2012-12-19 15:33:18	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-19 15:50:47	--	irc: disconnected from server
+2012-12-19 16:00:47	-->	zachm (~zachm@bas1-cornwall24-845466629.dsl.bell.ca) has joined #oclug
+2012-12-19 16:00:47	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-19 16:00:47	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-19 16:00:47	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-19 16:00:47	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-19 16:00:48	--	Mode #oclug [+n]
+2012-12-19 16:00:48	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-19 16:10:59	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2012-12-19 16:18:00	robechlin	Weeee!
+2012-12-19 17:13:19	SunRaycer	oh yeah?
+2012-12-19 17:17:52	<--	habibilus (~habibilus@2001:4830:116e:1:550b:65f6:8745:7cbf) has quit (Remote host closed the connection)
+2012-12-19 17:31:00	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2012-12-19 18:02:04	-->	norm (~norm@24.212.229.153) has joined #oclug
+2012-12-19 19:41:24	-->	bartman` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2012-12-19 19:41:26	<--	bartman (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Connection reset by peer)
+2012-12-19 21:27:41	<--	TheMike (~Mike@hashbang.ca) has quit (Quit: Mike is a four-letter word)
+2012-12-19 21:28:27	-->	TheMike (~Mike@2a01:7e00::f03c:91ff:fe93:3b4a) has joined #oclug
+2012-12-19 21:41:36	<--	luiz (~luiz_capi@186.214.40.250) has quit (Read error: Operation timed out)
+2012-12-19 22:12:06	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2012-12-19 23:59:24	--	irc: disconnected from server
+2012-12-20 21:14:16	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-20 21:14:16	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-20 21:14:16	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-20 21:14:16	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-20 21:14:16	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-20 21:14:18	--	Mode #oclug [+n]
+2012-12-20 21:14:18	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-20 21:47:09	<--	norm (~norm@24-212-229-153.cable.teksavvy.com) has quit (Ping timeout: 480 seconds)
+2012-12-20 22:59:04	--	irc: disconnected from server
+2012-12-21 00:59:03	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-21 00:59:03	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-21 00:59:03	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-21 00:59:03	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-21 00:59:03	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-21 00:59:06	--	Mode #oclug [+n]
+2012-12-21 00:59:06	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-21 02:28:00	<--	Renfro (ib@199.167.119.74) has quit (Quit: Disconnecting)
+2012-12-21 02:31:01	-->	Renfro (ib@199.167.119.74) has joined #oclug
+2012-12-21 03:48:25	--	irc: disconnected from server
+2012-12-21 15:21:31	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-21 15:21:31	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-21 15:21:31	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-21 15:21:31	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-21 15:21:31	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-21 15:21:32	--	Mode #oclug [+n]
+2012-12-21 15:21:32	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-21 16:01:04	<--	robechlin (~rechlin@128.224.252.2) has quit (Read error: Connection reset by peer)
+2012-12-21 16:02:12	-->	habibilus (~habibilus@206-47-100-184.dsl.ncf.ca) has joined #oclug
+2012-12-21 16:20:29	--	irc: disconnected from server
+2012-12-21 16:59:55	-->	zachm (~zachm@64.229.195.38) has joined #oclug
+2012-12-21 16:59:55	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-21 16:59:55	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-21 16:59:55	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-21 16:59:55	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-21 16:59:57	--	Mode #oclug [+n]
+2012-12-21 16:59:57	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-21 17:14:10	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2012-12-21 17:39:08	<--	habibilus (~habibilus@206-47-100-184.dsl.ncf.ca) has quit (Quit: Leaving.)
+2012-12-21 19:32:18	--	irc: disconnected from server
+2012-12-21 23:40:02	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-21 23:40:02	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-21 23:40:02	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-21 23:40:02	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-21 23:40:02	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2012-12-21 23:40:04	--	Mode #oclug [+n]
+2012-12-21 23:40:04	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-22 01:01:41	--	irc: disconnected from server
+2012-12-22 01:14:09	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-22 01:14:09	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-22 01:14:09	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-22 01:14:09	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-22 01:14:09	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2012-12-22 01:14:11	--	Mode #oclug [+n]
+2012-12-22 01:14:11	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-22 02:35:08	--	irc: disconnected from server
+2012-12-22 16:43:23	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-22 16:43:23	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-22 16:43:23	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-22 16:43:23	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-22 16:43:23	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-22 16:43:26	--	Mode #oclug [+n]
+2012-12-22 16:43:26	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-22 17:16:34	--	irc: disconnected from server
+2012-12-22 20:56:33	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-22 20:56:33	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-22 20:56:33	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-22 20:56:33	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-22 20:56:33	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-22 20:56:35	--	Mode #oclug [+n]
+2012-12-22 20:56:35	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-22 20:57:14	--	You are now known as Z_Mass
+2012-12-22 21:37:28	--	irc: disconnected from server
+2012-12-23 00:32:35	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-23 00:32:35	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-23 00:32:35	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-23 00:32:35	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl factor HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-23 00:32:35	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-23 00:32:36	--	Mode #oclug [+n]
+2012-12-23 00:32:36	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-23 00:39:28	--	irc: disconnected from server
+2012-12-23 13:40:42	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-23 13:40:42	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-23 13:40:42	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-23 13:40:42	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl factor HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-23 13:40:42	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2012-12-23 13:40:44	--	Mode #oclug [+n]
+2012-12-23 13:40:44	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-23 15:16:01	mcr	what's an E17?
+2012-12-23 15:16:50	SunRaycer	enlightenment...
+2012-12-23 15:28:43	factor	need to rename it to after all these years :)
+2012-12-23 16:18:50	-->	habibilus (~habibilus@206-47-100-184.dsl.ncf.ca) has joined #oclug
+2012-12-23 17:08:10	<--	factor (~factor@r74-195-184-164.msk1cmtc01.mskgok.ok.dh.suddenlink.net) has quit (Quit: Leaving)
+2012-12-23 17:38:28	-->	habibilus1 (~habibilus@206-47-100-184.dsl.ncf.ca) has joined #oclug
+2012-12-23 17:38:45	<--	habibilus (~habibilus@206-47-100-184.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2012-12-23 18:51:57	-->	vmesons (~quassel@128.224.252.2) has joined #oclug
+2012-12-23 18:54:12	<--	vmeson (~quassel@128.224.252.2) has quit (Read error: Connection reset by peer)
+2012-12-23 20:30:32	-->	factor (~factor@r74-195-184-164.msk1cmtc01.mskgok.ok.dh.suddenlink.net) has joined #oclug
+2012-12-23 20:40:20	--	irc: disconnected from server
+2012-12-23 21:41:17	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-23 21:41:17	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-23 21:41:17	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-23 21:41:17	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl factor habibilus1 HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-23 21:41:17	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2012-12-23 21:41:19	--	Mode #oclug [+n]
+2012-12-23 21:41:19	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-23 21:44:11	SunRaycer	bugger... since when does which(1) not follow symbolic links?
+2012-12-23 22:24:03	<--	factor (~factor@r74-195-184-164.msk1cmtc01.mskgok.ok.dh.suddenlink.net) has quit (Quit: Leaving)
+2012-12-23 22:58:10	<--	habibilus1 (~habibilus@206-47-100-184.dsl.ncf.ca) has quit (Remote host closed the connection)
+2012-12-23 23:17:42	<--	norm (~norm@24-212-229-153.cable.teksavvy.com) has quit (Read error: Operation timed out)
+2012-12-23 23:53:16	--	irc: disconnected from server
+2012-12-23 19:35:07	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-23 19:35:07	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-23 19:35:07	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-23 19:35:07	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-23 19:35:07	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2012-12-23 19:35:09	--	Mode #oclug [+n]
+2012-12-23 19:35:09	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-24 02:58:10	--	irc: disconnected from server
+2012-12-24 15:02:21	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-24 15:02:21	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-24 15:02:21	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-24 15:02:21	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-24 15:02:21	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-24 15:02:23	--	Mode #oclug [+n]
+2012-12-24 15:02:23	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-24 15:40:17	dvl	SunRaycer:  I like their Raspberry Pi stuff.
+2012-12-24 15:53:31	--	irc: disconnected from server
+2012-12-27 01:25:08	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-27 01:25:08	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-27 01:25:08	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-27 01:25:08	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmesons wardi zachm zul Zygo]
+2012-12-27 01:25:08	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2012-12-27 01:25:10	--	Mode #oclug [+n]
+2012-12-27 01:25:10	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-27 18:03:46	--	irc: disconnected from server
+2012-12-27 23:07:49	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-27 23:07:49	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-27 23:07:49	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-27 23:07:49	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-27 23:07:49	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-27 23:07:51	--	Mode #oclug [+n]
+2012-12-27 23:07:51	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-27 23:16:55	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2012-12-27 23:32:29	--	irc: disconnected from server
+2012-12-28 22:26:09	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-28 22:26:09	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-28 22:26:09	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-28 22:26:09	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm Zygo]
+2012-12-28 22:26:09	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2012-12-28 22:26:10	--	Mode #oclug [+n]
+2012-12-28 22:26:10	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-28 22:36:57	<--	habibilus (~habibilus@206-47-100-184.dsl.ncf.ca) has quit (Quit: Leaving.)
+2012-12-28 22:37:03	--	irc: disconnected from server
+2012-12-30 13:56:00	-->	zachm (~zachm@bas1-cornwall24-845467059.dsl.bell.ca) has joined #oclug
+2012-12-30 13:56:00	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-30 13:56:00	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-30 13:56:00	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-30 13:56:00	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2012-12-30 13:56:02	--	Mode #oclug [+n]
+2012-12-30 13:56:02	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-30 14:21:01	<--	bartman` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Operation timed out)
+2012-12-30 14:23:49	-->	bartman` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2012-12-30 21:41:11	--	irc: disconnected from server
+2012-12-31 13:03:50	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2012-12-31 13:03:50	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-31 13:03:50	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-31 13:03:50	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-31 13:03:50	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2012-12-31 13:03:52	--	Mode #oclug [+n]
+2012-12-31 13:03:52	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-31 13:23:15	--	irc: disconnected from server
+2012-12-31 15:11:56	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2012-12-31 15:11:56	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2012-12-31 15:11:56	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2012-12-31 15:11:56	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2012-12-31 15:11:56	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2012-12-31 15:11:58	--	Mode #oclug [+n]
+2012-12-31 15:11:58	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2012-12-31 18:35:29	<--	bartman` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Operation timed out)
+2012-12-31 18:40:18	-->	bartman` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2012-12-31 19:22:08	--	irc: disconnected from server
+2013-01-01 22:22:06	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-01 22:22:06	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-01 22:22:06	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-01 22:22:06	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-01 22:22:06	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-01 22:22:08	--	Mode #oclug [+n]
+2013-01-01 22:22:08	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-01 23:20:48	<--	norm (~norm@24-212-229-153.cable.teksavvy.com) has quit (Ping timeout: 480 seconds)
+2013-01-02 01:08:35	--	irc: disconnected from server
+2013-01-02 21:08:36	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-02 21:08:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-02 21:08:36	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-02 21:08:36	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-02 21:08:36	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-02 21:08:37	--	Mode #oclug [+n]
+2013-01-02 21:08:37	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-02 22:36:13	<--	Zygo (startkeylo@startkeylogger.hungrycats.org) has quit (resistance.oftc.net charm.oftc.net)
+2013-01-02 22:36:13	<--	dave0 (~dmo@69-165-153-5.dsl.teksavvy.com) has quit (resistance.oftc.net charm.oftc.net)
+2013-01-02 22:37:41	-->	Zygo (startkeylo@startkeylogger.hungrycats.org) has joined #oclug
+2013-01-02 22:37:41	-->	dave0 (~dmo@69-165-153-5.dsl.teksavvy.com) has joined #oclug
+2013-01-02 22:51:55	--	irc: disconnected from server
+2013-01-03 01:56:33	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-03 01:56:33	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-03 01:56:33	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-03 01:56:33	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-03 01:56:33	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-03 01:56:35	--	Mode #oclug [+n]
+2013-01-03 01:56:35	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-03 03:06:23	--	irc: disconnected from server
+2013-01-03 12:56:23	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-03 12:56:23	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-03 12:56:23	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-03 12:56:23	--	Nicks #oclug: [bartman` bjb-credil cdlu dave0 derekm dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-03 12:56:23	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-01-03 12:56:24	--	Mode #oclug [+n]
+2013-01-03 12:56:24	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-03 14:56:01	-->	bartman`` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-01-03 14:56:01	<--	bartman` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Connection reset by peer)
+2013-01-03 16:35:19	<--	bartman`` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Operation timed out)
+2013-01-03 16:36:39	-->	bartman`` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-01-03 17:02:50	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-01-03 17:09:40	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-01-03 17:19:03	<--	habibilus (~habibilus@2001:4830:116e:1:8d35:460a:a6b8:7fb0) has quit (Remote host closed the connection)
+2013-01-03 17:44:28	--	irc: disconnected from server
+2013-01-03 21:36:49	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-03 21:36:49	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-03 21:36:49	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-03 21:36:49	--	Nicks #oclug: [bartman`` bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-03 21:36:49	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-03 21:36:51	--	Mode #oclug [+n]
+2013-01-03 21:36:51	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-03 22:07:23	<--	habibilus (~habibilus@206-47-113-215.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-04 00:18:19	--	irc: disconnected from server
+2013-01-04 03:29:32	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-04 03:29:32	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-04 03:29:32	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-04 03:29:32	--	Nicks #oclug: [bartman`` bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-04 03:29:32	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-04 03:29:33	--	Mode #oclug [+n]
+2013-01-04 03:29:33	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-04 05:06:56	<--	Renfro (ib@199.167.119.74) has quit (charon.oftc.net synthon.oftc.net)
+2013-01-04 05:06:56	<--	orospakr (~orospakr@mobotropolis.orospakr.ca) has quit (charon.oftc.net synthon.oftc.net)
+2013-01-04 05:09:04	-->	Renfro (ib@199.167.119.74) has joined #oclug
+2013-01-04 05:09:04	-->	orospakr (~orospakr@mobotropolis.orospakr.ca) has joined #oclug
+2013-01-04 07:46:38	--	irc: disconnected from server
+2013-01-04 08:59:39	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-04 08:59:39	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-04 08:59:39	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-04 08:59:39	--	Nicks #oclug: [bartman`` bjb-credil cdlu dave0 derekm dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer TheMike VicGedris vmeson wardi zachm zul Zygo]
+2013-01-04 08:59:39	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-01-04 08:59:41	--	Mode #oclug [+n]
+2013-01-04 08:59:41	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-04 09:40:17	-->	habibilus (~habibilus@2001:4830:116e:1:a8df:e0d3:fc9f:f197) has joined #oclug
+2013-01-04 10:02:47	<--	habibilus (~habibilus@2001:4830:116e:1:a8df:e0d3:fc9f:f197) has quit (Quit: Leaving.)
+2013-01-04 10:06:57	-->	habibilus (~habibilus@2001:4830:116e:1:ec79:1ce:c987:9c73) has joined #oclug
+2013-01-04 10:14:29	bartman``	anyone want 2ed of Linux Kernel Development by Robert Love ?
+2013-01-04 10:14:32	bartman``	very good book
+2013-01-04 10:14:37	--	bartman`` is now known as bartman
+2013-01-04 10:14:49	bartman	I am replacing it with the latest (3rd ed)
+2013-01-04 10:23:51	--	irc: disconnected from server
+2013-01-05 23:26:36	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-05 23:26:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-05 23:26:36	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-05 23:26:36	--	Nicks #oclug: [bartman bjb-credil cdlu dave0 dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-05 23:26:36	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-05 23:26:38	--	Mode #oclug [+n]
+2013-01-05 23:26:38	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-05 23:43:18	<--	habibilus (~habibilus@206-47-94-132.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-06 05:05:44	--	irc: disconnected from server
+2013-01-06 14:25:54	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-06 14:25:54	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-06 14:25:54	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-06 14:25:54	--	Nicks #oclug: [bartman bjb-credil cdlu dave0 dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-06 14:25:54	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-06 14:25:56	--	Mode #oclug [+n]
+2013-01-06 14:25:56	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-06 16:24:51	--	irc: disconnected from server
+2013-01-06 18:10:10	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-06 18:10:10	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-06 18:10:10	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-06 18:10:10	--	Nicks #oclug: [bartman bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-06 18:10:10	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-06 18:10:13	--	Mode #oclug [+n]
+2013-01-06 18:10:13	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-06 19:48:55	-->	factor (~factor@r74-193-21-107.cnrocmta01.conrtx.tl.dh.suddenlink.net) has joined #oclug
+2013-01-06 22:17:55	<--	habibilus (~habibilus@206-47-94-132.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2013-01-06 23:02:35	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2013-01-07 01:10:28	--	irc: disconnected from server
+2013-01-07 09:08:22	-->	zachm (~zachm@142.155.30.26) has joined #oclug
+2013-01-07 09:08:22	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-07 09:08:22	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-07 09:08:22	--	Nicks #oclug: [bartman bjb-credil cdlu dave0 dvl factor HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris wardi zachm zul Zygo]
+2013-01-07 09:08:22	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-07 09:08:24	--	Mode #oclug [+n]
+2013-01-07 09:08:24	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-07 09:28:19	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-01-07 09:35:46	--	irc: disconnected from server
+2013-01-07 23:43:58	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-07 23:43:58	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-07 23:43:58	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-07 23:43:58	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-07 23:43:58	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-07 23:44:00	--	Mode #oclug [+n]
+2013-01-07 23:44:00	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-08 01:07:25	--	irc: disconnected from server
+2013-01-08 17:06:26	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-08 17:06:26	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-08 17:06:26	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-08 17:06:26	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-08 17:06:26	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-01-08 17:06:29	--	Mode #oclug [+n]
+2013-01-08 17:06:29	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-08 17:17:52	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-01-08 18:02:38	<--	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has quit (Remote host closed the connection)
+2013-01-08 21:00:02	<--	luiz_ (~luiz_capi@177.42.111.197) has quit (Read error: Operation timed out)
+2013-01-08 21:45:44	-->	habibilus (~habibilus@206-47-116-19.dsl.ncf.ca) has joined #oclug
+2013-01-08 23:10:37	<--	habibilus (~habibilus@206-47-116-19.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-01-09 02:39:55	--	irc: disconnected from server
+2013-01-09 11:09:18	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-09 11:09:18	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-09 11:09:18	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-09 11:09:18	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz_ mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-09 11:09:18	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-01-09 11:09:20	--	Mode #oclug [+n]
+2013-01-09 11:09:20	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-09 11:25:46	<--	luiz_ (~luiz_capi@177.42.111.197) has quit (Quit: Leaving)
+2013-01-09 11:36:37	-->	bartman` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-01-09 11:37:56	<--	bartman (~bart@2607:f2c0:f00e:700::dd) has quit (Ping timeout: 480 seconds)
+2013-01-09 11:56:08	-->	luiz (~luiz_capi@177.42.111.197) has joined #oclug
+2013-01-09 13:06:19	--	irc: disconnected from server
+2013-01-09 13:25:02	-->	zachm (~zachm@142.155.30.68) has joined #oclug
+2013-01-09 13:25:02	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-09 13:25:02	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-09 13:25:02	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 derekm dvl HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-09 13:25:02	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-01-09 13:25:04	--	Mode #oclug [+n]
+2013-01-09 13:25:04	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-09 13:27:11	<--	zul (~asd@CPE20aa4b243197-CM000a73655d0e.cpe.net.cable.rogers.com) has quit (Quit: Ex-Chat)
+2013-01-09 14:13:08	--	irc: disconnected from server
+2013-01-10 00:20:34	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-10 00:20:34	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-10 00:20:34	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-10 00:20:34	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr-credil mcr-credil1 mort orospakr Renfro robechlin_ SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-10 00:20:34	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-10 00:20:36	--	Mode #oclug [+n]
+2013-01-10 00:20:36	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-10 01:53:13	--	irc: disconnected from server
+2013-01-11 00:54:33	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-11 00:54:33	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-11 00:54:33	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-11 00:54:33	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr-credil mort orospakr Renfro robechlin_ SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-11 00:54:33	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-01-11 00:54:35	--	Mode #oclug [+n]
+2013-01-11 00:54:35	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-11 02:08:04	<--	Renfro (ib@199.167.119.74) has quit (Ping timeout: 480 seconds)
+2013-01-11 02:09:08	-->	Renfro (ib@199.167.119.15) has joined #oclug
+2013-01-11 17:52:12	--	irc: disconnected from server
+2013-01-11 20:49:48	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-11 20:49:48	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-11 20:49:48	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-11 20:49:48	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-01-11 20:49:48	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-11 20:49:50	--	Mode #oclug [+n]
+2013-01-11 20:49:50	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-11 20:56:21	<--	bjb (~bjb@sourcerer.ca) has quit (Ping timeout: 480 seconds)
+2013-01-11 20:57:37	-->	bjb (~bjb@sourcerer.ca) has joined #oclug
+2013-01-11 22:04:48	<--	habibilus (~habibilus@206-47-94-13.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-01-11 22:56:22	--	irc: disconnected from server
+2013-01-12 00:04:23	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-12 00:04:23	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-12 00:04:23	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-12 00:04:23	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-01-12 00:04:23	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-01-12 00:04:25	--	Mode #oclug [+n]
+2013-01-12 00:04:25	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-12 15:04:05	--	irc: disconnected from server
+2013-01-12 20:23:45	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-12 20:23:45	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-12 20:23:45	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-12 20:23:45	--	Nicks #oclug: [bartman bjb bjb-credil chuck__ dave0 dvl factor habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-01-12 20:23:45	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-12 20:23:47	--	Mode #oclug [+n]
+2013-01-12 20:23:47	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-12 20:33:43	<--	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-12 20:34:03	-->	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has joined #oclug
+2013-01-12 20:58:55	<--	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-12 21:01:08	-->	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has joined #oclug
+2013-01-12 21:32:14	<--	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-12 22:10:47	-->	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has joined #oclug
+2013-01-12 22:14:55	<--	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has quit
+2013-01-13 01:40:35	--	irc: disconnected from server
+2013-01-13 21:17:04	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-13 21:17:04	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-13 21:17:04	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-13 21:17:04	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl factor HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-13 21:17:04	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-13 21:17:06	--	Mode #oclug [+n]
+2013-01-13 21:17:06	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-13 21:39:10	-->	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has joined #oclug
+2013-01-13 21:59:21	<--	habibilus (~habibilus@206-47-112-64.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-01-13 22:07:23	bartman	bjb: you were the first to comment on my site being down
+2013-01-13 22:07:31	bartman	... so I got my ass in gear and fixed it
+2013-01-13 22:07:33	bartman	thanks for the push
+2013-01-13 23:05:22	<--	norm (~norm@24.212.229.153) has quit (Read error: Operation timed out)
+2013-01-13 23:23:51	--	irc: disconnected from server
+2013-01-14 00:13:17	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-14 00:13:17	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-14 00:13:17	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-14 00:13:17	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl factor HIghoS_ jean keverets mcr mcr-credil mort orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-14 00:13:17	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-14 00:13:19	--	Mode #oclug [+n]
+2013-01-14 00:13:19	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-14 00:34:38	bjb	Interesting:  http://www.papersizes.org/a-paper-sizes.htm   I never knew that.
+2013-01-14 00:35:18	bjb	I just thought A4 was weird.  Now I learn it's logical, and "letter" and "legal" are weird
+2013-01-14 00:38:14	SunRaycer	bjb: pretty much.  americans just want to be different...  just look at their date codes...
+2013-01-14 00:38:32	SunRaycer	no sense to them either...
+2013-01-14 01:53:26	--	irc: disconnected from server
+2013-01-14 10:01:39	-->	zachm (~zachm@142.155.30.29) has joined #oclug
+2013-01-14 10:01:39	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-14 10:01:39	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-14 10:01:39	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl factor habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-14 10:01:39	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-01-14 10:01:41	--	Mode #oclug [+n]
+2013-01-14 10:01:41	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-14 10:18:15	<--	habibilus (~habibilus@2001:4830:116e:1:44d4:3a94:4f75:3cb5) has quit (Remote host closed the connection)
+2013-01-14 10:20:29	-->	habibilus (~habibilus@2001:4830:116e:1:90d0:4386:af4c:1dc4) has joined #oclug
+2013-01-14 11:01:51	 *	Renfro notes that RFC3339 reflects the most useful parts of the ISO8601 spec, and wishes that writers of mail systems would catch up.
+2013-01-14 11:02:57	--	bartman` is now known as bartman
+2013-01-14 11:04:06	Renfro	keverets: [removes ambiguity] i've seen, only once, a nitwit write YYYY-DD-MM.  horrifying.  [bothers you] i'm even more bothered to see dates such as 4/1/2 (or 04/01/02), even in legal documents where the date matters.  let a judge decide what the writer may have meant...
+2013-01-14 11:05:03	bjb	Thank goodness we're past 2012 now
+2013-01-14 11:08:47	SunRaycer	bjb: that helps reduce the iterations from 6 to 2 for the first half of the month at least...  when you assume that date is today's date...
+2013-01-14 11:17:42	--	irc: disconnected from server
+2013-01-14 06:35:36	-->	zachm (~zachm@142.155.30.29) has joined #oclug
+2013-01-14 06:35:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-14 06:35:36	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-14 06:35:36	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl factor habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-14 06:35:36	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-01-14 06:35:38	--	Mode #oclug [+n]
+2013-01-14 06:35:38	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-14 12:03:43	SunRaycer	mcr-credil: and if they kvetch, ask them to show you a date code standardization document...
+2013-01-14 12:11:23	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-01-14 12:30:14	--	irc: disconnected from server
+2013-01-15 10:21:28	-->	zachm (~zachm@bas1-cornwall24-1279267636.dsl.bell.ca) has joined #oclug
+2013-01-15 10:21:28	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-15 10:21:28	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-15 10:21:28	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-15 10:21:28	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-01-15 10:21:29	--	Mode #oclug [+n]
+2013-01-15 10:21:29	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-15 15:30:30	robechlin	bartman, Thanks for the link to the State of Windows on the Desktop article. Nice coverage of several important points!
+2013-01-15 15:33:24	robechlin	SunRaycer, bjb: At the meeting last night, Scott expressed that it would be a good idea to wait for major changes to Tux/NuTux until after the UGC conf Feb 9.
+2013-01-15 15:33:33	robechlin	And I think that makes sense.
+2013-01-15 15:34:40	robechlin	Also, we bought http://ugconnect.ca and connected it to the ugc site on NuTux.
+2013-01-15 15:36:37	robechlin	ugc.ca was already gone. : (
+2013-01-15 15:37:36	mcr	as ugconnect.ca isn't yet liave... what is it?
+2013-01-15 16:07:11	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2013-01-15 16:30:02	<--	habibilus (~habibilus@2001:4830:116e:1:8998:e8d5:599d:10d8) has quit (Quit: Leaving.)
+2013-01-15 16:33:21	-->	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has joined #oclug
+2013-01-15 16:35:39	robechlin	ugconnect.ca is live. It is the site for the User Group Connect event on Feb. 9.
+2013-01-15 16:36:09	mcr	no A record for ugconnect.ca
+2013-01-15 16:36:11	bjb	ugconnect.ca is not resolving (it didn't a short while ago)
+2013-01-15 16:36:37	mcr	www.ugconnect.ca does. I recall what it is now.
+2013-01-15 16:37:09	robechlin	My browser adds www. in front. I think both should resolve. I will send Scott an email. Thanks for pointing out that issue.
+2013-01-15 16:38:22	mcr	my browser doesn't if I click on the link in the channel.
+2013-01-15 16:40:28	mcr	rogechlin, I suggest you move this page to ugconnect.ca/2013/ottawa, make a virtual host ottawa2012.ugconnect.ca, and have www.ugconnect.ca refresh to that site.
+2013-01-15 16:40:51	mcr	that will give people the impression that: a) it's not a one-time event, b) other cities could do the same thing.
+2013-01-15 16:46:18	wardi	the downside is google ranks separate subdomains as separate sites
+2013-01-15 16:48:55	mcr	okay, so perhaps the virtual host is overkill.
+2013-01-15 17:00:02	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-01-15 17:35:31	robechlin	Ther's a 2013 in the logo. That's a start in that direction, without the overhead. <g>
+2013-01-15 17:36:24	robechlin	mcr, Thanks for the suggestion. We need to do something about moving the data around after the event. 
+2013-01-15 17:36:52	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Read error: Operation timed out)
+2013-01-15 17:37:01	robechlin	I plan to update the User Group list and maintain it. There are other things we could do between events, if I feel really ambitious. <g>
+2013-01-15 18:17:43	<--	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has quit (Quit: Leaving.)
+2013-01-15 18:34:59	<--	vmeson (~quassel@128.224.252.2) has quit (Read error: Operation timed out)
+2013-01-15 18:35:29	-->	vmeson (~quassel@128.224.252.2) has joined #oclug
+2013-01-15 18:36:23	-->	robechlin_ (~rechlin@128.224.252.2) has joined #oclug
+2013-01-15 18:40:55	<--	robechlin (~rechlin@128.224.252.2) has quit (Ping timeout: 480 seconds)
+2013-01-15 19:59:24	SunRaycer	robechlin_: understood about changing things before ugc...  just trying to consolidate things...  and tux has lost one of the mirrored disks.  I've got lots that could be swapped in its place, but seems like more effort than it is worth
+2013-01-15 20:12:26	-->	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has joined #oclug
+2013-01-15 20:35:10	--	irc: disconnected from server
+2013-01-15 20:35:32	-->	zachm (~zachm@bas1-cornwall24-1242466939.dsl.bell.ca) has joined #oclug
+2013-01-15 20:35:32	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Jan 3 at Shopify"
+2013-01-15 20:35:32	--	Topic set by robechlin (~rechlin@128.224.252.2) on Thu, 13 Dec 2012 12:00:59
+2013-01-15 20:35:32	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets luiz mcr mcr-credil mort orospakr Renfro robechlin_ SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-15 20:35:32	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-01-15 20:35:34	--	Mode #oclug [+n]
+2013-01-15 20:35:34	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-15 20:35:45	<--	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-15 21:01:55	-->	norm (~norm@24.212.229.153) has joined #oclug
+2013-01-15 21:20:20	-->	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has joined #oclug
+2013-01-15 21:35:06	<--	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-15 21:35:24	-->	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has joined #oclug
+2013-01-15 21:59:26	<--	luiz (~luiz_capi@177.157.10.53) has quit (Read error: Operation timed out)
+2013-01-15 22:17:36	<--	mcr (~mcr@2607:f0b0:f:2::247) has quit (Quit: Leaving.)
+2013-01-15 22:18:08	-->	mcr (~mcr@2607:f0b0:f:2::247) has joined #oclug
+2013-01-15 22:40:13	<--	habibilus (~habibilus@206-47-113-149.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-01-15 23:09:16	VicGedris	Now that I've actually sat down to work through a set of photos with it, I'm definitely liking Rawtherapee for raw conversion.
+2013-01-15 23:09:36	VicGedris	A few minor annoyances, but so far so good.
+2013-01-15 23:09:39	SunRaycer	hmmm
+2013-01-15 23:09:59	<--	norm (~norm@24.212.229.153) has quit (Ping timeout: 480 seconds)
+2013-01-16 00:51:47	--	irc: disconnected from server
+2013-01-17 20:41:21	-->	zachm (~zachm@bas1-cornwall24-1242466565.dsl.bell.ca) has joined #oclug
+2013-01-17 20:41:21	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-01-17 20:41:21	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:03
+2013-01-17 20:41:21	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets luiz__ mcr mcr-credil mort norm orospakr rechlin Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-17 20:41:21	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-01-17 20:41:22	--	Mode #oclug [+n]
+2013-01-17 20:41:22	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-17 20:50:38	<--	luiz__ (~luiz_capi@187.112.111.176) has quit (Ping timeout: 480 seconds)
+2013-01-17 21:12:21	--	irc: disconnected from server
+2013-01-19 00:42:14	-->	zachm (~zachm@bas1-cornwall24-1242466565.dsl.bell.ca) has joined #oclug
+2013-01-19 00:42:14	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-01-19 00:42:14	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:03
+2013-01-19 00:42:14	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-19 00:42:14	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-01-19 00:42:16	--	Mode #oclug [+n]
+2013-01-19 00:42:16	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-19 02:11:36	<--	bjb (~bjb@sourcerer.ca) has quit (Read error: Operation timed out)
+2013-01-19 02:28:56	-->	bjb (~bjb@sourcerer.ca) has joined #oclug
+2013-01-19 03:55:05	--	irc: disconnected from server
+2013-01-19 07:06:39	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-01-19 07:06:39	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-01-19 07:06:39	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:03
+2013-01-19 07:06:39	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-19 07:06:39	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-19 07:06:41	--	Mode #oclug [+n]
+2013-01-19 07:06:41	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-19 12:18:49	<--	habibilus (~habibilus@206-47-31-164.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2013-01-19 12:50:14	-->	habibilus (~habibilus@206-47-31-164.dsl.ncf.ca) has joined #oclug
+2013-01-19 14:01:44	--	irc: disconnected from server
+2013-01-23 21:40:19	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-01-23 21:40:19	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-01-23 21:40:19	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-01-23 21:40:19	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-23 21:40:19	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-01-23 21:40:22	--	Mode #oclug [+n]
+2013-01-23 21:40:22	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-23 21:55:38	<--	habibilus (~habibilus@206-47-30-184.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-01-23 23:59:28	<--	norm (~norm@24-212-229-134.cable.teksavvy.com) has quit (Ping timeout: 480 seconds)
+2013-01-24 00:47:47	--	irc: disconnected from server
+2013-01-24 13:18:40	-->	zachm (~zachm@72.1.214.146) has joined #oclug
+2013-01-24 13:18:40	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-01-24 13:18:40	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:03
+2013-01-24 13:18:40	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 derekm dvl factor habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-01-24 13:18:40	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-01-24 13:18:42	--	Mode #oclug [+n]
+2013-01-24 13:18:42	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-01-24 13:20:19	--	irc: disconnected from server
+2013-02-01 17:15:30	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-01 17:15:30	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-01 17:15:30	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-01 17:15:30	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort orospakr Renfro SunRaycer VicGedri1 vmeson wardi zachm zul Zygo]
+2013-02-01 17:15:30	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-01 17:15:32	--	Mode #oclug [+n]
+2013-02-01 17:15:32	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-01 17:59:30	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-02-01 18:52:31	--	irc: disconnected from server
+2013-02-01 20:54:21	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-01 20:54:21	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-01 20:54:21	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-01 20:54:21	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedri1 vmeson wardi zachm zul Zygo]
+2013-02-01 20:54:21	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-01 20:54:23	--	Mode #oclug [+n]
+2013-02-01 20:54:23	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-01 21:14:50	--	irc: disconnected from server
+2013-02-01 16:28:05	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-01 16:28:05	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-01 16:28:05	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-01 16:28:05	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedri1 vmeson wardi zachm zul Zygo]
+2013-02-01 16:28:05	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-01 16:28:06	--	Mode #oclug [+n]
+2013-02-01 16:28:06	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-01 21:36:33	<--	luiz_ (~luiz_capi@201.86.4.76.dynamic.adsl.gvt.net.br) has quit (Ping timeout: 480 seconds)
+2013-02-02 00:13:57	<--	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has quit (Ping timeout: 480 seconds)
+2013-02-02 00:44:15	<--	habibilus (~habibilus@206-47-95-191.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-02-02 00:56:33	-->	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has joined #oclug
+2013-02-02 02:04:30	<--	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has quit (Ping timeout: 480 seconds)
+2013-02-02 02:42:52	-->	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has joined #oclug
+2013-02-02 02:58:57	--	irc: disconnected from server
+2013-02-02 11:13:45	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-02 11:13:45	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-02 11:13:45	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-02 11:13:45	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu dave0` dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedri1 vmeson wardi zachm zul Zygo]
+2013-02-02 11:13:45	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-02 11:13:47	--	Mode #oclug [+n]
+2013-02-02 11:13:47	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-02 11:32:31	-->	luiz_ (~luiz_capi@177.16.47.203) has joined #oclug
+2013-02-02 12:45:11	-->	bartman`` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-02-02 12:45:43	<--	bartman` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Connection reset by peer)
+2013-02-02 13:01:21	-->	dave0 (~dmo@75-119-246-27.dsl.teksavvy.com) has joined #oclug
+2013-02-02 13:07:41	<--	dave0` (~dmo@69-165-155-14.dsl.teksavvy.com) has quit (Ping timeout: 480 seconds)
+2013-02-02 14:41:13	<--	luiz_ (~luiz_capi@177.16.47.203) has quit (Ping timeout: 480 seconds)
+2013-02-02 15:41:37	-->	luiz_ (~luiz_capi@177.16.47.203) has joined #oclug
+2013-02-02 16:00:37	<--	luiz_ (~luiz_capi@177.16.47.203) has quit (Ping timeout: 480 seconds)
+2013-02-02 17:50:44	--	irc: disconnected from server
+2013-02-03 21:47:01	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-03 21:47:01	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-03 21:47:01	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-03 21:47:01	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedri1 vmeson wardi zachm zul Zygo]
+2013-02-03 21:47:01	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-03 21:47:04	--	Mode #oclug [+n]
+2013-02-03 21:47:04	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-03 23:12:35	<--	bartman`` (~bart@2607:f2c0:f00e:700::dd) has quit (Read error: Connection reset by peer)
+2013-02-03 23:12:58	-->	bartman`` (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-02-04 00:01:46	--	irc: disconnected from server
+2013-02-04 22:17:42	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-04 22:17:42	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-04 22:17:42	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-04 22:17:42	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-04 22:17:42	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-04 22:17:44	--	Mode #oclug [+n]
+2013-02-04 22:17:44	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-04 22:50:41	--	irc: disconnected from server
+2013-02-05 18:29:36	-->	zachm (~zachm@64.229.194.138) has joined #oclug
+2013-02-05 18:29:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-05 18:29:36	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-05 18:29:36	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dave0 dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-05 18:29:36	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-05 18:29:39	--	Mode #oclug [+n]
+2013-02-05 18:29:39	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-05 19:25:54	-->	habibilus (~habibilus@206-47-94-251.dsl.ncf.ca) has joined #oclug
+2013-02-05 20:44:52	<--	dave0 (~dmo@75-119-250-26.dsl.teksavvy.com) has left #oclug (WeeChat 0.3.2)
+2013-02-05 21:06:30	<--	luiz_ (~luiz_capi@177.156.117.163) has quit (Ping timeout: 480 seconds)
+2013-02-05 22:02:30	<--	habibilus (~habibilus@206-47-94-251.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-02-05 22:11:23	--	irc: disconnected from server
+2013-02-07 14:32:27	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-07 14:32:27	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-07 14:32:27	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-07 14:32:27	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-07 14:32:27	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-02-07 14:32:30	--	Mode #oclug [+n]
+2013-02-07 14:32:30	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-07 14:51:33	--	irc: disconnected from server
+2013-02-07 16:10:18	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-07 16:10:18	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-07 16:10:18	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-07 16:10:18	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-07 16:10:18	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-02-07 16:10:20	--	Mode #oclug [+n]
+2013-02-07 16:10:20	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-07 16:28:59	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2013-02-07 17:03:29	<--	habibilus (~habibilus@2001:4830:116e:1:5d67:1011:941e:7eaa) has quit (Remote host closed the connection)
+2013-02-07 17:04:28	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-02-07 17:07:26	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-07 17:51:35	-->	norm (~norm@24-212-229-134.cable.teksavvy.com) has joined #oclug
+2013-02-07 18:14:44	-->	habibilus (~habibilus@206-47-116-231.dsl.ncf.ca) has joined #oclug
+2013-02-07 19:02:40	-->	habibilus1 (~habibilus@206-47-95-156.dsl.ncf.ca) has joined #oclug
+2013-02-07 19:06:48	<--	habibilus (~habibilus@206-47-116-231.dsl.ncf.ca) has quit (Ping timeout: 480 seconds)
+2013-02-07 20:42:03	<--	habibilus1 (~habibilus@206-47-95-156.dsl.ncf.ca) has quit (Quit: Leaving.)
+2013-02-07 21:46:04	<--	luiz (~luiz_capi@177.16.42.56) has quit (Ping timeout: 480 seconds)
+2013-02-07 23:00:35	--	irc: disconnected from server
+2013-02-08 14:46:00	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-08 14:46:00	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-08 14:46:00	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-08 14:46:00	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ derekm dvl habibilus_ HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-08 14:46:00	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-08 14:46:02	--	Mode #oclug [+n]
+2013-02-08 14:46:02	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-08 14:59:12	<--	habibilus_ (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has quit (Quit: Leaving)
+2013-02-08 17:08:31	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-02-08 17:09:20	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-08 17:58:40	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-02-08 18:53:31	-->	habibilus (~habibilus@206-47-31-59.dsl.ncf.ca) has joined #oclug
+2013-02-08 20:04:33	--	irc: disconnected from server
+2013-02-08 22:55:10	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-08 22:55:10	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-08 22:55:10	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-08 22:55:10	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-08 22:55:10	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-02-08 22:55:13	--	Mode #oclug [+n]
+2013-02-08 22:55:13	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-09 00:02:21	--	irc: disconnected from server
+2013-02-09 12:08:43	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-09 12:08:43	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-09 12:08:43	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-09 12:08:43	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris wardi zachm Zygo]
+2013-02-09 12:08:43	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-02-09 12:08:47	--	Mode #oclug [+n]
+2013-02-09 12:08:47	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-09 12:28:14	-->	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has joined #oclug
+2013-02-09 14:22:19	--	irc: disconnected from server
+2013-02-09 14:22:33	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-09 14:22:33	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-09 14:22:33	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-09 14:22:33	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris wardi zachm Zygo]
+2013-02-09 14:22:33	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-09 14:22:35	--	Mode #oclug [+n]
+2013-02-09 14:22:35	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-09 14:35:02	<--	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has quit (Quit: Leaving)
+2013-02-09 14:35:23	-->	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has joined #oclug
+2013-02-09 14:36:18	<--	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has quit
+2013-02-09 14:36:40	-->	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has joined #oclug
+2013-02-09 14:51:58	<--	habibilus (~habibilus@206-47-112-160.dsl.ncf.ca) has quit (Quit: Leaving)
+2013-02-09 15:20:22	--	irc: disconnected from server
+2013-02-09 10:27:51	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-09 10:27:51	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-09 10:27:51	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-09 10:27:51	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris wardi zachm Zygo]
+2013-02-09 10:27:51	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-02-09 10:27:53	--	Mode #oclug [+n]
+2013-02-09 10:27:53	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-09 22:58:56	--	irc: disconnected from server
+2013-02-09 23:19:36	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-09 23:19:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-09 23:19:36	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-09 23:19:36	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris wardi zachm Zygo]
+2013-02-09 23:19:36	--	Channel #oclug: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-02-09 23:19:38	--	Mode #oclug [+n]
+2013-02-09 23:19:38	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-10 00:50:23	--	irc: disconnected from server
+2013-02-11 12:13:46	-->	zachm (~zachm@64.228.129.119) has joined #oclug
+2013-02-11 12:13:46	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-11 12:13:46	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-11 12:13:46	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl habibilus_ HIghoS_ jean jeongyun keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-11 12:13:46	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-11 12:13:49	--	Mode #oclug [+n]
+2013-02-11 12:13:49	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-11 12:52:01	--	irc: disconnected from server
+2013-02-11 13:50:48	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-11 13:50:48	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Feb 7 at Shopify"
+2013-02-11 13:50:48	--	Topic set by rechlin (~rechlin@128.224.252.2) on Thu, 17 Jan 2013 11:57:04
+2013-02-11 13:50:48	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean jeongyun keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-11 13:50:48	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-11 13:50:50	--	Mode #oclug [+n]
+2013-02-11 13:50:50	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-11 14:00:27	-->	habibilus_ (~habibilus@2001:4830:116e:1:a898:941c:b8c3:f7bf) has joined #oclug
+2013-02-11 14:22:01	<--	robechlin (~rechlin@128.224.252.2) has quit (Quit: Ex-Chat)
+2013-02-11 14:22:24	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-02-11 14:48:16	<--	robechlin (~rechlin@128.224.252.2) has quit (Ping timeout: 480 seconds)
+2013-02-11 14:51:48	-->	racerx7 (~mark@S01060018e7caad6d.vc.shawcable.net) has joined #oclug
+2013-02-11 14:52:01	racerx7	Hello Richard and Vic :-)
+2013-02-11 15:01:57	<--	racerx7 (~mark@S01060018e7caad6d.vc.shawcable.net) has quit (Quit: Leaving)
+2013-02-11 15:14:50	-->	racerx7 (~mark@S01060018e7caad6d.vc.shawcable.net) has joined #oclug
+2013-02-11 15:16:19	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-02-11 15:18:41	--	robechlin has changed topic for #oclug from "http://oclug.on.ca - Next meeting - Feb 7 at Shopify" to "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-11 15:33:24	-->	habibilus__ (~habibilus@2001:4830:116e:1:1df8:4b06:c9a6:ed41) has joined #oclug
+2013-02-11 15:35:28	<--	habibilus__ (~habibilus@2001:4830:116e:1:1df8:4b06:c9a6:ed41) has quit
+2013-02-11 15:36:22	 *	SunRaycer waves, squints to see who is racerx7
+2013-02-11 15:36:30	racerx7	Marko
+2013-02-11 15:37:14	SunRaycer	hi!  been a while!  where ya been?
+2013-02-11 15:37:21	racerx7	BC Canada
+2013-02-11 15:37:30	racerx7	Miss you guys
+2013-02-11 15:40:03	<--	habibilus_ (~habibilus@2001:4830:116e:1:a898:941c:b8c3:f7bf) has quit (Quit: Leaving)
+2013-02-11 15:43:50	racerx7	How is everyone?
+2013-02-11 15:52:54	SunRaycer	my kids are now 9 and 6 (gr. 4 and 1)
+2013-02-11 15:53:40	racerx7	wow man
+2013-02-11 15:53:48	SunRaycer	yep, time flies...
+2013-02-11 15:53:56	SunRaycer	racerx7: what are you working at these days?
+2013-02-11 15:54:23	racerx7	For a hosting company u?
+2013-02-11 16:13:50	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2013-02-11 16:30:23	<--	robechlin (~rechlin@128.224.252.2) has quit (Remote host closed the connection)
+2013-02-11 16:30:41	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-02-11 17:16:41	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-11 17:34:27	-->	habibilus (~habibilus@206-47-116-95.dsl.ncf.ca) has joined #oclug
+2013-02-11 18:24:27	--	irc: disconnected from server
+2013-02-12 16:15:57	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-12 16:15:57	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-12 16:15:57	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-12 16:15:57	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu derekm dvl habibilus HIghoS_ jean jeongyun keverets mcr mcr-credil mcr_dooku mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-12 16:15:57	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-02-12 16:15:59	--	Mode #oclug [+n]
+2013-02-12 16:15:59	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-12 16:30:28	<--	habibilus (~habibilus@2001:4830:116e:1:787d:6801:20bb:653d) has quit (Quit: Leaving)
+2013-02-12 20:23:47	--	irc: disconnected from server
+2013-02-12 20:24:08	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-12 20:24:08	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-12 20:24:08	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-12 20:24:08	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mcr_dooku mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-12 20:24:08	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-12 20:24:10	--	Mode #oclug [+n]
+2013-02-12 20:24:10	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-12 22:08:02	SunRaycer	holy crap, I just discovered the "search for word under cursor" command in vim: "#" for backwards, "*" for forwards
+2013-02-12 22:08:36	SunRaycer	I've hit it by accident in the past and had no idea what key I hit that did that.  nifty!
+2013-02-12 22:09:31	bjb	vim, looking for words under its nose ... um, cursor.
+2013-02-12 22:17:35	wardi	I learned # by accident. it f
+2013-02-12 22:17:51	wardi	was months before I found *
+2013-02-12 22:19:11	wardi	and they taught me \< and \>
+2013-02-12 22:52:13	<--	norm (~norm@24.212.229.134) has quit (Ping timeout: 480 seconds)
+2013-02-13 00:26:41	--	irc: disconnected from server
+2013-02-13 08:50:36	-->	zachm (~zachm@72.1.214.133) has joined #oclug
+2013-02-13 08:50:36	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-13 08:50:36	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-13 08:50:36	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mcr_dooku mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-13 08:50:36	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-02-13 08:50:38	--	Mode #oclug [+n]
+2013-02-13 08:50:38	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-13 08:53:35	-->	chuck__ (~asd@CPE20aa4b243197-CM000a73655d0e.cpe.net.cable.rogers.com) has joined #oclug
+2013-02-13 08:53:36	<--	zul (~asd@CPE20aa4b243197-CM000a73655d0e.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2013-02-13 08:53:36	-->	derekm (~derekm@tunnel.roaringpenguin.com) has joined #oclug
+2013-02-13 09:16:04	--	chuck__ is now known as zul
+2013-02-13 09:29:03	SunRaycer	wardi: I use ^[ instead of ESC
+2013-02-13 09:29:51	wardi	SunRaycer: and ^C works in vim too
+2013-02-13 09:30:19	SunRaycer	I'll have to try that...  though a 20 year old habit may be hard to break...
+2013-02-13 09:31:06	wardi	big payoff though.  it's a common key to need
+2013-02-13 09:33:55	SunRaycer	biggest nuisance now is something has remapped my PgDn key to CapsLock on my CREDIL.org box.  Only place it is a real problem is in irssi/weechat
+2013-02-13 09:34:31	 *	jean uses * all the time
+2013-02-13 09:34:45	jean	sometimes ctags doesn't work out for me..  so * is the next best thing
+2013-02-13 09:43:20	SunRaycer	within the same file, sure.  accross the entire kernel source?  not so much...
+2013-02-13 09:44:45	jean	not so much, no.  but then.. I don't have problems ctagging in the kernel source. :)
+2013-02-13 09:45:00	jean	some projects > other projects
+2013-02-13 09:45:57	 *	SunRaycer remembers when Rusty was fighting to get the tags kernel make target into upstream...
+2013-02-13 09:48:53	jean	it's pretty handy
+2013-02-13 09:49:16	jean	I can type any kernel function into my driver, save, ^] and then get instant documentation on that function. :)
+2013-02-13 09:49:40	SunRaycer	yup, extremely time-saving
+2013-02-13 09:49:41	jean	"hrmm how's copy_to_user() work again?"  copy_to_user() :w}6
+2013-02-13 09:49:46	jean	err.. ]^
+2013-02-13 09:49:51	jean	"oh yeah!"
+2013-02-13 09:50:19	SunRaycer	or even "vim -t copy_to_user"
+2013-02-13 09:50:56	SunRaycer	vim's earlier tagstacking was a bit poor, but it totally works now.
+2013-02-13 09:51:36	SunRaycer	this was why I went with xemacs over emacs 15 years ago, since xemacs' tagstacking was way more mature.
+2013-02-13 09:59:34	jean	hrmmmmmm
+2013-02-13 09:59:58	jean	Is there a way to open up what ]^ would give you in a split?
+2013-02-13 10:00:21	jean	sorta like... :vsp<cr>^]
+2013-02-13 11:03:17	--	irc: disconnected from server
+2013-02-13 11:24:35	-->	zachm (~zachm@142.155.30.63) has joined #oclug
+2013-02-13 11:24:35	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-13 11:24:35	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-13 11:24:35	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu derekm dvl habibilus_ HIghoS_ jean jeongyun keverets luiz mcr mcr-credil mcr_dooku mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-13 11:24:35	--	Channel #oclug: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-02-13 11:24:37	--	Mode #oclug [+n]
+2013-02-13 11:24:37	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-13 11:45:13	--	irc: disconnected from server
+2013-02-13 18:32:12	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-13 18:32:12	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-13 18:32:12	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-13 18:32:12	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz mcr mcr-credil mcr_dooku mort orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-13 18:32:12	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-13 18:32:15	--	Mode #oclug [+n]
+2013-02-13 18:32:15	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-13 18:41:28	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Ping timeout: 480 seconds)
+2013-02-13 18:46:44	-->	walt (~yaaic@dsl-173-206-166-154.tor.primus.ca) has joined #oclug
+2013-02-13 18:47:32	<--	walt (~yaaic@dsl-173-206-166-154.tor.primus.ca) has left #oclug
+2013-02-13 18:54:29	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-13 18:58:36	orospakr	SunRaycer, an answer for everything ;)
+2013-02-13 19:31:44	-->	habibilus (~habibilus@206-47-113-77.dsl.ncf.ca) has joined #oclug
+2013-02-13 19:42:15	mcr_dooku	http://www.youtube.com/watch?v=_n0QxJcnDKU in case you wanted to learn Astronomy. I tried the live feed tonight, but the main site is Silverlight, and it fails, and the secondary flash site didn't work.
+2013-02-13 20:10:18	orospakr	hey, is it possible to have select or epoll listen to all fds/sds owned by the process (ie., everything in /proc/$PID/fd/) without actually giving it the list of descriptors?
+2013-02-13 20:10:48	orospakr	because, if so, that's actually kind of epic and enables some fun cross-stack integration
+2013-02-13 20:15:25	orospakr	(short of doing something kind of insane like pointing inotify at /proc/getpid()/fd)
+2013-02-13 20:35:03	mcr_dooku	no, I don't think you can do that.
+2013-02-13 20:35:15	mcr_dooku	what do you mean "cross-stack integration"?
+2013-02-13 21:49:38	<--	luiz (~luiz_capi@186.214.41.9) has quit (Ping timeout: 480 seconds)
+2013-02-13 22:31:02	--	irc: disconnected from server
+2013-02-14 20:31:27	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-14 20:31:27	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-14 20:31:27	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-14 20:31:27	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl habibilus HIghoS_ jean keverets luiz_ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-14 20:31:27	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-14 20:31:29	--	Mode #oclug [+n]
+2013-02-14 20:31:29	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-14 20:45:03	--	irc: disconnected from server
+2013-02-14 21:50:18	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-14 21:50:18	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-14 21:50:18	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-14 21:50:18	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-14 21:50:18	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-14 21:50:20	--	Mode #oclug [+n]
+2013-02-14 21:50:20	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-15 10:28:46	--	irc: disconnected from server
+2013-02-15 10:29:07	-->	zachm (~zachm@bas1-cornwall24-1242466464.dsl.bell.ca) has joined #oclug
+2013-02-15 10:29:07	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-15 10:29:07	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-15 10:29:07	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu derekm dvl habibilus HIghoS_ jean jeongyun keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-15 10:29:07	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-02-15 10:29:09	--	Mode #oclug [+n]
+2013-02-15 10:29:09	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-15 10:30:04	--	irc: disconnected from server
+2013-02-15 19:46:19	-->	zachm (~zachm@64.229.233.199) has joined #oclug
+2013-02-15 19:46:19	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-15 19:46:19	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-15 19:46:19	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-15 19:46:19	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-15 19:46:21	--	Mode #oclug [+n]
+2013-02-15 19:46:21	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-15 19:57:37	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-15 20:53:52	<--	VicGedris (~vic@209.222.53.251) has quit (charon.oftc.net synthon.oftc.net)
+2013-02-15 20:53:52	<--	Zygo (startkeylo@startkeylogger.hungrycats.org) has quit (charon.oftc.net synthon.oftc.net)
+2013-02-15 20:53:52	<--	Renfro (ib@199.167.119.15) has quit (charon.oftc.net synthon.oftc.net)
+2013-02-15 20:53:52	<--	vmeson (~quassel@128.224.252.2) has quit (charon.oftc.net synthon.oftc.net)
+2013-02-15 20:53:52	<--	jean (~jean@206-47-13-87.dsl.ncf.ca) has quit (charon.oftc.net synthon.oftc.net)
+2013-02-15 20:56:47	-->	VicGedris (~vic@209.222.53.251) has joined #oclug
+2013-02-15 20:56:47	-->	Zygo (startkeylo@startkeylogger.hungrycats.org) has joined #oclug
+2013-02-15 20:56:52	-->	vmeson (~quassel@128.224.252.2) has joined #oclug
+2013-02-15 20:56:52	-->	jean (~jean@206-47-13-87.dsl.ncf.ca) has joined #oclug
+2013-02-15 20:56:52	-->	Renfro (ib@199.167.119.15) has joined #oclug
+2013-02-15 21:21:05	<--	luiz_ (~luiz_capi@187.112.106.148) has quit (Ping timeout: 480 seconds)
+2013-02-15 22:07:57	bjb-credil	wardi, jlam declines
+2013-02-15 22:08:07	bjb-credil	the drupalcamp ticket
+2013-02-15 22:30:19	--	irc: disconnected from server
+2013-02-15 22:30:46	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-15 22:30:46	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-15 22:30:46	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-15 22:30:46	--	Nicks #oclug: [bartman bjb bjb-credil cdlu chuck__ dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-15 22:30:46	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-02-15 22:30:48	--	Mode #oclug [+n]
+2013-02-15 22:30:48	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-15 22:33:09	--	chuck__ is now known as zul
+2013-02-15 22:35:37	<--	zul (~asd@CPE20aa4b243197-CM000a73655d0e.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2013-02-15 23:02:11	wardi	bjb-credil: thanks
+2013-02-15 23:47:41	--	irc: disconnected from server
+2013-02-16 10:06:18	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-16 10:06:18	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-16 10:06:18	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-16 10:06:18	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-16 10:06:18	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-16 10:06:20	--	Mode #oclug [+n]
+2013-02-16 10:06:20	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-16 11:34:38	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-16 11:48:29	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-16 13:11:19	--	irc: disconnected from server
+2013-02-16 14:16:35	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-16 14:16:35	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-16 14:16:35	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-16 14:16:35	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-16 14:16:35	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-16 14:16:37	--	Mode #oclug [+n]
+2013-02-16 14:16:37	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-16 14:33:40	mcr_dooku	my opinion is that if you have to do something in php, that drupal is a reasonably capable, post-rails MVC-inspireable, testable framework.  The downside is that it's php.
+2013-02-16 14:59:25	--	irc: disconnected from server
+2013-02-16 16:16:34	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-16 16:16:34	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-16 16:16:34	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-16 16:16:34	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-16 16:16:34	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-16 16:16:36	--	Mode #oclug [+n]
+2013-02-16 16:16:36	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-16 16:49:24	-->	habibilus (~habibilus@206-47-30-49.dsl.ncf.ca) has joined #oclug
+2013-02-16 17:42:04	<--	habibilus (~habibilus@206-47-30-49.dsl.ncf.ca) has quit (Quit: Leaving)
+2013-02-16 19:10:25	<--	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has quit (Server closed connection)
+2013-02-16 19:11:09	-->	bjb-credil (~bjb-credi@2001:4830:116e:1:224:1dff:fe87:5034) has joined #oclug
+2013-02-16 20:31:04	--	irc: disconnected from server
+2013-02-16 21:12:24	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-16 21:12:24	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-16 21:12:24	--	Topic set by robechlin (~rechlin@128.224.252.2) on Mon, 11 Feb 2013 15:18:41
+2013-02-16 21:12:24	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-16 21:12:24	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-16 21:12:26	--	Mode #oclug [+n]
+2013-02-16 21:12:26	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-16 22:09:15	<--	luiz__ (~luiz_capi@177.42.105.174) has quit (Ping timeout: 480 seconds)
+2013-02-16 23:44:01	<--	bartman (~bart@2607:f2c0:f00e:700::dd) has quit (Server closed connection)
+2013-02-16 23:44:32	-->	bartman (~bart@2607:f2c0:f00e:700::dd) has joined #oclug
+2013-02-17 00:25:38	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-17 00:26:37	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-17 00:48:21	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-17 02:48:22	--	irc: disconnected from server
+2013-02-17 09:18:56	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-17 09:18:56	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-17 09:18:56	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-17 09:18:56	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz_ mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-17 09:18:56	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-17 09:18:58	--	Mode #oclug [+n]
+2013-02-17 09:18:58	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-17 10:37:24	-->	habibilus (~habibilus@206-47-116-251.dsl.ncf.ca) has joined #oclug
+2013-02-17 11:18:00	<--	luiz_ (~luiz_capi@177.16.182.83) has quit (Ping timeout: 480 seconds)
+2013-02-17 11:19:28	--	irc: disconnected from server
+2013-02-17 12:23:54	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-17 12:23:54	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-17 12:23:54	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-17 12:23:54	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-17 12:23:54	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-17 12:23:56	--	Mode #oclug [+n]
+2013-02-17 12:23:56	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-17 13:34:46	--	irc: disconnected from server
+2013-02-17 17:57:17	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-17 17:57:17	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-17 17:57:17	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-17 17:57:17	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-17 17:57:17	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-17 17:57:19	--	Mode #oclug [+n]
+2013-02-17 17:57:19	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-17 19:00:43	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-17 19:01:16	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-17 19:44:15	-->	luiz_ (~luiz_capi@177.16.182.83) has joined #oclug
+2013-02-17 20:01:27	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-17 20:01:52	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-17 20:25:57	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-17 20:27:42	-->	mcr_dooku (~mcr@2607:f0b0:f:4:219:d2ff:fec0:9f1e) has joined #oclug
+2013-02-17 22:05:37	<--	luiz_ (~luiz_capi@177.16.182.83) has quit (Ping timeout: 480 seconds)
+2013-02-18 00:27:32	--	irc: disconnected from server
+2013-02-18 16:19:53	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-18 16:19:53	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-18 16:19:53	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-18 16:19:53	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dvl HIghoS_ jean keverets luiz mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-18 16:19:53	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-18 16:19:55	--	Mode #oclug [+n]
+2013-02-18 16:19:55	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-18 20:53:05	-->	luiz_ (~luiz_capi@186.212.83.23) has joined #oclug
+2013-02-18 20:59:21	<--	luiz (~luiz_capi@177.16.43.38) has quit (Ping timeout: 480 seconds)
+2013-02-18 21:58:25	<--	luiz_ (~luiz_capi@186.212.83.23) has quit (Ping timeout: 480 seconds)
+2013-02-18 23:50:11	<--	norm (~norm@24-212-229-134.cable.teksavvy.com) has quit (Ping timeout: 480 seconds)
+2013-02-19 00:37:14	--	irc: disconnected from server
+2013-02-19 16:22:04	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-19 16:22:04	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-19 16:22:04	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-19 16:22:04	--	Nicks #oclug: [bartman bjb bjb-credil cdlu derekm dvl habibilus__ HIghoS_ jean keverets luiz_ mcr mcr-credil mcr_dooku mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-19 16:22:04	--	Channel #oclug: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-02-19 16:22:06	--	Mode #oclug [+n]
+2013-02-19 16:22:06	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-19 17:06:27	<--	habibilus__ (~habibilus@2001:4830:116e:1:982d:5d52:e322:c255) has quit (Quit: Leaving)
+2013-02-19 17:12:40	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-02-19 17:23:23	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-19 17:28:49	<--	robechlin (~rechlin@128.224.252.2) has quit (Remote host closed the connection)
+2013-02-19 18:03:29	-->	habibilus (~habibilus@206-47-116-54.dsl.ncf.ca) has joined #oclug
+2013-02-19 18:10:19	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-02-19 21:34:17	<--	habibilus (~habibilus@206-47-116-54.dsl.ncf.ca) has quit (Remote host closed the connection)
+2013-02-19 22:02:00	<--	mcr_dooku (~mcr@2607:f0b0:f:4:219:d2ff:fec0:9f1e) has quit (Quit: Leaving.)
+2013-02-19 22:02:58	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-19 22:21:08	-->	luiz__ (~luiz_capi@177.42.110.108) has joined #oclug
+2013-02-19 22:27:31	<--	luiz_ (~luiz_capi@186.212.218.145) has quit (Ping timeout: 480 seconds)
+2013-02-19 22:31:28	<--	luiz__ (~luiz_capi@177.42.110.108) has quit (Ping timeout: 480 seconds)
+2013-02-19 22:32:36	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-19 22:33:45	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-19 22:40:43	<--	norm (~norm@24.212.229.134) has quit (Ping timeout: 480 seconds)
+2013-02-19 23:27:45	--	irc: disconnected from server
+2013-02-20 11:28:03	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-20 11:28:03	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-20 11:28:03	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-20 11:28:03	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu chuck_ derekm dvl HIghoS_ jean jeongyun1 keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-20 11:28:03	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-02-20 11:28:05	--	Mode #oclug [+n]
+2013-02-20 11:28:05	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-20 13:05:32	--	irc: disconnected from server
+2013-02-20 14:44:31	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-20 14:44:31	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-20 14:44:31	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-20 14:44:31	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu chuck_ derekm dvl habibilus_ HIghoS_ jean keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-20 14:44:31	--	Channel #oclug: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-02-20 14:44:32	--	Mode #oclug [+n]
+2013-02-20 14:44:32	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-20 16:19:44	<--	luiz__ (~luiz_capi@186.215.39.210) has quit (Ping timeout: 480 seconds)
+2013-02-20 16:58:16	--	irc: disconnected from server
+2013-02-20 18:01:15	-->	zachm (~zachm@64.228.129.225) has joined #oclug
+2013-02-20 18:01:15	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-20 18:01:15	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-20 18:01:15	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu chuck_ dvl HIghoS_ jean keverets mcr mcr-credil mcr_dooku mort orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-20 18:01:15	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-02-20 18:01:17	--	Mode #oclug [+n]
+2013-02-20 18:01:17	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-20 18:16:11	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-02-20 19:28:07	--	irc: disconnected from server
+2013-02-21 15:15:26	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-21 15:15:26	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-21 15:15:26	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-21 15:15:26	--	Nicks #oclug: [bartman` bjb bjb-credil cdlu chuck_ dvl HIghoS_ jean jeongyun1 keverets luiz__ mcr mcr-credil mcr_dooku mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-02-21 15:15:26	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-21 15:15:28	--	Mode #oclug [+n]
+2013-02-21 15:15:28	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-21 15:48:51	-->	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has joined #oclug
+2013-02-21 15:52:11	<--	jeongyun1 (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2013-02-21 16:32:09	<--	habibilus (~habibilus@2001:4830:116e:1:16fe:b5ff:fec4:16f7) has quit (Quit: Leaving)
+2013-02-21 17:14:06	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-21 17:23:40	--	irc: disconnected from server
+2013-02-23 17:30:25	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-23 17:30:25	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-23 17:30:25	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-23 17:30:25	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr racerx7 Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-23 17:30:25	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-23 17:30:28	--	Mode #oclug [+n]
+2013-02-23 17:30:28	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-23 19:25:03	<--	racerx7 (~racerx7@a.clients.kiwiirc.com) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-02-23 19:25:21	-->	racerx7 (~racerx7@a.clients.kiwiirc.com) has joined #oclug
+2013-02-23 19:36:43	--	irc: disconnected from server
+2013-02-23 23:56:13	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-23 23:56:13	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-23 23:56:13	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-23 23:56:13	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr racerx7 Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-23 23:56:13	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-23 23:56:15	--	Mode #oclug [+n]
+2013-02-23 23:56:15	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-24 00:18:38	--	irc: disconnected from server
+2013-02-24 11:08:13	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-24 11:08:13	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-24 11:08:13	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-24 11:08:13	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr racerx7 Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-24 11:08:13	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-24 11:08:15	--	Mode #oclug [+n]
+2013-02-24 11:08:15	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-24 15:02:00	<--	norm (~norm@24.212.229.134) has quit (Ping timeout: 480 seconds)
+2013-02-24 15:18:06	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-02-24 17:37:33	<--	racerx7 (~racerx7@a.clients.kiwiirc.com) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-02-24 17:37:46	-->	racerx7 (~racerx7@a.clients.kiwiirc.com) has joined #oclug
+2013-02-24 18:07:43	--	irc: disconnected from server
+2013-02-24 22:34:25	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-24 22:34:25	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-24 22:34:25	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-24 22:34:25	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl HIghoS_ jean keverets mcr mcr-credil mort norm orospakr racerx7 Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-24 22:34:25	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-02-24 22:34:27	--	Mode #oclug [+n]
+2013-02-24 22:34:27	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-24 23:42:24	<--	norm (~norm@24.212.229.134) has quit (Ping timeout: 480 seconds)
+2013-02-25 01:29:56	--	irc: disconnected from server
+2013-02-25 11:48:41	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-25 11:48:41	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-25 11:48:41	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-25 11:48:41	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl habibilus HIghoS_ jean jeongyun keverets mcr mcr-credil mort norm orospakr racerx7 Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-25 11:48:41	--	Channel #oclug: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-02-25 11:48:43	--	Mode #oclug [+n]
+2013-02-25 11:48:43	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-25 12:06:41	<--	racerx7 (~racerx7@a.clients.kiwiirc.com) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-02-25 15:03:51	-->	robechlin (~rechlin@128.224.252.2) has joined #oclug
+2013-02-25 15:04:05	mcr-credil	any recommendations on a non-acrobat program to "fill-in" a form that is in PDF, but wasn't designed as a form?
+2013-02-25 15:04:35	norm	mcr-credil: flpsed
+2013-02-25 15:04:38	jean	xournal?
+2013-02-25 15:05:06	mcr-credil	norm: thanks.
+2013-02-25 15:05:56	norm	No worries.  You can use the keyboard arrows to fine-tune the position of your comments, too.  Helpful for making forms look good.
+2013-02-25 15:10:55	mcr-credil	okay, that's nice.
+2013-02-25 15:11:19	mcr-credil	alas, I can't complete the form until I get home because I don't have all the info I need...
+2013-02-25 15:15:25	jean	Nice. I should give it a try. That's exactly what I use xournal for. hehe
+2013-02-25 15:31:43	norm	IIRC you can save (PS) and it will remember which bits you added next time, so you can complete it (and then export PDF) later
+2013-02-25 16:05:20	mcr-credil	it seems that you can now load and save directly as PDF.
+2013-02-25 16:42:27	norm	You can; dunno if you can re-edit if you save as PDF though.
+2013-02-25 17:10:12	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-02-25 17:24:35	<--	habibilus (~habibilus@2001:4830:116e:1:4460:2596:5ae4:107b) has quit (Quit: Leaving)
+2013-02-25 17:40:05	-->	norm (~norm@24-212-229-134.cable.teksavvy.com) has joined #oclug
+2013-02-25 17:58:37	<--	jeongyun (~jeongyun@OTWAON23-1168100385.sdsl.bell.ca) has quit (Quit: Leaving.)
+2013-02-25 18:02:57	--	irc: disconnected from server
+2013-02-25 19:25:06	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-02-25 19:25:06	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-02-25 19:25:06	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-02-25 19:25:06	--	Nicks #oclug: [bartman`` bjb bjb-credil cdlu dvl habibilus HIghoS_ jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-02-25 19:25:06	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-02-25 19:25:09	--	Mode #oclug [+n]
+2013-02-25 19:25:09	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-02-25 19:50:23	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-25 20:02:30	mcr_dooku	from http://msdn.microsoft.com/en-us/magazine/ee819093.aspx: "For me, the best way to work with jQuery is to develop first on Firefox and then test my code on Internet Explorer."
+2013-02-25 20:24:26	<--	mcr_dooku (~mcr@wlan195.sandelman.ca) has quit (Quit: Leaving.)
+2013-02-25 20:25:54	-->	mcr_dooku (~mcr@wlan195.sandelman.ca) has joined #oclug
+2013-02-25 21:08:06	Renfro	what is the Ubuntu-distributed file system automounter called?  how can i for-sure disable it?  the thought behind that: i want to ensure that it does not meddlesomely mount (and thereby destroy) a file system i'd repairing.
+2013-02-25 21:09:40	Renfro	...i'M repairing.
+2013-02-25 21:27:48	<--	habibilus (~habibilus@206-47-100-240.dsl.ncf.ca) has quit (Quit: Leaving)
+2013-02-26 00:29:49	--	irc: disconnected from server
+2013-03-15 16:54:53	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-03-15 16:54:53	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-03-15 16:54:53	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-03-15 16:54:53	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` derekm dvl HIghoS jean keverets mcr mcr-credil mort norm orospakr Renfro robechlin SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-03-15 16:54:53	--	Channel #oclug: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-03-15 16:54:55	--	Mode #oclug [+n]
+2013-03-15 16:54:55	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-03-15 17:09:02	<--	derekm (~derekm@tunnel.roaringpenguin.com) has quit (Quit: derekm)
+2013-03-15 17:16:47	<--	norm (~norm@tunnel.roaringpenguin.com) has quit (Ping timeout: 480 seconds)
+2013-03-15 17:42:54	<--	robechlin (~rechlin@128.224.252.2) has quit (Remote host closed the connection)
+2013-03-15 17:56:51	-->	norm (~norm@24.212.229.134) has joined #oclug
+2013-03-15 18:43:05	--	irc: disconnected from server
+2013-03-15 20:24:53	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-03-15 20:24:53	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-03-15 20:24:53	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-03-15 20:24:53	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0` dvl HIghoS jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm Zygo]
+2013-03-15 20:24:53	--	Channel #oclug: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-03-15 20:24:55	--	Mode #oclug [+n]
+2013-03-15 20:24:55	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-03-16 10:18:28	--	irc: disconnected from server
+2013-03-16 20:13:08	-->	zachm (~zachm@bas1-cornwall24-845467055.dsl.bell.ca) has joined #oclug
+2013-03-16 20:13:08	--	Topic for #oclug is "http://oclug.on.ca - Next meeting - Mar 7 at Shopify"
+2013-03-16 20:13:08	--	Topic set by ChanServ (services@services.oftc.net) on Sun, 17 Feb 2013 07:52:04
+2013-03-16 20:13:08	--	Nicks #oclug: [bartman bjb bjb-credil cdlu dave0 dvl HIghoS jean keverets mcr mcr-credil mort norm orospakr Renfro SunRaycer VicGedris vmeson wardi zachm zul Zygo]
+2013-03-16 20:13:08	--	Channel #oclug: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-03-16 20:13:10	--	Mode #oclug [+n]
+2013-03-16 20:13:10	--	Channel created on Mon, 15 Sep 2008 22:59:50
+2013-03-16 20:37:34	--	irc: disconnected from server

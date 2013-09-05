@@ -1,0 +1,2711 @@
+2013-02-19 16:23:15	--	irc: connecting to server boxbox/6667...
+2013-02-19 16:23:15	=!=	irc: address "boxbox" not found
+2013-02-19 16:23:15	=!=	irc: error: Name or service not known
+2013-02-19 16:23:15	--	irc: reconnecting to server in 10 seconds
+2013-02-19 16:23:25	--	irc: reconnecting to server...
+2013-02-19 16:23:25	--	irc: connecting to server boxbox/6667...
+2013-02-19 16:23:29	=!=	irc: address "boxbox" not found
+2013-02-19 16:23:29	=!=	irc: error: Name or service not known
+2013-02-19 16:23:29	--	irc: reconnecting to server in 20 seconds
+2013-02-19 16:23:37		irc: auto-reconnection is cancelled
+2013-02-19 16:23:37	--	irc: disconnected from server
+2013-02-19 16:25:18	--	irc: connecting to server irc.boxbox.org/0...
+2013-02-19 16:25:41	=!=	irc: not connected to server "boxbox"!
+2013-02-19 16:31:03	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-19 16:31:04	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-19 16:31:04	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-19 16:31:04	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-19 16:31:05	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-19 16:31:05	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-19 16:31:05	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-19 16:31:05	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-19 16:31:05	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-19 16:31:05	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-19 16:31:05	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-19 16:31:05	--	There are 45 users and 17 invisible on 2 servers
+2013-02-19 16:31:05	--	10 :operator(s) online
+2013-02-19 16:31:05	--	15 :channels formed
+2013-02-19 16:31:05	--	I have 50 clients and 1 servers
+2013-02-19 16:31:05	--	Current Local Users: 50  Max: 62
+2013-02-19 16:31:05	--	Current Global Users: 62  Max: 62
+2013-02-19 16:31:05	--	- irc.boxbox.org Message of the Day -
+2013-02-19 16:31:05	--	- 13/7/2011 9:22
+2013-02-19 16:31:05	--	-                                  Welcome to the
+2013-02-19 16:31:05	--	-                                    BoxBox.org
+2013-02-19 16:31:05	--	-                           Internet Relay Chat Service
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- By connecting you agree to the following rules:
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-19 16:31:05	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-19 16:31:05	--	-      permanent ban.
+2013-02-19 16:31:05	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-19 16:31:05	--	-   4. Have fun!
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-19 16:31:05	--	- Clients producing a serious network lag will be kicked.
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- To protect your nickname or channel write
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	-   /msg NickServ HELP
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- for nicknames and
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	-   /msg ChanServ HELP
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- for channels.
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-19 16:31:05	--	- network administrators. These are (in alphabetical order):
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-19 16:31:05	--	-   - Tank <stefan@boxbox.org>
+2013-02-19 16:31:05	--	-
+2013-02-19 16:31:05	--	- If you're looking for help on the network, join #boxbox.
+2013-02-19 16:31:05	--	End of /MOTD command.
+2013-02-19 16:31:05	--	User mode [+x] by Z_Mass
+2013-02-19 16:31:05	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-19 16:31:05	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-19 16:31:05	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-19 16:31:19	--	MSG(nickserv): identify ********
+2013-02-19 16:31:20	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-19 16:32:20	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-19 23:27:45	--	irc: disconnected from server
+2013-02-20 11:27:51	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-20 11:27:52	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-20 11:27:52	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-20 11:27:52	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-20 11:27:52	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-20 11:27:52	--	MSG(nickserv): identify ********
+2013-02-20 11:27:52	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-20 11:27:52	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-20 11:27:52	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-20 11:27:52	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-20 11:27:52	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-20 11:27:52	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-20 11:27:52	--	There are 46 users and 17 invisible on 2 servers
+2013-02-20 11:27:52	--	10 :operator(s) online
+2013-02-20 11:27:52	--	15 :channels formed
+2013-02-20 11:27:52	--	I have 51 clients and 1 servers
+2013-02-20 11:27:52	--	Current Local Users: 51  Max: 62
+2013-02-20 11:27:52	--	Current Global Users: 63  Max: 66
+2013-02-20 11:27:52	--	- irc.boxbox.org Message of the Day -
+2013-02-20 11:27:52	--	- 13/7/2011 9:22
+2013-02-20 11:27:52	--	-                                  Welcome to the
+2013-02-20 11:27:52	--	-                                    BoxBox.org
+2013-02-20 11:27:52	--	-                           Internet Relay Chat Service
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- By connecting you agree to the following rules:
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-20 11:27:52	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-20 11:27:52	--	-      permanent ban.
+2013-02-20 11:27:52	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-20 11:27:52	--	-   4. Have fun!
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-20 11:27:52	--	- Clients producing a serious network lag will be kicked.
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- To protect your nickname or channel write
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	-   /msg NickServ HELP
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- for nicknames and
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	-   /msg ChanServ HELP
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- for channels.
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-20 11:27:52	--	- network administrators. These are (in alphabetical order):
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-20 11:27:52	--	-   - Tank <stefan@boxbox.org>
+2013-02-20 11:27:52	--	-
+2013-02-20 11:27:52	--	- If you're looking for help on the network, join #boxbox.
+2013-02-20 11:27:52	--	End of /MOTD command.
+2013-02-20 11:27:52	--	User mode [+x] by Z_Mass
+2013-02-20 11:27:52	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-20 11:27:52	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-20 11:27:52	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-20 11:27:52	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-20 11:27:54	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-20 13:05:32	--	irc: disconnected from server
+2013-02-20 14:44:18	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-20 14:44:19	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-20 14:44:19	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-20 14:44:19	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-20 14:44:20	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-20 14:44:20	--	MSG(nickserv): identify ********
+2013-02-20 14:44:20	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-20 14:44:20	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-20 14:44:20	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-20 14:44:20	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-20 14:44:20	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-20 14:44:20	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-20 14:44:20	--	There are 47 users and 17 invisible on 2 servers
+2013-02-20 14:44:20	--	10 :operator(s) online
+2013-02-20 14:44:20	--	15 :channels formed
+2013-02-20 14:44:20	--	I have 52 clients and 1 servers
+2013-02-20 14:44:20	--	Current Local Users: 52  Max: 62
+2013-02-20 14:44:20	--	Current Global Users: 64  Max: 66
+2013-02-20 14:44:20	--	- irc.boxbox.org Message of the Day -
+2013-02-20 14:44:20	--	- 13/7/2011 9:22
+2013-02-20 14:44:20	--	-                                  Welcome to the
+2013-02-20 14:44:20	--	-                                    BoxBox.org
+2013-02-20 14:44:20	--	-                           Internet Relay Chat Service
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- By connecting you agree to the following rules:
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-20 14:44:20	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-20 14:44:20	--	-      permanent ban.
+2013-02-20 14:44:20	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-20 14:44:20	--	-   4. Have fun!
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-20 14:44:20	--	- Clients producing a serious network lag will be kicked.
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- To protect your nickname or channel write
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	-   /msg NickServ HELP
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- for nicknames and
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	-   /msg ChanServ HELP
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- for channels.
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-20 14:44:20	--	- network administrators. These are (in alphabetical order):
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-20 14:44:20	--	-   - Tank <stefan@boxbox.org>
+2013-02-20 14:44:20	--	-
+2013-02-20 14:44:20	--	- If you're looking for help on the network, join #boxbox.
+2013-02-20 14:44:20	--	End of /MOTD command.
+2013-02-20 14:44:20	--	User mode [+x] by Z_Mass
+2013-02-20 14:44:20	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-20 14:44:20	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-20 14:44:20	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-20 14:44:20	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-20 14:44:22	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-20 16:58:16	--	irc: disconnected from server
+2013-02-20 18:01:05	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-20 18:01:05	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-20 18:01:05	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-20 18:01:05	--	irc.boxbox.org (irc.boxbox.org): *** Couldn't resolve your hostname; using your IP address instead
+2013-02-20 18:01:06	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@64.228.129.225
+2013-02-20 18:01:06	--	MSG(nickserv): identify ********
+2013-02-20 18:01:06	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-20 18:01:06	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-20 18:01:06	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-20 18:01:06	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-20 18:01:06	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-20 18:01:06	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-20 18:01:06	--	There are 45 users and 18 invisible on 2 servers
+2013-02-20 18:01:06	--	10 :operator(s) online
+2013-02-20 18:01:06	--	15 :channels formed
+2013-02-20 18:01:06	--	I have 51 clients and 1 servers
+2013-02-20 18:01:06	--	Current Local Users: 51  Max: 62
+2013-02-20 18:01:06	--	Current Global Users: 63  Max: 66
+2013-02-20 18:01:06	--	- irc.boxbox.org Message of the Day -
+2013-02-20 18:01:06	--	- 13/7/2011 9:22
+2013-02-20 18:01:06	--	-                                  Welcome to the
+2013-02-20 18:01:06	--	-                                    BoxBox.org
+2013-02-20 18:01:06	--	-                           Internet Relay Chat Service
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- By connecting you agree to the following rules:
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-20 18:01:06	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-20 18:01:06	--	-      permanent ban.
+2013-02-20 18:01:06	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-20 18:01:06	--	-   4. Have fun!
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-20 18:01:06	--	- Clients producing a serious network lag will be kicked.
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- To protect your nickname or channel write
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	-   /msg NickServ HELP
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- for nicknames and
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	-   /msg ChanServ HELP
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- for channels.
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-20 18:01:06	--	- network administrators. These are (in alphabetical order):
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-20 18:01:06	--	-   - Tank <stefan@boxbox.org>
+2013-02-20 18:01:06	--	-
+2013-02-20 18:01:06	--	- If you're looking for help on the network, join #boxbox.
+2013-02-20 18:01:06	--	End of /MOTD command.
+2013-02-20 18:01:06	--	User mode [+x] by Z_Mass
+2013-02-20 18:01:06	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-20 18:01:06	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-20 18:01:06	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-20 18:01:06	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-20 18:01:08	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-20 19:28:07	--	irc: disconnected from server
+2013-02-21 15:13:25	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-21 15:13:45	=!=	irc: address "irc.boxbox.org" not found
+2013-02-21 15:13:45	=!=	irc: error: Name or service not known
+2013-02-21 15:13:45	--	irc: reconnecting to server in 10 seconds
+2013-02-21 15:13:55	--	irc: reconnecting to server...
+2013-02-21 15:13:55	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-21 15:14:15	=!=	irc: address "irc.boxbox.org" not found
+2013-02-21 15:14:15	=!=	irc: error: Name or service not known
+2013-02-21 15:14:15	--	irc: reconnecting to server in 20 seconds
+2013-02-21 15:14:35	--	irc: reconnecting to server...
+2013-02-21 15:14:35	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-21 15:14:35	=!=	irc: address "irc.boxbox.org" not found
+2013-02-21 15:14:35	=!=	irc: error: Name or service not known
+2013-02-21 15:14:35	--	irc: reconnecting to server in 40 seconds
+2013-02-21 15:15:15	--	irc: reconnecting to server...
+2013-02-21 15:15:15	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-21 15:15:15	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-21 15:15:15	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-21 15:15:16	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-21 15:15:17	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-21 15:15:17	--	MSG(nickserv): identify ********
+2013-02-21 15:15:17	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-21 15:15:17	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-21 15:15:17	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-21 15:15:17	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-21 15:15:17	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-21 15:15:17	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-21 15:15:17	--	There are 49 users and 19 invisible on 2 servers
+2013-02-21 15:15:17	--	10 :operator(s) online
+2013-02-21 15:15:17	--	14 :channels formed
+2013-02-21 15:15:17	--	I have 56 clients and 1 servers
+2013-02-21 15:15:17	--	Current Local Users: 56  Max: 62
+2013-02-21 15:15:17	--	Current Global Users: 68  Max: 68
+2013-02-21 15:15:17	--	- irc.boxbox.org Message of the Day -
+2013-02-21 15:15:17	--	- 13/7/2011 9:22
+2013-02-21 15:15:17	--	-                                  Welcome to the
+2013-02-21 15:15:17	--	-                                    BoxBox.org
+2013-02-21 15:15:17	--	-                           Internet Relay Chat Service
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- By connecting you agree to the following rules:
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-21 15:15:17	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-21 15:15:17	--	-      permanent ban.
+2013-02-21 15:15:17	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-21 15:15:17	--	-   4. Have fun!
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-21 15:15:17	--	- Clients producing a serious network lag will be kicked.
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- To protect your nickname or channel write
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	-   /msg NickServ HELP
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- for nicknames and
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	-   /msg ChanServ HELP
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- for channels.
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-21 15:15:17	--	- network administrators. These are (in alphabetical order):
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-21 15:15:17	--	-   - Tank <stefan@boxbox.org>
+2013-02-21 15:15:17	--	-
+2013-02-21 15:15:17	--	- If you're looking for help on the network, join #boxbox.
+2013-02-21 15:15:17	--	End of /MOTD command.
+2013-02-21 15:15:17	--	User mode [+x] by Z_Mass
+2013-02-21 15:15:17	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-21 15:15:17	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-21 15:15:17	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-21 15:15:17	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-21 15:15:19	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-21 17:23:40	--	irc: disconnected from server
+2013-02-23 17:30:08	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-23 17:30:16	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-23 17:30:18	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-23 17:30:19	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-23 17:30:22	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-23 17:30:22	--	MSG(nickserv): identify ********
+2013-02-23 17:30:22	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-23 17:30:22	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-23 17:30:22	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-23 17:30:22	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-23 17:30:22	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-23 17:30:22	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-23 17:30:22	--	There are 48 users and 21 invisible on 2 servers
+2013-02-23 17:30:22	--	10 :operator(s) online
+2013-02-23 17:30:22	--	15 :channels formed
+2013-02-23 17:30:22	--	I have 57 clients and 1 servers
+2013-02-23 17:30:22	--	Current Local Users: 57  Max: 62
+2013-02-23 17:30:22	--	Current Global Users: 69  Max: 74
+2013-02-23 17:30:22	--	- irc.boxbox.org Message of the Day -
+2013-02-23 17:30:22	--	- 13/7/2011 9:22
+2013-02-23 17:30:22	--	-                                  Welcome to the
+2013-02-23 17:30:22	--	-                                    BoxBox.org
+2013-02-23 17:30:22	--	-                           Internet Relay Chat Service
+2013-02-23 17:30:22	--	-
+2013-02-23 17:30:22	--	- By connecting you agree to the following rules:
+2013-02-23 17:30:22	--	-
+2013-02-23 17:30:22	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-23 17:30:22	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-23 17:30:22	--	-      permanent ban.
+2013-02-23 17:30:22	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-23 17:30:22	--	-   4. Have fun!
+2013-02-23 17:30:22	--	-
+2013-02-23 17:30:22	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-23 17:30:22	--	- Clients producing a serious network lag will be kicked.
+2013-02-23 17:30:22	--	-
+2013-02-23 17:30:23	--	- To protect your nickname or channel write
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	-   /msg NickServ HELP
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	- for nicknames and
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	-   /msg ChanServ HELP
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	- for channels.
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-23 17:30:23	--	- network administrators. These are (in alphabetical order):
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-23 17:30:23	--	-   - Tank <stefan@boxbox.org>
+2013-02-23 17:30:23	--	-
+2013-02-23 17:30:23	--	- If you're looking for help on the network, join #boxbox.
+2013-02-23 17:30:23	--	End of /MOTD command.
+2013-02-23 17:30:23	--	User mode [+x] by Z_Mass
+2013-02-23 17:30:23	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-23 17:30:23	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-23 17:30:23	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-23 17:30:25	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-23 17:30:26	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-23 19:36:43	--	irc: disconnected from server
+2013-02-23 23:56:00	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-23 23:56:02	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-23 23:56:02	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-23 23:56:02	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-23 23:56:02	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-23 23:56:02	--	MSG(nickserv): identify ********
+2013-02-23 23:56:02	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-23 23:56:02	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-23 23:56:02	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-23 23:56:02	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-23 23:56:02	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-23 23:56:02	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-23 23:56:02	--	There are 41 users and 20 invisible on 2 servers
+2013-02-23 23:56:02	--	10 :operator(s) online
+2013-02-23 23:56:02	--	15 :channels formed
+2013-02-23 23:56:02	--	I have 49 clients and 1 servers
+2013-02-23 23:56:02	--	Current Local Users: 49  Max: 62
+2013-02-23 23:56:02	--	Current Global Users: 61  Max: 74
+2013-02-23 23:56:02	--	- irc.boxbox.org Message of the Day -
+2013-02-23 23:56:02	--	- 13/7/2011 9:22
+2013-02-23 23:56:02	--	-                                  Welcome to the
+2013-02-23 23:56:02	--	-                                    BoxBox.org
+2013-02-23 23:56:02	--	-                           Internet Relay Chat Service
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- By connecting you agree to the following rules:
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-23 23:56:02	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-23 23:56:02	--	-      permanent ban.
+2013-02-23 23:56:02	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-23 23:56:02	--	-   4. Have fun!
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-23 23:56:02	--	- Clients producing a serious network lag will be kicked.
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- To protect your nickname or channel write
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	-   /msg NickServ HELP
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- for nicknames and
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	-   /msg ChanServ HELP
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- for channels.
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-23 23:56:02	--	- network administrators. These are (in alphabetical order):
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-23 23:56:02	--	-   - Tank <stefan@boxbox.org>
+2013-02-23 23:56:02	--	-
+2013-02-23 23:56:02	--	- If you're looking for help on the network, join #boxbox.
+2013-02-23 23:56:02	--	End of /MOTD command.
+2013-02-23 23:56:02	--	User mode [+x] by Z_Mass
+2013-02-23 23:56:02	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-23 23:56:02	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-23 23:56:02	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-23 23:56:02	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-23 23:56:04	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-24 00:18:38	--	irc: disconnected from server
+2013-02-24 11:08:01	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-24 11:08:02	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-24 11:08:02	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-24 11:08:02	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-24 11:08:03	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-24 11:08:03	--	MSG(nickserv): identify ********
+2013-02-24 11:08:03	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-24 11:08:03	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-24 11:08:03	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-24 11:08:03	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-24 11:08:03	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-24 11:08:03	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-24 11:08:03	--	There are 57 users and 19 invisible on 2 servers
+2013-02-24 11:08:03	--	10 :operator(s) online
+2013-02-24 11:08:03	--	16 :channels formed
+2013-02-24 11:08:03	--	I have 64 clients and 1 servers
+2013-02-24 11:08:03	--	Current Local Users: 64  Max: 64
+2013-02-24 11:08:03	--	Current Global Users: 76  Max: 76
+2013-02-24 11:08:03	--	- irc.boxbox.org Message of the Day -
+2013-02-24 11:08:03	--	- 13/7/2011 9:22
+2013-02-24 11:08:03	--	-                                  Welcome to the
+2013-02-24 11:08:03	--	-                                    BoxBox.org
+2013-02-24 11:08:03	--	-                           Internet Relay Chat Service
+2013-02-24 11:08:03	--	-
+2013-02-24 11:08:03	--	- By connecting you agree to the following rules:
+2013-02-24 11:08:03	--	-
+2013-02-24 11:08:03	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-24 11:08:03	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-24 11:08:03	--	-      permanent ban.
+2013-02-24 11:08:03	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-24 11:08:03	--	-   4. Have fun!
+2013-02-24 11:08:03	--	-
+2013-02-24 11:08:03	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-24 11:08:03	--	- Clients producing a serious network lag will be kicked.
+2013-02-24 11:08:03	--	-
+2013-02-24 11:08:04	--	- To protect your nickname or channel write
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	-   /msg NickServ HELP
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	- for nicknames and
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	-   /msg ChanServ HELP
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	- for channels.
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-24 11:08:04	--	- network administrators. These are (in alphabetical order):
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-24 11:08:04	--	-   - Tank <stefan@boxbox.org>
+2013-02-24 11:08:04	--	-
+2013-02-24 11:08:04	--	- If you're looking for help on the network, join #boxbox.
+2013-02-24 11:08:04	--	End of /MOTD command.
+2013-02-24 11:08:04	--	User mode [+x] by Z_Mass
+2013-02-24 11:08:04	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-24 11:08:04	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-24 11:08:04	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-24 11:08:04	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-24 11:08:06	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-24 18:07:43	--	irc: disconnected from server
+2013-02-24 22:34:10	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-24 22:34:12	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-24 22:34:12	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-24 22:34:13	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-24 22:34:15	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-24 22:34:15	--	MSG(nickserv): identify ********
+2013-02-24 22:34:15	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-24 22:34:15	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-24 22:34:15	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-24 22:34:15	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-24 22:34:15	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-24 22:34:15	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-24 22:34:15	--	There are 46 users and 20 invisible on 2 servers
+2013-02-24 22:34:15	--	10 :operator(s) online
+2013-02-24 22:34:15	--	15 :channels formed
+2013-02-24 22:34:15	--	I have 54 clients and 1 servers
+2013-02-24 22:34:15	--	Current Local Users: 54  Max: 66
+2013-02-24 22:34:15	--	Current Global Users: 66  Max: 78
+2013-02-24 22:34:15	--	- irc.boxbox.org Message of the Day -
+2013-02-24 22:34:15	--	- 13/7/2011 9:22
+2013-02-24 22:34:15	--	-                                  Welcome to the
+2013-02-24 22:34:15	--	-                                    BoxBox.org
+2013-02-24 22:34:15	--	-                           Internet Relay Chat Service
+2013-02-24 22:34:15	--	-
+2013-02-24 22:34:15	--	- By connecting you agree to the following rules:
+2013-02-24 22:34:15	--	-
+2013-02-24 22:34:15	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-24 22:34:15	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-24 22:34:15	--	-      permanent ban.
+2013-02-24 22:34:15	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-24 22:34:15	--	-   4. Have fun!
+2013-02-24 22:34:15	--	-
+2013-02-24 22:34:15	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-24 22:34:15	--	- Clients producing a serious network lag will be kicked.
+2013-02-24 22:34:15	--	-
+2013-02-24 22:34:16	--	- To protect your nickname or channel write
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	-   /msg NickServ HELP
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	- for nicknames and
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	-   /msg ChanServ HELP
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	- for channels.
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-24 22:34:16	--	- network administrators. These are (in alphabetical order):
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-24 22:34:16	--	-   - Tank <stefan@boxbox.org>
+2013-02-24 22:34:16	--	-
+2013-02-24 22:34:16	--	- If you're looking for help on the network, join #boxbox.
+2013-02-24 22:34:16	--	End of /MOTD command.
+2013-02-24 22:34:16	--	User mode [+x] by Z_Mass
+2013-02-24 22:34:16	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-24 22:34:16	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-24 22:34:16	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-24 22:34:17	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-24 22:34:20	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-25 01:29:56	--	irc: disconnected from server
+2013-02-25 11:48:25	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-25 11:48:26	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-25 11:48:26	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-25 11:48:27	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-25 11:48:28	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-25 11:48:28	--	MSG(nickserv): identify ********
+2013-02-25 11:48:28	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-25 11:48:28	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-25 11:48:28	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-25 11:48:28	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-25 11:48:28	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-25 11:48:28	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-25 11:48:28	--	There are 49 users and 20 invisible on 2 servers
+2013-02-25 11:48:28	--	10 :operator(s) online
+2013-02-25 11:48:28	--	16 :channels formed
+2013-02-25 11:48:28	--	I have 57 clients and 1 servers
+2013-02-25 11:48:28	--	Current Local Users: 57  Max: 66
+2013-02-25 11:48:28	--	Current Global Users: 69  Max: 78
+2013-02-25 11:48:28	--	- irc.boxbox.org Message of the Day -
+2013-02-25 11:48:28	--	- 13/7/2011 9:22
+2013-02-25 11:48:28	--	-                                  Welcome to the
+2013-02-25 11:48:28	--	-                                    BoxBox.org
+2013-02-25 11:48:28	--	-                           Internet Relay Chat Service
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- By connecting you agree to the following rules:
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-25 11:48:28	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-25 11:48:28	--	-      permanent ban.
+2013-02-25 11:48:28	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-25 11:48:28	--	-   4. Have fun!
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-25 11:48:28	--	- Clients producing a serious network lag will be kicked.
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- To protect your nickname or channel write
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	-   /msg NickServ HELP
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- for nicknames and
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	-   /msg ChanServ HELP
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- for channels.
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-25 11:48:28	--	- network administrators. These are (in alphabetical order):
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-25 11:48:28	--	-   - Tank <stefan@boxbox.org>
+2013-02-25 11:48:28	--	-
+2013-02-25 11:48:28	--	- If you're looking for help on the network, join #boxbox.
+2013-02-25 11:48:28	--	End of /MOTD command.
+2013-02-25 11:48:28	--	User mode [+x] by Z_Mass
+2013-02-25 11:48:28	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-25 11:48:28	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-25 11:48:28	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-25 11:48:28	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-25 11:48:31	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-25 18:02:57	--	irc: disconnected from server
+2013-02-25 19:24:53	--	irc: connecting to server irc.boxbox.org/6667...
+2013-02-25 19:25:00	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-02-25 19:25:00	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-02-25 19:25:00	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-02-25 19:25:00	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-02-25 19:25:00	--	MSG(nickserv): identify ********
+2013-02-25 19:25:00	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-02-25 19:25:00	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-02-25 19:25:00	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-02-25 19:25:00	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-02-25 19:25:00	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-02-25 19:25:00	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-02-25 19:25:00	--	There are 45 users and 23 invisible on 2 servers
+2013-02-25 19:25:00	--	10 :operator(s) online
+2013-02-25 19:25:00	--	15 :channels formed
+2013-02-25 19:25:00	--	I have 56 clients and 1 servers
+2013-02-25 19:25:00	--	Current Local Users: 56  Max: 66
+2013-02-25 19:25:00	--	Current Global Users: 68  Max: 78
+2013-02-25 19:25:00	--	- irc.boxbox.org Message of the Day -
+2013-02-25 19:25:00	--	- 13/7/2011 9:22
+2013-02-25 19:25:00	--	-                                  Welcome to the
+2013-02-25 19:25:00	--	-                                    BoxBox.org
+2013-02-25 19:25:00	--	-                           Internet Relay Chat Service
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- By connecting you agree to the following rules:
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	-   1. No childporn, racism and serious insulting allowed.
+2013-02-25 19:25:00	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-02-25 19:25:00	--	-      permanent ban.
+2013-02-25 19:25:00	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-02-25 19:25:00	--	-   4. Have fun!
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-02-25 19:25:00	--	- Clients producing a serious network lag will be kicked.
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- To protect your nickname or channel write
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	-   /msg NickServ HELP
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- for nicknames and
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	-   /msg ChanServ HELP
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- for channels.
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- In case you have any questions or problems, feel free to contact one of the
+2013-02-25 19:25:00	--	- network administrators. These are (in alphabetical order):
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-02-25 19:25:00	--	-   - Tank <stefan@boxbox.org>
+2013-02-25 19:25:00	--	-
+2013-02-25 19:25:00	--	- If you're looking for help on the network, join #boxbox.
+2013-02-25 19:25:00	--	End of /MOTD command.
+2013-02-25 19:25:00	--	User mode [+x] by Z_Mass
+2013-02-25 19:25:00	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-02-25 19:25:00	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-02-25 19:25:00	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-02-25 19:25:01	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-02-25 19:25:03	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-02-26 00:29:49	--	irc: disconnected from server
+2013-03-15 16:54:41	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-15 16:54:47	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-15 16:54:47	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-15 16:54:48	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-15 16:54:48	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-15 16:54:48	--	MSG(nickserv): identify ********
+2013-03-15 16:54:48	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-15 16:54:48	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-15 16:54:48	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-15 16:54:48	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-15 16:54:48	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-15 16:54:48	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-15 16:54:48	--	There are 49 users and 21 invisible on 2 servers
+2013-03-15 16:54:48	--	10 :operator(s) online
+2013-03-15 16:54:48	--	16 :channels formed
+2013-03-15 16:54:48	--	I have 58 clients and 1 servers
+2013-03-15 16:54:48	--	Current Local Users: 58  Max: 66
+2013-03-15 16:54:48	--	Current Global Users: 70  Max: 78
+2013-03-15 16:54:48	--	- irc.boxbox.org Message of the Day -
+2013-03-15 16:54:48	--	- 13/7/2011 9:22
+2013-03-15 16:54:48	--	-                                  Welcome to the
+2013-03-15 16:54:48	--	-                                    BoxBox.org
+2013-03-15 16:54:48	--	-                           Internet Relay Chat Service
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- By connecting you agree to the following rules:
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-15 16:54:48	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-15 16:54:48	--	-      permanent ban.
+2013-03-15 16:54:48	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-15 16:54:48	--	-   4. Have fun!
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-15 16:54:48	--	- Clients producing a serious network lag will be kicked.
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- To protect your nickname or channel write
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	-   /msg NickServ HELP
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- for nicknames and
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	-   /msg ChanServ HELP
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- for channels.
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-15 16:54:48	--	- network administrators. These are (in alphabetical order):
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-15 16:54:48	--	-   - Tank <stefan@boxbox.org>
+2013-03-15 16:54:48	--	-
+2013-03-15 16:54:48	--	- If you're looking for help on the network, join #boxbox.
+2013-03-15 16:54:48	--	End of /MOTD command.
+2013-03-15 16:54:48	--	User mode [+x] by Z_Mass
+2013-03-15 16:54:48	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-15 16:54:48	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-15 16:54:48	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-15 16:54:48	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-15 16:54:50	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-15 18:43:05	--	irc: disconnected from server
+2013-03-15 20:24:38	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-15 20:24:44	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-15 20:24:44	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-15 20:24:44	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-15 20:24:45	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-15 20:24:45	--	MSG(nickserv): identify ********
+2013-03-15 20:24:45	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-15 20:24:45	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-15 20:24:45	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-15 20:24:45	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-15 20:24:45	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-15 20:24:45	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-15 20:24:45	--	There are 39 users and 17 invisible on 2 servers
+2013-03-15 20:24:45	--	10 :operator(s) online
+2013-03-15 20:24:45	--	14 :channels formed
+2013-03-15 20:24:45	--	I have 44 clients and 1 servers
+2013-03-15 20:24:45	--	Current Local Users: 44  Max: 66
+2013-03-15 20:24:45	--	Current Global Users: 56  Max: 78
+2013-03-15 20:24:45	--	- irc.boxbox.org Message of the Day -
+2013-03-15 20:24:45	--	- 13/7/2011 9:22
+2013-03-15 20:24:45	--	-                                  Welcome to the
+2013-03-15 20:24:45	--	-                                    BoxBox.org
+2013-03-15 20:24:45	--	-                           Internet Relay Chat Service
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- By connecting you agree to the following rules:
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-15 20:24:45	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-15 20:24:45	--	-      permanent ban.
+2013-03-15 20:24:45	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-15 20:24:45	--	-   4. Have fun!
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-15 20:24:45	--	- Clients producing a serious network lag will be kicked.
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- To protect your nickname or channel write
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	-   /msg NickServ HELP
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- for nicknames and
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	-   /msg ChanServ HELP
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- for channels.
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-15 20:24:45	--	- network administrators. These are (in alphabetical order):
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-15 20:24:45	--	-   - Tank <stefan@boxbox.org>
+2013-03-15 20:24:45	--	-
+2013-03-15 20:24:45	--	- If you're looking for help on the network, join #boxbox.
+2013-03-15 20:24:45	--	End of /MOTD command.
+2013-03-15 20:24:45	--	User mode [+x] by Z_Mass
+2013-03-15 20:24:45	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-15 20:24:45	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-15 20:24:45	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-15 20:24:45	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-15 20:24:47	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-16 10:18:28	--	irc: disconnected from server
+2013-03-16 20:12:56	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-16 20:12:56	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-16 20:12:57	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-16 20:12:57	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-16 20:12:57	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-16 20:12:57	--	MSG(nickserv): identify ********
+2013-03-16 20:12:57	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-16 20:12:57	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-16 20:12:57	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-16 20:12:57	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-16 20:12:57	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-16 20:12:57	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-16 20:12:57	--	There are 43 users and 22 invisible on 2 servers
+2013-03-16 20:12:57	--	10 :operator(s) online
+2013-03-16 20:12:57	--	14 :channels formed
+2013-03-16 20:12:57	--	I have 53 clients and 1 servers
+2013-03-16 20:12:57	--	Current Local Users: 53  Max: 66
+2013-03-16 20:12:57	--	Current Global Users: 65  Max: 78
+2013-03-16 20:12:57	--	- irc.boxbox.org Message of the Day -
+2013-03-16 20:12:57	--	- 13/7/2011 9:22
+2013-03-16 20:12:57	--	-                                  Welcome to the
+2013-03-16 20:12:57	--	-                                    BoxBox.org
+2013-03-16 20:12:57	--	-                           Internet Relay Chat Service
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- By connecting you agree to the following rules:
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-16 20:12:57	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-16 20:12:57	--	-      permanent ban.
+2013-03-16 20:12:57	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-16 20:12:57	--	-   4. Have fun!
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-16 20:12:57	--	- Clients producing a serious network lag will be kicked.
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- To protect your nickname or channel write
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	-   /msg NickServ HELP
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- for nicknames and
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	-   /msg ChanServ HELP
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- for channels.
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-16 20:12:57	--	- network administrators. These are (in alphabetical order):
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-16 20:12:57	--	-   - Tank <stefan@boxbox.org>
+2013-03-16 20:12:57	--	-
+2013-03-16 20:12:57	--	- If you're looking for help on the network, join #boxbox.
+2013-03-16 20:12:57	--	End of /MOTD command.
+2013-03-16 20:12:57	--	User mode [+x] by Z_Mass
+2013-03-16 20:12:57	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-16 20:12:57	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-16 20:12:57	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-16 20:12:57	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-16 20:12:59	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-16 20:37:34	--	irc: disconnected from server
+2013-03-16 20:37:36	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-16 20:37:38	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-16 20:37:38	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-16 20:37:38	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-16 20:37:38	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-16 20:37:38	--	MSG(nickserv): identify ********
+2013-03-16 20:37:38	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-16 20:37:38	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-16 20:37:38	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-16 20:37:38	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-16 20:37:38	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-16 20:37:38	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-16 20:37:38	--	There are 43 users and 21 invisible on 2 servers
+2013-03-16 20:37:38	--	10 :operator(s) online
+2013-03-16 20:37:38	--	14 :channels formed
+2013-03-16 20:37:38	--	I have 52 clients and 1 servers
+2013-03-16 20:37:38	--	Current Local Users: 52  Max: 66
+2013-03-16 20:37:38	--	Current Global Users: 64  Max: 78
+2013-03-16 20:37:38	--	- irc.boxbox.org Message of the Day -
+2013-03-16 20:37:38	--	- 13/7/2011 9:22
+2013-03-16 20:37:38	--	-                                  Welcome to the
+2013-03-16 20:37:38	--	-                                    BoxBox.org
+2013-03-16 20:37:38	--	-                           Internet Relay Chat Service
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- By connecting you agree to the following rules:
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-16 20:37:38	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-16 20:37:38	--	-      permanent ban.
+2013-03-16 20:37:38	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-16 20:37:38	--	-   4. Have fun!
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-16 20:37:38	--	- Clients producing a serious network lag will be kicked.
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- To protect your nickname or channel write
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	-   /msg NickServ HELP
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- for nicknames and
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	-   /msg ChanServ HELP
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- for channels.
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-16 20:37:38	--	- network administrators. These are (in alphabetical order):
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-16 20:37:38	--	-   - Tank <stefan@boxbox.org>
+2013-03-16 20:37:38	--	-
+2013-03-16 20:37:38	--	- If you're looking for help on the network, join #boxbox.
+2013-03-16 20:37:38	--	End of /MOTD command.
+2013-03-16 20:37:38	--	User mode [+x] by Z_Mass
+2013-03-16 20:37:38	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-16 20:37:38	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-16 20:37:38	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-16 20:37:38	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-16 20:37:40	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-16 23:14:39	--	irc: disconnected from server
+2013-03-16 23:15:29	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-16 23:15:30	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-16 23:15:30	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-16 23:15:30	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-16 23:15:31	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-16 23:15:31	--	MSG(nickserv): identify ********
+2013-03-16 23:15:31	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-16 23:15:31	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-16 23:15:31	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-16 23:15:31	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-16 23:15:31	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-16 23:15:31	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-16 23:15:31	--	There are 42 users and 19 invisible on 2 servers
+2013-03-16 23:15:31	--	10 :operator(s) online
+2013-03-16 23:15:31	--	14 :channels formed
+2013-03-16 23:15:31	--	I have 49 clients and 1 servers
+2013-03-16 23:15:31	--	Current Local Users: 49  Max: 66
+2013-03-16 23:15:31	--	Current Global Users: 61  Max: 78
+2013-03-16 23:15:31	--	- irc.boxbox.org Message of the Day -
+2013-03-16 23:15:31	--	- 13/7/2011 9:22
+2013-03-16 23:15:31	--	-                                  Welcome to the
+2013-03-16 23:15:31	--	-                                    BoxBox.org
+2013-03-16 23:15:31	--	-                           Internet Relay Chat Service
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- By connecting you agree to the following rules:
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-16 23:15:31	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-16 23:15:31	--	-      permanent ban.
+2013-03-16 23:15:31	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-16 23:15:31	--	-   4. Have fun!
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-16 23:15:31	--	- Clients producing a serious network lag will be kicked.
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- To protect your nickname or channel write
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	-   /msg NickServ HELP
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- for nicknames and
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	-   /msg ChanServ HELP
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- for channels.
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-16 23:15:31	--	- network administrators. These are (in alphabetical order):
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-16 23:15:31	--	-   - Tank <stefan@boxbox.org>
+2013-03-16 23:15:31	--	-
+2013-03-16 23:15:31	--	- If you're looking for help on the network, join #boxbox.
+2013-03-16 23:15:31	--	End of /MOTD command.
+2013-03-16 23:15:31	--	User mode [+x] by Z_Mass
+2013-03-16 23:15:31	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-16 23:15:31	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-16 23:15:31	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-16 23:15:32	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-16 23:15:33	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-17 00:53:51	--	irc: disconnected from server
+2013-03-17 10:46:14	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 10:46:20	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-17 10:46:20	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-17 10:46:20	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-17 10:46:21	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-17 10:46:21	--	MSG(nickserv): identify ********
+2013-03-17 10:46:21	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-17 10:46:21	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-17 10:46:21	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-17 10:46:21	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-17 10:46:21	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-17 10:46:21	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-17 10:46:21	--	There are 51 users and 19 invisible on 2 servers
+2013-03-17 10:46:21	--	10 :operator(s) online
+2013-03-17 10:46:21	--	15 :channels formed
+2013-03-17 10:46:21	--	I have 58 clients and 1 servers
+2013-03-17 10:46:21	--	Current Local Users: 58  Max: 66
+2013-03-17 10:46:21	--	Current Global Users: 70  Max: 78
+2013-03-17 10:46:21	--	- irc.boxbox.org Message of the Day -
+2013-03-17 10:46:21	--	- 13/7/2011 9:22
+2013-03-17 10:46:21	--	-                                  Welcome to the
+2013-03-17 10:46:21	--	-                                    BoxBox.org
+2013-03-17 10:46:21	--	-                           Internet Relay Chat Service
+2013-03-17 10:46:21	--	-
+2013-03-17 10:46:21	--	- By connecting you agree to the following rules:
+2013-03-17 10:46:21	--	-
+2013-03-17 10:46:21	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-17 10:46:21	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-17 10:46:21	--	-      permanent ban.
+2013-03-17 10:46:21	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-17 10:46:21	--	-   4. Have fun!
+2013-03-17 10:46:21	--	-
+2013-03-17 10:46:21	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-17 10:46:21	--	- Clients producing a serious network lag will be kicked.
+2013-03-17 10:46:21	--	-
+2013-03-17 10:46:22	--	- To protect your nickname or channel write
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	-   /msg NickServ HELP
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	- for nicknames and
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	-   /msg ChanServ HELP
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	- for channels.
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-17 10:46:22	--	- network administrators. These are (in alphabetical order):
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-17 10:46:22	--	-   - Tank <stefan@boxbox.org>
+2013-03-17 10:46:22	--	-
+2013-03-17 10:46:22	--	- If you're looking for help on the network, join #boxbox.
+2013-03-17 10:46:22	--	End of /MOTD command.
+2013-03-17 10:46:22	--	User mode [+x] by Z_Mass
+2013-03-17 10:46:22	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-17 10:46:22	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-17 10:46:22	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-17 10:46:22	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-17 10:46:24	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-17 11:31:13	--	irc: disconnected from server
+2013-03-17 11:56:15	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 11:56:17	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-17 11:56:17	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-17 11:56:17	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-17 11:56:18	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-17 11:56:18	--	MSG(nickserv): identify ********
+2013-03-17 11:56:18	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-17 11:56:18	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-17 11:56:18	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-17 11:56:18	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-17 11:56:18	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-17 11:56:18	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-17 11:56:18	--	There are 53 users and 21 invisible on 2 servers
+2013-03-17 11:56:18	--	10 :operator(s) online
+2013-03-17 11:56:18	--	15 :channels formed
+2013-03-17 11:56:18	--	I have 62 clients and 1 servers
+2013-03-17 11:56:18	--	Current Local Users: 62  Max: 66
+2013-03-17 11:56:18	--	Current Global Users: 74  Max: 78
+2013-03-17 11:56:18	--	- irc.boxbox.org Message of the Day -
+2013-03-17 11:56:18	--	- 13/7/2011 9:22
+2013-03-17 11:56:18	--	-                                  Welcome to the
+2013-03-17 11:56:18	--	-                                    BoxBox.org
+2013-03-17 11:56:18	--	-                           Internet Relay Chat Service
+2013-03-17 11:56:18	--	-
+2013-03-17 11:56:18	--	- By connecting you agree to the following rules:
+2013-03-17 11:56:18	--	-
+2013-03-17 11:56:18	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-17 11:56:18	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-17 11:56:18	--	-      permanent ban.
+2013-03-17 11:56:18	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-17 11:56:18	--	-   4. Have fun!
+2013-03-17 11:56:18	--	-
+2013-03-17 11:56:18	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-17 11:56:18	--	- Clients producing a serious network lag will be kicked.
+2013-03-17 11:56:18	--	-
+2013-03-17 11:56:19	--	- To protect your nickname or channel write
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	-   /msg NickServ HELP
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	- for nicknames and
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	-   /msg ChanServ HELP
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	- for channels.
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-17 11:56:19	--	- network administrators. These are (in alphabetical order):
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-17 11:56:19	--	-   - Tank <stefan@boxbox.org>
+2013-03-17 11:56:19	--	-
+2013-03-17 11:56:19	--	- If you're looking for help on the network, join #boxbox.
+2013-03-17 11:56:19	--	End of /MOTD command.
+2013-03-17 11:56:19	--	User mode [+x] by Z_Mass
+2013-03-17 11:56:19	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-17 11:56:19	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-17 11:56:19	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-17 11:56:19	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-17 11:56:20	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-17 13:39:56	=!=	irc: reading data on socket: error 110 Connection timed out
+2013-03-17 13:39:56	--	irc: disconnecting from server...
+2013-03-17 13:39:56	--	irc: disconnected from server
+2013-03-17 13:39:56	--	irc: reconnecting to server in 10 seconds
+2013-03-17 13:40:06	--	irc: reconnecting to server...
+2013-03-17 13:40:06	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 13:40:06	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-17 13:40:07	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-17 13:40:07	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-17 13:40:08	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-17 13:40:08	--	MSG(nickserv): identify ********
+2013-03-17 13:40:08	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-17 13:40:08	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-17 13:40:08	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-17 13:40:08	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-17 13:40:08	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-17 13:40:08	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-17 13:40:08	--	There are 50 users and 20 invisible on 2 servers
+2013-03-17 13:40:08	--	10 :operator(s) online
+2013-03-17 13:40:08	--	15 :channels formed
+2013-03-17 13:40:08	--	I have 58 clients and 1 servers
+2013-03-17 13:40:08	--	Current Local Users: 58  Max: 66
+2013-03-17 13:40:08	--	Current Global Users: 70  Max: 78
+2013-03-17 13:40:08	--	- irc.boxbox.org Message of the Day -
+2013-03-17 13:40:08	--	- 13/7/2011 9:22
+2013-03-17 13:40:08	--	-                                  Welcome to the
+2013-03-17 13:40:08	--	-                                    BoxBox.org
+2013-03-17 13:40:08	--	-                           Internet Relay Chat Service
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- By connecting you agree to the following rules:
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-17 13:40:08	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-17 13:40:08	--	-      permanent ban.
+2013-03-17 13:40:08	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-17 13:40:08	--	-   4. Have fun!
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-17 13:40:08	--	- Clients producing a serious network lag will be kicked.
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- To protect your nickname or channel write
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	-   /msg NickServ HELP
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- for nicknames and
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	-   /msg ChanServ HELP
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- for channels.
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-17 13:40:08	--	- network administrators. These are (in alphabetical order):
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-17 13:40:08	--	-   - Tank <stefan@boxbox.org>
+2013-03-17 13:40:08	--	-
+2013-03-17 13:40:08	--	- If you're looking for help on the network, join #boxbox.
+2013-03-17 13:40:08	--	End of /MOTD command.
+2013-03-17 13:40:08	--	User mode [+x] by Z_Mass
+2013-03-17 13:40:08	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-17 13:40:08	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-17 13:40:08	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-17 13:40:08	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-17 13:40:10	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-17 15:19:47	--	irc: disconnected from server
+2013-03-17 21:43:47	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 21:43:47	=!=	irc: address "irc.boxbox.org" not found
+2013-03-17 21:43:47	=!=	irc: error: Name or service not known
+2013-03-17 21:43:47	--	irc: reconnecting to server in 10 seconds
+2013-03-17 21:43:57	--	irc: reconnecting to server...
+2013-03-17 21:43:57	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 21:43:57	=!=	irc: address "irc.boxbox.org" not found
+2013-03-17 21:43:57	=!=	irc: error: Name or service not known
+2013-03-17 21:43:57	--	irc: reconnecting to server in 20 seconds
+2013-03-17 21:44:17	--	irc: reconnecting to server...
+2013-03-17 21:44:17	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 21:44:17	=!=	irc: address "irc.boxbox.org" not found
+2013-03-17 21:44:17	=!=	irc: error: Name or service not known
+2013-03-17 21:44:17	--	irc: reconnecting to server in 40 seconds
+2013-03-17 21:44:57	--	irc: reconnecting to server...
+2013-03-17 21:44:57	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-17 21:44:57	=!=	irc: address "irc.boxbox.org" not found
+2013-03-17 21:44:57	=!=	irc: error: Name or service not known
+2013-03-17 21:44:57	--	irc: reconnecting to server in 1 minute, 20 seconds
+2013-03-17 21:45:12	--	irc: disconnected from server
+2013-03-18 09:47:41	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-18 09:47:41	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-18 09:47:42	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-18 09:47:44	--	irc.boxbox.org (irc.boxbox.org): *** Couldn't resolve your hostname; using your IP address instead
+2013-03-18 09:47:44	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@72.1.214.140
+2013-03-18 09:47:44	--	MSG(nickserv): identify ********
+2013-03-18 09:47:44	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-18 09:47:44	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-18 09:47:44	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-18 09:47:44	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-18 09:47:44	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-18 09:47:44	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-18 09:47:44	--	There are 45 users and 20 invisible on 2 servers
+2013-03-18 09:47:44	--	10 :operator(s) online
+2013-03-18 09:47:44	--	15 :channels formed
+2013-03-18 09:47:44	--	I have 53 clients and 1 servers
+2013-03-18 09:47:44	--	Current Local Users: 53  Max: 66
+2013-03-18 09:47:44	--	Current Global Users: 65  Max: 78
+2013-03-18 09:47:44	--	- irc.boxbox.org Message of the Day -
+2013-03-18 09:47:44	--	- 13/7/2011 9:22
+2013-03-18 09:47:44	--	-                                  Welcome to the
+2013-03-18 09:47:44	--	-                                    BoxBox.org
+2013-03-18 09:47:44	--	-                           Internet Relay Chat Service
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- By connecting you agree to the following rules:
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-18 09:47:44	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-18 09:47:44	--	-      permanent ban.
+2013-03-18 09:47:44	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-18 09:47:44	--	-   4. Have fun!
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-18 09:47:44	--	- Clients producing a serious network lag will be kicked.
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- To protect your nickname or channel write
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	-   /msg NickServ HELP
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- for nicknames and
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	-   /msg ChanServ HELP
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- for channels.
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-18 09:47:44	--	- network administrators. These are (in alphabetical order):
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-18 09:47:44	--	-   - Tank <stefan@boxbox.org>
+2013-03-18 09:47:44	--	-
+2013-03-18 09:47:44	--	- If you're looking for help on the network, join #boxbox.
+2013-03-18 09:47:44	--	End of /MOTD command.
+2013-03-18 09:47:44	--	User mode [+x] by Z_Mass
+2013-03-18 09:47:44	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-18 09:47:44	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-18 09:47:44	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-18 09:47:45	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-18 09:47:46	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-18 10:58:53	--	irc: disconnected from server
+2013-03-18 15:36:40	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-18 15:36:41	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-18 15:36:42	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-18 15:36:42	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-18 15:36:43	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-18 15:36:43	--	MSG(nickserv): identify ********
+2013-03-18 15:36:43	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-18 15:36:43	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-18 15:36:43	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-18 15:36:43	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-18 15:36:43	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-18 15:36:43	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-18 15:36:43	--	There are 51 users and 21 invisible on 2 servers
+2013-03-18 15:36:43	--	10 :operator(s) online
+2013-03-18 15:36:43	--	15 :channels formed
+2013-03-18 15:36:43	--	I have 60 clients and 1 servers
+2013-03-18 15:36:43	--	Current Local Users: 60  Max: 66
+2013-03-18 15:36:43	--	Current Global Users: 72  Max: 78
+2013-03-18 15:36:43	--	- irc.boxbox.org Message of the Day -
+2013-03-18 15:36:43	--	- 13/7/2011 9:22
+2013-03-18 15:36:43	--	-                                  Welcome to the
+2013-03-18 15:36:43	--	-                                    BoxBox.org
+2013-03-18 15:36:43	--	-                           Internet Relay Chat Service
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- By connecting you agree to the following rules:
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-18 15:36:43	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-18 15:36:43	--	-      permanent ban.
+2013-03-18 15:36:43	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-18 15:36:43	--	-   4. Have fun!
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-18 15:36:43	--	- Clients producing a serious network lag will be kicked.
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- To protect your nickname or channel write
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	-   /msg NickServ HELP
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- for nicknames and
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	-   /msg ChanServ HELP
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- for channels.
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-18 15:36:43	--	- network administrators. These are (in alphabetical order):
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-18 15:36:43	--	-   - Tank <stefan@boxbox.org>
+2013-03-18 15:36:43	--	-
+2013-03-18 15:36:43	--	- If you're looking for help on the network, join #boxbox.
+2013-03-18 15:36:43	--	End of /MOTD command.
+2013-03-18 15:36:43	--	User mode [+x] by Z_Mass
+2013-03-18 15:36:43	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-18 15:36:43	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-18 15:36:43	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-18 15:36:43	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-18 15:36:45	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-18 18:55:11	=!=	irc: reading data on socket: error 110 Connection timed out
+2013-03-18 18:55:11	--	irc: disconnecting from server...
+2013-03-18 18:55:11	--	irc: disconnected from server
+2013-03-18 18:55:11	--	irc: reconnecting to server in 10 seconds
+2013-03-18 18:55:18	--	irc: disconnected from server
+2013-03-18 21:20:26	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-18 21:20:30	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-18 21:20:30	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-18 21:20:30	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-18 21:20:31	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-18 21:20:31	--	MSG(nickserv): identify ********
+2013-03-18 21:20:31	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-18 21:20:31	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-18 21:20:31	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-18 21:20:31	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-18 21:20:31	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-18 21:20:31	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-18 21:20:31	--	There are 42 users and 20 invisible on 2 servers
+2013-03-18 21:20:31	--	10 :operator(s) online
+2013-03-18 21:20:31	--	15 :channels formed
+2013-03-18 21:20:31	--	I have 50 clients and 1 servers
+2013-03-18 21:20:31	--	Current Local Users: 50  Max: 66
+2013-03-18 21:20:31	--	Current Global Users: 62  Max: 78
+2013-03-18 21:20:31	--	- irc.boxbox.org Message of the Day -
+2013-03-18 21:20:31	--	- 13/7/2011 9:22
+2013-03-18 21:20:31	--	-                                  Welcome to the
+2013-03-18 21:20:31	--	-                                    BoxBox.org
+2013-03-18 21:20:31	--	-                           Internet Relay Chat Service
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- By connecting you agree to the following rules:
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-18 21:20:31	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-18 21:20:31	--	-      permanent ban.
+2013-03-18 21:20:31	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-18 21:20:31	--	-   4. Have fun!
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-18 21:20:31	--	- Clients producing a serious network lag will be kicked.
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- To protect your nickname or channel write
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	-   /msg NickServ HELP
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- for nicknames and
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	-   /msg ChanServ HELP
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- for channels.
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-18 21:20:31	--	- network administrators. These are (in alphabetical order):
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-18 21:20:31	--	-   - Tank <stefan@boxbox.org>
+2013-03-18 21:20:31	--	-
+2013-03-18 21:20:31	--	- If you're looking for help on the network, join #boxbox.
+2013-03-18 21:20:31	--	End of /MOTD command.
+2013-03-18 21:20:31	--	User mode [+x] by Z_Mass
+2013-03-18 21:20:31	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-18 21:20:31	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-18 21:20:31	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-18 21:20:31	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-18 21:20:34	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-19 00:01:43	--	irc: disconnected from server
+2013-03-19 20:35:41	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-19 20:35:47	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-19 20:35:47	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-19 20:35:47	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-19 20:35:48	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-19 20:35:48	--	MSG(nickserv): identify ********
+2013-03-19 20:35:48	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-19 20:35:48	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-19 20:35:48	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-19 20:35:48	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-19 20:35:48	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-19 20:35:48	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-19 20:35:48	--	There are 45 users and 23 invisible on 2 servers
+2013-03-19 20:35:48	--	10 :operator(s) online
+2013-03-19 20:35:48	--	15 :channels formed
+2013-03-19 20:35:48	--	I have 56 clients and 1 servers
+2013-03-19 20:35:48	--	Current Local Users: 56  Max: 66
+2013-03-19 20:35:48	--	Current Global Users: 68  Max: 78
+2013-03-19 20:35:48	--	- irc.boxbox.org Message of the Day -
+2013-03-19 20:35:48	--	- 13/7/2011 9:22
+2013-03-19 20:35:48	--	-                                  Welcome to the
+2013-03-19 20:35:48	--	-                                    BoxBox.org
+2013-03-19 20:35:48	--	-                           Internet Relay Chat Service
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- By connecting you agree to the following rules:
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-19 20:35:48	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-19 20:35:48	--	-      permanent ban.
+2013-03-19 20:35:48	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-19 20:35:48	--	-   4. Have fun!
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-19 20:35:48	--	- Clients producing a serious network lag will be kicked.
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- To protect your nickname or channel write
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	-   /msg NickServ HELP
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- for nicknames and
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	-   /msg ChanServ HELP
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- for channels.
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-19 20:35:48	--	- network administrators. These are (in alphabetical order):
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-19 20:35:48	--	-   - Tank <stefan@boxbox.org>
+2013-03-19 20:35:48	--	-
+2013-03-19 20:35:48	--	- If you're looking for help on the network, join #boxbox.
+2013-03-19 20:35:48	--	End of /MOTD command.
+2013-03-19 20:35:48	--	User mode [+x] by Z_Mass
+2013-03-19 20:35:48	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-19 20:35:48	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-19 20:35:48	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-19 20:35:49	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-19 20:35:51	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-19 22:33:42	--	irc: disconnected from server
+2013-03-20 18:31:08	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-20 18:31:10	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-20 18:31:10	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-20 18:31:10	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-20 18:31:11	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-20 18:31:11	--	MSG(nickserv): identify ********
+2013-03-20 18:31:11	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-20 18:31:11	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-20 18:31:11	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-20 18:31:11	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-20 18:31:11	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-20 18:31:11	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-20 18:31:11	--	There are 51 users and 23 invisible on 2 servers
+2013-03-20 18:31:11	--	10 :operator(s) online
+2013-03-20 18:31:11	--	15 :channels formed
+2013-03-20 18:31:11	--	I have 62 clients and 1 servers
+2013-03-20 18:31:11	--	Current Local Users: 62  Max: 66
+2013-03-20 18:31:11	--	Current Global Users: 74  Max: 78
+2013-03-20 18:31:11	--	- irc.boxbox.org Message of the Day -
+2013-03-20 18:31:11	--	- 13/7/2011 9:22
+2013-03-20 18:31:11	--	-                                  Welcome to the
+2013-03-20 18:31:11	--	-                                    BoxBox.org
+2013-03-20 18:31:11	--	-                           Internet Relay Chat Service
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- By connecting you agree to the following rules:
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-20 18:31:11	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-20 18:31:11	--	-      permanent ban.
+2013-03-20 18:31:11	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-20 18:31:11	--	-   4. Have fun!
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-20 18:31:11	--	- Clients producing a serious network lag will be kicked.
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- To protect your nickname or channel write
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	-   /msg NickServ HELP
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- for nicknames and
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	-   /msg ChanServ HELP
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- for channels.
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-20 18:31:11	--	- network administrators. These are (in alphabetical order):
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-20 18:31:11	--	-   - Tank <stefan@boxbox.org>
+2013-03-20 18:31:11	--	-
+2013-03-20 18:31:11	--	- If you're looking for help on the network, join #boxbox.
+2013-03-20 18:31:11	--	End of /MOTD command.
+2013-03-20 18:31:11	--	User mode [+x] by Z_Mass
+2013-03-20 18:31:11	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-20 18:31:11	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-20 18:31:11	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-20 18:31:12	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-20 18:31:14	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-21 01:25:52	--	irc: disconnected from server
+2013-03-21 16:03:22	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-21 16:03:25	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-21 16:03:26	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-21 16:03:27	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-21 16:03:28	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-21 16:03:28	--	MSG(nickserv): identify ********
+2013-03-21 16:03:28	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-21 16:03:28	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-21 16:03:28	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-21 16:03:28	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-21 16:03:28	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-21 16:03:28	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-21 16:03:28	--	There are 48 users and 25 invisible on 2 servers
+2013-03-21 16:03:28	--	10 :operator(s) online
+2013-03-21 16:03:28	--	16 :channels formed
+2013-03-21 16:03:28	--	I have 61 clients and 1 servers
+2013-03-21 16:03:28	--	Current Local Users: 61  Max: 66
+2013-03-21 16:03:28	--	Current Global Users: 73  Max: 78
+2013-03-21 16:03:28	--	- irc.boxbox.org Message of the Day -
+2013-03-21 16:03:28	--	- 13/7/2011 9:22
+2013-03-21 16:03:28	--	-                                  Welcome to the
+2013-03-21 16:03:28	--	-                                    BoxBox.org
+2013-03-21 16:03:28	--	-                           Internet Relay Chat Service
+2013-03-21 16:03:28	--	-
+2013-03-21 16:03:28	--	- By connecting you agree to the following rules:
+2013-03-21 16:03:28	--	-
+2013-03-21 16:03:28	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-21 16:03:28	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-21 16:03:28	--	-      permanent ban.
+2013-03-21 16:03:28	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-21 16:03:28	--	-   4. Have fun!
+2013-03-21 16:03:28	--	-
+2013-03-21 16:03:28	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-21 16:03:28	--	- Clients producing a serious network lag will be kicked.
+2013-03-21 16:03:28	--	-
+2013-03-21 16:03:29	--	- To protect your nickname or channel write
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	-   /msg NickServ HELP
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	- for nicknames and
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	-   /msg ChanServ HELP
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	- for channels.
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-21 16:03:29	--	- network administrators. These are (in alphabetical order):
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-21 16:03:29	--	-   - Tank <stefan@boxbox.org>
+2013-03-21 16:03:29	--	-
+2013-03-21 16:03:29	--	- If you're looking for help on the network, join #boxbox.
+2013-03-21 16:03:29	--	End of /MOTD command.
+2013-03-21 16:03:29	--	User mode [+x] by Z_Mass
+2013-03-21 16:03:29	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-21 16:03:29	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-21 16:03:29	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-21 16:03:29	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-21 16:03:31	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-21 22:39:07	=!=	irc: reading data on socket: error 110 Connection timed out
+2013-03-21 22:39:07	--	irc: disconnecting from server...
+2013-03-21 22:39:07	--	irc: disconnected from server
+2013-03-21 22:39:07	--	irc: reconnecting to server in 10 seconds
+2013-03-21 22:39:17	--	irc: reconnecting to server...
+2013-03-21 22:39:17	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-21 22:39:23	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-21 22:39:24	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-21 22:39:24	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-21 22:39:29	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-21 22:39:29	--	MSG(nickserv): identify ********
+2013-03-21 22:39:29	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-21 22:39:29	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-21 22:39:29	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-21 22:39:29	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-21 22:39:29	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-21 22:39:29	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-21 22:39:29	--	There are 44 users and 25 invisible on 2 servers
+2013-03-21 22:39:29	--	10 :operator(s) online
+2013-03-21 22:39:29	--	15 :channels formed
+2013-03-21 22:39:29	--	I have 57 clients and 1 servers
+2013-03-21 22:39:29	--	Current Local Users: 57  Max: 66
+2013-03-21 22:39:29	--	Current Global Users: 69  Max: 78
+2013-03-21 22:39:29	--	- irc.boxbox.org Message of the Day -
+2013-03-21 22:39:29	--	- 13/7/2011 9:22
+2013-03-21 22:39:29	--	-                                  Welcome to the
+2013-03-21 22:39:29	--	-                                    BoxBox.org
+2013-03-21 22:39:29	--	-                           Internet Relay Chat Service
+2013-03-21 22:39:29	--	-
+2013-03-21 22:39:29	--	- By connecting you agree to the following rules:
+2013-03-21 22:39:29	--	-
+2013-03-21 22:39:29	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-21 22:39:29	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-21 22:39:29	--	-      permanent ban.
+2013-03-21 22:39:29	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-21 22:39:29	--	-   4. Have fun!
+2013-03-21 22:39:29	--	-
+2013-03-21 22:39:29	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-21 22:39:29	--	- Clients producing a serious network lag will be kicked.
+2013-03-21 22:39:29	--	-
+2013-03-21 22:39:40	--	- To protect your nickname or channel write
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	-   /msg NickServ HELP
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	- for nicknames and
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	-   /msg ChanServ HELP
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	- for channels.
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-21 22:39:40	--	- network administrators. These are (in alphabetical order):
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-21 22:39:40	--	-   - Tank <stefan@boxbox.org>
+2013-03-21 22:39:40	--	-
+2013-03-21 22:39:40	--	- If you're looking for help on the network, join #boxbox.
+2013-03-21 22:39:40	--	End of /MOTD command.
+2013-03-21 22:39:40	--	User mode [+x] by Z_Mass
+2013-03-21 22:39:40	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-21 22:39:40	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-21 22:39:40	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-21 22:40:00	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-21 22:40:00	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-22 01:00:35	--	irc: disconnected from server
+2013-03-22 16:01:17	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-22 16:01:24	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-22 16:01:25	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-22 16:01:26	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-22 16:01:28	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-22 16:01:28	--	MSG(nickserv): identify ********
+2013-03-22 16:01:28	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-22 16:01:28	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-22 16:01:28	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-22 16:01:28	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-22 16:01:28	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-22 16:01:28	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-22 16:01:28	--	There are 49 users and 23 invisible on 2 servers
+2013-03-22 16:01:28	--	10 :operator(s) online
+2013-03-22 16:01:28	--	16 :channels formed
+2013-03-22 16:01:28	--	I have 60 clients and 1 servers
+2013-03-22 16:01:28	--	Current Local Users: 60  Max: 66
+2013-03-22 16:01:28	--	Current Global Users: 72  Max: 78
+2013-03-22 16:01:28	--	- irc.boxbox.org Message of the Day -
+2013-03-22 16:01:28	--	- 13/7/2011 9:22
+2013-03-22 16:01:28	--	-                                  Welcome to the
+2013-03-22 16:01:28	--	-                                    BoxBox.org
+2013-03-22 16:01:28	--	-                           Internet Relay Chat Service
+2013-03-22 16:01:28	--	-
+2013-03-22 16:01:28	--	- By connecting you agree to the following rules:
+2013-03-22 16:01:28	--	-
+2013-03-22 16:01:28	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-22 16:01:28	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-22 16:01:28	--	-      permanent ban.
+2013-03-22 16:01:28	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-22 16:01:28	--	-   4. Have fun!
+2013-03-22 16:01:28	--	-
+2013-03-22 16:01:28	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-22 16:01:28	--	- Clients producing a serious network lag will be kicked.
+2013-03-22 16:01:28	--	-
+2013-03-22 16:01:29	--	- To protect your nickname or channel write
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	-   /msg NickServ HELP
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	- for nicknames and
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	-   /msg ChanServ HELP
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	- for channels.
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-22 16:01:29	--	- network administrators. These are (in alphabetical order):
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-22 16:01:29	--	-   - Tank <stefan@boxbox.org>
+2013-03-22 16:01:29	--	-
+2013-03-22 16:01:29	--	- If you're looking for help on the network, join #boxbox.
+2013-03-22 16:01:29	--	End of /MOTD command.
+2013-03-22 16:01:29	--	User mode [+x] by Z_Mass
+2013-03-22 16:01:29	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-22 16:01:29	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-22 16:01:29	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-22 16:01:30	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-22 16:01:31	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-22 21:35:28	--	irc: disconnected from server
+2013-03-23 11:35:39	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-23 11:35:40	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-23 11:35:40	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-23 11:35:40	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-23 11:35:41	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-23 11:35:41	--	MSG(nickserv): identify ********
+2013-03-23 11:35:41	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-23 11:35:41	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-23 11:35:41	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-23 11:35:41	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-23 11:35:41	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-23 11:35:41	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-23 11:35:41	--	There are 50 users and 22 invisible on 2 servers
+2013-03-23 11:35:41	--	10 :operator(s) online
+2013-03-23 11:35:41	--	15 :channels formed
+2013-03-23 11:35:41	--	I have 60 clients and 1 servers
+2013-03-23 11:35:41	--	Current Local Users: 60  Max: 66
+2013-03-23 11:35:41	--	Current Global Users: 72  Max: 78
+2013-03-23 11:35:41	--	- irc.boxbox.org Message of the Day -
+2013-03-23 11:35:41	--	- 13/7/2011 9:22
+2013-03-23 11:35:41	--	-                                  Welcome to the
+2013-03-23 11:35:41	--	-                                    BoxBox.org
+2013-03-23 11:35:41	--	-                           Internet Relay Chat Service
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- By connecting you agree to the following rules:
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-23 11:35:41	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-23 11:35:41	--	-      permanent ban.
+2013-03-23 11:35:41	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-23 11:35:41	--	-   4. Have fun!
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-23 11:35:41	--	- Clients producing a serious network lag will be kicked.
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- To protect your nickname or channel write
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	-   /msg NickServ HELP
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- for nicknames and
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	-   /msg ChanServ HELP
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- for channels.
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-23 11:35:41	--	- network administrators. These are (in alphabetical order):
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-23 11:35:41	--	-   - Tank <stefan@boxbox.org>
+2013-03-23 11:35:41	--	-
+2013-03-23 11:35:41	--	- If you're looking for help on the network, join #boxbox.
+2013-03-23 11:35:41	--	End of /MOTD command.
+2013-03-23 11:35:41	--	User mode [+x] by Z_Mass
+2013-03-23 11:35:41	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-23 11:35:41	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-23 11:35:41	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-23 11:35:41	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-23 11:35:43	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-23 14:44:25	--	irc: disconnected from server
+2013-03-23 17:37:11	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-23 17:37:16	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-23 17:37:16	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-23 17:37:16	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-23 17:37:17	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-23 17:37:17	--	MSG(nickserv): identify ********
+2013-03-23 17:37:17	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-23 17:37:17	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-23 17:37:17	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-23 17:37:17	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-23 17:37:17	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-23 17:37:17	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-23 17:37:17	--	There are 50 users and 22 invisible on 2 servers
+2013-03-23 17:37:17	--	10 :operator(s) online
+2013-03-23 17:37:17	--	15 :channels formed
+2013-03-23 17:37:17	--	I have 60 clients and 1 servers
+2013-03-23 17:37:17	--	Current Local Users: 60  Max: 66
+2013-03-23 17:37:17	--	Current Global Users: 72  Max: 78
+2013-03-23 17:37:17	--	- irc.boxbox.org Message of the Day -
+2013-03-23 17:37:17	--	- 13/7/2011 9:22
+2013-03-23 17:37:17	--	-                                  Welcome to the
+2013-03-23 17:37:17	--	-                                    BoxBox.org
+2013-03-23 17:37:17	--	-                           Internet Relay Chat Service
+2013-03-23 17:37:17	--	-
+2013-03-23 17:37:17	--	- By connecting you agree to the following rules:
+2013-03-23 17:37:17	--	-
+2013-03-23 17:37:17	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-23 17:37:17	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-23 17:37:17	--	-      permanent ban.
+2013-03-23 17:37:17	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-23 17:37:17	--	-   4. Have fun!
+2013-03-23 17:37:17	--	-
+2013-03-23 17:37:17	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-23 17:37:17	--	- Clients producing a serious network lag will be kicked.
+2013-03-23 17:37:17	--	-
+2013-03-23 17:37:18	--	- To protect your nickname or channel write
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	-   /msg NickServ HELP
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	- for nicknames and
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	-   /msg ChanServ HELP
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	- for channels.
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-23 17:37:18	--	- network administrators. These are (in alphabetical order):
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-23 17:37:18	--	-   - Tank <stefan@boxbox.org>
+2013-03-23 17:37:18	--	-
+2013-03-23 17:37:18	--	- If you're looking for help on the network, join #boxbox.
+2013-03-23 17:37:18	--	End of /MOTD command.
+2013-03-23 17:37:18	--	User mode [+x] by Z_Mass
+2013-03-23 17:37:18	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-23 17:37:18	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-23 17:37:18	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-23 17:37:18	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-23 17:37:19	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-23 21:21:22	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2013-03-23 21:21:22	--	irc: disconnecting from server...
+2013-03-23 21:21:22	--	irc: disconnected from server
+2013-03-23 21:21:22	--	irc: reconnecting to server in 10 seconds
+2013-03-23 21:21:32	--	irc: reconnecting to server...
+2013-03-23 21:21:32	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-23 21:21:33	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-23 21:21:33	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-23 21:21:33	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-23 21:21:34	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-23 21:21:34	--	MSG(nickserv): identify ********
+2013-03-23 21:21:34	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-23 21:21:34	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-23 21:21:34	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-23 21:21:34	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-23 21:21:34	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-23 21:21:34	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-23 21:21:34	--	There are 49 users and 22 invisible on 2 servers
+2013-03-23 21:21:34	--	10 :operator(s) online
+2013-03-23 21:21:34	--	15 :channels formed
+2013-03-23 21:21:34	--	I have 59 clients and 1 servers
+2013-03-23 21:21:34	--	Current Local Users: 59  Max: 66
+2013-03-23 21:21:34	--	Current Global Users: 71  Max: 78
+2013-03-23 21:21:34	--	- irc.boxbox.org Message of the Day -
+2013-03-23 21:21:34	--	- 13/7/2011 9:22
+2013-03-23 21:21:34	--	-                                  Welcome to the
+2013-03-23 21:21:34	--	-                                    BoxBox.org
+2013-03-23 21:21:34	--	-                           Internet Relay Chat Service
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- By connecting you agree to the following rules:
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-23 21:21:34	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-23 21:21:34	--	-      permanent ban.
+2013-03-23 21:21:34	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-23 21:21:34	--	-   4. Have fun!
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-23 21:21:34	--	- Clients producing a serious network lag will be kicked.
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- To protect your nickname or channel write
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	-   /msg NickServ HELP
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- for nicknames and
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	-   /msg ChanServ HELP
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- for channels.
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-23 21:21:34	--	- network administrators. These are (in alphabetical order):
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-23 21:21:34	--	-   - Tank <stefan@boxbox.org>
+2013-03-23 21:21:34	--	-
+2013-03-23 21:21:34	--	- If you're looking for help on the network, join #boxbox.
+2013-03-23 21:21:34	--	End of /MOTD command.
+2013-03-23 21:21:34	--	User mode [+x] by Z_Mass
+2013-03-23 21:21:34	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-23 21:21:34	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-23 21:21:34	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-23 21:21:35	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-23 21:21:37	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-23 21:22:27	--	irc: disconnected from server
+2013-03-23 21:22:28	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-23 21:22:28	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-23 21:22:29	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-23 21:22:29	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname (cached)
+2013-03-23 21:22:30	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-23 21:22:30	--	MSG(nickserv): identify ********
+2013-03-23 21:22:30	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-23 21:22:30	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-23 21:22:30	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-23 21:22:30	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-23 21:22:30	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-23 21:22:30	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-23 21:22:30	--	There are 49 users and 22 invisible on 2 servers
+2013-03-23 21:22:30	--	10 :operator(s) online
+2013-03-23 21:22:30	--	15 :channels formed
+2013-03-23 21:22:30	--	I have 59 clients and 1 servers
+2013-03-23 21:22:30	--	Current Local Users: 59  Max: 66
+2013-03-23 21:22:30	--	Current Global Users: 71  Max: 78
+2013-03-23 21:22:30	--	- irc.boxbox.org Message of the Day -
+2013-03-23 21:22:30	--	- 13/7/2011 9:22
+2013-03-23 21:22:30	--	-                                  Welcome to the
+2013-03-23 21:22:30	--	-                                    BoxBox.org
+2013-03-23 21:22:30	--	-                           Internet Relay Chat Service
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- By connecting you agree to the following rules:
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-23 21:22:30	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-23 21:22:30	--	-      permanent ban.
+2013-03-23 21:22:30	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-23 21:22:30	--	-   4. Have fun!
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-23 21:22:30	--	- Clients producing a serious network lag will be kicked.
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- To protect your nickname or channel write
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	-   /msg NickServ HELP
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- for nicknames and
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	-   /msg ChanServ HELP
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- for channels.
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-23 21:22:30	--	- network administrators. These are (in alphabetical order):
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-23 21:22:30	--	-   - Tank <stefan@boxbox.org>
+2013-03-23 21:22:30	--	-
+2013-03-23 21:22:30	--	- If you're looking for help on the network, join #boxbox.
+2013-03-23 21:22:30	--	End of /MOTD command.
+2013-03-23 21:22:30	--	User mode [+x] by Z_Mass
+2013-03-23 21:22:30	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-23 21:22:30	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-23 21:22:30	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-23 21:22:30	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-23 21:22:33	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-23 22:11:36	--	irc: disconnected from server
+2013-03-23 22:28:39	--	irc: connecting to server irc.boxbox.org/6667...
+2013-03-23 22:28:40	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-03-23 22:28:40	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-03-23 22:28:41	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-03-23 22:28:41	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca
+2013-03-23 22:28:41	--	MSG(nickserv): identify ********
+2013-03-23 22:28:41	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-03-23 22:28:41	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-03-23 22:28:41	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-03-23 22:28:41	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-03-23 22:28:41	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-03-23 22:28:41	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-03-23 22:28:41	--	There are 45 users and 23 invisible on 2 servers
+2013-03-23 22:28:41	--	10 :operator(s) online
+2013-03-23 22:28:41	--	15 :channels formed
+2013-03-23 22:28:41	--	I have 56 clients and 1 servers
+2013-03-23 22:28:41	--	Current Local Users: 56  Max: 66
+2013-03-23 22:28:41	--	Current Global Users: 68  Max: 78
+2013-03-23 22:28:41	--	- irc.boxbox.org Message of the Day -
+2013-03-23 22:28:41	--	- 13/7/2011 9:22
+2013-03-23 22:28:41	--	-                                  Welcome to the
+2013-03-23 22:28:41	--	-                                    BoxBox.org
+2013-03-23 22:28:41	--	-                           Internet Relay Chat Service
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- By connecting you agree to the following rules:
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	-   1. No childporn, racism and serious insulting allowed.
+2013-03-23 22:28:41	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-03-23 22:28:41	--	-      permanent ban.
+2013-03-23 22:28:41	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-03-23 22:28:41	--	-   4. Have fun!
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-03-23 22:28:41	--	- Clients producing a serious network lag will be kicked.
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- To protect your nickname or channel write
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	-   /msg NickServ HELP
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- for nicknames and
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	-   /msg ChanServ HELP
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- for channels.
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- In case you have any questions or problems, feel free to contact one of the
+2013-03-23 22:28:41	--	- network administrators. These are (in alphabetical order):
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-03-23 22:28:41	--	-   - Tank <stefan@boxbox.org>
+2013-03-23 22:28:41	--	-
+2013-03-23 22:28:41	--	- If you're looking for help on the network, join #boxbox.
+2013-03-23 22:28:41	--	End of /MOTD command.
+2013-03-23 22:28:41	--	User mode [+x] by Z_Mass
+2013-03-23 22:28:41	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-03-23 22:28:41	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-03-23 22:28:41	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-03-23 22:28:41	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-03-23 22:28:43	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-03-24 00:29:52	--	irc: disconnected from server
+2013-04-21 13:23:07	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-21 13:23:07	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-21 13:23:07	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-21 13:23:08	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-21 13:23:08	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1279267819.dsl.bell.ca
+2013-04-21 13:23:08	--	MSG(nickserv): identify ********
+2013-04-21 13:23:08	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-21 13:23:08	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-21 13:23:08	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-21 13:23:08	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-21 13:23:08	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-21 13:23:08	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-21 13:23:08	--	There are 50 users and 21 invisible on 2 servers
+2013-04-21 13:23:08	--	10 :operator(s) online
+2013-04-21 13:23:08	--	15 :channels formed
+2013-04-21 13:23:08	--	I have 59 clients and 1 servers
+2013-04-21 13:23:08	--	Current Local Users: 59  Max: 66
+2013-04-21 13:23:08	--	Current Global Users: 71  Max: 78
+2013-04-21 13:23:08	--	- irc.boxbox.org Message of the Day -
+2013-04-21 13:23:08	--	- 13/7/2011 9:22
+2013-04-21 13:23:08	--	-                                  Welcome to the
+2013-04-21 13:23:08	--	-                                    BoxBox.org
+2013-04-21 13:23:08	--	-                           Internet Relay Chat Service
+2013-04-21 13:23:08	--	-
+2013-04-21 13:23:08	--	- By connecting you agree to the following rules:
+2013-04-21 13:23:08	--	-
+2013-04-21 13:23:08	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-21 13:23:08	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-21 13:23:08	--	-      permanent ban.
+2013-04-21 13:23:08	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-21 13:23:08	--	-   4. Have fun!
+2013-04-21 13:23:08	--	-
+2013-04-21 13:23:08	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-21 13:23:08	--	- Clients producing a serious network lag will be kicked.
+2013-04-21 13:23:08	--	-
+2013-04-21 13:23:09	--	- To protect your nickname or channel write
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	-   /msg NickServ HELP
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	- for nicknames and
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	-   /msg ChanServ HELP
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	- for channels.
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-21 13:23:09	--	- network administrators. These are (in alphabetical order):
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-21 13:23:09	--	-   - Tank <stefan@boxbox.org>
+2013-04-21 13:23:09	--	-
+2013-04-21 13:23:09	--	- If you're looking for help on the network, join #boxbox.
+2013-04-21 13:23:09	--	End of /MOTD command.
+2013-04-21 13:23:09	--	User mode [+x] by Z_Mass
+2013-04-21 13:23:09	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-21 13:23:09	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-21 13:23:09	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-21 13:23:09	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-21 13:23:10	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-04-22 02:13:21	--	irc: disconnected from server
+2013-04-22 12:27:06	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-22 12:27:10	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-22 12:27:10	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-22 12:27:10	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-22 12:27:11	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1279267819.dsl.bell.ca
+2013-04-22 12:27:11	--	MSG(nickserv): identify ********
+2013-04-22 12:27:11	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-22 12:27:11	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-22 12:27:11	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-22 12:27:11	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-22 12:27:11	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-22 12:27:11	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-22 12:27:11	--	There are 45 users and 21 invisible on 2 servers
+2013-04-22 12:27:11	--	10 :operator(s) online
+2013-04-22 12:27:11	--	14 :channels formed
+2013-04-22 12:27:11	--	I have 54 clients and 1 servers
+2013-04-22 12:27:11	--	Current Local Users: 54  Max: 66
+2013-04-22 12:27:11	--	Current Global Users: 66  Max: 78
+2013-04-22 12:27:11	--	- irc.boxbox.org Message of the Day -
+2013-04-22 12:27:11	--	- 13/7/2011 9:22
+2013-04-22 12:27:11	--	-                                  Welcome to the
+2013-04-22 12:27:11	--	-                                    BoxBox.org
+2013-04-22 12:27:11	--	-                           Internet Relay Chat Service
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- By connecting you agree to the following rules:
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-22 12:27:11	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-22 12:27:11	--	-      permanent ban.
+2013-04-22 12:27:11	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-22 12:27:11	--	-   4. Have fun!
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-22 12:27:11	--	- Clients producing a serious network lag will be kicked.
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- To protect your nickname or channel write
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	-   /msg NickServ HELP
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- for nicknames and
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	-   /msg ChanServ HELP
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- for channels.
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-22 12:27:11	--	- network administrators. These are (in alphabetical order):
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-22 12:27:11	--	-   - Tank <stefan@boxbox.org>
+2013-04-22 12:27:11	--	-
+2013-04-22 12:27:11	--	- If you're looking for help on the network, join #boxbox.
+2013-04-22 12:27:11	--	End of /MOTD command.
+2013-04-22 12:27:11	--	User mode [+x] by Z_Mass
+2013-04-22 12:27:11	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-22 12:27:11	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-22 12:27:11	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-22 12:27:11	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-22 12:27:13	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-04-22 13:41:13	--	irc: disconnected from server
+2013-04-22 20:09:55	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-22 20:09:56	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-22 20:09:56	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-22 20:09:56	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-22 20:09:57	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1088723039.dsl.bell.ca
+2013-04-22 20:09:57	--	MSG(nickserv): identify ********
+2013-04-22 20:09:57	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-22 20:09:57	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-22 20:09:57	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-22 20:09:57	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-22 20:09:57	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-22 20:09:57	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-22 20:09:57	--	There are 44 users and 23 invisible on 2 servers
+2013-04-22 20:09:57	--	10 :operator(s) online
+2013-04-22 20:09:57	--	14 :channels formed
+2013-04-22 20:09:57	--	I have 55 clients and 1 servers
+2013-04-22 20:09:57	--	Current Local Users: 55  Max: 66
+2013-04-22 20:09:57	--	Current Global Users: 67  Max: 78
+2013-04-22 20:09:57	--	- irc.boxbox.org Message of the Day -
+2013-04-22 20:09:57	--	- 13/7/2011 9:22
+2013-04-22 20:09:57	--	-                                  Welcome to the
+2013-04-22 20:09:57	--	-                                    BoxBox.org
+2013-04-22 20:09:57	--	-                           Internet Relay Chat Service
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- By connecting you agree to the following rules:
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-22 20:09:57	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-22 20:09:57	--	-      permanent ban.
+2013-04-22 20:09:57	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-22 20:09:57	--	-   4. Have fun!
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-22 20:09:57	--	- Clients producing a serious network lag will be kicked.
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- To protect your nickname or channel write
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	-   /msg NickServ HELP
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- for nicknames and
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	-   /msg ChanServ HELP
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- for channels.
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-22 20:09:57	--	- network administrators. These are (in alphabetical order):
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-22 20:09:57	--	-   - Tank <stefan@boxbox.org>
+2013-04-22 20:09:57	--	-
+2013-04-22 20:09:57	--	- If you're looking for help on the network, join #boxbox.
+2013-04-22 20:09:57	--	End of /MOTD command.
+2013-04-22 20:09:57	--	User mode [+x] by Z_Mass
+2013-04-22 20:09:57	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-22 20:09:57	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-22 20:09:57	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-22 20:09:58	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-22 20:09:59	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-04-22 21:16:12	--	irc: disconnected from server
+2013-04-22 20:06:35	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-22 20:06:40	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-22 20:06:40	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-22 20:06:54	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-22 20:06:55	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1279267819.dsl.bell.ca
+2013-04-22 20:06:55	--	MSG(nickserv): identify ********
+2013-04-22 20:06:55	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-22 20:06:55	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-22 20:06:55	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-22 20:06:55	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-22 20:06:55	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-22 20:06:55	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-22 20:06:55	--	There are 40 users and 23 invisible on 2 servers
+2013-04-22 20:06:55	--	10 :operator(s) online
+2013-04-22 20:06:55	--	13 :channels formed
+2013-04-22 20:06:55	--	I have 51 clients and 1 servers
+2013-04-22 20:06:55	--	Current Local Users: 51  Max: 66
+2013-04-22 20:06:55	--	Current Global Users: 63  Max: 78
+2013-04-22 20:06:55	--	- irc.boxbox.org Message of the Day -
+2013-04-22 20:06:55	--	- 13/7/2011 9:22
+2013-04-22 20:06:55	--	-                                  Welcome to the
+2013-04-22 20:06:55	--	-                                    BoxBox.org
+2013-04-22 20:06:55	--	-                           Internet Relay Chat Service
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- By connecting you agree to the following rules:
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-22 20:06:55	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-22 20:06:55	--	-      permanent ban.
+2013-04-22 20:06:55	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-22 20:06:55	--	-   4. Have fun!
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-22 20:06:55	--	- Clients producing a serious network lag will be kicked.
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- To protect your nickname or channel write
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	-   /msg NickServ HELP
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- for nicknames and
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	-   /msg ChanServ HELP
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- for channels.
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-22 20:06:55	--	- network administrators. These are (in alphabetical order):
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-22 20:06:55	--	-   - Tank <stefan@boxbox.org>
+2013-04-22 20:06:55	--	-
+2013-04-22 20:06:55	--	- If you're looking for help on the network, join #boxbox.
+2013-04-22 20:06:55	--	End of /MOTD command.
+2013-04-22 20:06:55	--	User mode [+x] by Z_Mass
+2013-04-22 20:06:55	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-22 20:06:55	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-22 20:06:55	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-22 20:06:55	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-22 20:06:57	--	Arnold (Arnold@boxbox.org): [#sfml] Good day! INFO: Many users in #sfml are idling, so expect some delay for a reply. Also please do not ask to ask, just send your question right away. Have fun & be nice!
+2013-04-23 01:31:47	--	irc: disconnected from server
+2013-04-24 18:19:43	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 18:19:44	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-24 18:19:44	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-24 18:19:44	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-24 18:19:44	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1088723039.dsl.bell.ca
+2013-04-24 18:19:44	--	MSG(nickserv): identify ********
+2013-04-24 18:19:44	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-24 18:19:44	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-24 18:19:44	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-24 18:19:44	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-24 18:19:44	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-24 18:19:44	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-24 18:19:44	--	There are 49 users and 23 invisible on 2 servers
+2013-04-24 18:19:44	--	10 :operator(s) online
+2013-04-24 18:19:44	--	14 :channels formed
+2013-04-24 18:19:44	--	I have 60 clients and 1 servers
+2013-04-24 18:19:44	--	Current Local Users: 60  Max: 66
+2013-04-24 18:19:44	--	Current Global Users: 72  Max: 78
+2013-04-24 18:19:44	--	- irc.boxbox.org Message of the Day -
+2013-04-24 18:19:44	--	- 13/7/2011 9:22
+2013-04-24 18:19:44	--	-                                  Welcome to the
+2013-04-24 18:19:44	--	-                                    BoxBox.org
+2013-04-24 18:19:44	--	-                           Internet Relay Chat Service
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- By connecting you agree to the following rules:
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-24 18:19:44	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-24 18:19:44	--	-      permanent ban.
+2013-04-24 18:19:44	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-24 18:19:44	--	-   4. Have fun!
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-24 18:19:44	--	- Clients producing a serious network lag will be kicked.
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- To protect your nickname or channel write
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	-   /msg NickServ HELP
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- for nicknames and
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	-   /msg ChanServ HELP
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- for channels.
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-24 18:19:44	--	- network administrators. These are (in alphabetical order):
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-24 18:19:44	--	-   - Tank <stefan@boxbox.org>
+2013-04-24 18:19:44	--	-
+2013-04-24 18:19:44	--	- If you're looking for help on the network, join #boxbox.
+2013-04-24 18:19:44	--	End of /MOTD command.
+2013-04-24 18:19:44	--	User mode [+x] by Z_Mass
+2013-04-24 18:19:44	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-24 18:19:44	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-24 18:19:44	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-24 18:19:44	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-24 19:17:43	--	irc: disconnected from server
+2013-04-24 20:10:02	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 20:10:03	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-24 20:10:03	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-24 20:10:04	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-24 20:10:04	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1088723039.dsl.bell.ca
+2013-04-24 20:10:04	--	MSG(nickserv): identify ********
+2013-04-24 20:10:04	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-24 20:10:04	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-24 20:10:04	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-24 20:10:04	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-24 20:10:04	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-24 20:10:04	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-24 20:10:04	--	There are 47 users and 24 invisible on 2 servers
+2013-04-24 20:10:04	--	10 :operator(s) online
+2013-04-24 20:10:04	--	14 :channels formed
+2013-04-24 20:10:04	--	I have 59 clients and 1 servers
+2013-04-24 20:10:04	--	Current Local Users: 59  Max: 66
+2013-04-24 20:10:04	--	Current Global Users: 71  Max: 78
+2013-04-24 20:10:04	--	- irc.boxbox.org Message of the Day -
+2013-04-24 20:10:04	--	- 13/7/2011 9:22
+2013-04-24 20:10:04	--	-                                  Welcome to the
+2013-04-24 20:10:04	--	-                                    BoxBox.org
+2013-04-24 20:10:04	--	-                           Internet Relay Chat Service
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- By connecting you agree to the following rules:
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-24 20:10:04	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-24 20:10:04	--	-      permanent ban.
+2013-04-24 20:10:04	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-24 20:10:04	--	-   4. Have fun!
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-24 20:10:04	--	- Clients producing a serious network lag will be kicked.
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- To protect your nickname or channel write
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	-   /msg NickServ HELP
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- for nicknames and
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	-   /msg ChanServ HELP
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- for channels.
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-24 20:10:04	--	- network administrators. These are (in alphabetical order):
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-24 20:10:04	--	-   - Tank <stefan@boxbox.org>
+2013-04-24 20:10:04	--	-
+2013-04-24 20:10:04	--	- If you're looking for help on the network, join #boxbox.
+2013-04-24 20:10:04	--	End of /MOTD command.
+2013-04-24 20:10:04	--	User mode [+x] by Z_Mass
+2013-04-24 20:10:04	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-24 20:10:04	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-24 20:10:04	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-24 20:10:04	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-24 20:52:14	--	irc: disconnected from server
+2013-04-24 22:57:55	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 22:57:55	=!=	irc: address "irc.boxbox.org" not found
+2013-04-24 22:57:55	=!=	irc: error: Name or service not known
+2013-04-24 22:57:55	--	irc: reconnecting to server in 10 seconds
+2013-04-24 22:58:05	--	irc: reconnecting to server...
+2013-04-24 22:58:05	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 22:58:05	=!=	irc: address "irc.boxbox.org" not found
+2013-04-24 22:58:05	=!=	irc: error: Name or service not known
+2013-04-24 22:58:05	--	irc: reconnecting to server in 20 seconds
+2013-04-24 22:58:12	--	irc: disconnected from server
+2013-04-24 22:58:18	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 22:58:18	=!=	irc: address "irc.boxbox.org" not found
+2013-04-24 22:58:18	=!=	irc: error: Name or service not known
+2013-04-24 22:58:18	--	irc: reconnecting to server in 10 seconds
+2013-04-24 22:58:28	--	irc: reconnecting to server...
+2013-04-24 22:58:28	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-24 22:58:29	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-24 22:58:29	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-24 22:58:29	--	irc.boxbox.org (irc.boxbox.org): *** Couldn't resolve your hostname; using your IP address instead
+2013-04-24 22:58:29	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@64.229.195.147
+2013-04-24 22:58:29	--	MSG(nickserv): identify ********
+2013-04-24 22:58:29	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-24 22:58:29	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-24 22:58:29	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-24 22:58:29	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-24 22:58:29	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-24 22:58:29	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-24 22:58:29	--	There are 47 users and 23 invisible on 2 servers
+2013-04-24 22:58:29	--	10 :operator(s) online
+2013-04-24 22:58:29	--	13 :channels formed
+2013-04-24 22:58:29	--	I have 58 clients and 1 servers
+2013-04-24 22:58:29	--	Current Local Users: 58  Max: 66
+2013-04-24 22:58:29	--	Current Global Users: 70  Max: 78
+2013-04-24 22:58:29	--	- irc.boxbox.org Message of the Day -
+2013-04-24 22:58:29	--	- 13/7/2011 9:22
+2013-04-24 22:58:29	--	-                                  Welcome to the
+2013-04-24 22:58:29	--	-                                    BoxBox.org
+2013-04-24 22:58:29	--	-                           Internet Relay Chat Service
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- By connecting you agree to the following rules:
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-24 22:58:29	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-24 22:58:29	--	-      permanent ban.
+2013-04-24 22:58:29	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-24 22:58:29	--	-   4. Have fun!
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-24 22:58:29	--	- Clients producing a serious network lag will be kicked.
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- To protect your nickname or channel write
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	-   /msg NickServ HELP
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- for nicknames and
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	-   /msg ChanServ HELP
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- for channels.
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-24 22:58:29	--	- network administrators. These are (in alphabetical order):
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-24 22:58:29	--	-   - Tank <stefan@boxbox.org>
+2013-04-24 22:58:29	--	-
+2013-04-24 22:58:29	--	- If you're looking for help on the network, join #boxbox.
+2013-04-24 22:58:29	--	End of /MOTD command.
+2013-04-24 22:58:29	--	User mode [+x] by Z_Mass
+2013-04-24 22:58:29	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-24 22:58:29	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-24 22:58:29	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-24 22:58:30	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-25 01:53:23	--	irc: disconnected from server
+2013-04-25 19:53:05	--	irc: connecting to server irc.boxbox.org/6667...
+2013-04-25 19:53:06	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-04-25 19:53:06	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-04-25 19:53:06	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-04-25 19:53:07	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-1279267784.dsl.bell.ca
+2013-04-25 19:53:07	--	MSG(nickserv): identify ********
+2013-04-25 19:53:07	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-04-25 19:53:07	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-04-25 19:53:07	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-04-25 19:53:07	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-04-25 19:53:07	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-04-25 19:53:07	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-04-25 19:53:07	--	There are 46 users and 22 invisible on 2 servers
+2013-04-25 19:53:07	--	10 :operator(s) online
+2013-04-25 19:53:07	--	12 :channels formed
+2013-04-25 19:53:07	--	I have 56 clients and 1 servers
+2013-04-25 19:53:07	--	Current Local Users: 56  Max: 66
+2013-04-25 19:53:07	--	Current Global Users: 68  Max: 78
+2013-04-25 19:53:07	--	- irc.boxbox.org Message of the Day -
+2013-04-25 19:53:07	--	- 13/7/2011 9:22
+2013-04-25 19:53:07	--	-                                  Welcome to the
+2013-04-25 19:53:07	--	-                                    BoxBox.org
+2013-04-25 19:53:07	--	-                           Internet Relay Chat Service
+2013-04-25 19:53:07	--	-
+2013-04-25 19:53:07	--	- By connecting you agree to the following rules:
+2013-04-25 19:53:07	--	-
+2013-04-25 19:53:07	--	-   1. No childporn, racism and serious insulting allowed.
+2013-04-25 19:53:07	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-04-25 19:53:07	--	-      permanent ban.
+2013-04-25 19:53:07	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-04-25 19:53:07	--	-   4. Have fun!
+2013-04-25 19:53:07	--	-
+2013-04-25 19:53:07	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-04-25 19:53:07	--	- Clients producing a serious network lag will be kicked.
+2013-04-25 19:53:07	--	-
+2013-04-25 19:53:08	--	- To protect your nickname or channel write
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	-   /msg NickServ HELP
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	- for nicknames and
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	-   /msg ChanServ HELP
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	- for channels.
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	- In case you have any questions or problems, feel free to contact one of the
+2013-04-25 19:53:08	--	- network administrators. These are (in alphabetical order):
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-04-25 19:53:08	--	-   - Tank <stefan@boxbox.org>
+2013-04-25 19:53:08	--	-
+2013-04-25 19:53:08	--	- If you're looking for help on the network, join #boxbox.
+2013-04-25 19:53:08	--	End of /MOTD command.
+2013-04-25 19:53:08	--	User mode [+x] by Z_Mass
+2013-04-25 19:53:08	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-04-25 19:53:08	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-04-25 19:53:08	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-04-25 19:53:08	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-04-25 20:48:31	--	irc: disconnected from server
+2013-06-04 12:59:59	--	irc: connecting to server irc.boxbox.org/6667...
+2013-06-04 13:00:00	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-06-04 13:00:01	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-06-04 13:00:01	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-06-04 13:00:02	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-3096455843.dsl.bell.ca
+2013-06-04 13:00:02	--	MSG(nickserv): identify Kyuss123
+2013-06-04 13:00:02	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-06-04 13:00:02	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-06-04 13:00:02	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-06-04 13:00:02	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-06-04 13:00:02	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-06-04 13:00:02	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-06-04 13:00:02	--	There are 50 users and 23 invisible on 2 servers
+2013-06-04 13:00:02	--	10 :operator(s) online
+2013-06-04 13:00:02	--	20 :channels formed
+2013-06-04 13:00:02	--	I have 61 clients and 1 servers
+2013-06-04 13:00:02	--	Current Local Users: 61  Max: 75
+2013-06-04 13:00:02	--	Current Global Users: 73  Max: 87
+2013-06-04 13:00:02	--	- irc.boxbox.org Message of the Day -
+2013-06-04 13:00:02	--	- 13/7/2011 9:22
+2013-06-04 13:00:02	--	-                                  Welcome to the
+2013-06-04 13:00:02	--	-                                    BoxBox.org
+2013-06-04 13:00:02	--	-                           Internet Relay Chat Service
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- By connecting you agree to the following rules:
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	-   1. No childporn, racism and serious insulting allowed.
+2013-06-04 13:00:02	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-06-04 13:00:02	--	-      permanent ban.
+2013-06-04 13:00:02	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-06-04 13:00:02	--	-   4. Have fun!
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-06-04 13:00:02	--	- Clients producing a serious network lag will be kicked.
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- To protect your nickname or channel write
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	-   /msg NickServ HELP
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- for nicknames and
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	-   /msg ChanServ HELP
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- for channels.
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- In case you have any questions or problems, feel free to contact one of the
+2013-06-04 13:00:02	--	- network administrators. These are (in alphabetical order):
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-06-04 13:00:02	--	-   - Tank <stefan@boxbox.org>
+2013-06-04 13:00:02	--	-
+2013-06-04 13:00:02	--	- If you're looking for help on the network, join #boxbox.
+2013-06-04 13:00:02	--	End of /MOTD command.
+2013-06-04 13:00:02	--	User mode [+x] by Z_Mass
+2013-06-04 13:00:02	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-06-04 13:00:02	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-06-04 13:00:02	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-06-04 13:00:03	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-06-04 16:53:48	--	irc: disconnected from server
+2013-06-04 21:42:16	--	irc: connecting to server irc.boxbox.org/6667...
+2013-06-04 21:42:16	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-06-04 21:42:17	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-06-04 21:42:17	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-06-04 21:42:18	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-3096455843.dsl.bell.ca
+2013-06-04 21:42:18	--	MSG(nickserv): identify Kyuss123
+2013-06-04 21:42:18	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-06-04 21:42:18	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-06-04 21:42:18	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-06-04 21:42:18	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-06-04 21:42:18	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-06-04 21:42:18	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-06-04 21:42:18	--	There are 45 users and 22 invisible on 2 servers
+2013-06-04 21:42:18	--	10 :operator(s) online
+2013-06-04 21:42:18	--	19 :channels formed
+2013-06-04 21:42:18	--	I have 55 clients and 1 servers
+2013-06-04 21:42:18	--	Current Local Users: 55  Max: 75
+2013-06-04 21:42:18	--	Current Global Users: 67  Max: 87
+2013-06-04 21:42:18	--	- irc.boxbox.org Message of the Day -
+2013-06-04 21:42:18	--	- 13/7/2011 9:22
+2013-06-04 21:42:18	--	-                                  Welcome to the
+2013-06-04 21:42:18	--	-                                    BoxBox.org
+2013-06-04 21:42:18	--	-                           Internet Relay Chat Service
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- By connecting you agree to the following rules:
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	-   1. No childporn, racism and serious insulting allowed.
+2013-06-04 21:42:18	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-06-04 21:42:18	--	-      permanent ban.
+2013-06-04 21:42:18	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-06-04 21:42:18	--	-   4. Have fun!
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-06-04 21:42:18	--	- Clients producing a serious network lag will be kicked.
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- To protect your nickname or channel write
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	-   /msg NickServ HELP
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- for nicknames and
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	-   /msg ChanServ HELP
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- for channels.
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- In case you have any questions or problems, feel free to contact one of the
+2013-06-04 21:42:18	--	- network administrators. These are (in alphabetical order):
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-06-04 21:42:18	--	-   - Tank <stefan@boxbox.org>
+2013-06-04 21:42:18	--	-
+2013-06-04 21:42:18	--	- If you're looking for help on the network, join #boxbox.
+2013-06-04 21:42:18	--	End of /MOTD command.
+2013-06-04 21:42:18	--	User mode [+x] by Z_Mass
+2013-06-04 21:42:18	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-06-04 21:42:18	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-06-04 21:42:18	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-06-04 21:42:18	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-06-05 11:15:14	--	irc: disconnected from server
+2013-06-05 11:15:15	--	irc: connecting to server irc.boxbox.org/6667...
+2013-06-05 11:15:16	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-06-05 11:15:17	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-06-05 11:15:17	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-06-05 11:15:18	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-3096455843.dsl.bell.ca
+2013-06-05 11:15:18	--	MSG(nickserv): identify Kyuss123
+2013-06-05 11:15:18	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-06-05 11:15:18	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-06-05 11:15:18	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-06-05 11:15:18	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-06-05 11:15:18	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-06-05 11:15:18	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-06-05 11:15:18	--	There are 49 users and 23 invisible on 2 servers
+2013-06-05 11:15:18	--	10 :operator(s) online
+2013-06-05 11:15:18	--	20 :channels formed
+2013-06-05 11:15:18	--	I have 60 clients and 1 servers
+2013-06-05 11:15:18	--	Current Local Users: 60  Max: 75
+2013-06-05 11:15:18	--	Current Global Users: 72  Max: 87
+2013-06-05 11:15:18	--	- irc.boxbox.org Message of the Day -
+2013-06-05 11:15:18	--	- 13/7/2011 9:22
+2013-06-05 11:15:18	--	-                                  Welcome to the
+2013-06-05 11:15:18	--	-                                    BoxBox.org
+2013-06-05 11:15:18	--	-                           Internet Relay Chat Service
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- By connecting you agree to the following rules:
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	-   1. No childporn, racism and serious insulting allowed.
+2013-06-05 11:15:18	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-06-05 11:15:18	--	-      permanent ban.
+2013-06-05 11:15:18	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-06-05 11:15:18	--	-   4. Have fun!
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-06-05 11:15:18	--	- Clients producing a serious network lag will be kicked.
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- To protect your nickname or channel write
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	-   /msg NickServ HELP
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- for nicknames and
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	-   /msg ChanServ HELP
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- for channels.
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- In case you have any questions or problems, feel free to contact one of the
+2013-06-05 11:15:18	--	- network administrators. These are (in alphabetical order):
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-06-05 11:15:18	--	-   - Tank <stefan@boxbox.org>
+2013-06-05 11:15:18	--	-
+2013-06-05 11:15:18	--	- If you're looking for help on the network, join #boxbox.
+2013-06-05 11:15:18	--	End of /MOTD command.
+2013-06-05 11:15:18	--	User mode [+x] by Z_Mass
+2013-06-05 11:15:18	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-06-05 11:15:18	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-06-05 11:15:18	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-06-05 11:15:18	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-06-05 11:34:52	--	irc: disconnected from server
+2013-06-19 22:08:23	--	irc: connecting to server irc.boxbox.org/6667...
+2013-06-19 22:08:29	--	irc: connected to irc.boxbox.org/6667 (176.9.18.141)
+2013-06-19 22:08:29	--	irc.boxbox.org (irc.boxbox.org): *** Looking up your hostname...
+2013-06-19 22:08:29	--	irc.boxbox.org (irc.boxbox.org): *** Found your hostname
+2013-06-19 22:08:30	--	Welcome to the BoxBox IRC Network Z_Mass!Z_Mass@bas1-cornwall24-845466952.dsl.bell.ca
+2013-06-19 22:08:30	--	MSG(nickserv): identify Kyuss123
+2013-06-19 22:08:30	--	Your host is irc.boxbox.org, running version Unreal3.2.9-rc2
+2013-06-19 22:08:30	--	This server was created Mon Aug 15 2011 at 18:45:38 UTC
+2013-06-19 22:08:30	--	irc.boxbox.org Unreal3.2.9-rc2 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-06-19 22:08:30	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-06-19 22:08:30	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=BoxBox CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-06-19 22:08:30	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+2013-06-19 22:08:30	--	There are 41 users and 23 invisible on 2 servers
+2013-06-19 22:08:30	--	10 :operator(s) online
+2013-06-19 22:08:30	--	19 :channels formed
+2013-06-19 22:08:30	--	I have 52 clients and 1 servers
+2013-06-19 22:08:30	--	Current Local Users: 52  Max: 75
+2013-06-19 22:08:30	--	Current Global Users: 64  Max: 87
+2013-06-19 22:08:30	--	- irc.boxbox.org Message of the Day -
+2013-06-19 22:08:30	--	- 13/7/2011 9:22
+2013-06-19 22:08:30	--	-                                  Welcome to the
+2013-06-19 22:08:30	--	-                                    BoxBox.org
+2013-06-19 22:08:30	--	-                           Internet Relay Chat Service
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- By connecting you agree to the following rules:
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	-   1. No childporn, racism and serious insulting allowed.
+2013-06-19 22:08:30	--	-   2. Abusing the network (e.g. by hammering or DDoSing it) results in a
+2013-06-19 22:08:30	--	-      permanent ban.
+2013-06-19 22:08:30	--	-   3. Network operators may kick/ban you without giving a reason.
+2013-06-19 22:08:30	--	-   4. Have fun!
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- Bots and other fun stuff are allowed on this network, but keep rule 2 in mind.
+2013-06-19 22:08:30	--	- Clients producing a serious network lag will be kicked.
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- To protect your nickname or channel write
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	-   /msg NickServ HELP
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- for nicknames and
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	-   /msg ChanServ HELP
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- for channels.
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- In case you have any questions or problems, feel free to contact one of the
+2013-06-19 22:08:30	--	- network administrators. These are (in alphabetical order):
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	-   - resident-uhlig <sven@resident-uhlig.de>
+2013-06-19 22:08:30	--	-   - Tank <stefan@boxbox.org>
+2013-06-19 22:08:30	--	-
+2013-06-19 22:08:30	--	- If you're looking for help on the network, join #boxbox.
+2013-06-19 22:08:30	--	End of /MOTD command.
+2013-06-19 22:08:30	--	User mode [+x] by Z_Mass
+2013-06-19 22:08:30	--	NickServ (services@services.irc.boxbox.org): This nickname is registered and protected.  If it is your
+2013-06-19 22:08:30	--	NickServ (services@services.irc.boxbox.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-06-19 22:08:30	--	NickServ (services@services.irc.boxbox.org): please choose a different nick.
+2013-06-19 22:08:30	--	NickServ (services@services.irc.boxbox.org): Password accepted - you are now recognized.
+2013-06-19 22:12:06	--	irc: disconnected from server

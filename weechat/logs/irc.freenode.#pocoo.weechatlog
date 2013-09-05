@@ -1,0 +1,639 @@
+2013-02-17 18:24:28	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #pocoo
+2013-02-17 18:24:28	--	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | MongoDB is not the only data store out there"
+2013-02-17 18:24:28	--	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on Tue, 24 Jul 2012 12:16:43
+2013-02-17 18:24:28	--	Nicks #pocoo: [@ChanServ [Arfrever] __Gabe__ __number5__ _habnabit aboudreault acrocity adepti37 ahall Alan alekzvik Alex_Gaynor alexdoom alexex ambv anddam andrewaclt Anomareh anth0ny apollo13 arad ari` arvind_khadri asdf` aseeon asksol asmodai atatsu balrog beatpanic birkenfeld blueyed bmaeser bmcorser bnmnetp_ bob2 Bobrobyn_ BombStrike brett brucem brunsgaard buttscicles bwq bzed c45y carif ccxCZ cgbystrom_ ch0wn chance chaos8 Circlefusion1 cnf codepython777 cofi confluency conradev CrackerJackMack crazedpsyc cwillu cwillu_at_work daniel-s dAnjou DarkSector DasIch DataBeaver davidbrenneman derdon derek_v dev devces devin_s disable djbrown djworth doobeh dous dreimark drmegahertz dstufft DTVD e-dard el2ro eltesttox enigmuriatic EnTeQuAk epopt37 Ergo^ ericholscher erik757 ermm errstr ezakimak Fandekasp flippmoke flox Gentle Gika glenn glitch273 gonz goodwill gopher grw Guest10329 Guest49060 Habbie hads hamstah harold hays HEMI HeyHugo hhuuggoo_ hlindset hohum_ icarito iElectric interru ivaldi ivan\ ivan`` izz_ Jarus jbub jdost jefferai jeffmk jek jeremy_carroll jesperht JETS jeverling jgelens jinxcz joar jocmeh JoeHazzers johtso jonathanchu joshfinnie jpfarias js_ JStoker jtulloss_____ jugimaster jw- Kaelten kanzure Kauhsa kennethreitz_ kimblo kingel_ kiyan kobsu kolya kracekumar Kudos lahwran laprice LBo ldlework leifkb liato_ luapz1 lubyou luminous macmaN majoh maksbotan maotkg mariorz MarkusH matrixise mattdawson mattupstate mbersoult_away merlinco1ey metoo mfandreas mgax michalm_ mirf mitsuhiko mollerstrand mrshu mtasic85 mvt myusuf3 myusuf3_ Naeblis Ned__ nezcaz nicksloan nigelb ninkotech nopf nopz NotreDev nseger obert oeginc ollie Orbitrix orf_ osxorgate paroneayea pau pbnan Peng Petazz peterhil Phacops_ phira phryk picasso pjenvey plaes plundra pmz pocoo ppr ProgVal proppy purch pyry`_ queso quuxman R_Macy rafaelmartins raj raja raydeo rdegges_ rdn reikalus1kka remyroy rethaw revolve rhyselsmore rzn s0undt3ch samrat__ Sanky sashka scalability-junk scanf schnoodles scottburns scraper scyclops SEJeff_work selevt sente ShadeTornado shanemhansen shiver Shyde Signum SimonSapin sir_tyrion sjl skot so Somix spillere stargaming stdgy stranac Striki_ subbyyy SunTsu sunu sw4 syrius techlife ThePicard TheSheep ThiefMaster ThiefMaster` ThomasWaldmann thomi tizoc toddejohnson toddw tolja tonfa Toomore toothrot tos9 trtg tulioz ub|k veebers vicep vierja warddr weboo wedgwood_away welby_away wetirc97316_ wfrancis while1eq1 WoLpH_ wookienz wpk wting wumpus XenGi_ xintron yumike_ z0ttel Z_Mass Zaran zbyszek zepolen_ zirpu zoobab zykes-]
+2013-02-17 18:24:28	--	Channel #pocoo: 319 nicks (1 op, 0 halfops, 0 voices, 318 normals)
+2013-02-17 18:24:29	--	Mode #pocoo [+t]
+2013-02-17 18:24:29	--	Channel created on Sun, 26 Nov 2006 01:43:17
+2013-02-17 18:24:30	__Gabe__	Would anyone be interested in a pure python html builder? Its completely compatible with Flask
+2013-02-17 18:24:55	__Gabe__	will build all attributes,even convert python to js
+2013-02-17 18:25:14	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 18:25:58	<--	vierja (~vierja@r186-54-231-30.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 252 seconds)
+2013-02-17 18:28:10	<--	tulioz (~tulioz@c-67-180-234-210.hsd1.ca.comcast.net) has quit (Quit: tulioz)
+2013-02-17 18:28:58	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:28:58	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:29:26	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:29:29	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:29:58	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:30:02	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:30:29	-->	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has joined #pocoo
+2013-02-17 18:30:30	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:30:32	dAnjou	vierja: what the hell are you doing?
+2013-02-17 18:30:34	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:30:34	-->	acrocity_ (~acrocity@p3241-ipbf7309marunouchi.tokyo.ocn.ne.jp) has joined #pocoo
+2013-02-17 18:30:41	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-17 18:30:53	dAnjou	__Gabe__: i don't understand
+2013-02-17 18:31:03	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:31:07	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:31:22	<--	acrocity (~acrocity@p3102-ipbf7504marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 248 seconds)
+2013-02-17 18:31:22	--	acrocity_ is now known as acrocity
+2013-02-17 18:31:22	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 18:31:35	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:31:38	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:32:01	asdf`	dAnjou, why not just `/ignore #pocoo ALL -PUBLIC -ACTIONS`?
+2013-02-17 18:32:07	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:32:08	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:32:26	__Gabe__	Instead of using a template engine
+2013-02-17 18:32:50	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:32:50	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Max SendQ exceeded)
+2013-02-17 18:32:50	__Gabe__	you can write an entire layout in python
+2013-02-17 18:32:51	<--	Shyde (~Shyde^^@HSI-KBW-078-043-093-037.hsi4.kabel-badenwuerttemberg.de) has quit (Quit: Shyde)
+2013-02-17 18:33:17	-->	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-17 18:33:26	-->	Shyde (~Shyde^^@HSI-KBW-078-043-093-037.hsi4.kabel-badenwuerttemberg.de) has joined #pocoo
+2013-02-17 18:33:31	<--	oeginc (~oeginc@74-94-233-157-Michigan.hfc.comcastbusiness.net) has quit (Quit: oeginc)
+2013-02-17 18:33:33	dAnjou	asdf`: ignore is a good idea, but only on him. i'd like to see who's joining
+2013-02-17 18:33:50	dAnjou	__Gabe__: isn't that what haml is for?
+2013-02-17 18:33:52	__Gabe__	haml?
+2013-02-17 18:34:02	<--	vicep (~andre@a95-93-32-157.cpe.netcabo.pt) has quit (Quit: Leaving)
+2013-02-17 18:35:03	__Gabe__	well you can't use logic with it though
+2013-02-17 18:35:22	dAnjou	jinja is language agnostic
+2013-02-17 18:35:31	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Ping timeout: 248 seconds)
+2013-02-17 18:35:45	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-17 18:35:45	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 18:35:48	__Gabe__	yes but you still have to write all of the tags, style, events and so on
+2013-02-17 18:36:49	__Gabe__	this will generate it for you, and if you choose external css it will compare all the settings and reduce class's also.  It gets the class for the tag from your python class, and all the style and attributes as well.  you just nest classes as if you where writing python
+2013-02-17 18:37:32	dAnjou	__Gabe__: isn't that what SASS is for?
+2013-02-17 18:38:00	shiver	i've always found myself trying to decouple the view and UI details from the logic as much as possible
+2013-02-17 18:38:10	__Gabe__	shiver i agree
+2013-02-17 18:38:29	__Gabe__	but you can use js with the python 'with' statement
+2013-02-17 18:38:30	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 18:38:30	shiver	i cant think of a situation where i would want to try to merge the two, but i guess there may be some scenarios
+2013-02-17 18:38:54	-->	noisebleed (~quassel@188.251.137.235) has joined #pocoo
+2013-02-17 18:38:54	<--	noisebleed (~quassel@188.251.137.235) has quit (Changing host)
+2013-02-17 18:38:54	-->	noisebleed (~quassel@gentoo/contributor/noisebleed) has joined #pocoo
+2013-02-17 18:38:54	<--	devin_s (~devin_s@ginger.tokbox.com) has quit (Ping timeout: 255 seconds)
+2013-02-17 18:38:54	__Gabe__	it will convert you code in that to java script
+2013-02-17 18:38:57	shiver	__Gabe__, and support all browsers?
+2013-02-17 18:39:10	<--	djworth (~djworth@pool-108-36-251-52.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2013-02-17 18:39:53	-->	devin_s (~devin_s@216.38.134.123) has joined #pocoo
+2013-02-17 18:39:55	shiver	there are always exceptions, even amongst the "decent" browsers these days
+2013-02-17 18:40:14	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 18:40:24	__Gabe__	Im working on that, i just finished the Alpha version this weekend, was curious if anyone would even be interseted.  As always i write programs for my self, and if it can be used by others
+2013-02-17 18:40:30	__Gabe__	All the better
+2013-02-17 18:40:54	<--	JETS (~JETS@gateway/tor-sasl/jets) has quit (Quit: mkay)
+2013-02-17 18:40:55	dAnjou	__Gabe__: i don't see the point. make it clear to me.
+2013-02-17 18:40:56	shiver	which is probably the best way to do it in my opinion
+2013-02-17 18:41:07	shiver	as i said though, i cant see a use for myself, but maybe someone else would
+2013-02-17 18:41:19	shiver	only way to find out is to push it out and see what the response is
+2013-02-17 18:42:18	<--	ambv (~ambv@abox-1.allegro.pl) has quit (Quit: ambv)
+2013-02-17 18:42:29	__Gabe__	the point is, i like writing C and Python, and the same goes for reading it.  Not that i can't write Html or any derivative of it.  I just prefer to see a neatly written easy to follow program.
+2013-02-17 18:42:57	<--	Shyde (~Shyde^^@HSI-KBW-078-043-093-037.hsi4.kabel-badenwuerttemberg.de) has quit (Quit: Shyde)
+2013-02-17 18:44:09	-->	ambv (~ambv@abox-1.allegro.pl) has joined #pocoo
+2013-02-17 18:44:32	<--	derek_v (~derek_v@cpe-76-88-36-245.san.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-02-17 18:44:43	shiver	__Gabe__, is that not where web development started out? with CGI and similar until MVC became the accepted better alternative?
+2013-02-17 18:45:19	shiver	i agree that html, css and javascript are a mixture of completely different things and having just one common codebase seems ideal
+2013-02-17 18:45:29	shiver	but i think in practice it becomes very difficult to do well
+2013-02-17 18:45:45	shiver	but if you think you can do it, like i said, push it out
+2013-02-17 18:45:50	__Gabe__	Im sure, but as long as it works for me its all that matters
+2013-02-17 18:46:08	shiver	and see how things go
+2013-02-17 18:46:08	shiver	__Gabe__, exactly
+2013-02-17 18:46:08	shiver	that is the primary concern anyway
+2013-02-17 18:46:08	__Gabe__	any way i will push it, it will be called SytPy
+2013-02-17 18:46:30	shiver	i know i do stuff people would cringe at... but i do it because i think it suits my problem
+2013-02-17 18:47:14	shiver	but try to think objectively about your problem and make sure you're not solving a problem you dont actually have
+2013-02-17 18:47:14	shiver	tempting when you enjoy just coding stuff
+2013-02-17 18:47:14	dAnjou	damn, i don't find this HAML alternative
+2013-02-17 18:47:43	__Gabe__	Programming is my life as horrible as it sounds
+2013-02-17 18:47:57	__Gabe__	i am addicted to it, and have been for years
+2013-02-17 18:47:58	shiver	__Gabe__, join the club :)
+2013-02-17 18:48:36	__Gabe__	i just happened to choose Python after i learned C, because i liked how easy it was to wrap C programs i had already wrote
+2013-02-17 18:48:58	<--	kracekumar (~hasgeek@122.178.233.216) has quit (Ping timeout: 252 seconds)
+2013-02-17 18:49:14	shiver	__Gabe__, i think i found python the same way
+2013-02-17 18:49:30	shiver	though i was never an expert at C, just a hobbiest
+2013-02-17 18:50:05	__Gabe__	I tend to follow the rabbit hole until it ends. Its a problem, i want to know the inner workings of everything i do.  Sometimes i spend more time reading and learning then doing.
+2013-02-17 18:50:43	__Gabe__	Then when i learn it, i get bored with it and end up not finishing it
+2013-02-17 18:50:43	__Gabe__	lol
+2013-02-17 18:51:10	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 18:51:10	shiver	i think it is a common problem, and used to suffer a bit of that myself. 
+2013-02-17 18:51:10	shiver	it does get in the way of productivity sometimes though
+2013-02-17 18:51:15	shiver	and when you have deadlines it becomes problematic
+2013-02-17 18:51:46	shiver	i've kind of forced myself to embrace others work and extend instead
+2013-02-17 18:51:57	shiver	though i still do a lot of code reading
+2013-02-17 18:52:16	__Gabe__	I started programming, writing real time control systems in C for automated machines that i design. 
+2013-02-17 18:53:18	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Quit: WeeChat 0.3.7)
+2013-02-17 18:53:21	__Gabe__	I used python for the gui interface
+2013-02-17 18:54:43	shiver	i tend to favour it for web work primarily
+2013-02-17 18:54:43	shiver	and some command line stuff
+2013-02-17 18:55:01	shiver	never have to do much number crunching or working close to the metal, so python suits pretty much all my problems
+2013-02-17 18:55:12	shiver	that and javascript of course
+2013-02-17 18:55:29	__Gabe__	any way back to programming, on a side note i implemented a warning system into it to keep from raising exceptions unless completely required.  
+2013-02-17 18:55:29	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 18:55:45	__Gabe__	if anyone is interested search git for SytPy later
+2013-02-17 18:55:59	__Gabe__	if not, oh well
+2013-02-17 18:56:15	__Gabe__	it was nice talking to you shiver, night
+2013-02-17 18:56:31	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-17 18:56:42	shiver	__Gabe__, cool. i'll check it out
+2013-02-17 18:56:42	shiver	cya
+2013-02-17 18:56:46	<--	__Gabe__ (~Gabe_W@207.119.225.38.dyn.centurytel.net) has left #pocoo
+2013-02-17 18:57:16	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 18:57:16	dAnjou	damn, i don't find it. haml is everywhere
+2013-02-17 18:57:57	shiver	dAnjou, i think he hasnt pushed it to git as yet
+2013-02-17 18:58:00	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 19:00:14	<--	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has quit (Remote host closed the connection)
+2013-02-17 19:00:32	<--	derdon (~derdon@89.204.154.212) has quit (Quit: WeeChat 0.3.8)
+2013-02-17 19:00:43	-->	enigmuri_ (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 19:01:17	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Ping timeout: 245 seconds)
+2013-02-17 19:02:10	dAnjou	shiver: not hid
+2013-02-17 19:02:10	dAnjou	*his
+2013-02-17 19:02:25	dAnjou	some time ago i found something similar to haml
+2013-02-17 19:02:28	dAnjou	but i can't remember
+2013-02-17 19:02:48	dAnjou	it has a weird abbreviation
+2013-02-17 19:02:55	dAnjou	like ***ML
+2013-02-17 19:03:30	<--	ch0wn (~pascal@117-228-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 256 seconds)
+2013-02-17 19:04:24	shiver	ah ok... yeah no idea
+2013-02-17 19:04:32	shiver	never looked for something like that before
+2013-02-17 19:05:01	<--	raj (~raj@unaffiliated/cypha) has left #pocoo
+2013-02-17 19:05:53	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 19:08:25	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Quit: WeeChat 0.3.7)
+2013-02-17 19:09:54	-->	derek_v (~derek_v@cpe-76-88-36-245.san.res.rr.com) has joined #pocoo
+2013-02-17 19:10:30	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 19:11:10	dAnjou	there it is: http://shpaml.webfactional.com/
+2013-02-17 19:11:10	dAnjou	damn
+2013-02-17 19:11:14	dAnjou	that could have kept me awake all night
+2013-02-17 19:14:16	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 19:15:13	<--	devin_s (~devin_s@216.38.134.123) has quit (Quit: Computer has gone to sleep.)
+2013-02-17 19:15:13	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Client Quit)
+2013-02-17 19:15:58	-->	lux_ (~lux@ppp-189-118.25-151.libero.it) has joined #pocoo
+2013-02-17 19:16:28	--	lux_ is now known as Guest14175
+2013-02-17 19:17:02	<--	jugimaster (~jugimaste@a88-115-31-107.elisa-laajakaista.fi) has quit (Quit: jugimaster)
+2013-02-17 19:17:30	-->	JETS (~JETS@gateway/tor-sasl/jets) has joined #pocoo
+2013-02-17 19:19:45	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 19:21:00	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 19:22:14	<--	vierja (~vierja@r190-135-41-233.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 248 seconds)
+2013-02-17 19:25:43	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 19:29:02	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Quit: WeeChat 0.3.7)
+2013-02-17 19:32:45	<--	enigmuri_ (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-17 19:33:23	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 19:33:56	<--	Guest14175 (~lux@ppp-189-118.25-151.libero.it) has quit (Read error: Connection reset by peer)
+2013-02-17 19:35:03	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 19:36:04	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 19:36:31	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Read error: Connection reset by peer)
+2013-02-17 19:36:41	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 19:37:26	<--	queso (~queso@173.199.153.140) has quit (Ping timeout: 248 seconds)
+2013-02-17 19:38:28	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Client Quit)
+2013-02-17 19:40:44	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 19:42:21	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-17 19:44:14	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 19:44:14	-->	queso (~queso@173.199.153.140) has joined #pocoo
+2013-02-17 19:45:14	-->	ambv_ (~ambv@adt74.neoplus.adsl.tpnet.pl) has joined #pocoo
+2013-02-17 19:47:44	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-17 19:48:09	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 19:48:31	<--	ambv (~ambv@abox-1.allegro.pl) has quit (Ping timeout: 260 seconds)
+2013-02-17 19:48:31	--	ambv_ is now known as ambv
+2013-02-17 19:49:42	<--	kiyan (~kiyan@dynamic-62-87-242-228.ssp.dialog.net.pl) has quit (Quit: Leaving)
+2013-02-17 19:51:03	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 19:51:29	<--	stranac (~stranac@78-0-67-21.adsl.net.t-com.hr) has quit (Read error: Connection reset by peer)
+2013-02-17 19:52:44	-->	mangoman (~elliott@pool-173-61-173-108.cmdnnj.fios.verizon.net) has joined #pocoo
+2013-02-17 19:52:48	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Ping timeout: 256 seconds)
+2013-02-17 19:55:44	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 20:02:28	<--	alekzvik (~alekzvik@91.202.129.199) has quit (Ping timeout: 248 seconds)
+2013-02-17 20:06:05	<--	ambv (~ambv@adt74.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2013-02-17 20:06:07	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 20:06:23	-->	ambv (~ambv@abox-1.allegro.pl) has joined #pocoo
+2013-02-17 20:10:44	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 20:10:47	<--	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has quit (Read error: Connection reset by peer)
+2013-02-17 20:11:41	-->	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has joined #pocoo
+2013-02-17 20:13:56	-->	mcdonc (~mcdonc@ip72-209-215-142.dc.dc.cox.net) has joined #pocoo
+2013-02-17 20:21:18	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 20:25:34	-->	ambv_ (~ambv@abox-1.allegro.pl) has joined #pocoo
+2013-02-17 20:25:34	<--	ambv (~ambv@abox-1.allegro.pl) has quit (Read error: Connection reset by peer)
+2013-02-17 20:25:34	--	ambv_ is now known as ambv
+2013-02-17 20:25:57	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 20:34:53	<--	ambv (~ambv@abox-1.allegro.pl) has quit (Quit: sys.exit(0))
+2013-02-17 20:36:33	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 20:39:31	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-17 20:40:44	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 20:41:29	midnightcoffee	i'm trying to extend flask-admin with a function that loads data into the database. Its very possible i should be going about this another way, but in my current setup i can't seem to change the default of expose away from 'GET' to 'POST'. rough view: http://bpaste.net/show/77974/,  jinja2: http://bpaste.net/show/77975/, html source: http://bpaste.net/show/3QzzScWIYb0xKBGGerjF/.
+2013-02-17 20:46:30	dAnjou	midnightcoffee: use https://gist.github.com/ to nopaste multiple files. it's more comfortable
+2013-02-17 20:46:39	dAnjou	just a hint
+2013-02-17 20:47:19	midnightcoffee	dAnjou: but ..but my vim-paste-plugin
+2013-02-17 20:49:13	midnightcoffee	dAnjou: thanks by the way, i found two solutions to questions online today that were posted by you on stackoverflow.
+2013-02-17 20:51:17	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 20:55:02	dAnjou	what? :P
+2013-02-17 20:55:07	dAnjou	which ones
+2013-02-17 20:55:07	dAnjou	i wasn't on SO for ages
+2013-02-17 20:55:51	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 21:05:05	<--	subbyyy (~win@cpe-24-210-160-92.woh.res.rr.com) has quit (Quit: none 0.3.9.2)
+2013-02-17 21:05:51	-->	subbyyy (~win@cpe-24-210-160-92.woh.res.rr.com) has joined #pocoo
+2013-02-17 21:07:24	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 21:09:21	midnightcoffee	i'm i trying to got about this the wrong way? I would think i would want to extend flask-admin. But i can't seem to get a expose route to POST.
+2013-02-17 21:10:59	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 21:18:08	<--	__number5__ (~number_fi@canard1.lnk.telstra.net) has quit (Quit: WeeChat 0.3.7)
+2013-02-17 21:18:28	-->	mahmoudimus (~mahmoudim@50.0.192.31) has joined #pocoo
+2013-02-17 21:19:51	-->	__number5__ (~number_fi@canard1.lnk.telstra.net) has joined #pocoo
+2013-02-17 21:21:24	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 21:24:08	<--	mahmoudimus (~mahmoudim@50.0.192.31) has quit (Quit: Computer has gone to sleep.)
+2013-02-17 21:25:23	<--	ShadeTornado (~ShadeTorn@ip246-2-210-87.adsl2.static.versatel.nl) has quit (Quit: Leaving)
+2013-02-17 21:26:04	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 21:35:14	-->	ashemedai (asmodai@178-85-104-232.dynamic.upc.nl) has joined #pocoo
+2013-02-17 21:35:14	-->	bzed_ (~bzed@devel.recluse.de) has joined #pocoo
+2013-02-17 21:35:22	<--	bmaeser (~bmaeser@chello080108023235.34.11.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2013-02-17 21:35:42	-->	bmaeser (~bmaeser@chello080108023235.34.11.vie.surfer.at) has joined #pocoo
+2013-02-17 21:36:29	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 21:36:36	<--	bzed (~bzed@devel.recluse.de) has quit (Ping timeout: 248 seconds)
+2013-02-17 21:36:41	--	bzed_ is now known as bzed
+2013-02-17 21:36:56	<--	asmodai (asmodai@freebsd/developer/asmodai) has quit (Ping timeout: 252 seconds)
+2013-02-17 21:37:12	<--	ninkotech (~duplo@ip-89-102-24-167.net.upcbroadband.cz) has quit (Excess Flood)
+2013-02-17 21:37:29	-->	ninkotech (~duplo@ip-89-102-24-167.net.upcbroadband.cz) has joined #pocoo
+2013-02-17 21:40:15	<--	queso (~queso@173.199.153.140) has quit (Ping timeout: 256 seconds)
+2013-02-17 21:41:06	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 21:47:04	-->	bananasquiddly (~bananasqu@ool-44c51316.dyn.optonline.net) has joined #pocoo
+2013-02-17 21:51:47	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 21:52:00	-->	arg0s (~Adium@122.178.200.232) has joined #pocoo
+2013-02-17 21:55:26	-->	whit (~whit@99-127-168-177.lightspeed.nsvltn.sbcglobal.net) has joined #pocoo
+2013-02-17 21:56:06	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 22:01:54	mangoman	I'm trying to use Alembic with my Flask project, but Alembic can't find the Flask module (ImporError can't find app). Here is the directory structure: http://pastebin.com/cd5Usqat . Here is env.py: http://pastebin.com/G9106zQ5 How do I import it?
+2013-02-17 22:02:09	-->	queso (~queso@173.199.153.140) has joined #pocoo
+2013-02-17 22:05:11	midnightcoffee	mangoman i also couldn't get that to work
+2013-02-17 22:06:30	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 22:07:43	<--	arg0s (~Adium@122.178.200.232) has quit (Quit: Leaving.)
+2013-02-17 22:07:58	mangoman	Well there's this: http://mattupstate.github.com/python/databases/2012/11/15/database-migrations-with-alembic-sqlalchemy-and-flask.html but he doesn't say his directory structure
+2013-02-17 22:10:59	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 22:16:09	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-17 22:16:50	-->	louie (~louie@d75-156-49-44.bchsia.telus.net) has joined #pocoo
+2013-02-17 22:20:13	bananasquiddly	anyone know how to do a sum of rows matching a certain criteria with flask-sqlalchemy?
+2013-02-17 22:21:03	<--	DTVD (~dtvd@ugate.dwango.co.jp) has quit (Read error: Connection reset by peer)
+2013-02-17 22:21:25	-->	DTVD (~dtvd@ugate.dwango.co.jp) has joined #pocoo
+2013-02-17 22:21:32	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 22:26:25	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 22:28:15	mangoman	bananasquiddly: try something like this `db.session.query(db.func.sum(User.age)).filter(User.role == 'engineer').scalar()`
+2013-02-17 22:29:18	<--	shiver (~rob@nat-out.akwd1-gw.webhost.co.nz) has quit (Quit: WeeChat 0.4.0)
+2013-02-17 22:29:45	bananasquiddly	mangoman: i'm getting TypeError: 'BaseQuery' object is not callable
+2013-02-17 22:30:16	bananasquiddly	but that's still progress, i couldn't figure out what sum belonged to before
+2013-02-17 22:30:16	dAnjou	bananasquiddly: this is an sqlalchemy question.
+2013-02-17 22:31:15	mangoman	are you using the User.query form? You will need to use db.session.query(User) I think
+2013-02-17 22:31:51	bananasquiddly	dAnjou: well, i couldn't import func from sqlalchemy like this http://stackoverflow.com/questions/3292752/sum-fields-in-sqlalchemy so i assumed it was different in flask-sqlalchemy
+2013-02-17 22:32:16	dAnjou	bananasquiddly: flask-sqlalchemy is only a very thin layer
+2013-02-17 22:32:53	mangoman	in flask-alchemy func is attached to your db object like `db.func`
+2013-02-17 22:33:01	bananasquiddly	mangoman: aaah, that works great!
+2013-02-17 22:33:12	bananasquiddly	thank you :)
+2013-02-17 22:33:34	mangoman	Glad I could help.
+2013-02-17 22:33:37	dAnjou	what?
+2013-02-17 22:34:20	<--	chaos8 (~chaos@213.129.42.198) has quit (Ping timeout: 245 seconds)
+2013-02-17 22:34:20	bananasquiddly	(the key was using the db.session.query form)
+2013-02-17 22:36:41	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 22:38:08	dAnjou	bananasquiddly: you probably couldn't do that because the question is almost 3 years old
+2013-02-17 22:41:19	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 22:46:06	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-17 22:47:52	<--	mangoman (~elliott@pool-173-61-173-108.cmdnnj.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-02-17 22:48:28	-->	chaos8 (~chaos@213.129.42.198) has joined #pocoo
+2013-02-17 22:49:02	<--	scyclops (~scyclops@174-22-146-53.clsp.qwest.net) has quit (Ping timeout: 256 seconds)
+2013-02-17 22:51:41	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 22:52:05	<--	whit (~whit@99-127-168-177.lightspeed.nsvltn.sbcglobal.net) has quit (Quit: whit)
+2013-02-17 22:56:15	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 22:59:02	<--	queso (~queso@173.199.153.140) has quit (Ping timeout: 255 seconds)
+2013-02-17 23:00:03	-->	whit (~whit@99-127-168-177.lightspeed.nsvltn.sbcglobal.net) has joined #pocoo
+2013-02-17 23:06:10	-->	queso (~queso@173.199.153.140) has joined #pocoo
+2013-02-17 23:06:44	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 23:11:14	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-17 23:12:33	-->	kushal (kdas@fedora/kushal) has joined #pocoo
+2013-02-17 23:12:36	-->	kdas_ (kdas@nat/redhat/x-byqnxuxoxrhipjjk) has joined #pocoo
+2013-02-17 23:13:20	<--	bananasquiddly (~bananasqu@ool-44c51316.dyn.optonline.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-02-17 23:13:41	<--	kdas_ (kdas@nat/redhat/x-byqnxuxoxrhipjjk) has quit (Read error: Connection reset by peer)
+2013-02-17 23:17:24	<--	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has quit (Read error: Connection reset by peer)
+2013-02-17 23:17:52	<--	whit (~whit@99-127-168-177.lightspeed.nsvltn.sbcglobal.net) has quit (Quit: whit)
+2013-02-17 23:20:11	-->	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has joined #pocoo
+2013-02-17 23:21:47	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-17 23:25:54	-->	jonesy (~jonesy@pool-173-61-13-33.cmdnnj.fios.verizon.net) has joined #pocoo
+2013-02-17 23:27:07	midnightcoffee	mangoman: let me know if you get flask-alembic to work. i would like to use it but it seems broken
+2013-02-17 23:30:23	scanf	i installed Flask-WTF, shouldnt this work: from flaskext import wtf
+2013-02-17 23:30:27	scanf	i installed Flask-WTF, shouldnt this work: from flaskext import wtf
+2013-02-17 23:30:35	scanf	oops sorry for the doublepost
+2013-02-17 23:31:37	scanf	Flask-WTF and WTForms are both installed
+2013-02-17 23:33:43	-->	bkmz (bcbbc8cd@gateway/web/freenode/ip.188.187.200.205) has joined #pocoo
+2013-02-17 23:33:46	<--	atatsu (~atatsu@host-70-241-9-69.midco.net) has quit (Ping timeout: 245 seconds)
+2013-02-17 23:34:50	bkmz	Hello everybody. I need some help with flask-admin and foreign key field. Can somebody help's me?
+2013-02-17 23:37:16	bkmz	this is my files: https://gist.github.com/libbkmz/4975143
+2013-02-17 23:39:00	bkmz	1st question. Why PostsModelView doesn't represent author model field automatic? And why in this scenario, when i click on submit i get the error: InvalidRequestError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (InterfaceError) Error binding parameter 3 - probably unsupported type. u'INSER
+2013-02-17 23:43:33	bkmz	i added traceback into gist
+2013-02-17 23:46:17	<--	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has quit (Ping timeout: 256 seconds)
+2013-02-17 23:48:33	<--	andrewaclt (~andrew@cpe-174-099-108-247.nc.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-02-17 23:50:21	midnightcoffee	scanf: its probable from flask.ext.something import wtf
+2013-02-17 23:51:19	<--	kushal (kdas@fedora/kushal) has quit (Quit: Leaving)
+2013-02-17 23:51:50	midnightcoffee	scanf: like in bkmz link its probable flask.ext.wtf import something, somethingelse
+2013-02-17 23:52:01	asdf`	bkmz, i think it's because what QuerySelectField yields is a model instance actually, not an ID
+2013-02-17 23:52:23	-->	kushal (kdas@fedora/kushal) has joined #pocoo
+2013-02-17 23:52:35	bkmz	yes, I guess it, but what i need to do?
+2013-02-17 23:52:48	bkmz	how to fix it?
+2013-02-17 23:56:14	asdf`	bkmz, what if you have a `author` relationship in your Post model, not just a pk? it's nicer to use that way anyway. You'd spell it like `class Post(db.Model): author_id = db.Column('author', db.Integer, db.ForeignKey('users.id')); author = db.relationship("User")`
+2013-02-17 23:56:35	asdf`	(not just a fk*)
+2013-02-17 23:56:44	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Quit: Leaving.)
+2013-02-17 23:57:03	scanf	midnightcoffee: ah, missing .
+2013-02-17 23:57:04	scanf	midnightcoffee: thanks!
+2013-02-17 23:57:06	-->	skyler (~anonymous@EV-ESR1-72-49-254-141.fuse.net) has joined #pocoo
+2013-02-17 23:59:15	bkmz	asdf`: big thanks! It works.
+2013-02-18 00:00:16	bkmz	But, some question. In DB I get field named author, but column with name author_id. A can't understand this situation. What i need to read about it?
+2013-02-18 00:03:15	<--	skyler (~anonymous@EV-ESR1-72-49-254-141.fuse.net) has quit (Quit: skyler)
+2013-02-18 00:04:26	asdf`	bkmz, the name of the db column doesn't need to be the same as the name of the model attribute. It's `author_this_is_in_model = db.Column('author_this_is_db_column_name', db.Integer)`
+2013-02-18 00:05:17	asdf`	the other thing is a "relationship", ie. a sqlalchemy thing. You can do `myPost.author = myUserModel` and then sqlalchemy will see you're setting a relationship and will find and update the fk field 
+2013-02-18 00:06:45	<--	SimonSapin (~simon@ip-22.net-89-2-144.rev.numericable.fr) has quit (Ping timeout: 260 seconds)
+2013-02-18 00:06:57	-->	arg0s (~Adium@122.178.200.232) has joined #pocoo
+2013-02-18 00:07:00	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-18 00:09:50	<--	syrius (~syrius@thunder.stormtek.net) has quit (Ping timeout: 255 seconds)
+2013-02-18 00:10:07	-->	jinja2 (~gc@defrag.in) has joined #pocoo
+2013-02-18 00:10:16	-->	bananasquiddly (~bananasqu@ool-44c51316.dyn.optonline.net) has joined #pocoo
+2013-02-18 00:10:45	-->	syrius (~syrius@thunder.stormtek.net) has joined #pocoo
+2013-02-18 00:10:52	jinja2	if i have a large large rowset, is there any way to sum over a column without having to loop twice?
+2013-02-18 00:11:29	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-18 00:12:18	-->	michaeldavis (~michaelda@173-25-202-182.client.mchsi.com) has joined #pocoo
+2013-02-18 00:15:45	<--	syrius (~syrius@thunder.stormtek.net) has quit (Remote host closed the connection)
+2013-02-18 00:15:54	-->	syrius (~syrius@thunder.stormtek.net) has joined #pocoo
+2013-02-18 00:19:31	<--	jinja2 (~gc@defrag.in) has quit (Ping timeout: 256 seconds)
+2013-02-18 00:21:17	-->	edayo (~edayo@41.58.71.158) has joined #pocoo
+2013-02-18 00:22:25	-->	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has joined #pocoo
+2013-02-18 00:24:43	<--	anth0ny (~anth0ny@unaffiliated/anth0ny) has quit (Quit: This computer has gone to sleep)
+2013-02-18 00:27:00	<--	HeyHugo (~Hugo@c83-253-10-119.bredband.comhem.se) has quit (Client Quit)
+2013-02-18 00:27:32	--	irc: disconnected from server
+2013-02-18 16:42:18	-->	Z_Mass (~Z_Mass@bas1-cornwall24-845467055.dsl.bell.ca) has joined #pocoo
+2013-02-18 16:42:18	--	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | MongoDB is not the only data store out there"
+2013-02-18 16:42:18	--	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on Tue, 24 Jul 2012 12:16:43
+2013-02-18 16:42:18	--	Nicks #pocoo: [@ChanServ [Arfrever] __number5__ _habnabit aboudreault acrocity adepti37 agita ahall Alan alekzvik Alex_Gaynor alexdoom alexex ambv anddam Anomareh anth0ny apollo13 arad arg0s ari` asdf` aseeon asksol asmodai atatsu awaad balrog bboe beatpanic bgranger birkenfeld blueyed bmaeser bmaeser_ bmcorser bob2 Bobrobyn_ BombStrike braoru brett brucem brunsgaard buttscicles bwq bzed c45y carif ccxCZ cgbystrom_ ch0wn chance chaos8 Circlefusion1 cnf cofi confluency conradev CrackerJackMack crazedpsyc cwillu cwillu_at_work daniel-s dAnjou DarkSector DasIch DataBeaver davidbrenneman dedis derdon dev devces disable djbrown doobeh dous dreimark drmegahertz dstufft DTVD durarara e-dard ecarreras edayo EH el2ro eltesttox enigmuriatic EnTeQuAk epopt37 ericholscher erik757 ermm errstr ezakimak Fandekasp flippmoke flox Freso Gentle Gika glenn glitch273 gonz goodwill gopher grw Guest10329 Guest49060 Habbie hads hamstah harold hays HEMI hhuuggoo_ hlindset hohum_ icarito iElectric interru ivaldi ivan\ ivan`` Jarus jbub jdost jefferai jeffmk jek jeremy_carroll jeverling jgelens jinxcz joar jocmeh JoeHazzers johtso jonathanchu jpfarias js_ JStoker jtulloss_____ jugimaster jw- Kaelten kanzure Kauhsa kennethreitz kimblo kingel kobsu kolya Kudos lahwran laprice LBo ldlework leifkb liato_ luapz1 lubyou luminous macabre macmaN mahmoudimus majoh maksbotan_ maotkg mariorz MarkusH matrixise mattdawson mattupstate mbersoult_away mcdonc merlinco1ey metoo mfandreas mgax michalm midnightcoffee mirf mitsuhiko mollerstrand mrshu mtasic85 mvt myusuf3 myusuf3_ Naeblis Ned__ Nemo7_ nezcaz nicksloan nigelb ninkotech nopf nopz nseger obert ollie Orbitrix orf_ osxorgate paniq paroneayea pau pbnan Peng Petazz peterhil Phacops_ phira phryk picasso pjenvey plaes plundra pmz pocoo ppr ProgVal proppy purch pycorbin pyry`_ queso quuxman R_Macy rafaelmartins raja raydeo rdegges_ reikalus1kka Reite remyroy rethaw revolve rhyselsmore ronny rzn s0undt3ch samrat__ Sanky sashka scalability-junk scanf schnoodles scottburns scraper scyclops seggy SEJeff_work selevt sente shakakai shanemhansen shiver Signum SimonSapin sir_tyrion sjl skot so Somix spillere sputnikus stargaming stdgy stranac Striki_ stum SunTsu sunu sw4 syrius tdignan techlife teebes ThePicard TheSheep ThiefMaster ThiefMaster` ThomasWaldmann thomi tizoc toddejohnson toddw tolja tonfa Toomore toothrot tos9 trtg ub|k veebers warddr wardi weboo wedgwood_away welby_away wetirc97316_ wfrancis while1eq1 WoLpH_ wookienz wpk wting wumpus XenGi xintron yumike_ z0ttel Z_Mass Zaran zbyszek zepolen_ zirpu zoobab zykes-]
+2013-02-18 16:42:18	--	Channel #pocoo: 322 nicks (1 op, 0 halfops, 0 voices, 321 normals)
+2013-02-18 16:42:20	--	Mode #pocoo [+t]
+2013-02-18 16:42:21	--	Channel created on Sun, 26 Nov 2006 01:43:17
+2013-02-18 16:42:29	midnightcoffee	awadd: eh, nevermind
+2013-02-18 16:45:57	awaad	midnightcoffee: I replaced "from flaskext.enterprise import Enterprise" with "from flask.ext.enterprise import Enterprise"
+2013-02-18 16:46:07	-->	whitebook (~Adium@ool-18ba21f2.dyn.optonline.net) has joined #pocoo
+2013-02-18 16:46:37	awaad	midnightcoffee, and I found the following error: http://pastebin.com/Whz6xJ7r
+2013-02-18 16:46:39	midnightcoffee	awaad: did it work? I suggested that before i opened the enterprise docs and saw them use flaskext
+2013-02-18 16:47:43	-->	EH_ (~quassel@public-gprs457449.centertel.pl) has joined #pocoo
+2013-02-18 16:47:44	awaad	midnightcoffee: No it didn't work.
+2013-02-18 16:47:58	midnightcoffee	awaad: Hm, i don't know sorry. extensions tend to be fickle in my experience. 
+2013-02-18 16:47:59	<--	edayo (~edayo@41.58.20.226) has quit (Read error: Connection reset by peer)
+2013-02-18 16:48:17	-->	tulioz (~tulioz@c-67-180-234-210.hsd1.ca.comcast.net) has joined #pocoo
+2013-02-18 16:48:25	awaad	midnightcoffee: What library do you recommend me to use in order to create a SOAP web service from with WSDL ?
+2013-02-18 16:49:24	<--	EH (~quassel@public-gprs457449.centertel.pl) has quit (Ping timeout: 248 seconds)
+2013-02-18 16:49:53	<--	icarito (~icarito@2001:4830:134:7::11) has quit (Write error: Connection reset by peer)
+2013-02-18 16:50:11	midnightcoffee	awaad: no idea. It might be easier to debug if you follow the quick start from the page exactly then add in additional things to see what breaks it. I found one or two things i couldn't get to work if i followed the instructions line by line.
+2013-02-18 16:51:45	--	maotkg is now known as mactkg
+2013-02-18 16:52:33	<--	tulioz (~tulioz@c-67-180-234-210.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-02-18 16:53:14	<--	ambv (~ambv@adbq173.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2013-02-18 16:53:28	-->	ambv (~ambv@abox-1.allegro.pl) has joined #pocoo
+2013-02-18 16:56:54	<--	awaad (~chatzilla@unaffiliated/awaad) has quit (Quit: ChatZilla 0.9.90 [Firefox 18.0.2/20130201065344])
+2013-02-18 16:58:17	-->	cofi_ (~user@p4FF5AE11.dip.t-dialin.net) has joined #pocoo
+2013-02-18 16:59:01	<--	__number5__ (~number_fi@ppp118-209-65-127.lns20.mel4.internode.on.net) has quit (Quit: WeeChat 0.4.0)
+2013-02-18 16:59:10	<--	cofi (~user@p4FF5A727.dip.t-dialin.net) has quit (Ping timeout: 240 seconds)
+2013-02-18 16:59:18	-->	vierja (~vierja@r186-52-169-226.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2013-02-18 16:59:35	--	cofi_ is now known as cofi
+2013-02-18 17:00:13	<--	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has quit (Quit: Leaving.)
+2013-02-18 17:01:22	-->	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has joined #pocoo
+2013-02-18 17:04:10	-->	grizwako (~grizzly@245-148.dsl.iskon.hr) has joined #pocoo
+2013-02-18 17:04:17	<--	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has quit (Client Quit)
+2013-02-18 17:07:35	-->	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has joined #pocoo
+2013-02-18 17:14:53	<--	agita (~agita@host137-2.natpool.mwn.de) has quit (Quit: agita)
+2013-02-18 17:17:49	--	Nemo7_ is now known as Nemo7
+2013-02-18 17:18:13	<--	vierja (~vierja@r186-52-169-226.dialup.adsl.anteldata.net.uy) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-02-18 17:19:34	-->	skyler (~anonymous@72.188.116.93) has joined #pocoo
+2013-02-18 17:20:02	<--	skyler (~anonymous@72.188.116.93) has quit (Client Quit)
+2013-02-18 17:24:29	--	mactkg is now known as maotkg
+2013-02-18 17:26:25	-->	icarito (~icarito@2001:4830:134:7::11) has joined #pocoo
+2013-02-18 17:37:28	<--	bgranger (~bgranger@172-5-140-124.lightspeed.mtryca.sbcglobal.net) has quit (Quit: bgranger)
+2013-02-18 17:38:58	<--	ch0wn (~pascal@221-237-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 256 seconds)
+2013-02-18 17:39:08	-->	__number5__ (~number_fi@office.base2services.com.au) has joined #pocoo
+2013-02-18 17:41:31	-->	ch0wn (~pascal@221-237-103-86.dynamic.dsl.tng.de) has joined #pocoo
+2013-02-18 17:46:47	<--	derdon (~derdon@89.204.135.121) has quit (Quit: ##English)
+2013-02-18 17:46:47	<--	obert (~quassel@host86-22-dynamic.3-87-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2013-02-18 17:47:16	-->	obert (~quassel@host86-22-dynamic.3-87-r.retail.telecomitalia.it) has joined #pocoo
+2013-02-18 17:49:06	-->	louie (~louie@d75-156-49-44.bchsia.telus.net) has joined #pocoo
+2013-02-18 17:50:37	<--	shakakai (~shakakai@69.170.161.42) has quit (Read error: Connection reset by peer)
+2013-02-18 17:50:51	-->	shakakai (~shakakai@69.170.161.42) has joined #pocoo
+2013-02-18 17:51:04	<--	macabre (~macabre@63.133.215.18) has quit (Remote host closed the connection)
+2013-02-18 17:51:15	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-18 17:51:31	--	toddejohnson is now known as toddejohnson_
+2013-02-18 17:57:40	<--	carif (~mcarifio@cpe-67-251-8-190.maine.res.rr.com) has quit (Quit: Ex-Chat)
+2013-02-18 17:58:50	-->	Preference (~Preferenc@CPE18593347890b-CM185933478908.cpe.net.cable.rogers.com) has joined #pocoo
+2013-02-18 17:59:40	Preference	Is there any info for how Jinja supports nested block tags?
+2013-02-18 18:01:23	bwq	how? 
+2013-02-18 18:03:51	Preference	How do block tags nested within block tags work?
+2013-02-18 18:06:19	bwq	i'd assume you could just use {% begin block1 %}, then begin block2 and fill that out
+2013-02-18 18:06:31	bwq	and it should just resume the rest of block1
+2013-02-18 18:06:38	bwq	but i don't recall off the top of my head
+2013-02-18 18:08:09	<--	mtasic85 (~mtasic85@212.200.223.197) has quit (Remote host closed the connection)
+2013-02-18 18:14:40	<--	peterhil (~peterhil@91-157-48-10.elisa-laajakaista.fi) has quit (Ping timeout: 260 seconds)
+2013-02-18 18:16:33	<--	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 18:17:48	<--	ronny (~me@pida/ronny) has quit (Ping timeout: 252 seconds)
+2013-02-18 18:18:32	Preference	Maybe this will clarify: https://gist.github.com/benhohner/e9b43001b89e2e065d07 Which is better independent of each other, parent 1 or parent 2 and child 1 or child 2?
+2013-02-18 18:20:44	-->	joshfinnie (~joshfinni@98.218.251.162) has joined #pocoo
+2013-02-18 18:21:51	<--	ch0wn (~pascal@221-237-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 260 seconds)
+2013-02-18 18:22:37	bwq	i prefer parent 1 and child 1 myself
+2013-02-18 18:22:57	bwq	because it can get quite confusing when you start nesting blocks imo
+2013-02-18 18:24:06	Preference	Okay, that makes sense. Would it not be better to have parent 2 and child 1 if we wanted to minimize nesting?
+2013-02-18 18:24:40	bwq	oops sorry, yeah
+2013-02-18 18:24:43	bwq	mixed the parents
+2013-02-18 18:24:59	<--	Reite (~Reite@cm-84.211.71.25.getinternet.no) has quit (Ping timeout: 252 seconds)
+2013-02-18 18:25:30	Preference	Ok, cool. I'll do it that way then. Thanks :)
+2013-02-18 18:25:52	bwq	np
+2013-02-18 18:26:21	-->	Mahonar (keekekke@151.75.192.207) has joined #pocoo
+2013-02-18 18:28:07	-->	andrewaclt (~andrew@cpe-174-099-108-247.nc.res.rr.com) has joined #pocoo
+2013-02-18 18:30:52	<--	pycorbin (~pycorbin@secure.austinexecutiveairport.com) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 18:32:11	-->	seism (~oleg@55-55.5-85.cust.bluewin.ch) has joined #pocoo
+2013-02-18 18:35:36	<--	Fandekasp (~Fandekasp@platinum-static25142.nirai.ne.jp) has quit (Ping timeout: 252 seconds)
+2013-02-18 18:37:49	-->	alekzvik_ (~alekzvik@91.202.129.172) has joined #pocoo
+2013-02-18 18:38:00	<--	R_Macy (fhznc@i.love.fuzzyhosts.com) has quit (Ping timeout: 272 seconds)
+2013-02-18 18:39:16	<--	paniq (~lritter@g228246173.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2013-02-18 18:39:50	<--	Freso (~Freso@drupal.org/user/27504/view) has quit (Quit: Zzz...)
+2013-02-18 18:40:19	<--	alekzvik (~alekzvik@91.202.129.163) has quit (Ping timeout: 248 seconds)
+2013-02-18 18:40:39	-->	R_Macy (fhznc@I.Love.FuzzyHosts.com) has joined #pocoo
+2013-02-18 18:43:40	<--	jugimaster (~jugimaste@a88-115-31-107.elisa-laajakaista.fi) has quit (Ping timeout: 252 seconds)
+2013-02-18 18:45:16	<--	grizwako (~grizzly@245-148.dsl.iskon.hr) has quit (Quit: Leaving.)
+2013-02-18 18:46:15	-->	crus (~crusader@59.167.234.178) has joined #pocoo
+2013-02-18 18:50:28	-->	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has joined #pocoo
+2013-02-18 18:52:25	-->	paniq (~lritter@92.229.37.170) has joined #pocoo
+2013-02-18 18:52:38	-->	jugimaster_ (~jugimaste@a88-115-31-107.elisa-laajakaista.fi) has joined #pocoo
+2013-02-18 18:53:04	<--	sputnikus (~sputnikus@ip-89-102-7-58.net.upcbroadband.cz) has quit (Ping timeout: 244 seconds)
+2013-02-18 18:54:24	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-18 18:54:59	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-18 18:59:11	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Ping timeout: 256 seconds)
+2013-02-18 19:02:10	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-18 19:07:44	<--	SimonSapin (~simon@ip-22.net-89-2-144.rev.numericable.fr) has quit (Read error: Operation timed out)
+2013-02-18 19:09:11	<--	joshfinnie (~joshfinni@98.218.251.162) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 19:09:39	brunsgaard	is there any data sets out there suggsting if the number of flask installations are declining or growing?
+2013-02-18 19:12:20	<--	ambv (~ambv@abox-1.allegro.pl) has quit (Quit: sys.exit(0))
+2013-02-18 19:17:15	-->	kiplitton (~user@facepalm.feem.net) has joined #pocoo
+2013-02-18 19:20:23	mattupstate	https://crate.io/packages/Flask/
+2013-02-18 19:22:36	-->	jonesy (~jonesy@173.61.13.33) has joined #pocoo
+2013-02-18 19:24:05	-->	Fandekasp (~Fandekasp@p19088-ipngn100201yosemiya.okinawa.ocn.ne.jp) has joined #pocoo
+2013-02-18 19:25:35	-->	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has joined #pocoo
+2013-02-18 19:26:15	<--	whitebook (~Adium@ool-18ba21f2.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-02-18 19:29:57	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-18 19:31:28	<--	jugimaster_ (~jugimaste@a88-115-31-107.elisa-laajakaista.fi) has quit (Quit: jugimaster_)
+2013-02-18 19:35:46	-->	peterhil (~peterhil@91-157-48-10.elisa-laajakaista.fi) has joined #pocoo
+2013-02-18 19:38:17	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Remote host closed the connection)
+2013-02-18 19:38:53	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-18 19:39:19	-->	seggy_ (~seggy@72.74.140.231) has joined #pocoo
+2013-02-18 19:39:44	<--	mattupstate (~Adium@rrcs-208-105-85-201.nyc.biz.rr.com) has quit (Quit: Leaving.)
+2013-02-18 19:41:37	-->	skyler (~anonymous@72.188.116.93) has joined #pocoo
+2013-02-18 19:41:39	<--	seggy (~seggy@pool-72-74-140-231.bstnma.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-02-18 19:43:48	<--	enigmuriatic (~enigmuria@149.43.220.150) has quit (Ping timeout: 276 seconds)
+2013-02-18 19:55:02	-->	whitebook (~Adium@ool-18ba21f2.dyn.optonline.net) has joined #pocoo
+2013-02-18 19:55:02	<--	atatsu (~atatsu@host-70-241-9-69.midco.net) has quit (Read error: Connection reset by peer)
+2013-02-18 19:56:55	<--	seism (~oleg@55-55.5-85.cust.bluewin.ch) has quit (Remote host closed the connection)
+2013-02-18 19:58:23	<--	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 19:58:39	<--	paniq (~lritter@92.229.37.170) has quit (Quit: Leaving)
+2013-02-18 20:00:04	<--	EH_ (~quassel@public-gprs457449.centertel.pl) has quit (Ping timeout: 256 seconds)
+2013-02-18 20:02:09	-->	alekzvik__ (~alekzvik@91.202.131.118) has joined #pocoo
+2013-02-18 20:04:36	<--	acrocity (~acrocity@p2180-ipbf4702marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 248 seconds)
+2013-02-18 20:05:10	<--	alekzvik_ (~alekzvik@91.202.129.172) has quit (Ping timeout: 245 seconds)
+2013-02-18 20:06:22	-->	bananasquiddly (~bananasqu@68.197.19.22) has joined #pocoo
+2013-02-18 20:06:33	-->	kuyan (~kuyan@unaffiliated/kuyan) has joined #pocoo
+2013-02-18 20:15:17	-->	osom (~osom@112.209.50.207) has joined #pocoo
+2013-02-18 20:17:05	-->	atatsu (~atatsu@host-70-241-9-69.midco.net) has joined #pocoo
+2013-02-18 20:19:06	<--	Preference (~Preferenc@CPE18593347890b-CM185933478908.cpe.net.cable.rogers.com) has quit (Quit: Preference)
+2013-02-18 20:19:23	-->	joshfinnie (~joshfinni@98.218.251.162) has joined #pocoo
+2013-02-18 20:20:27	-->	enigmuriatic (~enigmuria@149.43.220.150) has joined #pocoo
+2013-02-18 20:22:16	-->	hemna (~hemna@c-38-80-203-198.rw.zetabroadband.com) has joined #pocoo
+2013-02-18 20:28:59	<--	bananasquiddly (~bananasqu@68.197.19.22) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-02-18 20:30:33	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-18 20:32:30	<--	queso (~queso@173.199.153.140) has quit (Ping timeout: 264 seconds)
+2013-02-18 20:33:21	<--	jw- (~jw@53577B10.cm-6-8b.dynamic.ziggo.nl) has quit (Ping timeout: 245 seconds)
+2013-02-18 20:35:41	<--	joshfinnie (~joshfinni@98.218.251.162) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 20:35:56	<--	Mahonar (keekekke@151.75.192.207) has quit
+2013-02-18 20:37:41	-->	rhumzouc (~rhumzouc@75-101-96-64.dsl.static.sonic.net) has joined #pocoo
+2013-02-18 20:38:30	-->	jw- (~jw@53577B10.cm-6-8b.dynamic.ziggo.nl) has joined #pocoo
+2013-02-18 20:38:41	<--	rhumzouc (~rhumzouc@75-101-96-64.dsl.static.sonic.net) has quit (Client Quit)
+2013-02-18 20:41:11	<--	shakakai (~shakakai@69.170.161.42) has quit (Read error: Connection reset by peer)
+2013-02-18 20:41:18	-->	shakakai (~shakakai@69.170.161.42) has joined #pocoo
+2013-02-18 20:41:44	<--	nigelb (~nigel@ubuntu/member/nigelb) has quit (Remote host closed the connection)
+2013-02-18 20:44:01	-->	nigelb (~nigel@ubuntu/member/nigelb) has joined #pocoo
+2013-02-18 20:46:09	<--	bmaeser (~bmaeser@chello080108023235.34.11.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2013-02-18 20:46:21	-->	archdori_ (~Fandekasp@p19088-ipngn100201yosemiya.okinawa.ocn.ne.jp) has joined #pocoo
+2013-02-18 20:46:41	-->	bmaeser (~bmaeser@chello080108023235.34.11.vie.surfer.at) has joined #pocoo
+2013-02-18 20:46:54	-->	subbyyy (~win@cpe-24-210-160-92.woh.res.rr.com) has joined #pocoo
+2013-02-18 20:49:36	<--	Fandekasp (~Fandekasp@p19088-ipngn100201yosemiya.okinawa.ocn.ne.jp) has quit (Ping timeout: 255 seconds)
+2013-02-18 20:54:20	-->	schnoodles-a (~joshbenha@27.32.229.194) has joined #pocoo
+2013-02-18 20:54:20	<--	schnoodles (~joshbenha@27-32-229-194.static.tpgi.com.au) has quit (Read error: No route to host)
+2013-02-18 21:05:22	<--	whitebook (~Adium@ool-18ba21f2.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-02-18 21:08:15	<--	c45y (~c45y@affordablewhor.es) has quit (Ping timeout: 256 seconds)
+2013-02-18 21:08:50	-->	shakakai_ (~shakakai@69.170.161.42) has joined #pocoo
+2013-02-18 21:10:07	-->	c45y (~c45y@affordablewhor.es) has joined #pocoo
+2013-02-18 21:10:23	<--	shakakai (~shakakai@69.170.161.42) has quit (Read error: Operation timed out)
+2013-02-18 21:13:25	-->	queso (~queso@173.199.153.140) has joined #pocoo
+2013-02-18 21:13:42	<--	c45y (~c45y@affordablewhor.es) has quit (Client Quit)
+2013-02-18 21:14:08	-->	rdn (~oop@cpe-69-207-0-201.buffalo.res.rr.com) has joined #pocoo
+2013-02-18 21:14:17	-->	c45y (~c45y@affordablewhor.es) has joined #pocoo
+2013-02-18 21:14:36	<--	hemna (~hemna@c-38-80-203-198.rw.zetabroadband.com) has quit (Ping timeout: 264 seconds)
+2013-02-18 21:18:09	<--	schnoodles-a (~joshbenha@27.32.229.194) has quit (Ping timeout: 245 seconds)
+2013-02-18 21:18:45	<--	queso (~queso@173.199.153.140) has quit (Ping timeout: 252 seconds)
+2013-02-18 21:19:36	-->	queso (~queso@173.199.153.140) has joined #pocoo
+2013-02-18 21:24:20	--	archdori_ is now known as Fandekasp
+2013-02-18 21:26:55	-->	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has joined #pocoo
+2013-02-18 21:28:38	<--	kanzure (~kanzure@131.252.130.248) has quit (Remote host closed the connection)
+2013-02-18 21:28:49	-->	kanzure (~kanzure@131.252.130.248) has joined #pocoo
+2013-02-18 21:29:10	-->	acrocity (~acrocity@p4042-ipbf2205marunouchi.tokyo.ocn.ne.jp) has joined #pocoo
+2013-02-18 21:33:18	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-18 21:34:36	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-18 21:35:05	<--	osxorgate (~osxorgate@46.44.187.233) has quit (Read error: Connection reset by peer)
+2013-02-18 21:35:27	-->	osxorgate (~osxorgate@46.44.187.233) has joined #pocoo
+2013-02-18 21:35:51	-->	kingel_ (~kingel@46.44.187.233) has joined #pocoo
+2013-02-18 21:36:17	<--	skyler (~anonymous@72.188.116.93) has quit (Quit: skyler)
+2013-02-18 21:36:52	<--	kingel (~kingel@46.44.187.233) has quit (Ping timeout: 248 seconds)
+2013-02-18 21:50:46	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-18 21:51:38	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-18 21:55:04	-->	hemna (~hemna@nat/hp/x-pplzvnjefdarsmzm) has joined #pocoo
+2013-02-18 21:55:46	<--	acrocity (~acrocity@p4042-ipbf2205marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2013-02-18 21:56:10	-->	acrocity (~acrocity@p2234-ipbf6508marunouchi.tokyo.ocn.ne.jp) has joined #pocoo
+2013-02-18 22:04:07	<--	Nemo7 (~nemo@unaffiliated/nemo7) has quit (Quit: it really tied the room together)
+2013-02-18 22:09:12	-->	JETS (~JETS@gateway/tor-sasl/jets) has joined #pocoo
+2013-02-18 22:17:01	<--	joshfinnie (~joshfinni@c-98-218-251-162.hsd1.dc.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 22:20:42	<--	shakakai_ (~shakakai@69.170.161.42) has quit (Remote host closed the connection)
+2013-02-18 22:26:28	<--	alekzvik__ (~alekzvik@91.202.131.118) has quit (Ping timeout: 256 seconds)
+2013-02-18 22:31:04	<--	shiver (~rob@nat-out.akwd1-gw.webhost.co.nz) has quit (Quit: WeeChat 0.4.0)
+2013-02-18 22:31:35	midnightcoffee	In order to store an instance of a table in a session would i have to merge the old and new session, something like is described here? http://stackoverflow.com/questions/9704927/pyramid-sql-alchemy-detachedinstanceerror. My code wa (i changed it sense then), http://bpaste.net/show/78224/ creating a DetachedInstanceError. So i decided to just store the id. Now i'm finding that to be cumbersome. Whats recommended? 
+2013-02-18 22:40:01	<--	scyclops (~scyclops@63.227.59.187) has quit (Ping timeout: 256 seconds)
+2013-02-18 22:41:10	--	XenGi is now known as XenGi_
+2013-02-18 22:48:41	-->	efazati (~efazati@5.52.49.210) has joined #pocoo
+2013-02-18 22:48:41	<--	efazati (~efazati@5.52.49.210) has quit (Changing host)
+2013-02-18 22:48:41	-->	efazati (~efazati@unaffiliated/efazati) has joined #pocoo
+2013-02-18 22:49:34	<--	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has quit (Quit: Leaving.)
+2013-02-18 22:53:51	<--	zepolen_ (~zepolen@athedsl-159657.home.otenet.gr) has quit (Remote host closed the connection)
+2013-02-18 22:54:07	<--	DTVD (~dtvd@ugate.dwango.co.jp) has quit (Read error: Connection reset by peer)
+2013-02-18 22:54:40	-->	DTVD (~dtvd@ugate.dwango.co.jp) has joined #pocoo
+2013-02-18 22:55:12	-->	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has joined #pocoo
+2013-02-18 23:00:15	-->	hemna_ (~hemna@c-38-80-203-198.rw.zetabroadband.com) has joined #pocoo
+2013-02-18 23:01:24	<--	WoLpH_ (~WoLpH-ser@wolph.fawo.nl) has quit (Ping timeout: 264 seconds)
+2013-02-18 23:04:11	<--	hemna (~hemna@nat/hp/x-pplzvnjefdarsmzm) has quit (Ping timeout: 260 seconds)
+2013-02-18 23:05:22	<--	mahmoudimus (~mahmoudim@173-164-253-217-SFBA.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-02-18 23:08:02	-->	kushal (kdas@fedora/kushal) has joined #pocoo
+2013-02-18 23:08:04	<--	tdignan (~quassel@c-76-28-18-77.hsd1.ct.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-02-18 23:10:25	<--	midnightcoffee (~drew@c-71-238-24-59.hsd1.mi.comcast.net) has quit (Quit: Leaving.)
+2013-02-18 23:11:10	-->	bananasquiddly (~bananasqu@ool-44c51316.dyn.optonline.net) has joined #pocoo
+2013-02-18 23:11:16	<--	dreimark (~rbauer@moinmoin/coreteam/reimar) has quit (Ping timeout: 245 seconds)
+2013-02-18 23:11:39	<--	ThomasWaldmann (~twaldmann@moinmoin/coreteam/thomas) has quit (Ping timeout: 256 seconds)
+2013-02-18 23:18:30	-->	tdignan (~quassel@76.28.18.77) has joined #pocoo
+2013-02-18 23:19:14	-->	schnoodles (~joshbenha@27.32.229.194) has joined #pocoo
+2013-02-18 23:22:18	<--	atatsu (~atatsu@host-70-241-9-69.midco.net) has quit (Quit: WeeChat 0.4.0)
+2013-02-18 23:22:52	<--	osom (~osom@112.209.50.207) has quit (Remote host closed the connection)
+2013-02-18 23:26:24	<--	tdignan (~quassel@76.28.18.77) has quit (Ping timeout: 245 seconds)
+2013-02-18 23:27:26	<--	bananasquiddly (~bananasqu@ool-44c51316.dyn.optonline.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-02-18 23:39:24	<--	kiplitton (~user@facepalm.feem.net) has quit (Quit: leaving)
+2013-02-18 23:41:43	-->	codekoala (~wheaties@216.51.73.42) has joined #pocoo
+2013-02-18 23:41:47	<--	andrewaclt (~andrew@cpe-174-099-108-247.nc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-02-18 23:42:39	<--	JETS (~JETS@gateway/tor-sasl/jets) has quit (Ping timeout: 276 seconds)
+2013-02-18 23:49:58	-->	tdignan (~quassel@76.28.18.77) has joined #pocoo
+2013-02-18 23:50:18	-->	kiplitton (~user@facepalm.feem.net) has joined #pocoo
+2013-02-18 23:53:53	<--	anth0ny (~anth0ny@unaffiliated/anth0ny) has quit (Quit: This computer has gone to sleep)
+2013-02-18 23:56:26	-->	WoLpH (~WoLpH-ser@wolph.fawo.nl) has joined #pocoo
+2013-02-18 23:58:43	-->	scyclops (~scyclops@c-71-237-69-54.hsd1.co.comcast.net) has joined #pocoo
+2013-02-19 00:05:12	<--	stranac (~stranac@78-3-241-26.adsl.net.t-com.hr) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:07:35	<--	DasIch (~dasich@static.248.123.46.78.clients.your-server.de) has quit (Read error: Operation timed out)
+2013-02-19 00:08:00	<--	mariorz (uid490@gateway/web/irccloud.com/x-dqmhsrfiyvexewsc) has quit (Read error: Operation timed out)
+2013-02-19 00:08:00	<--	blueyed (~daniel@hahler.de) has quit (Read error: Operation timed out)
+2013-02-19 00:08:07	<--	jeremy_carroll (uid5222@gateway/web/irccloud.com/x-lsfabptgxmxkprpm) has quit (Read error: Operation timed out)
+2013-02-19 00:08:09	<--	wetirc97316_ (~wetirc973@static.24.204.46.78.clients.your-server.de) has quit (Read error: Operation timed out)
+2013-02-19 00:08:45	<--	Alex_Gaynor (uid1246@django/committer/alexgaynor) has quit (Ping timeout: 244 seconds)
+2013-02-19 00:09:05	<--	nigelb (~nigel@ubuntu/member/nigelb) has quit (Read error: Operation timed out)
+2013-02-19 00:09:05	<--	nseger (uid3777@gateway/web/irccloud.com/x-okgahxzgychkuvsv) has quit (Ping timeout: 256 seconds)
+2013-02-19 00:09:36	<--	sashka (~sashka@m2.mokote.com) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:09:37	<--	bmcorser (uid7625@gateway/web/irccloud.com/x-ghqmmvkttxykajsl) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:09:37	<--	jtulloss_____ (uid578@gateway/web/irccloud.com/x-cmfexisegxfvblpm) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:09:53	<--	phryk (~phryk@static.39.216.9.176.clients.your-server.de) has quit (Ping timeout: 248 seconds)
+2013-02-19 00:10:00	<--	samrat__ (uid2534@gateway/web/irccloud.com/x-ayiknctzbcwmxvxs) has quit (Ping timeout: 255 seconds)
+2013-02-19 00:10:00	<--	proppy (uid1692@gateway/web/irccloud.com/x-squjyomidqnhmnrr) has quit (Ping timeout: 246 seconds)
+2013-02-19 00:10:01	<--	scalability-junk (uid6422@gateway/web/irccloud.com/x-biqwxibnqckugspy) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:10:02	<--	mfandreas (bol@spatz.madflex.de) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:10:02	<--	Jarus (~jarus@irc.thelabmill.de) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:10:23	<--	Naeblis (uid7451@gateway/web/irccloud.com/x-kkoakamtcwioqotz) has quit (Ping timeout: 276 seconds)
+2013-02-19 00:10:23	<--	zbyszek (~zbyszek@kawka.in.waw.pl) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:10:23	<--	brunsgaard (~brunsgaar@78.47.89.34) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:10:23	<--	DarkSector (uid1038@gateway/web/irccloud.com/x-uyuymizuvnjkrpsa) has quit (Ping timeout: 255 seconds)
+2013-02-19 00:10:24	<--	cgbystrom_ (uid4689@gateway/web/irccloud.com/x-ziewdxzkmzdrosba) has quit (Ping timeout: 264 seconds)
+2013-02-19 00:10:25	<--	stargaming (stargaming@unaffiliated/stargaming) has quit (Ping timeout: 248 seconds)
+2013-02-19 00:10:27	<--	sunu (~tmishra@test.moinmo.in) has quit (Ping timeout: 260 seconds)
+2013-02-19 00:10:28	<--	z0ttel (~ident@dave.juliusroob.de) has quit (Ping timeout: 248 seconds)
+2013-02-19 00:10:36	<--	ThiefMaster` (thief@cheops3.php-4.info) has quit (Read error: Operation timed out)
+2013-02-19 00:10:51	<--	confluency (~quassel@static.215.109.47.78.clients.your-server.de) has quit (Ping timeout: 245 seconds)
+2013-02-19 00:11:05	-->	nigelb (~nigel@ubuntu/member/nigelb) has joined #pocoo
+2013-02-19 00:11:17	<--	jefferai (~quassel@kde/mitchell) has quit (Ping timeout: 255 seconds)
+2013-02-19 00:11:22	<--	gopher (gopher@eris6.sickos.org) has quit (Ping timeout: 246 seconds)
+2013-02-19 00:11:56	-->	sunu (~tmishra@test.moinmo.in) has joined #pocoo
+2013-02-19 00:12:40	<--	TheSheep (~sheep@moinmoin/developer/radomir) has quit (Ping timeout: 248 seconds)
+2013-02-19 00:12:51	-->	mfandreas (bol@spatz.madflex.de) has joined #pocoo
+2013-02-19 00:13:32	-->	gopher (~gopher@eris6.sickos.org) has joined #pocoo
+2013-02-19 00:13:56	--	gopher is now known as Guest88096
+2013-02-19 00:15:50	-->	confluency (~quassel@static.215.109.47.78.clients.your-server.de) has joined #pocoo
+2013-02-19 00:16:36	<--	sunu (~tmishra@test.moinmo.in) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:16:58	<--	nigelb (~nigel@ubuntu/member/nigelb) has quit (Ping timeout: 252 seconds)
+2013-02-19 00:17:33	-->	Alex_Gaynor (uid1246@django/committer/alexgaynor) has joined #pocoo
+2013-02-19 00:17:36	-->	brunsgaard (~brunsgaar@78.47.89.34) has joined #pocoo
+2013-02-19 00:17:39	-->	jefferai (~quassel@kde/mitchell) has joined #pocoo
+2013-02-19 00:17:50	-->	phryk (~phryk@static.39.216.9.176.clients.your-server.de) has joined #pocoo
+2013-02-19 00:17:52	-->	DasIch (~dasich@static.248.123.46.78.clients.your-server.de) has joined #pocoo
+2013-02-19 00:18:18	-->	sashka (~sashka@m2.mokote.com) has joined #pocoo
+2013-02-19 00:18:19	-->	Jarus (~jarus@irc.thelabmill.de) has joined #pocoo
+2013-02-19 00:19:02	<--	jefferai (~quassel@kde/mitchell) has quit (Excess Flood)
+2013-02-19 00:19:15	-->	jefferai (~quassel@kde/mitchell) has joined #pocoo
+2013-02-19 00:20:33	-->	zbyszek (~zbyszek@kawka.in.waw.pl) has joined #pocoo
+2013-02-19 00:20:42	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has quit (Quit: NotreDev)
+2013-02-19 00:21:35	-->	ThiefMaster` (thief@cheops3.php-4.info) has joined #pocoo
+2013-02-19 00:21:50	-->	blueyed (~daniel@hahler.de) has joined #pocoo
+2013-02-19 00:22:07	-->	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has joined #pocoo
+2013-02-19 00:22:17	-->	sunu (~tmishra@test.moinmo.in) has joined #pocoo
+2013-02-19 00:22:44	-->	wetirc97316 (~wetirc973@static.24.204.46.78.clients.your-server.de) has joined #pocoo
+2013-02-19 00:23:33	-->	z0ttel (~ident@188.40.96.249) has joined #pocoo
+2013-02-19 00:25:46	-->	nigelb (~nigel@ubuntu/member/nigelb) has joined #pocoo
+2013-02-19 00:26:31	-->	stargaming (stargaming@server3.raumopol.de) has joined #pocoo
+2013-02-19 00:26:32	<--	NotreDev (~NotreDev@99-91-5-6.lightspeed.austtx.sbcglobal.net) has left #pocoo
+2013-02-19 00:28:18	-->	TheSheep (~sheep@moinmoin/developer/radomir) has joined #pocoo
+2013-02-19 00:30:59	-->	anth0ny (~anth0ny@unaffiliated/anth0ny) has joined #pocoo
+2013-02-19 00:36:03	<--	remyroy (~Remy@dsl-173-248-239-52.acanac.net) has quit (Read error: Connection reset by peer)
+2013-02-19 00:37:14	--	irc: disconnected from server

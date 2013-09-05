@@ -1,0 +1,142 @@
+2013-02-05 19:12:22	-->	Z_Mass (~Z_Mass@64.229.194.138) has joined ##c++-basic
+2013-02-05 19:12:22	--	Topic for ##c++-basic is "We welcome C++ questions. No real C++ question is too stupid or too noobish. The only way to learn is to ask (just ask and stick around for someone to answer). | C questions: ##c or ##c-basic; other C++: ##c++-social, ##c++-general | Post your test case to http://ideone.com/ or http://codepad.org/ | See also http://www.parashift.com/c++-faq-lite/ http://jcatki.no-ip.org/fncpp/Resources"
+2013-02-05 19:12:22	--	Topic set by fow on Tue, 17 Apr 2012 20:51:28
+2013-02-05 19:12:22	--	Nicks ##c++-basic: [_DanN_ Aayush Anasazi anidude arnoldB b1rkh0ff badone Bigcheese Bigpet Billiard bizhanMona BlastHardcheese bluj boos Bosox20051 C00re cato cbreak chaingun cjhopman clang cyphase dau DaZ dindinx djinni` dobby156 dpaez dumont ejenkinson elbeardmorez Empire539 err404 erupter ex9t f00dMonsta FabTG Forser freeadvice Frisky-Kat Fuxx Gentle geordi glebd glenfe glenfern graChe28 GrecKo HandheldPenguin` hugo___ iibewegung ikonia intothev01d Jarvis Javamannen jennifer jezuz jfs jitsuin johnthebear Josh146 juril Kaltiz Karasuhebi kloeri koud_ kraft Kuukunen laite laserbeak43 leechradio Leoneof M-ou-se m4rius Magiobiwan malifer masch mchoc mikroflops MK` mpajor_op5 mtt muep neersighted Nei Nickeeh Nik05 NimeshNeema nodame nutate obiwahn ohama ohhmaar oldtopman oohy9n Paprikachu PigFlu piti Plee pucko Pufferfood Quintasan rangergord ring0 robbyoconnor rodr1go roelj samik SecretFire semeion Sendoushi smokex Sna4x8 snaker snap__ spaceone spling Stryyker sujeet telex thelamb tomalak TomWij toothr totesmuhgoats Trueborn tsimpson tuxdev tuxdev_ txomon|home unreal Vaesh Villadelfia WarDave XAVeRY yano Z_Mass |sark]
+2013-02-05 19:12:22	--	Channel ##c++-basic: 138 nicks (0 ops, 0 halfops, 0 voices, 138 normals)
+2013-02-05 19:12:24	--	Mode ##c++-basic [+cnt]
+2013-02-05 19:12:25	--	Channel created on Sat, 25 Oct 2008 21:03:49
+2013-02-05 19:13:53	-->	f00dMonsta_ (~f00dMonst@bas1-toronto45-1167920276.dsl.bell.ca) has joined ##c++-basic
+2013-02-05 19:14:03	<--	malifer (~Acorn_68@unaffiliated/acorn-68/x-7210036) has quit (Remote host closed the connection)
+2013-02-05 19:14:17	Z_Mass	I'm having trouble with function pointers. I'm playing around with SFML and Thor, and attempting to bind a sf::RenderWindow's close() method to an action in using thor is giving me the error: cannot create a non-constant pointer to member function
+2013-02-05 19:14:36	Z_Mass	Relevent code: https://gist.github.com/ZachMassia/4718905
+2013-02-05 19:14:51	Z_Mass	I can link docs if needed as well.
+2013-02-05 19:15:26	<--	WarDave (~IceChat77@cpe-24-27-90-220.tx.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-02-05 19:16:01	tuxdev	Z_Mass, well, the error is complaining about member function pointers, are different beasts than raw function pointers
+2013-02-05 19:17:05	tuxdev	you do need binding, yes, but that's now how you do it
+2013-02-05 19:17:07	<--	f00dMonsta (~f00dMonst@bas1-toronto45-1096801502.dsl.bell.ca) has quit (Ping timeout: 245 seconds)
+2013-02-05 19:17:23	Z_Mass	http://www.bromeon.ch/libraries/thor/v2.0/tutorial-actions.html is what I'm basing my code on
+2013-02-05 19:17:39	Z_Mass	The second last section, "Binders [advanced]"
+2013-02-05 19:19:20	tuxdev	it might be easier for you if you actually write your own custom binder for this first
+2013-02-05 19:19:20	Billiard	Z_Mass: you didn't even follow the pattern in the 2nd "Binders" example
+2013-02-05 19:19:41	tuxdev	learn the underlying C++ that makes binders tick
+2013-02-05 19:20:01	Billiard	I really don't think that is going to help :/
+2013-02-05 19:20:17	-->	f00dMonsta (~f00dMonst@nas1-london00-1128662934.sympatico.ca) has joined ##c++-basic
+2013-02-05 19:20:18	tuxdev	Billiard, I mean "make a functor that does what you want" here
+2013-02-05 19:20:30	Z_Mass	I don't need to pass parameters to close. I tried something along the lines of connect("close", std::bind(&sf::RenderWindow::close, &mainWindow)) but that spewed out errors
+2013-02-05 19:20:51	Billiard	Z_Mass: what errors?
+2013-02-05 19:21:17	Z_Mass	Billiard: One sec, I'll go recompile with that
+2013-02-05 19:21:51	tuxdev	it may want you to use std::mem_fn or somesuch to turn the member function pointer into a functor with the 'this' put into the first argument
+2013-02-05 19:22:03	Billiard	I don't think it does
+2013-02-05 19:22:41	tuxdev	it did when I last played with bind, but this was old C++
+2013-02-05 19:23:06	-->	WarDave (~IceChat77@46.246.31.131) has joined ##c++-basic
+2013-02-05 19:23:08	tuxdev	std::bind1st and std::bind2nd and junk
+2013-02-05 19:23:19	Billiard	std::bind is not the same
+2013-02-05 19:23:35	<--	f00dMonsta_ (~f00dMonst@bas1-toronto45-1167920276.dsl.bell.ca) has quit (Ping timeout: 260 seconds)
+2013-02-05 19:23:54	Z_Mass	Billiard: For some reason it actually worked this time 
+2013-02-05 19:24:10	Z_Mass	I must of been way to tired last night playing around with that, but I could of swore I tried that exact call
+2013-02-05 19:24:30	Billiard	:)
+2013-02-05 19:25:14	Z_Mass	But you guys are probably right, I should go read up on how to use std::function/bind some more anyways. 
+2013-02-05 19:25:17	Z_Mass	Thanks :D
+2013-02-05 19:25:51	<--	WarDave (~IceChat77@46.246.31.131) has quit (Read error: Connection reset by peer)
+2013-02-05 19:26:02	-->	WarDave_ (~IceChat77@cpe-24-27-90-220.tx.res.rr.com) has joined ##c++-basic
+2013-02-05 19:27:21	-->	zapa (~az@gateway/tor-sasl/zapa) has joined ##c++-basic
+2013-02-05 19:28:21	<--	iibewegung (~iibewegun@shulenbu.physics.uiuc.edu) has quit (Quit: ... or has he?)
+2013-02-05 19:29:51	-->	crystalcode (~crystalco@cpe-69-205-70-154.rochester.res.rr.com) has joined ##c++-basic
+2013-02-05 19:30:36	-->	f00dMonsta_ (~f00dMonst@65.95.229.130) has joined ##c++-basic
+2013-02-05 19:31:02	-->	Weems (baggins@unaffiliated/weems) has joined ##c++-basic
+2013-02-05 19:31:33	-->	fow (~fow@gateway/tor-sasl/fow) has joined ##c++-basic
+2013-02-05 19:32:12	-->	f00dMonsta__ (~f00dMonst@65.95.231.161) has joined ##c++-basic
+2013-02-05 19:33:52	<--	f00dMonsta (~f00dMonst@nas1-london00-1128662934.sympatico.ca) has quit (Ping timeout: 260 seconds)
+2013-02-05 19:35:42	<--	f00dMonsta_ (~f00dMonst@65.95.229.130) has quit (Ping timeout: 252 seconds)
+2013-02-05 19:36:29	-->	f00dMonsta (~f00dMonst@65.95.229.130) has joined ##c++-basic
+2013-02-05 19:39:33	<--	f00dMonsta__ (~f00dMonst@65.95.231.161) has quit (Ping timeout: 276 seconds)
+2013-02-05 19:42:48	<--	fow (~fow@gateway/tor-sasl/fow) has quit (Ping timeout: 276 seconds)
+2013-02-05 19:45:13	-->	fow (~fow@gateway/tor-sasl/fow) has joined ##c++-basic
+2013-02-05 19:59:36	-->	Carbonflux (~BOB@71-212-124-90.tukw.qwest.net) has joined ##c++-basic
+2013-02-05 20:02:58	<--	fow (~fow@gateway/tor-sasl/fow) has quit (Ping timeout: 276 seconds)
+2013-02-05 20:07:34	-->	krime (716c8532@gateway/web/freenode/ip.113.108.133.50) has joined ##c++-basic
+2013-02-05 20:07:35	-->	Frisky (SomeWhere@027a7ddf.bb.sky.com) has joined ##c++-basic
+2013-02-05 20:10:44	<--	Frisky-Kat (SomeWhere@027a7ddf.bb.sky.com) has quit (Ping timeout: 248 seconds)
+2013-02-05 20:15:23	<--	erupter (~erupter@dynamic-adsl-78-13-219-81.clienti.tiscali.it) has quit (Ping timeout: 260 seconds)
+2013-02-05 20:15:52	<--	Bigpet (~bigpet@dslb-094-221-111-011.pools.arcor-ip.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-02-05 20:18:31	<--	Carbonflux (~BOB@71-212-124-90.tukw.qwest.net) has quit (Quit: Lumen est solum textura opus)
+2013-02-05 20:19:16	<--	jitsuin (~chatzilla@cpe-76-87-64-175.socal.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-02-05 20:20:56	<--	err404 (~err404@mna75-11-88-161-199-178.fbx.proxad.net) has quit (Quit: Ex-Chat)
+2013-02-05 20:21:21	-->	ryonagana (~quassel@187.107.244.42) has joined ##c++-basic
+2013-02-05 20:23:07	<--	DaZ (~derp@87.205.146.3) has quit (Read error: Operation timed out)
+2013-02-05 20:23:18	-->	HecAtic (~HecAtic@c-67-171-28-233.hsd1.wa.comcast.net) has joined ##c++-basic
+2013-02-05 20:23:31	<--	Sendoushi (~Musok@cm2-84-91-84-50.netvisao.pt) has quit (Remote host closed the connection)
+2013-02-05 20:24:43	<--	juril (~juril@dhcp-57-236.cse.ucsc.edu) has quit (Quit: Ex-Chat)
+2013-02-05 20:28:32	-->	Carbonflux (~BOB@71-212-124-90.tukw.qwest.net) has joined ##c++-basic
+2013-02-05 20:29:14	jennifer	Do I need to use a loop to make getline() work?
+2013-02-05 20:29:19	-->	Guest43651 (~derp@77-255-247-66.adsl.inetia.pl) has joined ##c++-basic
+2013-02-05 20:31:12	jennifer	Okay I can.
+2013-02-05 20:31:13	jennifer	I am troubled.
+2013-02-05 20:32:42	jennifer	http://pastebin.com/76v7XWD2
+2013-02-05 20:33:22	jennifer	Please help!
+2013-02-05 20:33:54	-->	glurp (~glurp@d24-141-50-76.home.cgocable.net) has joined ##c++-basic
+2013-02-05 20:34:23	-->	f00dMonsta_ (~f00dMonst@65.95.231.70) has joined ##c++-basic
+2013-02-05 20:35:46	-->	f00dMonsta__ (~f00dMonst@bas1-toronto45-1096803566.dsl.bell.ca) has joined ##c++-basic
+2013-02-05 20:35:48	Billiard	jennifer: uh, what?
+2013-02-05 20:36:02	<--	intothev01d (~intothev0@unaffiliated/intothev01d) has quit (Quit: intothev01d)
+2013-02-05 20:36:12	Billiard	getline reads one line, if you want to read multiple lines getline must be called more than once..
+2013-02-05 20:37:44	jennifer	If I do while(getline()){} it "test" for the amount of lines I have in the text file. So if I have 11 lines, it repeats cout 11 times.
+2013-02-05 20:37:52	jennifer	I don't know how to get that to stop.
+2013-02-05 20:38:03	<--	f00dMonsta (~f00dMonst@65.95.229.130) has quit (Ping timeout: 276 seconds)
+2013-02-05 20:38:22	Billiard	jennifer: write a testcase like the dude in ##programming told you to do
+2013-02-05 20:38:43	Billiard	we can't know what you've done wrong if you haven't shown us what you've done wrong
+2013-02-05 20:39:00	<--	f00dMonsta_ (~f00dMonst@65.95.231.70) has quit (Ping timeout: 252 seconds)
+2013-02-05 20:39:12	<--	glurp (~glurp@d24-141-50-76.home.cgocable.net) has quit (Ping timeout: 256 seconds)
+2013-02-05 20:42:02	<--	anidude (~quassel@cpe-76-187-18-53.tx.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-02-05 20:50:02	<--	Bosox20051 (~Bosox2005@unaffiliated/bosox20051) has quit (Quit: Leaving)
+2013-02-05 21:00:23	-->	jitsuin (~chatzilla@cpe-76-87-64-175.socal.res.rr.com) has joined ##c++-basic
+2013-02-05 21:02:32	-->	DynV (~chatzilla@unaffiliated/dynv) has joined ##c++-basic
+2013-02-05 21:04:06	<--	zapa (~az@gateway/tor-sasl/zapa) has quit (Quit: WeeChat 0.3.7)
+2013-02-05 21:11:42	--	Guest43651 is now known as DaZ
+2013-02-05 21:11:49	<--	boos (~boos@199.115.228.8) has quit (Ping timeout: 245 seconds)
+2013-02-05 21:13:02	-->	boos (~boos@199.115.228.8) has joined ##c++-basic
+2013-02-05 21:14:32	-->	kawsy (~quassel@97-90-233-29.dhcp.eucl.wi.charter.com) has joined ##c++-basic
+2013-02-05 21:19:33	<--	ryonagana (~quassel@187.107.244.42) has quit (Read error: Connection reset by peer)
+2013-02-05 21:20:41	kawsy	I am working with a class that internally contains a boost::unordered_map<key, std::stack<value>>.   Id like to overload []  so that when I assign to it, it pushes the new value onto the top of the stack, but when I reference it, I need it to return the current top value.  Im assuming I need to overload [] twice, once for each case and that in the former I need to return a reference, but not sure about he second case
+2013-02-05 21:22:03	Billiard	kawsy: that doesn't sound like a good place to use operator[]
+2013-02-05 21:22:23	Billiard	why not just have a "push" and "top" function?
+2013-02-05 21:23:43	kawsy	I want to hide the implementation and have it look like an unordered map from the outside
+2013-02-05 21:24:13	<--	jfs (~Bob@unaffiliated/jfs) has quit (Quit: Leaving)
+2013-02-05 21:24:33	Billiard	kawsy: having a push and top function do not stop you from doing that
+2013-02-05 21:25:44	Billiard	having operator[]s with strange non-typical is probably not a good idea
+2013-02-05 21:25:53	Billiard	err
+2013-02-05 21:25:54	Billiard	non-typical semantics*
+2013-02-05 21:26:45	tsimpson	the problem is that there is no way to tell if the returned value is going to be assigned to or not
+2013-02-05 21:26:53	kawsy	Id like to hide the fact that it has a stack internally.   Think of it as an unordered map that remembers previous values.
+2013-02-05 21:26:54	tsimpson	there is no operator []=, just operator[]
+2013-02-05 21:27:13	kawsy	hrmm.
+2013-02-05 21:27:47	Billiard	kawsy: it can be done, but like I said, I think that's a horrible idea
+2013-02-05 21:27:55	Billiard	people do not expect operator[] to do something like that
+2013-02-05 21:30:48	Billiard	kawsy: but anyways, make operator[] return some object with the conversion operator and operator= overloaded
+2013-02-05 21:31:13	kawsy	You have a good point. I guess only my other code will use it internally so it doesn't matter how it appears. Im still curious how it could work though. Im crossing over from C++ to Java and regardless, its going to bug me if I know something can be done but I cant figure out how :P I was looking at this example http://stackoverflow.com/questions/11066564/c-overload-bracket-operators-to-get-and-set but didnt get the difference
+2013-02-05 21:31:13	kawsy	betweent the two method sigs in the answer
+2013-02-05 21:32:03	Billiard	kawsy: that isn't a solution to your problem
+2013-02-05 21:38:23	kawsy	Ok, so not because I want to be argumentative, but because I want to understand. In that example, the constant method appears to be the one for referencing and the second for assignment. How does C++ know which one to use?
+2013-02-05 21:42:14	<--	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 272 seconds)
+2013-02-05 21:43:45	Billiard	kawsy: like I said, that page does not contain a solution to your problem
+2013-02-05 21:44:03	Billiard	the const version of operator[] is used when using [] on a const object
+2013-02-05 21:44:58	-->	astro7 (~mint@50.9.187.248) has joined ##c++-basic
+2013-02-05 21:45:13	Billiard	you are in need of returning some wrapper object to do the operator[] thing you want
+2013-02-05 21:45:23	kawsy	No I get you, you convinced me not to go that route, I just wanted to understand that example anyway.
+2013-02-05 21:45:36	Billiard	kawsy: the "example" is not a solution to your problem!
+2013-02-05 21:46:44	Billiard	that SO question is not the same question you have
+2013-02-05 21:46:45	kawsy	I already said "You have a good point" and "You convinced me not to go that route"  Im trying to understand C++ and so before I left the conversation I was just asking you to shed light on that example...
+2013-02-05 21:47:03	Billiard	that SO page is irrelevant!
+2013-02-05 21:47:09	kawsy	I undestand this
+2013-02-05 21:47:23	Billiard	ok, ask a question then :/
+2013-02-05 21:47:52	kawsy	I did.. " In that example, the constant method appears to be the one for referencing and the second for assignment. How does C++ know which one to use?"  Which you explained, and thank you :P
+2013-02-05 21:49:25	<--	astro7 (~mint@50.9.187.248) has left ##c++-basic ("Leaving")
+2013-02-05 21:58:57	-->	Frisky-Kat (SomeWhere@027a7ddf.bb.sky.com) has joined ##c++-basic
+2013-02-05 21:59:00	<--	cato (~cato@cer.xnis.de) has quit (Ping timeout: 264 seconds)
+2013-02-05 21:59:13	-->	cato (~cato@cer.xnis.de) has joined ##c++-basic
+2013-02-05 22:01:41	<--	Frisky (SomeWhere@027a7ddf.bb.sky.com) has quit (Ping timeout: 248 seconds)
+2013-02-05 22:04:33	-->	roelj_ (~roel@www.moefel.org) has joined ##c++-basic
+2013-02-05 22:04:56	<--	geordi (~geordi@2a02:348:60:5cae::1) has quit (Read error: Connection reset by peer)
+2013-02-05 22:04:56	-->	geordi_ (~geordi@2a02:348:60:5cae::1) has joined ##c++-basic
+2013-02-05 22:04:56	<--	roelj (~roel@fsf/member/roelj) has quit (Ping timeout: 256 seconds)
+2013-02-05 22:11:23	--	irc: disconnected from server

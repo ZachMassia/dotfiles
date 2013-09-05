@@ -1,0 +1,12 @@
+2013-02-16 22:14:25	--	irc: connecting to server twice-irc/6667...
+2013-02-16 22:14:26	=!=	irc: address "twice-irc" not found
+2013-02-16 22:14:26	=!=	irc: error: Name or service not known
+2013-02-16 22:14:26	--	irc: reconnecting to server in 10 seconds
+2013-02-16 22:14:36	--	irc: reconnecting to server...
+2013-02-16 22:14:36	--	irc: connecting to server twice-irc/6667...
+2013-02-16 22:14:41	=!=	irc: address "twice-irc" not found
+2013-02-16 22:14:41	=!=	irc: error: Name or service not known
+2013-02-16 22:14:41	--	irc: reconnecting to server in 20 seconds
+2013-02-16 22:14:51		irc: auto-reconnection is cancelled
+2013-02-16 22:14:51	--	irc: disconnected from server
+2013-02-17 02:48:22	--	irc: disconnected from server
