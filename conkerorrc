@@ -4,7 +4,10 @@ url_completion_use_history       = true;
 url_completion_use_bookmarks     = true;
 
 // Remove the clock
-remove_hook("mode_line_hook", mode_line_adder(clock_widget));
+//remove_hook("mode_line_hook", mode_line_adder(clock_widget));
+
+// Clock format, see strftime.
+clock_time_format = "%I:%M %p";
 
 // Favicons
 require("favicon");
@@ -14,6 +17,14 @@ read_buffer_show_icons = true;
 // Buffer stuff
 add_hook("mode_line_hook", mode_line_adder(buffer_count_widget), true);
 add_hook("mode_line_hook", mode_line_adder(loading_count_widget), true);
+
+// Nav buttons
+load_paths.unshift("chrome://conkeror-contrib/content/");
+require("mode-line-buttons.js");
+mode_line_add_buttons(standard_mode_line_buttons, true);
+
+// Download Status
+add_hook("mode_line_hook", mode_line_adder(downloads_status_widget));
 
 function possibly_valid_url (str) {
     return /^\s*[^\/\s]*(\/|\s*$)/.test(str)
