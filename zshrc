@@ -35,7 +35,8 @@ fi
 GH_API_FILE=~/.homebrew_gh_api
 [ -f $GH_API_FILE ] && source $GH_API_FILE
 
-export PATH="/Applications/Racket_v6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+export GOPATH=/Users/zach/Dev/Go
+export PATH="$GOPATH/bin:/usr/local/opt/go/libexec/bin:/Applications/Racket_v6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 export TERM=xterm-256color
 export RBENV_ROOT=/usr/local/var/rbenv
 
